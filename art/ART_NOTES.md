@@ -61,3 +61,10 @@ the earlier action sheet remains the material fallback for other patterns.
 Enemy poses now share one uniform source-to-output scale; each native pose's
 feet and helmet position determine placement. Background/cursor geometry for
 the equipment screen is drawn programmatically from the native menu layout.
+
+## v0.4.1 sources
+
+| Asset | Prompt and use |
+| --- | --- |
+| exterior-seams-v4.1.png | Built-in image edit of a 4×3 texture atlas: replace cyan strips with matching rusty steel or warm rock, preserve cell alignment and all other motifs; ladder holes remain black. Only contaminated pixels and their immediate fringe are consumed by the builder. |
+| radio-door-v4.1.png | Built-in image generation from the native background-only door layout and control-room style reference: continuous brushed-steel lintel, recessed square end housings, thin straight jambs, pure black open interior, no symbols, figures or threshold. All eight background patterns use this one aligned source. |

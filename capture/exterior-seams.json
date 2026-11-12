@@ -1,0 +1,148 @@
+[
+  {
+    "key": "0000FFFF00FF008400FF0000FFFF0084",
+    "palette": "0F271505",
+    "xy": [
+      448,
+      1024
+    ],
+    "count": 36,
+    "source": [
+      3480,
+      72,
+      17
+    ]
+  },
+  {
+    "key": "0000FFFF00FF002100FF0000FFFF0021",
+    "palette": "0F271505",
+    "xy": [
+      512,
+      1024
+    ],
+    "count": 36,
+    "source": [
+      3480,
+      70,
+      17
+    ]
+  },
+  {
+    "key": "0F09CBC929E9090908EE2828EEEE0E0E",
+    "palette": "0F271505",
+    "xy": [
+      576,
+      1024
+    ],
+    "count": 65,
+    "source": [
+      3480,
+      88,
+      17
+    ]
+  },
+  {
+    "key": "5F585B5B5F5F585BDFC0C0C0DFDFC0C0",
+    "palette": "0F271505",
+    "xy": [
+      864,
+      1024
+    ],
+    "count": 200,
+    "source": null
+  },
+  {
+    "key": "67677F7F7F67677FE6E6E6E6E6E6E6E6",
+    "palette": "0F271505",
+    "xy": [
+      896,
+      1024
+    ],
+    "count": 55,
+    "source": null
+  },
+  {
+    "key": "FFFF00FF004EC5030000FFFF004EC5C2",
+    "palette": "0F271505",
+    "xy": [
+      992,
+      1024
+    ],
+    "count": 91,
+    "source": [
+      3480,
+      16,
+      17
+    ]
+  },
+  {
+    "key": "FFFF00FF0072A3400000FFFF0072A343",
+    "palette": "0F271505",
+    "xy": [
+      1056,
+      1024
+    ],
+    "count": 80,
+    "source": [
+      3480,
+      8,
+      17
+    ]
+  },
+  {
+    "key": "E1E1C2C5CA750B2D1F1F3F3F3F9F7F3F",
+    "palette": "0F271505",
+    "xy": [
+      1856,
+      1024
+    ],
+    "count": 1,
+    "source": [
+      3480,
+      16,
+      201
+    ]
+  },
+  {
+    "key": "EAD4E880B5ABDFCF95ABD7BFBFBFDFCF",
+    "palette": "0F271505",
+    "xy": [
+      1920,
+      1024
+    ],
+    "count": 3,
+    "source": [
+      3480,
+      24,
+      201
+    ]
+  },
+  {
+    "key": "FFAF6573CF3F9765FFD07A7CF03FE87A",
+    "palette": "0F271505",
+    "xy": [
+      224,
+      1056
+    ],
+    "count": 19,
+    "source": [
+      3480,
+      16,
+      81
+    ]
+  },
+  {
+    "key": "FFF5C6AEF3FCE9A6FF0B3E5E0FFC175E",
+    "palette": "0F271505",
+    "xy": [
+      288,
+      1056
+    ],
+    "count": 34,
+    "source": [
+      3480,
+      8,
+      81
+    ]
+  }
+]

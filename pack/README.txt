@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.4.0
-Area 1 character, scenery and equipment fixes
+BIONIC COMMANDO HD — v0.4.1
+Radio doorway and exterior seam fixes
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -11,6 +11,8 @@ Manual install: put hires.txt and all PNGs together in:
 The directory name must exactly match your ROM's filename without .nes.
 
 THIS PASS
+Complete painted communication-room doorway, including header and both jambs.
+Corrected blue lines in barrel/platform/ladder texture crops across Area 1.
 Exposed mechanical grappling arm and two corrected rotated swing poses.
 Consistent enemy body scale between crouching and firing poses.
 Painted searchlight, restricted water matching and wall/beam edge materials.

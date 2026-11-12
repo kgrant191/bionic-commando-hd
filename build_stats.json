@@ -12,6 +12,8 @@
   "dense_sprite_capture_interval": 15,
   "water_patterns": 8,
   "lamp_patterns": 14,
+  "door_patterns": 8,
+  "exterior_seam_patterns": 11,
   "tile_rules": 12775,
   "unique_atlas_tiles": 3923,
   "scale": 4,

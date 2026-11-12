@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.4.0 — Area 1 character, scenery and equipment fixes**
+**v0.4.1 — radio doorway and exterior seam fixes**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening and Are
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.4.0.zip`.
+   `Bionic_Commando_HD_v0.4.1.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -20,6 +20,9 @@ For manual installation, place the contents of `pack/` together in
 directory must match its base name exactly.
 
 ## Included in this pass
+
+- A complete painted steel doorway in the communication room, including the previously occluded header and right jamb.
+- Corrected blue contamination in the repeated barrel, platform and ladder texture crops. Real sky openings and water retain their existing artwork.
 
 - New title artwork and readable start prompt.
 - Painted radio portraits for the operator, commander, and two intercepted

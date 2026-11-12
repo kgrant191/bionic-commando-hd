@@ -57,7 +57,7 @@ assert all(a in set(definitions)and v in set(definitions)for a,v in additions)
 assert len(virtual_keys)==stats['virtual_sprite_keys']
 for v in virtual_keys:
     assert any(l.startswith('<tile>')and tuple(l[6:].split(',')[1:3])==v for l in rules),'Missing virtual fallback'
-report={'version':'0.4.0','movie_input_frames':40442,
+report={'version':'0.4.1','movie_input_frames':40442,
         'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),

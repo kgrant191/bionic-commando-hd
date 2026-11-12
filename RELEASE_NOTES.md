@@ -1,3 +1,15 @@
+# Bionic Commando HD v0.4.1 — review build
+
+- Replace all eight communication-room doorway patterns with one aligned steel frame. The original visible-pixel matching had missed parts hidden behind Spencer in the source screenshot.
+- Repair blue/cyan contamination in eleven repeated exterior texture patterns: platform rims, barrel tops, ladder edges and small cliff-edge fragments.
+- Apply the texture repairs only to the contaminated pixels and their immediate fringe. Existing transparency, water, characters and unrelated tile artwork are unchanged.
+
+Validation compares every tile rule with v0.4.0 and replays the complete supplied
+Level 1 movie. See `validation/door-seams-v0.4.1.json` and `validation/replay.json`.
+This is a test build, not a GitHub release. No ROM or gameplay changes.
+
+---
+
 # Bionic Commando HD v0.4.0 — review build
 
 - Keep one enemy body scale across the painted sheet instead of stretching each pose to its weapon-dependent bounds.

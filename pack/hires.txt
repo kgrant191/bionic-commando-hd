@@ -1,4 +1,4 @@
-# Bionic Commando HD v0.4.0 - Area 1 feedback fixes
+# Bionic Commando HD v0.4.1 - radio doorway and exterior seams
 <ver>109
 <scale>4
 <supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D

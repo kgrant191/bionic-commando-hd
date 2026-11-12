@@ -3,7 +3,7 @@ from pathlib import Path
 from collections import defaultdict, Counter
 import os, re, json, math, ctypes, hashlib
 import numpy as np
-from scipy.ndimage import map_coordinates
+from scipy.ndimage import map_coordinates, binary_dilation
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from characters import CharacterMaterials
 from poses import make_poses
@@ -181,6 +181,22 @@ for ly,x,y,k,p,h,v in entries(7680):
 stone_material=water_source.crop((676,180,708,212))
 steel_material=water_source.crop((412,110,444,142))
 grass_keys={'000084484AEEF9D0FFFFFFFFFFFFF9D0','0000408892DFFD74FFFFFFFFFFFFFD74'}
+# Repair only the contaminated pixels in affected structural crops; retain the
+# accepted artwork and native transparency everywhere else. Water is separate.
+seam_sheet=Image.open(ROOT/'art/exterior-seams-v4.1.png').convert('RGBA')
+seam_cells=json.loads((CAP/'exterior-seams.json').read_text())
+seam_patches={}
+for i,cell in enumerate(seam_cells):
+    cw,ch=seam_sheet.width//4,seam_sheet.height//3
+    seam_patches[cell['key'],int(cell['palette'],16)]=seam_sheet.crop((i%4*cw,i//4*ch,(i%4+1)*cw,(i//4+1)*ch)).resize((32,32),Image.Resampling.LANCZOS)
+seam_repairs=[]
+# The source screenshot had Spencer in front of half the door. Map its full
+# background pattern set from metadata instead of relying on visible matches.
+door_source=Image.open(ROOT/'art/radio-door-v4.1.png').convert('RGBA').resize((128,128),Image.Resampling.LANCZOS)
+door_tiles={}
+for ly,x,y,k,p,h,v in entries(7320):
+    if ly==0 and 32<=x<64 and 160<=y<192 and np.any(indices(k)):
+        door_tiles.setdefault((k,p),door_source.crop(((x-32)*4,(y-160)*4,(x-24)*4,(y-152)*4)))
 def add(im):
     im=im.convert('RGBA');h=hashlib.sha256(im.tobytes()).digest()
     if h not in cache:cache[h]=len(atlas);atlas.append(im)
@@ -267,6 +283,14 @@ for key,p in keys:
         a[void]=[0,0,0,255];im=Image.fromarray(a)
     if p==0x0f2b1b0b and np.all(ix==2):im=control_source.crop((280,220,312,252))
     if p==0x0f221202 and np.all(ix==3):im=reactor_source.crop((400,216,432,248))
+    if (key,p)in seam_patches:
+        a=np.array(im);rgb=a[:,:,:3].astype(float)
+        blue=(rgb[:,:,2]>rgb[:,:,0]*1.15)&(rgb[:,:,2]>rgb[:,:,1]*.88)&(rgb[:,:,2]-rgb[:,:,0]>22)&(rgb[:,:,2]>80)&(a[:,:,3]>0)
+        repair=binary_dilation(blue,iterations=1)&(a[:,:,3]>0)
+        patch=np.array(seam_patches[key,p]);a[repair,:3]=patch[repair,:3]
+        im=Image.fromarray(a)
+        if blue.any():seam_repairs.append({'key':key,'palette':f'{actual_p:08X}','blue_pixels':int(blue.sum()),'patched_pixels':int(repair.sum())})
+    if (key,p)in door_tiles:im=door_tiles[key,p]
     if flashing:
         a=np.array(im);mask=np.repeat(np.repeat(ix==0,4,0),4,1)
         a[mask,:3]=PAL[(actual_p>>24)&63,:3];a[mask,3]=255
@@ -288,7 +312,7 @@ tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(O
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.4.0 - Area 1 feedback fixes','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.4.1 - radio doorway and exterior seams','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
         '<condition>title,tileAtPosition,0,0,00000000000000000000000000000000,0F20152B,N',
@@ -301,8 +325,10 @@ header=header[:8]+['<options>disableSpriteLimit']+scene_conditions+pose_conditio
 stats={'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
        'painted_spencer_pose_records':20,'spencer_paintings':18,'painted_enemy_poses':11,'virtual_sprite_keys':len(virtual_keys),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
        'water_patterns':len(water_keys),'lamp_patterns':len(lamp_tiles),
+       'door_patterns':len(door_tiles),'exterior_seam_patterns':len(seam_patches),
        'tile_rules':len(rules),'unique_atlas_tiles':len(atlas),'scale':4,
        'output_size':[1024,896],'overscan_top_bottom':8}
 (ROOT/'build_stats.json').write_text(json.dumps(stats,indent=2)+'\n')
 (ROOT/'validation/art_mapping.json').write_text(json.dumps(paint_sources,indent=2)+'\n')
+(ROOT/'validation/seam_mapping.json').write_text(json.dumps({'repairs':seam_repairs,'door_patterns':[[k,f'{p:08X}']for k,p in door_tiles]},indent=2)+'\n')
 print(json.dumps(stats,indent=2))

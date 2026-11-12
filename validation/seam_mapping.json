@@ -1,0 +1,104 @@
+{
+  "repairs": [
+    {
+      "key": "0000FFFF00FF008400FF0000FFFF0084",
+      "palette": "0F271505",
+      "blue_pixels": 37,
+      "patched_pixels": 55
+    },
+    {
+      "key": "0000FFFF00FF002100FF0000FFFF0021",
+      "palette": "0F271505",
+      "blue_pixels": 37,
+      "patched_pixels": 52
+    },
+    {
+      "key": "0F09CBC929E9090908EE2828EEEE0E0E",
+      "palette": "0F271505",
+      "blue_pixels": 67,
+      "patched_pixels": 99
+    },
+    {
+      "key": "5F585B5B5F5F585BDFC0C0C0DFDFC0C0",
+      "palette": "0F271505",
+      "blue_pixels": 232,
+      "patched_pixels": 319
+    },
+    {
+      "key": "67677F7F7F67677FE6E6E6E6E6E6E6E6",
+      "palette": "0F271505",
+      "blue_pixels": 55,
+      "patched_pixels": 89
+    },
+    {
+      "key": "FFFF00FF004EC5030000FFFF004EC5C2",
+      "palette": "0F271505",
+      "blue_pixels": 91,
+      "patched_pixels": 123
+    },
+    {
+      "key": "FFFF00FF0072A3400000FFFF0072A343",
+      "palette": "0F271505",
+      "blue_pixels": 83,
+      "patched_pixels": 115
+    },
+    {
+      "key": "E1E1C2C5CA750B2D1F1F3F3F3F9F7F3F",
+      "palette": "0F271505",
+      "blue_pixels": 2,
+      "patched_pixels": 6
+    },
+    {
+      "key": "EAD4E880B5ABDFCF95ABD7BFBFBFDFCF",
+      "palette": "0F271505",
+      "blue_pixels": 7,
+      "patched_pixels": 17
+    },
+    {
+      "key": "FFAF6573CF3F9765FFD07A7CF03FE87A",
+      "palette": "0F271505",
+      "blue_pixels": 34,
+      "patched_pixels": 61
+    },
+    {
+      "key": "FFF5C6AEF3FCE9A6FF0B3E5E0FFC175E",
+      "palette": "0F271505",
+      "blue_pixels": 54,
+      "patched_pixels": 88
+    }
+  ],
+  "door_patterns": [
+    [
+      "808080809C80807FFFC1DDDDDDC1FF7F",
+      "0F301000"
+    ],
+    [
+      "00E0A0D0D0D0D0D000E0E0B0B0B0B0B0",
+      "0F301000"
+    ],
+    [
+      "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0",
+      "0F301000"
+    ],
+    [
+      "5B6D7F64604F7F7D7F491240446F7E7E",
+      "0F301000"
+    ],
+    [
+      "FFDBFFC9D35FEFCF7F5305415BDF2F2F",
+      "0F301000"
+    ],
+    [
+      "01010101390101FEFF83BBBBBB83FFFE",
+      "0F301000"
+    ],
+    [
+      "0007050B0B0B0B0B0007070D0D0D0D0D",
+      "0F301000"
+    ],
+    [
+      "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D",
+      "0F301000"
+    ]
+  ]
+}

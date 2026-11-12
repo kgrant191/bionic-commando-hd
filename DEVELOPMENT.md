@@ -1,4 +1,4 @@
-# Development checkpoint — v0.4.0
+# Development checkpoint — v0.4.1
 
 ## Inputs
 
@@ -164,6 +164,31 @@ Branch: fix/level1-feedback-v0.4.0.
   family even when original head/body keys are shared. Do not invent that address:
   verify the selected-weapon state with additional loadouts first. This version
   tests the starter weapon only and does not claim all weapon variants.
+
+## v0.4.1 doorway and seams
+
+Base commit: c8bf62f8f962cccf2ce09fae875749f995bb975e.
+Branch: fix/door-platform-seams-v0.4.1.
+
+- Doorway patterns are collected directly from the native background metadata
+  at frame 7320, rectangle (32,160)-(64,192). Eight nonempty patterns map the
+  complete header/jamb painting, including patterns occluded in the screenshot.
+  The repeated middle-jamb pattern keeps one consistent crop. Black interior
+  tiles remain unchanged. The same pattern set occurs at 14 sampled room states.
+- `capture/exterior-seams.json` identifies the eleven affected structural cells
+  and their layout in `art/exterior-seams-v4.1.png`. During building, only opaque
+  blue/cyan contamination plus a one-pixel fringe is replaced from the repaired
+  source atlas. Native alpha and all unrelated colors are retained. The water
+  palette is excluded. This fixes shared texture rules throughout the recording,
+  rather than adding patches at individual screen coordinates.
+- `validation/door-seams-v0.4.1.json` compares all 12,775 rules to v0.4.0; only
+  those 19 patterns change. `validation/seam_mapping.json` records pixel counts. Re-run the tile comparison with
+  `python3 scripts/validate_seams.py` (requires the saved v0.4.0 Git commit).
+- The source bundle is cumulative from the previously pushed v0.3.0 commit
+  0c153e4f056eb2ba5c8e8872d5116ffced281534, so a separate v0.4.0 import is not required.
+- Package the comparison preview with `scripts/package.py --screenshots HD_DIR
+  --before V040_SCREENSHOT_DIR --output OUTPUT_DIR`. Frames 3600 and 4800 are
+  identical replay inputs in both folders; the preview uses equal crops/zoom.
 
 ## Next art passes
 
