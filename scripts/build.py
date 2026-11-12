@@ -8,6 +8,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from characters import CharacterMaterials
 from poses import make_poses
 from scenes import make_scenes, map_tile, MAP_PALETTES, PORTRAIT_PALETTES
+from equipment import make_equipment
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'pack'; OUT.mkdir(exist_ok=True)
@@ -41,9 +42,13 @@ raw_key_count=len(keys)
 for path in sorted(CAP.glob('*.tiles')):
     keys.extend((e[3],e[4])for e in entries(int(path.stem)))
 keys.extend((k,int(p,16))for k,p in json.loads((CAP/'sprite-keys.json').read_text()))
+for path in sorted((CAP/'ui').glob('*.tiles')):
+    keys.extend((a[3],int(a[4]))for a in (l.split(',')for l in path.read_text().splitlines()))
 keys=list(dict.fromkeys(keys))
 characters=CharacterMaterials(ROOT,indices,scale,tile)
 scene_conditions,scene_backgrounds=make_scenes(ROOT,OUT)
+equipment_conditions,equipment_backgrounds,equipment_hidden,equipment_tile=make_equipment(ROOT,OUT,indices,scale)
+scene_conditions+=equipment_conditions;scene_backgrounds+=equipment_backgrounds
 sprite_count=0
 portrait_extra={(k,int(p,16))for k,p in json.loads((CAP/'portrait-extra-keys.json').read_text())}
 
@@ -162,6 +167,20 @@ blank=Image.new('RGBA',(32,32));atlas=[];cache={};rules=[]
 water_source=Image.open(ROOT/'art/level1-reference.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
 control_source=Image.open(ROOT/'art/control-reference.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
 reactor_source=Image.open(ROOT/'art/reactor-reference.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
+# Only the eight observed foam patterns are water. The same palette also
+# belongs to lamps, windows, arches and pipes throughout the exterior.
+water_keys={e[3]for e in entries(2640)if e[0]==0 and e[4]==0x0F302118 and e[2]>=208 and np.any(indices(e[3])==1)}
+assert len(water_keys)==8,len(water_keys)
+lamp_asset=Image.open(ROOT/'art/equipment-lamp-v4.png').convert('RGBA').crop((1024,0,1536,1024))
+lamp_box=lamp_asset.getchannel('A').point(lambda a:255 if a>160 else 0).getbbox()
+lamp_asset=lamp_asset.crop(lamp_box).resize((96,320),Image.Resampling.LANCZOS)
+lamp_tiles={}
+for ly,x,y,k,p,h,v in entries(7680):
+    if ly==0 and 216<=x<240 and 162<=y<234 and len(np.unique(indices(k)))>1:
+        lamp_tiles.setdefault((k,p),lamp_asset.crop(((x-216)*4,(y-162)*4,(x-208)*4,(y-154)*4)))
+stone_material=water_source.crop((676,180,708,212))
+steel_material=water_source.crop((412,110,444,142))
+grass_keys={'000084484AEEF9D0FFFFFFFFFFFFF9D0','0000408892DFFD74FFFFFFFFFFFFFD74'}
 def add(im):
     im=im.convert('RGBA');h=hashlib.sha256(im.tobytes()).digest()
     if h not in cache:cache[h]=len(atlas);atlas.append(im)
@@ -176,6 +195,10 @@ def transparent_ink(key,p):
 pose_conditions,pose_additions,virtual_keys=make_poses(ROOT,keys,rule,blank)
 
 for key,p in keys:
+    if (key,p)in equipment_hidden:rule(key,p,blank,equipment_hidden[key,p])
+    equip_im=equipment_tile(key,p)
+    if equip_im is not None:
+        rule(key,p,equip_im,'equipment');rule(key,p,equip_im,'worldmap')
     if (key,p)in title_keys or p>>24==255:rule(key,p,blank,'title')
     if (key,p)in radio_keys:rule(key,p,transparent_ink(key,p)if(key,p)in radio_text else blank,'radio')
     if (key,p)in portrait_extra:rule(key,p,blank,'radio')
@@ -191,12 +214,35 @@ for key,p in keys:
     canonical=0x0F000000|(p&0xFFFFFF)
     flashing=p>>24 not in {0x0F,0xFF} and (canonical in env_palettes or (key,canonical)in painted)
     if flashing:p=canonical
+    ix=indices(key)
     im=painted.get((key,p))
+    # A palette boundary can turn the same beam/wall pattern into a sky-edge
+    # tile. Share its painting, then apply that tile's own transparent aperture.
+    if im is None and p in {0x0f211505,0x0f271505}:
+        im=painted.get((key,0x0f271505))or painted.get((key,0x0f211505))
+    if im is None and p in {0x0f302118,0x0f382818}:
+        im=painted.get((key,0x0f382818))or painted.get((key,0x0f302118))
+    if im is None and p==0x0f302118 and key not in grass_keys|water_keys:
+        im=stone_material.copy();a=np.array(im)
+        a[np.repeat(np.repeat(ix==0,4,0),4,1)]=[0,0,0,255]
+        im=Image.fromarray(a)
+    if im is None and p in {0x0f211505,0x0f271505}:
+        # Use the swatch only for subtle material grain. Copying an arbitrary
+        # beam crop would put disconnected braces/rivets into these edge cells.
+        colors=np.array([[0,0,0,255],[197,105,55,255],[139,49,28,255],[48,22,18,255]],dtype=np.uint8)
+        a=np.array(scale(Image.fromarray(colors[ix])))
+        grain=np.array(steel_material.filter(ImageFilter.GaussianBlur(.7)),float)[:,:,:3].mean(2)
+        grain=np.clip((grain-grain.mean())*.12,-6,6)
+        solid=np.repeat(np.repeat(ix>0,4,0),4,1)
+        a[:,:,:3]=np.clip(a[:,:,:3].astype(float)+grain[:,:,None]*solid[:,:,None],0,255)
+        im=Image.fromarray(a)
     if im is None:im=fallback(key,p)
     sprite_im=characters.render(key,p)
     if sprite_im is not None:im=sprite_im;sprite_count+=1
     ix=indices(key)
-    if p==0x0f302118 and np.any(ix==1):
+    if (key,p)in lamp_tiles:
+        im=lamp_tiles[key,p]
+    elif p==0x0f302118 and key in water_keys:
         # All phases of the water use the same painted material family.
         sx=(int(key[:8],16)%16)*32
         im=water_source.crop((sx,872,sx+32,904))
@@ -213,6 +259,12 @@ for key,p in keys:
         a=np.array(im);blue=(a[:,:,2]>a[:,:,0]*1.35)&(a[:,:,2]>a[:,:,1]*1.10)
         a[blue,:3]=[112,119,65];im=Image.fromarray(a)
     if p==0x0f382818 and np.all(ix==2):im=flat_stucco
+    if p==0x0f382818 and (key,p)not in painted and len(np.unique(ix))>1:
+        # Remaining wall/arch edge variants used to retain the coarse NES
+        # decoration. Keep their exact void boundaries but use painted stone.
+        im=(stone_material if np.any(ix==0)else flat_stucco).copy()
+        a=np.array(im);void=np.repeat(np.repeat(ix==0,4,0),4,1)
+        a[void]=[0,0,0,255];im=Image.fromarray(a)
     if p==0x0f2b1b0b and np.all(ix==2):im=control_source.crop((280,220,312,252))
     if p==0x0f221202 and np.all(ix==3):im=reactor_source.crop((400,216,432,248))
     if flashing:
@@ -236,7 +288,7 @@ tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(O
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.3.0 - painted characters and reactor','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.4.0 - Area 1 feedback fixes','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
         '<condition>title,tileAtPosition,0,0,00000000000000000000000000000000,0F20152B,N',
@@ -247,7 +299,8 @@ header=['# Bionic Commando HD v0.3.0 - painted characters and reactor','<ver>109
 header=header[:8]+['<options>disableSpriteLimit']+scene_conditions+pose_conditions+header[8:]+scene_backgrounds+pose_additions
 (OUT/'hires.txt').write_text('\n'.join(header+rules)+'\n')
 stats={'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
-       'painted_spencer_pose_records':18,'spencer_paintings':16,'painted_enemy_poses':11,'virtual_sprite_keys':len(virtual_keys),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
+       'painted_spencer_pose_records':20,'spencer_paintings':18,'painted_enemy_poses':11,'virtual_sprite_keys':len(virtual_keys),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
+       'water_patterns':len(water_keys),'lamp_patterns':len(lamp_tiles),
        'tile_rules':len(rules),'unique_atlas_tiles':len(atlas),'scale':4,
        'output_size':[1024,896],'overscan_top_bottom':8}
 (ROOT/'build_stats.json').write_text(json.dumps(stats,indent=2)+'\n')

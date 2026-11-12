@@ -1,0 +1,61 @@
+{
+  "version": "0.4.0",
+  "menu_navigation": {
+    "movie_frames": 3400,
+    "ram_checkpoints": 30,
+    "ram_mismatches": [],
+    "review_frames": [
+      2480,
+      2640,
+      2720,
+      2840
+    ],
+    "cursor": "Reviewed on starter-weapon slot and END; menu coordinates align with native cursor"
+  },
+  "enemy_scale": {
+    "factor": 0.4198895027624309,
+    "strategy": "One uniform source-to-output factor for all cells, placed at native feet/helmet anchors",
+    "review_frames": [
+      7965,
+      8280,
+      8430
+    ],
+    "note": "Crouch is shorter by anatomy; weapon length does not change body scale"
+  },
+  "spencer": {
+    "mechanical_arm": "Edited 16-cell sheet exposes steel shoulder, elbow, forearm and fingers",
+    "new_swing_records": [
+      100,
+      101
+    ],
+    "painted_records": 20,
+    "paintings": 18,
+    "review_frames": [
+      3000,
+      3630,
+      3705,
+      3915,
+      11640,
+      28890
+    ],
+    "component_fix": "Suppress original black-only boot tiles and overlaid hand/weapon tile along with each rotated pose"
+  },
+  "environment": {
+    "water_pattern_count": 8,
+    "lamp_pattern_count": 14,
+    "review_frames": [
+      3600,
+      3705,
+      7680,
+      8430,
+      21720
+    ],
+    "fix": "Water matching restricted to recorded foam keys; painted lamp and wall/beam edge materials"
+  },
+  "weapon_art": {
+    "tested": "Starter handgun only",
+    "supported_mechanism": "Mesen format 109 memoryCheckConstant or native weapon-specific patterns",
+    "pending": "Verify selected-weapon state and add machine-gun/bazooka player art from further recordings"
+  },
+  "limits": "Selected frames visually reviewed. The supplied Level 1 movie and a controlled menu-navigation replay do not cover all moves, later areas or alternate equipment."
+}

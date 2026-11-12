@@ -1,3 +1,21 @@
+# Bionic Commando HD v0.4.0 — review build
+
+- Keep one enemy body scale across the painted sheet instead of stretching each pose to its weapon-dependent bounds.
+- Give Spencer an exposed steel shoulder, elbow, forearm and hand for the grappling arm.
+- Add two painted rotated swing poses; suppress their original boot and hand components too. Rotated heads no longer receive the metallic-chain fallback.
+- Replace the lamp with a painted searchlight and limit water to eight recorded foam patterns.
+- Extend painted wall/beam edge coverage, including alternate palettes at sky boundaries.
+- Replace the equipment surround and starter handgun/radio icons; retain the game's moving selection cursor and item state.
+
+The pistol remains the starter-weapon design. Different equipped weapons can have
+separate artwork through native pattern or verified memory conditions. Player
+machine-gun/bazooka variants are planned but not delivered in this checkpoint.
+Later areas and unrecorded states remain untested. No ROM or gameplay changes.
+See `validation/replay.json` and `validation/feedback-v0.4.0.json` for checks.
+This is a test build, not a GitHub release.
+
+---
+
 # Bionic Commando HD v0.3.0 — review build
 
 - Sixteen painted Spencer bodies mapped to 18 selected pose records: standing, running,

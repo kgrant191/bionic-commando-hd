@@ -29,6 +29,7 @@ class CharacterMaterials:
         # Mesen applies the native flip flags when he turns.
         self.head=a.crop((94,61,128,98)).transpose(Image.Transpose.FLIP_LEFT_RIGHT)
         self.head_keys={'000102F17A797A7E52FFFE8F7E67064E'}
+        self.rotated_head_keys={'0C131020202009060C1F1F3F3F3F0F06','0802307878787000383E6E7438180000'}
         self.enemyhead=a.crop((101,319,133,351))
         self.enemyhead_keys={'000000001E1F1F0F000F1F1F1F07120E'}
         import json
@@ -46,7 +47,7 @@ class CharacterMaterials:
             masks.append(np.asarray(self.scale(Image.fromarray(rgb)))[:,:,0]/255.)
         weights=np.stack(masks,2);weights/=np.maximum(weights.sum(2,keepdims=True),1e-6)
         cols=np.array([(0,0,0)]+[COLORS.get((p>>s)&63,(160,160,160))for s in [16,8,0]],float)
-        if p==0xFF36060F and key not in self.enemykeys|self.herokeys|self.head_keys:
+        if p==0xFF36060F and key not in self.enemykeys|self.herokeys|self.head_keys|self.rotated_head_keys:
             cols[1]=[214,225,225];cols[2]=[102,125,129]
         rgb=weights@cols
         for c in [1,2,3]:

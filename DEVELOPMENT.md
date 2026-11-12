@@ -1,4 +1,4 @@
-# Development checkpoint — v0.3.0
+# Development checkpoint — v0.4.0
 
 ## Inputs
 
@@ -138,11 +138,38 @@ Feature branch: feature/level1-art-v0.3.0.
   limit. The first HD replay exposed horizontal gaps during crowded combat;
   the final replay checks this rendering option against the original RAM state.
 
+## v0.4.0 feedback fixes
+
+Base commit: 0c153e4f056eb2ba5c8e8872d5116ffced281534.
+Branch: fix/level1-feedback-v0.4.0.
+
+- Spencer's replacement sheet exposes his mechanical grappling arm. Two rotated
+  head anchors get dedicated swing paintings and complete native component masks,
+  including black-only boots and the overlaid hand/weapon tile.
+- Enemy source cells use one uniform scaling factor (152 / cell width); their
+  native feet and helmet anchors determine placement without stretching anatomy.
+- Only the eight foam keys found at frame 2640 can receive water. The lamp's 14
+  pattern/palette pairs are mapped separately from native frame 7680, including
+  its repeated post. Matching beam/wall patterns share paintings across the
+  native sky-edge palette change; remaining edges get material swatches.
+- `scripts/equipment.py` detects the native equipment frame. Its background
+  follows the native grid and cursor bounds. Only captured frame/END tiles are
+  suppressed; newly introduced text remains live. Icons use exact native
+  pattern+palette keys, under menu or world-map guards.
+- `capture/ui/` contains full menu and map-equipment metadata. A private controlled
+  replay retains the first 2380 inputs of the original movie, then 620 neutral
+  frames, to hold the item-selection screen for testing. It changes no RAM.
+- Mesen 2.2.1 supports `<condition>name,memoryCheckConstant,ADDR,==,VALUE` with
+  hexadecimal address/value, so equipment can select a separate painted pose
+  family even when original head/body keys are shared. Do not invent that address:
+  verify the selected-weapon state with additional loadouts first. This version
+  tests the starter weapon only and does not claim all weapon variants.
+
 ## Next art passes
 
 1. Expand painted pose coverage and inspect transitions, flips and damage states.
 2. Remaining enemies, projectiles and effects.
-3. Equipment UI, Area Clear figure and more detailed map vehicles.
+3. Remaining equipment icons, Area Clear figure and more detailed map vehicles.
 4. Remaining architectural variants; inspect shared tile patterns.
 5. Gather later-area and unrecorded-move recordings before expanding coverage.
 

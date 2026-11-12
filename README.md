@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.3.0 — painted characters, enemies and reactor**
+**v0.4.0 — Area 1 character, scenery and equipment fixes**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening and Are
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.3.0.zip`.
+   `Bionic_Commando_HD_v0.4.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -26,13 +26,18 @@ directory must match its base name exactly.
   enemy speakers. All four speakers retain their talking expressions; the final-room
   officer portrait is covered too.
 - Painted world-map terrain with live routes, area numbers, selection and units.
-- Sixteen Spencer paintings mapped to eighteen selected pose records covering standing, running, crouching,
+- Eighteen Spencer paintings mapped to twenty selected pose records covering standing, running, crouching,
   firing, hanging, swinging and the parachute entry, with full painted bodies.
+- A clearly exposed steel grappling arm across the painted Spencer poses, with two additional rotated swing poses.
+- Consistent enemy artwork scale across crouching and firing; pose bounds no longer stretch bodies according to weapon length.
 - Eleven selected enemy poses covering rifle troops, crouching soldiers,
   bazooka troops, a grenade thrower and the large armored guard.
 - Palette-specific material fallbacks and metal grapple links for other states.
 - Painted fortress masonry, girders, barrels, cliffs, water, tower stucco
   and coping; an atmospheric sky replaces the flat exterior blue.
+- A painted exterior searchlight; water now matches only the eight recorded foam patterns.
+- Painted edge variants between walls and girders instead of the old patterned patches.
+- An HD equipment menu, moving selection highlight and painted starter handgun/radio icons on both equipment and map screens.
 - Painted underground rock, metal panels, pipes and platforms.
 - Olive-brass cylindrical machinery and rails in the later underground section.
 - Painted communication-room machinery, final-room scenery and the reactor's
@@ -54,13 +59,18 @@ original game.
 Painted poses follow the game's native positions, flips and animation triggers.
 This is a selected-pose pass, not a complete redraw of every animation frame.
 Unrecognized poses keep the previous material treatment; transitions and
-unrecorded moves still need review. Some effects, equipment screens and the
+unrecorded moves still need review. Some effects, unrecorded equipment icons and the
 Area Clear figure retain a smoothed baseline. Remaining architectural variants
 and map vehicle shapes need further art passes.
 The new title appears as a static composition; the original sliding logo and
 small title character animation are not reproduced.
 
-Only the supplied opening/Area 1 recording has been tested. Later areas,
+The handgun is the starter-weapon design, not the final design for every weapon.
+Weapon-specific artwork can use Mesen equipment-memory conditions or distinct
+native weapon patterns. Machine-gun and bazooka player variants still need
+recordings, verified selection state and dedicated art before they are supported.
+
+The supplied opening/Area 1 recording and a controlled equipment-menu replay have been tested. Later areas,
 unrecorded moves and alternate equipment or palette states need recordings
 and validation. Shared tile patterns may affect later areas.
 

@@ -7,7 +7,7 @@ HEAD='000102F17A797A7E52FFFE8F7E67064E'
 def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
     records=json.loads((root/f'capture/{actor}-poses.json').read_text())
     for rec in records:rec.setdefault('head',HEAD)
-    src=Image.open(root/f'art/{actor}-poses-v3.png').convert('RGBA')
+    src=Image.open(root/f'art/{actor}-poses-v{4 if actor=="spencer"else 3}.png').convert('RGBA')
     assert src.getchannel('A').getextrema()[0]==0,'Painted sprites need genuine alpha'
     records.sort(key=lambda r:(-len({t[2]for t in r['parts']}),-r['count']))
     keypal={}
@@ -50,13 +50,30 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
             if v:a=ImageOps.flip(a)
             mask.paste(a,(40+dx,24+dy),a)
         bbox=mask.getbbox();x0,y0,x1,y1=bbox
-        cell=rec['cell'];cw=src.width//4;ch=src.height//rows
-        art=src.crop((cell%4*cw,cell//4*ch,(cell%4+1)*cw,(cell//4+1)*ch))
+        sheet=Image.open(root/'art'/rec['asset']).convert('RGBA')if 'asset'in rec else src
+        columns=rec.get('columns',4);cell=rec['cell'];cw=sheet.width//columns;ch=sheet.height//rec.get('rows',rows)
+        art=sheet.crop((cell%columns*cw,cell//columns*ch,(cell%columns+1)*cw,(cell//columns+1)*ch))
         # Remove very faint isolated matte pixels from the bounding calculation
         # only; keep the generated alpha in the actual art.
         ab=art.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox();assert ab
-        art=art.crop(ab).resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
-        canvas=Image.new('RGBA',(96*4,80*4));canvas.alpha_composite(art,(x0*4,y0*4));images[rec['id']]=canvas
+        canvas=Image.new('RGBA',(96*4,80*4))
+        if actor=='enemy':
+            # One pixels-per-body scale across the sheet; weapon length no
+            # longer enlarges a standing soldier relative to his crouch pose.
+            factor=152/cw
+            top=np.array(art.getchannel('A'))>64
+            band=top[ab[1]:ab[1]+int(ch*.1)]
+            xs=np.where(band)[1]
+            head_x=float(np.median(xs))if len(xs)else cw/2
+            if rec['cell']==5:head_x=cw*.49 # Raised grenade is above the helmet.
+            dx=round(44*4+(ab[0]-head_x)*factor)
+            dy=round(y1*4-(ab[3]-ab[1])*factor)
+            art=art.crop(ab).resize((round((ab[2]-ab[0])*factor),round((ab[3]-ab[1])*factor)),Image.Resampling.LANCZOS)
+            canvas.alpha_composite(art,(dx,dy))
+        else:
+            art=art.crop(ab).resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
+            canvas.alpha_composite(art,(x0*4,y0*4))
+        images[rec['id']]=canvas
         stats.append({'id':rec['id'],'head':rec['head'],'cell':cell,'native_bounds':bbox,'signature':[list(t)for t in signature],'sample_frames':len(rec['frames'])})
     families={}
     for rec in records:

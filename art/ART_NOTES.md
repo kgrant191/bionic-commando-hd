@@ -1,6 +1,6 @@
 # Artwork sources
 
-Fifteen generated painted reference assets underpin this test build. They were
+Generated painted reference assets underpin this test build. They were
 made with the built-in image-generation tool, then consumed by the deterministic
 pack builder. Runtime screenshots in the preview are emulator output, not
 concept mockups.
@@ -49,3 +49,15 @@ source paintings.
 The v0.3 pose sheets provide full runtime figures for selected signatures;
 the earlier action sheet remains the material fallback for other patterns.
 
+
+## v0.4.0 sources
+
+| Asset | Use in the pack |
+| --- | --- |
+| spencer-poses-v4.png | Edit of the 4×4 Spencer sheet: exposed brushed-steel shoulder, elbow, forearm and articulated fingers on the left grappling arm; human right weapon hand. |
+| spencer-swing-v4.png | Two transparent painted cells aligned to previously uncovered rotated head/body groups. Red hair and skin remain visible while the mechanical arm reaches toward the grapple. |
+| equipment-lamp-v4.png | Three-column transparent atlas: starter handgun, military radio and warm ivory searchlight on a rusty red steel post. Exact native icon and lamp patterns select the corresponding crops. |
+
+Enemy poses now share one uniform source-to-output scale; each native pose's
+feet and helmet position determine placement. Background/cursor geometry for
+the equipment screen is drawn programmatically from the native menu layout.
