@@ -1,0 +1,178 @@
+{
+  "native_sprite_keys": [
+    [
+      "0101010101010101FFFFFFFFFFFFFFFF",
+      "FF30150F"
+    ],
+    [
+      "0808581878080808FFFFBFFFFFFFFFFF",
+      "FF30150F"
+    ],
+    [
+      "0F0F0F5F1B790808F8FCFFBCFFFFFFFF",
+      "FF30150F"
+    ],
+    [
+      "8FEF7FFFFFFFFFF8F038997007003F57",
+      "FF30150F"
+    ],
+    [
+      "F9FFFFFFFFFFFF1F0F189E06F000FCEA",
+      "FF30150F"
+    ]
+  ],
+  "background_cells": [
+    {
+      "background_key": "81838383838383837273737373737373",
+      "palette": "0F271505",
+      "cell": [
+        0,
+        0
+      ],
+      "guard": "closedDoor0_0"
+    },
+    {
+      "background_key": "FBF478FDFBC2F2F50AFD85FEE6C3F3CD",
+      "palette": "0F271505",
+      "cell": [
+        1,
+        0
+      ],
+      "guard": "closedDoor0_1&closedDoor0_1Left"
+    },
+    {
+      "background_key": "DF2F5EBEDC414DBC10BFE17E64C1CDA0",
+      "palette": "0F271505",
+      "cell": [
+        2,
+        0
+      ],
+      "guard": "closedDoor0_2&closedDoor0_2Left"
+    },
+    {
+      "background_key": "88C81878F8F8F8F847C71777F7F7F7F7",
+      "palette": "0F271505",
+      "cell": [
+        3,
+        0
+      ],
+      "guard": "closedDoor0_3&closedDoor0_3Left"
+    },
+    {
+      "background_key": "00E0A0D0D0D0D0D000E0E0B0B0B0B0B0",
+      "palette": "0F271505",
+      "cell": [
+        0,
+        1
+      ],
+      "guard": "closedDoor1_0"
+    },
+    {
+      "background_key": "01000000000000000100000000000000",
+      "palette": "0F271505",
+      "cell": [
+        1,
+        1
+      ],
+      "guard": "closedDoor1_1&closedDoor1_1Left"
+    },
+    {
+      "background_key": "80000000000000008000000000000000",
+      "palette": "0F271505",
+      "cell": [
+        2,
+        1
+      ],
+      "guard": "closedDoor1_2&closedDoor1_2Left"
+    },
+    {
+      "background_key": "0007050B0B0B0B0B0007070D0D0D0D0D",
+      "palette": "0F271505",
+      "cell": [
+        3,
+        1
+      ],
+      "guard": "closedDoor1_3&closedDoor1_3Left"
+    },
+    {
+      "background_key": "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0",
+      "palette": "0F271505",
+      "cell": [
+        0,
+        2
+      ],
+      "guard": "closedDoor2_0"
+    },
+    {
+      "background_key": "00000000000000000000000000000000",
+      "palette": "0F271505",
+      "cell": [
+        1,
+        2
+      ],
+      "guard": "closedDoor2_1&closedDoor2_1Left"
+    },
+    {
+      "background_key": "00000000000000000000000000000000",
+      "palette": "0F271505",
+      "cell": [
+        2,
+        2
+      ],
+      "guard": "closedDoor2_2&closedDoor2_2Left"
+    },
+    {
+      "background_key": "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D",
+      "palette": "0F271505",
+      "cell": [
+        3,
+        2
+      ],
+      "guard": "closedDoor2_3&closedDoor2_3Left"
+    },
+    {
+      "background_key": "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0",
+      "palette": "0F271505",
+      "cell": [
+        0,
+        3
+      ],
+      "guard": "closedDoor3_0"
+    },
+    {
+      "background_key": "00000000000000000000000000000000",
+      "palette": "0F271505",
+      "cell": [
+        1,
+        3
+      ],
+      "guard": "closedDoor3_1&closedDoor3_1Left"
+    },
+    {
+      "background_key": "00000000000000000000000000000000",
+      "palette": "0F271505",
+      "cell": [
+        2,
+        3
+      ],
+      "guard": "closedDoor3_2&closedDoor3_2Left"
+    },
+    {
+      "background_key": "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D",
+      "palette": "0F271505",
+      "cell": [
+        3,
+        3
+      ],
+      "guard": "closedDoor3_3&closedDoor3_3Left"
+    }
+  ],
+  "render_layer": "background",
+  "native_panel_bounds": [
+    138,
+    133,
+    170,
+    157
+  ],
+  "state_source": "live door sprites; no memory writes"
+}

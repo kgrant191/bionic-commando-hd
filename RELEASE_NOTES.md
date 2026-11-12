@@ -1,3 +1,16 @@
+# Bionic Commando HD v0.4.2 — review build
+
+- Paint the closed exterior radio-room door with a burgundy steel panel and silver radio badge.
+- Render the closed panel with the wall, under Spencer and other actors. The original door sprites still control its position and visibility, including scrolling into view, but no longer cover Spencer's HD pose when he walks past.
+- Add the six enemy pattern/palette variants exposed by the new recording so the hit flash retains the painted crouching soldier and damage tint.
+
+The new 1,081-frame recording is checked against original gameplay RAM every
+frame. The complete 40,442-frame Level 1 movie is also replayed for regression
+coverage. See `validation/replay-feedback-v042.json`, `validation/replay.json`
+and `validation/closed-door-mapping.json`. No ROM or gameplay changes.
+
+---
+
 # Bionic Commando HD v0.4.1 — review build
 
 - Replace all eight communication-room doorway patterns with one aligned steel frame. The original visible-pixel matching had missed parts hidden behind Spencer in the source screenshot.

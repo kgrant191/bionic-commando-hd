@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.4.1
-Radio doorway and exterior seam fixes
+BIONIC COMMANDO HD — v0.4.2
+Closed-door layering and enemy hit-frame fixes
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -11,6 +11,8 @@ Manual install: put hires.txt and all PNGs together in:
 The directory name must exactly match your ROM's filename without .nes.
 
 THIS PASS
+Painted closed exterior radio-room doors; Spencer stays in front when passing.
+Painted enemy hit-palette variants with the existing damage tint.
 Complete painted communication-room doorway, including header and both jambs.
 Corrected blue lines in barrel/platform/ladder texture crops across Area 1.
 Exposed mechanical grappling arm and two corrected rotated swing poses.
@@ -34,7 +36,7 @@ WORK IN PROGRESS
 This is a selected-pose pass, not a complete frame-by-frame character redraw.
 Unrecognized poses keep the previous material treatment. Some effects,
 unrecorded equipment icons and Area Clear figure still use a smoothed baseline.
-Tested against the supplied opening/Area 1 movie and a controlled menu replay.
+Tested against the supplied opening/Area 1 and closed-door/hit movies, plus a controlled menu replay.
 The pistol is the starter design; machine-gun/bazooka player art is still pending.
 Equipment-dependent graphics are supported by the HD engine, not implemented
 for every weapon in this test build.

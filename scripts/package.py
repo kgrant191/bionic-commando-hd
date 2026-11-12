@@ -13,27 +13,27 @@ font_path='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 title_font=ImageFont.truetype(font_path,32)
 small_font=ImageFont.truetype(font_path,17)
 label_font=ImageFont.truetype(font_path,20)
-canvas=Image.new('RGB',(1360,928),(13,19,26));d=ImageDraw.Draw(canvas)
-d.text((24,18),'BIONIC COMMANDO HD — v0.4.1',font=title_font,fill=(241,210,131))
-d.text((24,66),'v0.4.0 — BEFORE',font=label_font,fill=(182,193,205))
-d.text((696,66),'v0.4.1 — AFTER',font=label_font,fill=(241,210,131))
-for row,(n,box,label)in enumerate([(4800,(64,592,384,752),'RADIO-ROOM DOORWAY'),(3600,(112,584,624,840),'BARREL / PLATFORM JOINS')]):
+canvas=Image.new('RGB',(1360,1328),(13,19,26));d=ImageDraw.Draw(canvas)
+d.text((24,18),'BIONIC COMMANDO HD — v0.4.2',font=title_font,fill=(241,210,131))
+d.text((24,66),'v0.4.1 — BEFORE',font=label_font,fill=(182,193,205))
+d.text((696,66),'v0.4.2 — AFTER',font=label_font,fill=(241,210,131))
+for row,(n,box,label)in enumerate([(440,(416,440,800,632),'CLOSED EXTERIOR RADIO-ROOM DOOR'),(480,(416,440,800,632),'SPENCER STAYS IN FRONT WHEN PASSING'),(154,(584,456,872,600),'ENEMY HIT FLASH — HD POSE RETAINED')]):
     y=128+row*400
     for col,folder in enumerate([args.before,args.screenshots]):
         im=Image.open(folder/f'{n:05d}.png').convert('RGB');assert im.size==(1024,896)
         canvas.paste(im.crop(box).resize((640,320),Image.Resampling.LANCZOS),(24+col*672,y))
     d.text((24,y+334),label,font=label_font,fill=(216,226,234))
-d.text((24,900),'Actual MesenCE replay screenshots • Matching frames, crop and zoom',font=small_font,fill=(156,173,184))
-preview=args.output/'Bionic_Commando_HD_v0.4.1_Preview.png';canvas.save(preview)
+d.text((24,1300),'Actual MesenCE replay screenshots • Matching frames, crop and zoom',font=small_font,fill=(156,173,184))
+preview=args.output/'Bionic_Commando_HD_v0.4.2_Preview.png';canvas.save(preview)
 
-install=args.output/'Bionic_Commando_HD_v0.4.1.zip'
+install=args.output/'Bionic_Commando_HD_v0.4.2.zip'
 allowed={'hires.txt','README.txt','title.png','radio.png','sky.png','tiles.png','worldmap.png','equipment.png'}|{f'portrait{i}.png'for i in range(10)}
 assert {p.name for p in (root/'pack').iterdir()if p.is_file()}==allowed
 with zipfile.ZipFile(install,'w',zipfile.ZIP_DEFLATED,compresslevel=9)as z:
     for name in sorted(allowed):z.write(root/'pack'/name,name)
 with zipfile.ZipFile(install)as z:assert z.testzip()is None
 
-source=args.output/'Bionic_Commando_HD_v0.4.1_Source.zip'
+source=args.output/'Bionic_Commando_HD_v0.4.2_Source.zip'
 with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED,compresslevel=9)as z:
     for p in sorted(root.rglob('*')):
         if not p.is_file()or any(part in {'.git','__pycache__'}for part in p.relative_to(root).parts):continue

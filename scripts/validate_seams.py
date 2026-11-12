@@ -3,7 +3,10 @@ from pathlib import Path
 from PIL import Image
 import subprocess,io,json,numpy as np
 import argparse
-parser=argparse.ArgumentParser();parser.add_argument('--before-ref',default='c8bf62f8f962cccf2ce09fae875749f995bb975e');args=parser.parse_args()
+parser=argparse.ArgumentParser()
+parser.add_argument('--before-ref',default='c8bf62f8f962cccf2ce09fae875749f995bb975e')
+parser.add_argument('--after-ref',default='249a6380309fd85fde261948914c7b3a09680cf1',help='Saved v0.4.1 checkpoint; later versions add unrelated rules')
+args=parser.parse_args()
 root=Path(__file__).resolve().parents[1]
 def read_atlas(txt,im):
  out={}
@@ -15,7 +18,9 @@ def read_atlas(txt,im):
  return out
 oldtxt=subprocess.check_output(['git','show',args.before_ref+':pack/hires.txt'],cwd=root).decode()
 oldimg=Image.open(io.BytesIO(subprocess.check_output(['git','show',args.before_ref+':pack/tiles.png'],cwd=root)))
-old=read_atlas(oldtxt,oldimg);new=read_atlas((root/'pack/hires.txt').read_text(),Image.open(root/'pack/tiles.png'))
+newtxt=subprocess.check_output(['git','show',args.after_ref+':pack/hires.txt'],cwd=root).decode()
+newimg=Image.open(io.BytesIO(subprocess.check_output(['git','show',args.after_ref+':pack/tiles.png'],cwd=root)))
+old=read_atlas(oldtxt,oldimg);new=read_atlas(newtxt,newimg)
 assert old.keys()==new.keys()
 rep=json.load(open(root/'validation/seam_mapping.json'));doors={tuple(x)for x in rep['door_patterns']};seams={ (x['key'],x['palette'])for x in rep['repairs']};changed=[]
 for k in old:

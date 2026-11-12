@@ -8,6 +8,8 @@ parser.add_argument('--original',type=Path,required=True)
 parser.add_argument('--hd',type=Path,required=True)
 parser.add_argument('--home',type=Path,required=True)
 parser.add_argument('--log',type=Path,required=True)
+parser.add_argument('--frames',type=int,default=40442)
+parser.add_argument('--report',default='replay.json')
 args=parser.parse_args()
 root=Path(__file__).resolve().parents[1];pack=root/'pack'
 rules=(pack/'hires.txt').read_text().splitlines()
@@ -34,10 +36,11 @@ for l in rules:
 assert '<overscan>8,0,8,0' in rules
 assert '<options>disableSpriteLimit' in rules
 stop_marker=int((args.home/'done').read_text())
-assert 40442<=stop_marker<=40444 # The older capture script can tick once after a pause request.
-assert (args.hd/'40442.ram').is_file()
-original=list(sorted(args.original.glob('*.ram')))
-assert len(original)==339, len(original)
+assert args.frames<=stop_marker<=args.frames+2 # A pause request may finish one extra frame.
+assert (args.hd/f'{args.frames:05d}.ram').is_file()
+original=[p for p in sorted(args.original.glob('*.ram')) if int(p.stem)<=args.frames]
+if args.frames==40442:assert len(original)==339, len(original)
+else:assert len(original)==args.frames, 'Short feedback recordings require every-frame checkpoints'
 mismatches=[]
 for p in original:
     q=args.hd/p.name
@@ -57,7 +60,7 @@ assert all(a in set(definitions)and v in set(definitions)for a,v in additions)
 assert len(virtual_keys)==stats['virtual_sprite_keys']
 for v in virtual_keys:
     assert any(l.startswith('<tile>')and tuple(l[6:].split(',')[1:3])==v for l in rules),'Missing virtual fallback'
-report={'version':'0.4.1','movie_input_frames':40442,
+report={'version':'0.4.2','movie_input_frames':args.frames,
         'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),
@@ -65,11 +68,11 @@ report={'version':'0.4.1','movie_input_frames':40442,
         'captured_key_count':stats['captured_tile_palette_keys'],
         'virtual_sprite_keys':len(virtual_keys),'sprite_additions_checked':len(additions),
         'sprite_limit_removal':True,
-        'completion':'Area 1 Clear followed by return to world map',
+        'completion':'Area 1 Clear followed by return to world map' if args.frames==40442 else 'Complete feedback recording',
         'visual_review_frames':[int(p[:-4])for p in screens],
         'overscan_note':'Eight source rows trimmed at top and bottom; no ROM patch.',
         'limits':'Sampled visual inspection, not every rendered frame. Unrecorded states and later areas are untested.',
         'pack_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted(pack.iterdir())if p.is_file()}}
 assert report['unique_tile_palette_keys']==stats['captured_tile_palette_keys']+len(virtual_keys)
-(root/'validation/replay.json').write_text(json.dumps(report,indent=2)+'\n')
+(root/'validation'/args.report).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items()if k!='pack_sha256'},indent=2))

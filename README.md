@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.4.1 — radio doorway and exterior seam fixes**
+**v0.4.2 — closed-door layering and enemy hit frames**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening and Are
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.4.1.zip`.
+   `Bionic_Commando_HD_v0.4.2.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -21,9 +21,10 @@ directory must match its base name exactly.
 
 ## Included in this pass
 
+- Painted closed exterior radio-room doors, with Spencer visible in front as he passes in either direction.
+- The recorded enemy hit-palette variants now retain their painted poses and damage tint.
 - A complete painted steel doorway in the communication room, including the previously occluded header and right jamb.
 - Corrected blue contamination in the repeated barrel, platform and ladder texture crops. Real sky openings and water retain their existing artwork.
-
 - New title artwork and readable start prompt.
 - Painted radio portraits for the operator, commander, and two intercepted
   enemy speakers. All four speakers retain their talking expressions; the final-room
@@ -73,13 +74,13 @@ Weapon-specific artwork can use Mesen equipment-memory conditions or distinct
 native weapon patterns. Machine-gun and bazooka player variants still need
 recordings, verified selection state and dedicated art before they are supported.
 
-The supplied opening/Area 1 recording and a controlled equipment-menu replay have been tested. Later areas,
+The supplied opening/Area 1 recording, closed-door/enemy-hit recording and a controlled equipment-menu replay have been tested. Later areas,
 unrecorded moves and alternate equipment or palette states need recordings
 and validation. Shared tile patterns may affect later areas.
 
 ## Validation and source
 
-See `validation/replay.json` for replay coverage and RAM parity results, and
+See `validation/replay.json` and `validation/replay-feedback-v042.json` for replay coverage and RAM parity results, and
 `DEVELOPMENT.md` for the reproducible build and capture workflow.
 
 The install ZIP contains only the pack and its install notes. ROMs, emulator

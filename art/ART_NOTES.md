@@ -68,3 +68,12 @@ the equipment screen is drawn programmatically from the native menu layout.
 | --- | --- |
 | exterior-seams-v4.1.png | Built-in image edit of a 4×3 texture atlas: replace cyan strips with matching rusty steel or warm rock, preserve cell alignment and all other motifs; ladder holes remain black. Only contaminated pixels and their immediate fringe are consumed by the builder. |
 | radio-door-v4.1.png | Built-in image generation from the native background-only door layout and control-room style reference: continuous brushed-steel lintel, recessed square end housings, thin straight jambs, pure black open interior, no symbols, figures or threshold. All eight background patterns use this one aligned source. |
+
+## v0.4.2 source
+
+`closed-door-v4.2.png` was generated with the built-in image tool from an
+in-game closed-door style reference. Prompt: front-facing, edge-to-edge square
+military security-door panel, worn burgundy and charcoal steel, center seam,
+inset panels and bolts, small silver mechanical wing/radio badge in the middle
+third; no scenery, lettering, people or political symbols. The builder scales
+it to the native 32 by 24 pixel panel at 4x and maps it under the live actors.

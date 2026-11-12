@@ -1,4 +1,4 @@
-# Development checkpoint — v0.4.1
+# Development checkpoint — v0.4.2
 
 ## Inputs
 
@@ -183,12 +183,49 @@ Branch: fix/door-platform-seams-v0.4.1.
   rather than adding patches at individual screen coordinates.
 - `validation/door-seams-v0.4.1.json` compares all 12,775 rules to v0.4.0; only
   those 19 patterns change. `validation/seam_mapping.json` records pixel counts. Re-run the tile comparison with
-  `python3 scripts/validate_seams.py` (requires the saved v0.4.0 Git commit).
+  `python3 scripts/validate_seams.py` (compares the saved v0.4.0 and v0.4.1 Git commits).
 - The source bundle is cumulative from the previously pushed v0.3.0 commit
   0c153e4f056eb2ba5c8e8872d5116ffced281534, so a separate v0.4.0 import is not required.
 - Package the comparison preview with `scripts/package.py --screenshots HD_DIR
   --before V040_SCREENSHOT_DIR --output OUTPUT_DIR`. Frames 3600 and 4800 are
   identical replay inputs in both folders; the preview uses equal crops/zoom.
+
+## v0.4.2 closed exterior door and hit palette
+
+Base commit: 249a6380309fd85fde261948914c7b3a09680cf1.
+Branch: fix/closed-door-hit-frames-v0.4.2.
+
+- `Bionic Commando (USA)(2).mmo` is a 1,081-frame save-state recording.
+  Capture its metadata every frame: a 15-frame interval can miss the brief
+  enemy palette states. Selected metadata is under `capture/feedback-v042/`.
+- Six enemy patterns already existed in the normal palette, but were missing
+  under FF202A0F during the hit flash. Adding the captured pairs lets the
+  existing pose builder create the same complete painting, tint and masks.
+  Twelve virtual tiles are added for that palette. Thirteen additional
+  scrolling-edge patterns use the existing structural material fallback.
+- The closed exterior door is composed of five unique sprite patterns in
+  palette FF30150F. Native door sprites cover HD actor additions because of
+  sprite ordering. `scripts/closed_door.py` instead composites the new panel
+  into sixteen background cells, then blanks those five native sprite keys.
+  Per-cell `spriteNearby` guards follow the live native panel; no frame numbers,
+  absolute screen positions or RAM writes are used as runtime triggers.
+- The panel starts one native pixel above the background body grid. Cropping
+  preserves that offset and the existing header. Local row/left-edge tests
+  distinguish repeated cells and still work when the emblem is off screen.
+  Open doors remain governed by the prior rules. Both crossing directions,
+  scrolling entry and recorded hit frames are inspected in the short replay.
+- Short-replay validation uses `scripts/validate.py --frames 1081 --report
+  replay-feedback-v042.json` with original/HD/home/log arguments as usual.
+  Original and HD RAM are captured every frame for this recording. The full
+  movie keeps its 120-frame checkpoints and writes `validation/replay.json`.
+- `validation/v042-art-regression.json` confirms that all 4,093 existing
+  default tile images are pixel-identical to v0.4.1. The changes add new
+  keys and conditional rules instead of repainting unrelated defaults.
+- The current comparison preview uses this short recording: frames 440, 480
+  and 154, with the same crop and zoom in v0.4.1 and v0.4.2. Pass those folders
+  to `scripts/package.py --before OLD --screenshots NEW --output OUTPUT`.
+- The cumulative source bundle still uses the pushed v0.3.0 commit
+  0c153e4f056eb2ba5c8e8872d5116ffced281534 as its prerequisite.
 
 ## Next art passes
 
