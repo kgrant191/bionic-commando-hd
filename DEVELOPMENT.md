@@ -1,4 +1,4 @@
-# Development checkpoint — v0.1.0
+# Development checkpoint — v0.2.0
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 ## Build
 
-Use Python 3 with Pillow and NumPy, and MesenCE 2.2.1's xBRZ scaler wrapper:
+Use Python 3 with Pillow, NumPy and SciPy, and MesenCE 2.2.1's xBRZ scaler wrapper:
 
 ```sh
 export BIONIC_XBRZ_LIBRARY=/absolute/path/scale.so
@@ -48,8 +48,11 @@ Environment variables:
 - `BIONIC_CAPTURE_DIR`: screenshots and RAM/PPU checkpoints.
 - `BIONIC_CAPTURE_FRAMES`: defaults to 40442.
 - `BIONIC_CAPTURE_STEP`: checkpoint interval, defaults to 120.
+- `BIONIC_SCREENSHOT_FRAMES`: optional comma-separated screenshot frame list;
+  RAM/PPU checkpoints continue at the normal interval.
 - `BIONIC_METADATA_DIR`: optional per-frame rendered CHR-RAM tile positions.
 - `BIONIC_METADATA_STEP`: metadata interval, defaults to 120.
+- `BIONIC_SPRITES_ONLY=1`: omit background metadata during dense sprite capture.
 - `SKIP_METADATA=1`: skip the rendered-tile listener for normal verification.
 
 Delete HOME/done before reusing a capture home. Set maximum speed after movie
@@ -70,7 +73,7 @@ to cover those cases. See build_stats.json for counts.
   reference art. This avoids the video-thread offset between Lua screenshots
   and native PPU notification metadata.
 - Normal-title and radio screen conditions use rendered pattern+palette keys.
-- Radio text and portrait sprites stay live. The title background includes the
+- Radio text stays live; painted portrait overlays follow original sprite keys. The title background includes the
   prompt and copyright and suppresses the original title tiles/sprites.
 - Sky openings are masked from original tile pixels. Water phases, including
   sparse one-pixel foam patterns, share the painted water material.
@@ -81,14 +84,36 @@ Reference frames: 480 title; 1200 radio; 1920 map; 3000 landing;
 3480 fortress; 3960 tower; 7320 communication room; 11640 underground;
 38400 final room; 39360 reactor; 39840 Area Clear; 40442 end of recording.
 
+## v0.2.0 additions
+
+Base GitHub commit: cc54af325fab7608d0d1ccee8019c945a8a17599.
+Feature branch: feature/map-characters-v0.2.0.
+
+- `capture/sprite-keys.json`: 784 unique sprite pattern/palette pairs from a
+  15-frame sample of the complete movie; 23 extend the baseline key inventory.
+- `scripts/characters.py`: original animated masks with palette-aware material
+  relief, painted cloth samples and selected painted face crops. The action
+  sheet is a source of detail/materials, not a promise of full-pose replacement.
+- `scripts/scenes.py`: live map overlay handling and eight radio expression
+  overlays for four people. Original portrait palettes are hidden only during
+  radio screens; sprite triggers restore each speaker/expression at its native
+  timing. Validation records the exact trigger keys.
+- Map terrain uses background priority 10 (behind NES background tiles), so
+  live routes and numbers are never hidden. Portrait overlays use priority 20.
+- Tower source is aligned with piecewise geometry landmarks before extraction;
+  previously approved environment mappings take precedence over new crops.
+- Generated portrait and action artwork is kept as source; all final previews
+  are actual emulator captures, not concept art.
+- Source ZIP packaging explicitly excludes `.git`, Python caches, ROMs, movies
+  and binaries.
+
 ## Next art passes
 
-1. Redraw Spencer's complete movement, arm, firing, hit and death animations.
-2. Redraw soldiers, projectiles, reactor and effects with every palette state.
-3. Replace portraits, world-map graphics, equipment UI and Area Clear figure.
-4. Replace remaining baseline architectural variants, checking shared patterns.
-5. Inspect title/radio fade transitions more densely and retain menu timing.
-6. Gather later-area and unrecorded-move recordings before expanding coverage.
+1. Complete individual animation-frame redraws beyond the current material
+   and selected-head pass; retain every move, flip and damage state.
+2. Remaining soldier heads, projectiles, reactor and effects.
+3. Equipment UI, Area Clear figure and more detailed map vehicles.
+4. Remaining architectural variants; inspect shared tile patterns.
+5. Gather later-area and unrecorded-move recordings before expanding coverage.
 
 This is a review build. No GitHub release is implied by its local version.
-

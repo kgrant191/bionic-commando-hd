@@ -1,6 +1,6 @@
 # Artwork sources
 
-Six generated painted reference assets underpin this test build. They were
+Eleven generated painted reference assets underpin this test build. They were
 made with the built-in image-generation tool, then consumed by the deterministic
 pack builder. Runtime screenshots in the preview are emulator output, not
 concept mockups.
@@ -21,7 +21,19 @@ Final prompt specifications:
 | radio.png | Preserve the two empty black top panels and exact lower radio silhouette/control layout. Add brushed gunmetal panel frames and detailed olive-drab field-radio hardware, muted cyan glass and green indicators. Remove text and portrait for live runtime layers. |
 | title.png | BIONIC in angular brushed steel with red insets, COMMANDO in golden industrial type. Dark blue fortress and radio towers at dusk. Orange-haired Spencer in sunglasses and green uniform at lower right, metallic forearm visible. Reserve dark center/bottom areas for runtime prompt and copyright composition. |
 
-All image references are resized to 1024 × 960 during the build. The final
-display crops the outer eight source rows from top and bottom. Remaining
-sprites and UI use the separately documented smoothed baseline.
+## v0.2.0 sources
+
+| Asset | Use in the pack |
+| --- | --- |
+| map-terrain.png | Painted desert, jungle and coast placed behind the game's live route/number tiles and units. |
+| portraits.png | Six aligned portrait cells: operator and commander (closed/open mouth), enemy soldier and bearded officer. |
+| enemy-talking.png | Talking-mouth variants of the enemy soldier and bearded officer; the officer is reused in the final-room dialogue box. |
+| action-poses.png | Painted Spencer/soldier material and face reference. The current pack samples cloth, relief and selected heads, retaining the original animated tile masks. Full pictured poses are not yet runtime replacements. |
+| tower-reference.png | Tower stucco, damaged corners, coping, doorway and sky. Build-time piecewise coordinate alignment matches native geometry before extracting new tiles; existing approved tile art takes precedence. |
+
+Scene backgrounds use 1024 × 960. The final display crops the outer eight
+source rows from top and bottom. Portrait overlays keep a fixed canvas and
+crop rectangle across talking states. Sprite/detail limitations are documented
+in README.md. Actual-emulator preview screenshots are separate from these
+source paintings.
 

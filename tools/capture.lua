@@ -2,6 +2,9 @@ local out=assert(os.getenv('BIONIC_CAPTURE_DIR'))..'/'
 local home=assert(os.getenv('BIONIC_CAPTURE_HOME'))
 local last=tonumber(os.getenv('BIONIC_CAPTURE_FRAMES') or '40442')
 local step=tonumber(os.getenv('BIONIC_CAPTURE_STEP') or '120')
+local wanted_text=os.getenv('BIONIC_SCREENSHOT_FRAMES')
+local wanted={}
+if wanted_text then for f in string.gmatch(wanted_text,'%d+') do wanted[tonumber(f)]=true end end
 local n=0
 local function save(path,data) local f=assert(io.open(path,'wb'));f:write(data);f:close() end
 local function mem(t,size)
@@ -9,8 +12,11 @@ local function mem(t,size)
 end
 local function frame()
  n=n+1
- if n%step==0 or n==1 or n==last then
+ local checkpoint=n%step==0 or n==1 or n==last
+ if (wanted_text and wanted[n]) or (not wanted_text and checkpoint) then
   save(out..string.format('%05d.png',n),emu.takeScreenshot())
+ end
+ if checkpoint then
   save(out..string.format('%05d.ram',n),mem(emu.memType.nesInternalRam,2048))
   save(out..string.format('%05d.ppu',n),mem(emu.memType.nesPpuMemory,0x4000))
   if n%1200==0 then emu.log('Frame '..n..' / '..last) end

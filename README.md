@@ -1,17 +1,17 @@
 # Bionic Commando HD
 
-**v0.1.0 — opening screens and Area 1 test build**
+**v0.2.0 — world map, radio portraits and Area 1 detail pass**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
 A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is the first scenery and presentation pass, not a finished remake.
+This is a work-in-progress graphics remake covering the supplied opening and Area 1 recording.
 
 ## Install
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.1.0.zip`.
+   `Bionic_Commando_HD_v0.2.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -22,8 +22,14 @@ directory must match its base name exactly.
 ## Included in this pass
 
 - New title artwork and readable start prompt.
-- New field-radio interface, with the original live dialogue and portraits.
-- Painted fortress masonry, girders, barrels, cliffs and water.
+- Painted radio portraits for the operator, commander, and two intercepted
+  enemy speakers. All four speakers retain their talking expressions; the final-room
+  officer portrait is covered too.
+- Painted world-map terrain with live routes, area numbers, selection and units.
+- First Spencer/enemy detail pass: painted face details, textured uniforms,
+  shaded equipment and metal grapple links across recorded palette states.
+- Painted fortress masonry, girders, barrels, cliffs, water, tower stucco
+  and coping; an atmospheric sky replaces the flat exterior blue.
 - Painted underground rock, metal panels, pipes and platforms.
 - Painted communication-room machinery and final-room environment tiles.
 - 4× replacements covering the supplied recording's captured tile/palette keys.
@@ -37,9 +43,11 @@ original game.
 
 ## Still in progress
 
-Characters, enemies, portraits, the reactor, effects, world map, equipment
-screens and Area Clear figure use a smoothed 4× baseline. Some architectural
-variants retain a recolored baseline. They still need individual art passes.
+Character and enemy silhouettes still follow the original NES animation tiles;
+this version adds surface shading and selected painted faces, not a complete
+frame-by-frame anatomy redraw. Some heads, effects, reactor, equipment screens
+and the Area Clear figure retain a smoothed baseline. Remaining architectural
+variants and map vehicle shapes need further art passes.
 The new title appears as a static composition; the original sliding logo and
 small title character animation are not reproduced.
 

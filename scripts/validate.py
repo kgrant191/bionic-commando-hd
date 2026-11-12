@@ -46,14 +46,14 @@ log=args.log.read_text()
 assert 'PPU: 8HdNesPpu HD enabled: 1' in log
 assert not re.search(r'\[HDPack\].*(error|Error)|script error|Script error|Exception',log)
 stats=json.loads((root/'build_stats.json').read_text())
-report={'version':'0.1.0','movie_input_frames':40442,
+report={'version':'0.2.0','movie_input_frames':40442,
         'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),
         'unique_tile_palette_keys':len(set(definitions)),
         'captured_key_count':stats['captured_tile_palette_keys'],
         'completion':'Area 1 Clear followed by return to world map',
-        'visual_review_frames':[480,1200,1920,3000,3480,3960,7320,11640,21720,38400,39360,39840,40442],
+        'visual_review_frames':[480,720,960,1080,1200,1920,5040,6840,7080,3000,3480,3960,7320,11640,21720,38400,39360,39840,40442],
         'overscan_note':'Eight source rows trimmed at top and bottom; no ROM patch.',
         'limits':'Sampled visual inspection, not every rendered frame. Unrecorded states and later areas are untested.',
         'pack_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted(pack.iterdir())if p.is_file()}}

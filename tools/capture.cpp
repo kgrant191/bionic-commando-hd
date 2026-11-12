@@ -34,7 +34,7 @@ public:
  for(int y=0;y<240;y++) for(int x=0;x<256;x++){
  auto &px=info->ScreenTiles[y*256+x];
  auto add=[&](HdPpuTileInfo&t,int layer){if(t.TileIndex<0)return;int oy=t.OffsetY; if(layer && t.VerticalMirroring)oy=7-oy;std::string key; const char* hex="0123456789ABCDEF"; for(auto b:t.TileData){key+=hex[b>>4];key+=hex[b&15];} entries.insert({layer,x-t.OffsetX,y-oy,key,t.PaletteColors,t.HorizontalMirroring,t.VerticalMirroring});};
- add(px.Tile,0);for(int k=0;k<px.SpriteCount;k++)add(px.Sprite[k],1);
+ if(!std::getenv("BIONIC_SPRITES_ONLY"))add(px.Tile,0);for(int k=0;k<px.SpriteCount;k++)add(px.Sprite[k],1);
  }
  const char* dir=std::getenv("BIONIC_METADATA_DIR"); if(!dir)return; char leaf[64];snprintf(leaf,sizeof(leaf),"%05d.tiles",count);std::ofstream out(std::filesystem::path(dir)/leaf);
  for(auto &e:entries){auto [l,x,y,t,p,h,v]=e;out<<l<<","<<x<<","<<y<<","<<t<<","<<p<<","<<h<<","<<v<<"\n";}

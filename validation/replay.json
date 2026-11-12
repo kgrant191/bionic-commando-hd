@@ -1,22 +1,28 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "movie_input_frames": 40442,
   "original_and_hd_ram_checkpoints": 339,
   "ram_mismatches": [],
-  "hd_screenshots": 338,
+  "hd_screenshots": 41,
   "dimensions": [
     1024,
     896
   ],
   "hd_loader_errors": 0,
-  "tile_rules_checked": 4671,
-  "unique_tile_palette_keys": 3242,
-  "captured_key_count": 3242,
+  "tile_rules_checked": 5263,
+  "unique_tile_palette_keys": 3265,
+  "captured_key_count": 3265,
   "completion": "Area 1 Clear followed by return to world map",
   "visual_review_frames": [
     480,
+    720,
+    960,
+    1080,
     1200,
     1920,
+    5040,
+    6840,
+    7080,
     3000,
     3480,
     3960,
@@ -30,12 +36,78 @@
   ],
   "overscan_note": "Eight source rows trimmed at top and bottom; no ROM patch.",
   "limits": "Sampled visual inspection, not every rendered frame. Unrecorded states and later areas are untested.",
-  "pack_sha256": {
-    "README.txt": "fac8ca5a935fac2eec19ef56a9e27fe823e31318fdb2dca1a30635d17c1fd339",
-    "hires.txt": "599b017b87ce3f73b07a9987a718a3745f709592bb76c45aa9c89905e3ba207b",
+  "full_replay_pack_sha256": {
+    "README.txt": "3853a647970bd75a7e707b483e8be408da171da969a493b52a8f0fda912d1e5f",
+    "hires.txt": "4c4868ccc140ae205bafc1c2ed3e87db9f69efe72cc5a5e7b0777350ff7aa6e8",
+    "portrait0.png": "abc63f6bd0d221df308cc103f612c3abd9b347b9eeb303297582a5e994c15f6e",
+    "portrait1.png": "ea8e553170224d256b3c50cd617cef9f1e7f58d2185adc29058d370ac1bea60f",
+    "portrait2.png": "b55323fbee422fac8728e0656ccbe07f4a5deda80fb7127a335f1fffd59b1a68",
+    "portrait3.png": "0417ec92d9c156f68c7c37acce76e1fec3f266a22c97472e0b5712e57c9df67e",
+    "portrait4.png": "3f2d9923864200575fd110315a4ce445c18cf2a761f78c8a8cb0920305355df9",
+    "portrait5.png": "7c16d35c7b850cb542f492dc6f82d2ed2b12897767ec5043699220271d28c490",
+    "portrait6.png": "c85dcd9d6ce31979f48946ac6c9705e91d23f1b05cb1abb70d124ecbe2eaad7e",
+    "portrait7.png": "f88c3258baf32c4743a81c7eb95dcf1ca4175f3d4330b9e4824826bb974419fa",
+    "portrait8.png": "57c6b56ace7c60e603cd40e088f3900de5c439f78223587510e235fbbbe00948",
+    "portrait9.png": "a4ca8ff9e5fbdadffd586864a1cd7b5bfb19ff22a6c74bdb12ae396bf52b3b20",
     "radio.png": "5aacfae35c0bca520a11ecfd2cab043a8ae2e8c4d25719b2efb2ec515201b7cb",
-    "sky.png": "fa48aae3e1fa065a131b14ca9dace825109212260e587e565902d2ad79cfcd5c",
-    "tiles.png": "13c1b358d1ae117f4b339f4a0d622e3e14e589cebe2fe53f32003aa2c0bfd698",
-    "title.png": "45db029028459835478cb233bc7d673e1118909b2374adbfd4afb7bd6ee1dbfc"
+    "sky.png": "c3de20486688309e2b5a553e39c177ad7bbc289ac84b38872b67156c1c973660",
+    "tiles.png": "27035e5e0c9e8681dc677f422e0fc29c66df8f4d8ee17c7ecf36c61bdfafefff",
+    "title.png": "45db029028459835478cb233bc7d673e1118909b2374adbfd4afb7bd6ee1dbfc",
+    "worldmap.png": "a95db62a8973791ca54d9d91e868ea9af8f7cb1d1a84ac22d29611451d882638"
+  },
+  "pack_sha256": {
+    "portrait6.png": "c85dcd9d6ce31979f48946ac6c9705e91d23f1b05cb1abb70d124ecbe2eaad7e",
+    "portrait9.png": "a4ca8ff9e5fbdadffd586864a1cd7b5bfb19ff22a6c74bdb12ae396bf52b3b20",
+    "tiles.png": "27035e5e0c9e8681dc677f422e0fc29c66df8f4d8ee17c7ecf36c61bdfafefff",
+    "portrait2.png": "b55323fbee422fac8728e0656ccbe07f4a5deda80fb7127a335f1fffd59b1a68",
+    "portrait0.png": "abc63f6bd0d221df308cc103f612c3abd9b347b9eeb303297582a5e994c15f6e",
+    "portrait8.png": "57c6b56ace7c60e603cd40e088f3900de5c439f78223587510e235fbbbe00948",
+    "title.png": "45db029028459835478cb233bc7d673e1118909b2374adbfd4afb7bd6ee1dbfc",
+    "portrait4.png": "3f2d9923864200575fd110315a4ce445c18cf2a761f78c8a8cb0920305355df9",
+    "portrait3.png": "0417ec92d9c156f68c7c37acce76e1fec3f266a22c97472e0b5712e57c9df67e",
+    "portrait7.png": "f88c3258baf32c4743a81c7eb95dcf1ca4175f3d4330b9e4824826bb974419fa",
+    "radio.png": "5aacfae35c0bca520a11ecfd2cab043a8ae2e8c4d25719b2efb2ec515201b7cb",
+    "portrait1.png": "ea8e553170224d256b3c50cd617cef9f1e7f58d2185adc29058d370ac1bea60f",
+    "sky.png": "c3de20486688309e2b5a553e39c177ad7bbc289ac84b38872b67156c1c973660",
+    "README.txt": "3853a647970bd75a7e707b483e8be408da171da969a493b52a8f0fda912d1e5f",
+    "portrait5.png": "7c16d35c7b850cb542f492dc6f82d2ed2b12897767ec5043699220271d28c490",
+    "worldmap.png": "a95db62a8973791ca54d9d91e868ea9af8f7cb1d1a84ac22d29611451d882638",
+    "hires.txt": "44e91ce995327f4a6fba701342b0e16f135780b481ec181af9cc54ff7051d64d"
+  },
+  "post_replay_portrait_mask_check": {
+    "description": "Only three radio-only eye-overlay blank rules added after full replay; every art asset unchanged.",
+    "movie_frames_replayed": 1200,
+    "ram_checkpoints": 11,
+    "ram_mismatches": [],
+    "hd_loader_errors": 0,
+    "visual_frames": [
+      660,
+      690,
+      720,
+      1080
+    ],
+    "new_rules": [
+      "[radio]<tile>0,BCB8B6BFB1A02020BFB8B4BEBFBFBFBF,FF303526,224,32,1,N",
+      "[radio]<tile>0,7C0C161A060E0202FF0F1703FFFFFFFF,FF303526,224,32,1,N",
+      "[radio]<tile>0,9D0D5DFDFD7D7D3DFD3D1D7DFDFDFDFD,FF303526,224,32,1,N"
+    ]
+  },
+  "portrait_coverage": {
+    "sample_interval_frames": 15,
+    "portrait_samples_checked": 309,
+    "states": {
+      "0": 89,
+      "1": 43,
+      "2": 78,
+      "3": 43,
+      "4": 18,
+      "5": 5,
+      "6": 15,
+      "7": 4,
+      "8": 8,
+      "9": 6
+    },
+    "unmatched_portrait_frames": [],
+    "ambiguous_frames": []
   }
 }

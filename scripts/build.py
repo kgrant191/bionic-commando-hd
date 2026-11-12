@@ -3,7 +3,10 @@ from pathlib import Path
 from collections import defaultdict, Counter
 import os, re, json, math, ctypes, hashlib
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from scipy.ndimage import map_coordinates
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from characters import CharacterMaterials
+from scenes import make_scenes, map_tile, MAP_PALETTES, PORTRAIT_PALETTES
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'pack'; OUT.mkdir(exist_ok=True)
@@ -36,7 +39,25 @@ keys=list(dict.fromkeys(keys))
 raw_key_count=len(keys)
 for path in sorted(CAP.glob('*.tiles')):
     keys.extend((e[3],e[4])for e in entries(int(path.stem)))
+keys.extend((k,int(p,16))for k,p in json.loads((CAP/'sprite-keys.json').read_text()))
 keys=list(dict.fromkeys(keys))
+characters=CharacterMaterials(ROOT,indices,scale,tile)
+scene_conditions,scene_backgrounds=make_scenes(ROOT,OUT)
+sprite_count=0
+portrait_extra={(k,int(p,16))for k,p in json.loads((CAP/'portrait-extra-keys.json').read_text())}
+
+# Align generated tower geometry to the source level before extracting tiles.
+# Piecewise landmarks preserve the source platform/door boundaries precisely.
+tower_raw=Image.open(ROOT/'art/tower-reference.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
+tower_x=np.interp(np.arange(1024),[0,376,504,632,760,1023],[0,355,473,601,720,1023])
+tower_y=np.interp(np.arange(960),[0,376,408,504,536,632,664,824,896,952,959],[0,305,333,416,447,548,572,735,804,876,959])
+ty,tx=np.meshgrid(tower_y,tower_x,indexing='ij');ta=np.asarray(tower_raw)
+tower_aligned=Image.fromarray(np.stack([map_coordinates(ta[:,:,c],[ty,tx],order=1)for c in range(4)],2).astype('uint8'))
+flat_stucco=np.asarray(tower_aligned.crop((448,432,480,464)).filter(ImageFilter.GaussianBlur(.6)),dtype=float).copy()
+center=flat_stucco[:,:,:3].mean((0,1));fy,fx=np.mgrid[:32,:32]
+edge=np.minimum.reduce([fx,fy,31-fx,31-fy]);blend=np.clip(edge/4,0,1)[:,:,None]
+flat_stucco[:,:,:3]=center+(flat_stucco[:,:,:3]-center)*.42*blend
+flat_stucco=Image.fromarray(np.clip(flat_stucco,0,255).astype('uint8'))
 
 # Matching the original screenshot avoids a video-thread offset between the
 # tile metadata and the screenshot. Crops come only from exact pixel matches.
@@ -46,6 +67,7 @@ for n,name,palettes in [
     (11640,'interior-reference',{0x0f21110b,0x0f261606,0x0f342303}),
     (7320,'control-reference',{0x0f301000,0x0f2b1b0b,0x0f2c1c0c,0x0f100005}),
     (38400,'reactor-reference',{0x0f221202,0x0f201000,0x0f372716,0x0f332313}),
+    (21720,'tower-reference',{0x0f382818,0x0f271505,0x0f211505}),
 ]:
     src=np.array(Image.open(CAP/f'{n:05d}.png').convert('RGB'))
     locations={}
@@ -53,7 +75,9 @@ for n,name,palettes in [
         for xx in range(8,241):
             locations.setdefault(src[yy:yy+8,xx:xx+8].tobytes(),(xx,yy))
     art=Image.open(ROOT/f'art/{name}.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
+    if name=='tower-reference':art=tower_aligned
     for key,p in sorted({(e[3],e[4])for e in entries(n)if e[0]==0 and e[4]in palettes}):
+        if name=='tower-reference' and (key,p)in painted:continue
         ix=indices(key)
         if len(np.unique(ix))==1:continue
         template=np.array(tile(key,p).convert('RGB'))
@@ -127,8 +151,17 @@ def transparent_ink(key,p):
 for key,p in keys:
     if (key,p)in title_keys or p>>24==255:rule(key,p,blank,'title')
     if (key,p)in radio_keys:rule(key,p,transparent_ink(key,p)if(key,p)in radio_text else blank,'radio')
+    if (key,p)in portrait_extra:rule(key,p,blank,'radio')
+    if p in PORTRAIT_PALETTES:
+        rule(key,p,blank,'radio')
+        rule(key,p,blank,'portrait8')
+        rule(key,p,blank,'portrait9')
+    map_im=map_tile(key,p,indices,scale)
+    if map_im is not None:rule(key,p,map_im,'worldmap')
     im=painted.get((key,p))
     if im is None:im=fallback(key,p)
+    sprite_im=characters.render(key,p)
+    if sprite_im is not None:im=sprite_im;sprite_count+=1
     ix=indices(key)
     if p==0x0f302118 and np.any(ix==1):
         # All phases of the water use the same painted material family.
@@ -143,6 +176,10 @@ for key,p in keys:
         blue=(a[:,:,2]>a[:,:,0]*1.18)&(a[:,:,2]>140)&(a[:,:,1]>100)&~mask
         a[blue,:3]=[40,29,24]
         im=Image.fromarray(a)
+    if p==0x0f382818:
+        a=np.array(im);blue=(a[:,:,2]>a[:,:,0]*1.35)&(a[:,:,2]>a[:,:,1]*1.10)
+        a[blue,:3]=[112,119,65];im=Image.fromarray(a)
+    if p==0x0f382818 and np.all(ix==2):im=flat_stucco
     if p==0x0f2b1b0b and np.all(ix==2):im=control_source.crop((280,220,312,252))
     if p==0x0f221202 and np.all(ix==3):im=reactor_source.crop((400,216,432,248))
     rule(key,p,im)
@@ -158,11 +195,11 @@ for name in ['title','radio']:
         for i,line in enumerate(copyright_lines):d.text((512,840+i*24),line,anchor='mm',font=font,fill=(215,220,225),stroke_width=1,stroke_fill=(6,10,16))
     asset.save(OUT/f'{name}.png')
 scene=Image.open(ROOT/'art/level1-reference.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
-scene.crop((8,8,160,64)).resize((1024,960),Image.Resampling.BICUBIC).save(OUT/'sky.png')
+tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(OUT/'sky.png')
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.1.0 - first level test build','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.2.0 - map, radio and sprite detail pass','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
         '<condition>title,tileAtPosition,0,0,00000000000000000000000000000000,0F20152B,N',
@@ -170,8 +207,10 @@ header=['# Bionic Commando HD v0.1.0 - first level test build','<ver>109','<scal
         '<background>sky.png,1,0,0,0',
         '[title]<background>title.png,1,0,0,10',
         '[radio]<background>radio.png,1,0,0,10']
+header=header[:8]+scene_conditions+header[8:]+scene_backgrounds
 (OUT/'hires.txt').write_text('\n'.join(header+rules)+'\n')
 stats={'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
+       'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
        'tile_rules':len(rules),'unique_atlas_tiles':len(atlas),'scale':4,
        'output_size':[1024,896],'overscan_top_bottom':8}
 (ROOT/'build_stats.json').write_text(json.dumps(stats,indent=2)+'\n')

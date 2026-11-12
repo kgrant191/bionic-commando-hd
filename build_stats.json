@@ -1,9 +1,13 @@
 {
   "builder_tile_palette_keys": 3097,
-  "captured_tile_palette_keys": 3242,
-  "painted_environment_keys": 282,
-  "tile_rules": 4671,
-  "unique_atlas_tiles": 2783,
+  "captured_tile_palette_keys": 3265,
+  "painted_environment_keys": 323,
+  "sprite_material_keys": 648,
+  "portrait_expressions": 8,
+  "portrait_screen_states": 10,
+  "dense_sprite_capture_interval": 15,
+  "tile_rules": 5263,
+  "unique_atlas_tiles": 2963,
   "scale": 4,
   "output_size": [
     1024,
