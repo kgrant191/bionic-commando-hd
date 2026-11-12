@@ -1,3 +1,26 @@
+# Bionic Commando HD v0.3.0 — review build
+
+- Sixteen painted Spencer bodies mapped to 18 selected pose records: standing, running,
+  crouching, firing, hanging, swinging and parachute entry.
+- Painted enemies for 11 selected poses: rifle troops, crouching soldiers,
+  bazooka troops, grenade throwing and the large armored guard.
+- Painted reactor tubing, metal housings and amber core.
+- Olive-brass machinery and tubular rails in the later underground section.
+- Mesen sprite-limit removal to reduce missing strips in crowded combat.
+- Reuse painted scenery during captured background-palette flashes instead
+  of falling back to the earlier tile treatment.
+- Retain the world map, radio expressions, scenery and overscan fix from v0.2.
+
+Native sprite anchors preserve positions, flips and animation timing. Selected
+poses use HD-only additional sprites; the ROM and gameplay are unchanged.
+Other poses retain v0.2's material treatment. Effects, equipment UI, the Area
+Clear figure, remaining architecture and later areas still need art passes.
+Validation is recorded in `validation/replay.json`.
+
+This is a test build, not a GitHub release.
+
+---
+
 # Bionic Commando HD v0.2.0 — review build
 
 - Painted tactical terrain behind the live world-map routes, numbers and units.

@@ -1,6 +1,6 @@
 # Artwork sources
 
-Eleven generated painted reference assets underpin this test build. They were
+Fifteen generated painted reference assets underpin this test build. They were
 made with the built-in image-generation tool, then consumed by the deterministic
 pack builder. Runtime screenshots in the preview are emulator output, not
 concept mockups.
@@ -36,4 +36,16 @@ source rows from top and bottom. Portrait overlays keep a fixed canvas and
 crop rectangle across talking states. Sprite/detail limitations are documented
 in README.md. Actual-emulator preview screenshots are separate from these
 source paintings.
+
+## v0.3.0 sources
+
+| Asset | Use in the pack |
+| --- | --- |
+| spencer-poses-v3.png | Transparent 4×4 sheet based on native pose references. Red hair, sunglasses, olive fatigues, dark boots and steel bionic arm. Each selected pose is fitted to its original opaque bounds and rendered using HD-only additions anchored to the native head. |
+| enemy-poses-v3.png | Transparent 4×3 sheet with eleven occupied cells. Burgundy helmets and uniforms, dark boots and steel weapons. Native standing, crouching, running, throwing, bazooka and armored-guard poses determine bounds and facing. |
+| reactor-machine-v3.png | Aligned close-up painting of blue-steel reactor tubing, gunmetal housings and an amber core, with enemies and projectiles removed. |
+| machinery-reference-v3.png | The later underground room, preserving its original geometry while replacing lime-green machinery with olive-brass cylinders and tubular rails. Native layout landmarks align the source before tile extraction. |
+
+The v0.3 pose sheets provide full runtime figures for selected signatures;
+the earlier action sheet remains the material fallback for other patterns.
 

@@ -6,6 +6,7 @@ import numpy as np
 from scipy.ndimage import map_coordinates
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from characters import CharacterMaterials
+from poses import make_poses
 from scenes import make_scenes, map_tile, MAP_PALETTES, PORTRAIT_PALETTES
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -58,6 +59,11 @@ center=flat_stucco[:,:,:3].mean((0,1));fy,fx=np.mgrid[:32,:32]
 edge=np.minimum.reduce([fx,fy,31-fx,31-fy]);blend=np.clip(edge/4,0,1)[:,:,None]
 flat_stucco[:,:,:3]=center+(flat_stucco[:,:,:3]-center)*.42*blend
 flat_stucco=Image.fromarray(np.clip(flat_stucco,0,255).astype('uint8'))
+machine_raw=np.asarray(Image.open(ROOT/'art/machinery-reference-v3.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS))
+machine_x=np.interp(np.arange(1024),[0,32,160,544,608,800,928,1023],[0,36,170,556,616,809,941,1023])
+machine_y=np.interp(np.arange(960),[0,64,128,320,384,448,512,640,768,928,959],[0,74,135,329,390,455,520,648,779,934,959])
+my,mx=np.meshgrid(machine_y,machine_x,indexing='ij')
+machine_aligned=Image.fromarray(np.stack([map_coordinates(machine_raw[:,:,c],[my,mx],order=1)for c in range(4)],2).astype('uint8'))
 
 # Matching the original screenshot avoids a video-thread offset between the
 # tile metadata and the screenshot. Crops come only from exact pixel matches.
@@ -68,6 +74,7 @@ for n,name,palettes in [
     (7320,'control-reference',{0x0f301000,0x0f2b1b0b,0x0f2c1c0c,0x0f100005}),
     (38400,'reactor-reference',{0x0f221202,0x0f201000,0x0f372716,0x0f332313}),
     (21720,'tower-reference',{0x0f382818,0x0f271505,0x0f211505}),
+    (25800,'machinery-reference-v3',{0x0f21110b,0x0f2a1908,0x0f342303}),
 ]:
     src=np.array(Image.open(CAP/f'{n:05d}.png').convert('RGB'))
     locations={}
@@ -76,8 +83,9 @@ for n,name,palettes in [
             locations.setdefault(src[yy:yy+8,xx:xx+8].tobytes(),(xx,yy))
     art=Image.open(ROOT/f'art/{name}.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
     if name=='tower-reference':art=tower_aligned
+    if name=='machinery-reference-v3':art=machine_aligned
     for key,p in sorted({(e[3],e[4])for e in entries(n)if e[0]==0 and e[4]in palettes}):
-        if name=='tower-reference' and (key,p)in painted:continue
+        if name in {'tower-reference','machinery-reference-v3'} and (key,p)in painted:continue
         ix=indices(key)
         if len(np.unique(ix))==1:continue
         template=np.array(tile(key,p).convert('RGB'))
@@ -94,17 +102,34 @@ for n,name,palettes in [
                 a=np.array(im);a[np.repeat(np.repeat(sky,4,0),4,1),3]=0;im=Image.fromarray(a)
         painted[(key,p)]=im;paint_sources[f'{key}:{p:08X}']=[n,x,y]
 
+# The reactor's close view has a dedicated aligned painting. Match only the
+# machinery rectangle so reused floor/platform patterns keep their prior art.
+reactor_crop=Image.open(ROOT/'art/reactor-machine-v3.png').convert('RGBA').resize((320,704),Image.Resampling.LANCZOS)
+reactor_original=np.array(Image.open(CAP/'38880.png').convert('RGB'))
+reactor_locations={}
+for y in range(24,193):
+    for x in range(176,249):
+        reactor_locations.setdefault(reactor_original[y:y+8,x:x+8].tobytes(),(x,y))
+for key,p in sorted({(e[3],e[4])for e in entries(38880)if e[0]==0 and (e[4]&0xFFFFFF)in {0x332313,0x372716}}):
+    if len(np.unique(indices(key)))==1:continue
+    xy=reactor_locations.get(np.array(tile(key,p).convert('RGB')).tobytes())
+    if xy is None:continue
+    x,y=xy;normal=0x0F000000|(p&0xFFFFFF)
+    painted[key,normal]=reactor_crop.crop(((x-176)*4,(y-24)*4,(x-168)*4,(y-16)*4))
+    paint_sources[f'{key}:{normal:08X}']=[38880,x,y]
+
 # Retain palette changes and damage effects. Detailed fallback colors are only
 # applied to environment palettes, never to HUD, text, portraits or sprites.
 env_palettes={0x0f382818,0x0f271505,0x0f302118,0x0f211505,
               0x0f21110b,0x0f261606,0x0f342303,0x0f301000,
               0x0f2b1b0b,0x0f2c1c0c,0x0f100005,
-              0x0f221202,0x0f372716,0x0f332313}
+              0x0f221202,0x0f372716,0x0f332313,0x0f2a1908}
 color_map={0x38:(207,203,142),0x28:(144,143,82),0x18:(74,76,42),
            0x27:(189,114,57),0x15:(124,52,43),0x05:(48,24,24),
            0x21:(86,150,202),0x11:(36,76,112),0x0b:(18,43,24),
            0x26:(206,117,77),0x16:(133,57,40),0x06:(61,28,24),
-           0x34:(192,185,217),0x23:(117,111,152),0x03:(44,36,69)}
+           0x34:(192,185,217),0x23:(117,111,152),0x03:(44,36,69),
+           0x2a:(155,141,65),0x19:(81,78,30),0x08:(42,37,15)}
 def fallback(key,p):
     im=tile(key,p)
     if p in env_palettes:
@@ -148,6 +173,8 @@ def transparent_ink(key,p):
     a=np.array(tile(key,p));a[indices(key)==0]=0
     return scale(Image.fromarray(a))
 
+pose_conditions,pose_additions,virtual_keys=make_poses(ROOT,keys,rule,blank)
+
 for key,p in keys:
     if (key,p)in title_keys or p>>24==255:rule(key,p,blank,'title')
     if (key,p)in radio_keys:rule(key,p,transparent_ink(key,p)if(key,p)in radio_text else blank,'radio')
@@ -158,6 +185,12 @@ for key,p in keys:
         rule(key,p,blank,'portrait9')
     map_im=map_tile(key,p,indices,scale)
     if map_im is not None:rule(key,p,map_im,'worldmap')
+    # Background color cycles change the first palette byte. Reuse the
+    # painted material and apply the original color flash to index-zero pixels.
+    actual_p=p
+    canonical=0x0F000000|(p&0xFFFFFF)
+    flashing=p>>24 not in {0x0F,0xFF} and (canonical in env_palettes or (key,canonical)in painted)
+    if flashing:p=canonical
     im=painted.get((key,p))
     if im is None:im=fallback(key,p)
     sprite_im=characters.render(key,p)
@@ -182,7 +215,11 @@ for key,p in keys:
     if p==0x0f382818 and np.all(ix==2):im=flat_stucco
     if p==0x0f2b1b0b and np.all(ix==2):im=control_source.crop((280,220,312,252))
     if p==0x0f221202 and np.all(ix==3):im=reactor_source.crop((400,216,432,248))
-    rule(key,p,im)
+    if flashing:
+        a=np.array(im);mask=np.repeat(np.repeat(ix==0,4,0),4,1)
+        a[mask,:3]=PAL[(actual_p>>24)&63,:3];a[mask,3]=255
+        im=Image.fromarray(a)
+    rule(key,actual_p,im)
 
 for name in ['title','radio']:
     asset=Image.open(ROOT/f'art/{name}.png').convert('RGBA').resize((1024,960),Image.Resampling.LANCZOS)
@@ -199,7 +236,7 @@ tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(O
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.2.0 - map, radio and sprite detail pass','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.3.0 - painted characters and reactor','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
         '<condition>title,tileAtPosition,0,0,00000000000000000000000000000000,0F20152B,N',
@@ -207,10 +244,10 @@ header=['# Bionic Commando HD v0.2.0 - map, radio and sprite detail pass','<ver>
         '<background>sky.png,1,0,0,0',
         '[title]<background>title.png,1,0,0,10',
         '[radio]<background>radio.png,1,0,0,10']
-header=header[:8]+scene_conditions+header[8:]+scene_backgrounds
+header=header[:8]+['<options>disableSpriteLimit']+scene_conditions+pose_conditions+header[8:]+scene_backgrounds+pose_additions
 (OUT/'hires.txt').write_text('\n'.join(header+rules)+'\n')
 stats={'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
-       'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
+       'painted_spencer_pose_records':18,'spencer_paintings':16,'painted_enemy_poses':11,'virtual_sprite_keys':len(virtual_keys),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
        'tile_rules':len(rules),'unique_atlas_tiles':len(atlas),'scale':4,
        'output_size':[1024,896],'overscan_top_bottom':8}
 (ROOT/'build_stats.json').write_text(json.dumps(stats,indent=2)+'\n')

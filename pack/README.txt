@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.2.0
-World map, radio portraits and Area 1 detail pass
+BIONIC COMMANDO HD — v0.3.0
+Painted characters, enemies and reactor
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -13,16 +13,21 @@ The directory name must exactly match your ROM's filename without .nes.
 THIS PASS
 Painted map terrain; live routes, numbers, selection and units preserved.
 Eight radio portrait expressions covering four speakers in this recording.
-Spencer/enemy material detail, selected painted faces and metal arm links.
+16 Spencer paintings mapped to 18 pose records; 11 painted enemy poses.
+Standing, running, crouching, grappling, rifle troops, bazookas and armored guard.
+Painted reactor tubing and amber core; scenery retained through palette flashes.
+Olive-brass machinery and rails in the later underground section.
+Material fallbacks for other states and metal arm links.
 Painted tower stucco/coping and atmospheric exterior sky.
 Approved title, radio panel and Area 1 environment art retained.
 4x graphics, 1024 x 896 before aspect-ratio correction.
 Top/bottom overscan trims eight NES pixels each to hide observed edge garbage.
+Sprite-limit removal reduces missing sprite strips during crowded combat.
 
 WORK IN PROGRESS
-Sprites keep the original animated silhouettes; this is a surface-detail
-pass, not a complete frame-by-frame character redraw. Some heads, effects,
-reactor, equipment UI and Area Clear figure still use a smoothed baseline.
+This is a selected-pose pass, not a complete frame-by-frame character redraw.
+Unrecognized poses keep the previous material treatment. Some effects,
+equipment UI and Area Clear figure still use a smoothed baseline.
 Only the supplied opening and Area 1 recording is tested.
 Later areas and unrecorded states are not validated.
 

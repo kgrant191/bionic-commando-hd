@@ -1,4 +1,4 @@
-# Development checkpoint — v0.2.0
+# Development checkpoint — v0.3.0
 
 ## Inputs
 
@@ -107,11 +107,41 @@ Feature branch: feature/map-characters-v0.2.0.
 - Source ZIP packaging explicitly excludes `.git`, Python caches, ROMs, movies
   and binaries.
 
+## v0.3.0 additions
+
+Base local commit: ec4374112fbf7293b361b9c0650d356b4f7a594d.
+Feature branch: feature/level1-art-v0.3.0.
+
+- `capture/spencer-poses.json` and `capture/enemy-poses.json` describe selected
+  native component groups relative to their original sprite anchor.
+- `scripts/poses.py` uses local `spriteNearby` signatures and HD `<addition>`
+  tiles to render complete painted figures. Virtual tiles inherit native OAM
+  direction/priority; conditional blanks hide the corresponding original parts.
+  Unmatched poses retain the prior material fallback. Virtual keys are checked
+  for collisions with captured patterns and have explicit blank fallbacks.
+- Signatures distinguish pattern sets, not one-pixel coordinate differences:
+  Mesen's nearby test checks pixels rather than exact tile origins. Variants
+  with the same pattern set share a painting to prevent partial-pose seams.
+- `validation/*_pose_mapping.json` records anchors, signatures, bounds and
+  virtual keys. These are rendering-only keys, separate from captured keys.
+- `art/reactor-machine-v3.png` aligns to original frame 38880's machinery crop
+  (176,24)-(256,200). Exact screenshot matches select the relevant CHR patterns.
+- Captured background-color flashes reuse normal painted tiles and restore the
+  original flash color over palette-index-zero regions. Sprite palettes remain
+  independent of this environment handling.
+- Two additional native variants share existing Spencer paintings, for 18 pose
+  records from 16 source cells. This extends running/arm transition coverage.
+- `art/machinery-reference-v3.png` supplies the olive-brass material for palette
+  0F2A1908 and previously unmapped underground fixtures from frame 25800.
+  Piecewise landmarks align the painting before exact-pattern crop extraction.
+- `<options>disableSpriteLimit` uses Mesen's adaptive removal of the NES sprite
+  limit. The first HD replay exposed horizontal gaps during crowded combat;
+  the final replay checks this rendering option against the original RAM state.
+
 ## Next art passes
 
-1. Complete individual animation-frame redraws beyond the current material
-   and selected-head pass; retain every move, flip and damage state.
-2. Remaining soldier heads, projectiles, reactor and effects.
+1. Expand painted pose coverage and inspect transitions, flips and damage states.
+2. Remaining enemies, projectiles and effects.
 3. Equipment UI, Area Clear figure and more detailed map vehicles.
 4. Remaining architectural variants; inspect shared tile patterns.
 5. Gather later-area and unrecorded-move recordings before expanding coverage.
