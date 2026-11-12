@@ -1,3 +1,22 @@
+# Bionic Commando HD v0.5.0 — review build
+
+- Add 86 pattern/palette pairs exposed by every-frame metadata from the new cave-to-generator recording. Enemy damage palettes now use the painted bazooka and grenade-thrower poses.
+- Keep recognized actors painted when overlap or clipping hides their normal body-signature tiles. The most common painting for that head supplies the temporary fallback.
+- Paint the final-room armored guard's extended-arm firing pose, previously absent from the pose atlas.
+- Cover another shallow Spencer swing angle with the existing silver-arm artwork.
+- Paint the cave lift assembly, moving platform, gate, crates, elevator rims and remaining repeated rock edges.
+- Complete generator housings and pipe edges; replace the recorded explosion phases and electric-hazard emitter.
+- Retain painted scenery, effects and actor figures during generator shutdown fades.
+- Add an Area Clear panel and mechanical-arm Spencer illustration from the screen's first frame. Native text timing, bonus values and reward content remain live.
+
+Replay coverage includes the new 6,842-frame recording, the earlier 1,081-frame
+door/hit recording and the complete 40,442-frame Area 1 recording. Validation
+compares gameplay RAM, checks pack rules and inspects sampled and targeted frames.
+All 1,650 RAM checkpoints match; all three replays load the pack without errors.
+Unrecorded states and later areas remain untested. No ROM or gameplay changes.
+
+---
+
 # Bionic Commando HD v0.4.2 — review build
 
 - Paint the closed exterior radio-room door with a burgundy steel panel and silver radio badge.

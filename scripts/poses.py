@@ -2,6 +2,7 @@
 import hashlib,itertools,json
 from PIL import Image
 import numpy as np
+from level_polish import fade_palette
 HEAD='000102F17A797A7E52FFFE8F7E67064E'
 
 def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
@@ -53,6 +54,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         sheet=Image.open(root/'art'/rec['asset']).convert('RGBA')if 'asset'in rec else src
         columns=rec.get('columns',4);cell=rec['cell'];cw=sheet.width//columns;ch=sheet.height//rec.get('rows',rows)
         art=sheet.crop((cell%columns*cw,cell//columns*ch,(cell%columns+1)*cw,(cell//columns+1)*ch))
+        if rec.get('mirror_art'):art=ImageOps.mirror(art)
         # Remove very faint isolated matte pixels from the bounding calculation
         # only; keep the generated alpha in the actual art.
         ab=art.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox();assert ab
@@ -82,9 +84,19 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         else:families[family]=rec['id']
     # Native head anchors carry direction/visibility; virtual tiles inherit the
     # same OAM flip/priority. No ROM, RAM or animation values are changed.
+    def palette_pose(im,hp):
+        if hp!=normal_palette:
+            a=np.array(im);a[:,:,:3]=np.clip(a[:,:,:3].astype(float)*[1.15,.72,.65],0,255);im=Image.fromarray(a)
+        fade=next((step for base in (normal_palette,0xFF202A0F,0xFF30160F)
+                   for step in range(1,5) if fade_palette(base,step)==hp),0)
+        if hp==0xFF0F0F0F:fade=4
+        if fade:
+            a=np.array(im);a[:,:,:3]=(a[:,:,:3].astype(float)*[1,.62,.32,.12,0][fade]).astype('uint8');im=Image.fromarray(a)
+        return im
     offset_groups={}
     for head in sorted({r['head']for r in records}):
         group=[r for r in records if r['head']==head]
+        partial=max(group,key=lambda r:r['count'])
         offsets=[]
         for y in range(-24,56,8):
             for x in range(-40,56,8):
@@ -101,9 +113,13 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
                     im=images[rec['id']].crop(((40+x)*4,(24+y)*4,(48+x)*4,(32+y)*4))
                     # Explicit blank cells prevent a less-specific pose from
                     # leaking through a selected pose's transparent areas.
-                    if hp!=normal_palette:
-                        a=np.array(im);a[:,:,:3]=np.clip(a[:,:,:3].astype(float)*[1.15,.72,.65],0,255);im=Image.fromarray(a)
-                    rule(vkey,hp,im,pose_guard(rec,x,y))
+                    rule(vkey,hp,palette_pose(im,hp),pose_guard(rec,x,y))
+                # Visible-body signatures can disappear during OAM overlap or
+                # screen clipping. A live head still identifies the actor.
+                # Keep its most common painted pose until the full signature
+                # becomes visible; never expose native fragments in between.
+                im=images[partial['id']].crop(((40+x)*4,(24+y)*4,(48+x)*4,(32+y)*4))
+                rule(vkey,hp,palette_pose(im,hp),'!title')
                 rule(vkey,hp,blank)
     # Suppress exactly the original components belonging to each recognized
     # figure. The head test prevents shared enemy/projectile patterns vanishing.
@@ -117,6 +133,36 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
                 t=(k,p,guard)
                 if t in hidden:continue
                 hidden.add(t);rule(k,p,blank,guard)
+    # Hide a partial actor's surviving native pieces using the same local head
+    # relationship. The pattern, offset and head must agree; unrelated bullets
+    # and nearby soldiers are not globally blanked.
+    for rec in records:
+        for dx,dy,k,h,v in [(0,0,rec['head'],0,0)]+rec['parts']:
+            hs=-1 if h else 1;vs=-1 if v else 1
+            guard='!title' if k==rec['head'] else '!title&'+condition(-dx*hs,-dy*vs,rec['head'],normal_palette,True)
+            for p in sorted(keypal.get(k,[])):
+                t=(k,p,guard)
+                if t in hidden:continue
+                hidden.add(t);rule(k,p,blank,guard)
+    if actor=='enemy':
+        # If another sprite completely covers the head, no head addition can
+        # be emitted. Preserve the surviving limb's occlusion with a crop of
+        # the painted pose, rather than reverting to a material-tinted NES limb.
+        # Shared Spencer and projectile patterns are deliberately excluded.
+        spencer=json.loads((root/'capture/spencer-poses.json').read_text())
+        shared={r.get('head',HEAD)for r in spencer}|{t[2]for r in spencer for t in r['parts']}
+        fragments=set()
+        for rec in records:
+            for dx,dy,k,h,v in rec['parts']:
+                if k in shared or k in fragments or k in offset_groups:continue
+                fragments.add(k)
+                im=images[rec['id']].crop(((40+dx)*4,(24+dy)*4,(48+dx)*4,(32+dy)*4))
+                if h:im=ImageOps.mirror(im)
+                if v:im=ImageOps.flip(im)
+                a=np.array(im);solid=np.repeat(np.repeat(pattern(k)>0,4,0),4,1)
+                a[~solid,3]=0;im=Image.fromarray(a)
+                for p in sorted(keypal.get(k,[])):
+                    rule(k,p,palette_pose(im,p),'!title')
     (root/f'validation/{actor}_pose_mapping.json').write_text(json.dumps({'poses':stats,'virtual_offsets':offset_groups,'virtual_keys':[[k,f'{p:08X}']for k,p in virtual]},indent=2)+'\n')
     return conds,additions,virtual
 

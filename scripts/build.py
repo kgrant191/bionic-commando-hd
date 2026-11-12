@@ -10,6 +10,7 @@ from poses import make_poses
 from scenes import make_scenes, map_tile, MAP_PALETTES, PORTRAIT_PALETTES
 from equipment import make_equipment
 from closed_door import make_closed_door
+from level_polish import environment as polish_environment, effects as polish_effects, area_clear, fade_aliases
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'pack'; OUT.mkdir(exist_ok=True)
@@ -44,6 +45,7 @@ for path in sorted(CAP.glob('*.tiles')):
     keys.extend((e[3],e[4])for e in entries(int(path.stem)))
 keys.extend((k,int(p,16))for k,p in json.loads((CAP/'sprite-keys.json').read_text()))
 keys.extend((k,int(p,16))for k,p in json.loads((CAP/'feedback-v042/extra-keys.json').read_text()))
+keys.extend((k,int(p,16))for k,p in json.loads((CAP/'feedback-v050/extra-keys.json').read_text()))
 for path in sorted((CAP/'ui').glob('*.tiles')):
     keys.extend((a[3],int(a[4]))for a in (l.split(',')for l in path.read_text().splitlines()))
 keys=list(dict.fromkeys(keys))
@@ -51,6 +53,9 @@ characters=CharacterMaterials(ROOT,indices,scale,tile)
 scene_conditions,scene_backgrounds=make_scenes(ROOT,OUT)
 equipment_conditions,equipment_backgrounds,equipment_hidden,equipment_tile=make_equipment(ROOT,OUT,indices,scale)
 scene_conditions+=equipment_conditions;scene_backgrounds+=equipment_backgrounds
+clear_conditions,clear_backgrounds,clear_guard,clear_tile=area_clear(ROOT,OUT,keys,indices,scale)
+scene_conditions+=clear_conditions;scene_backgrounds+=clear_backgrounds
+effect_tile,effect_pattern_count=polish_effects(ROOT)
 sprite_count=0
 portrait_extra={(k,int(p,16))for k,p in json.loads((CAP/'portrait-extra-keys.json').read_text())}
 
@@ -124,6 +129,10 @@ for key,p in sorted({(e[3],e[4])for e in entries(38880)if e[0]==0 and (e[4]&0xFF
     x,y=xy;normal=0x0F000000|(p&0xFFFFFF)
     painted[key,normal]=reactor_crop.crop(((x-176)*4,(y-24)*4,(x-168)*4,(y-16)*4))
     paint_sources[f'{key}:{normal:08X}']=[38880,x,y]
+
+polished=polish_environment(ROOT,indices,tile)
+painted.update(polished)
+fades=fade_aliases(painted)
 
 # Retain palette changes and damage effects. Detailed fallback colors are only
 # applied to environment palettes, never to HUD, text, portraits or sprites.
@@ -214,6 +223,8 @@ pose_conditions,pose_additions,virtual_keys=make_poses(ROOT,keys,rule,blank)
 closed_conditions,closed_variants,closed_hidden=make_closed_door(ROOT)
 
 for key,p in keys:
+    clear_im=clear_tile(key,p)
+    if clear_im is not None:rule(key,p,clear_im,clear_guard)
     if (key,p)in equipment_hidden:rule(key,p,blank,equipment_hidden[key,p])
     equip_im=equipment_tile(key,p)
     if equip_im is not None:
@@ -230,6 +241,8 @@ for key,p in keys:
     # Background color cycles change the first palette byte. Reuse the
     # painted material and apply the original color flash to index-zero pixels.
     actual_p=p
+    fade_factor=1
+    if (key,p)in fades:p,fade_factor=fades[key,p]
     canonical=0x0F000000|(p&0xFFFFFF)
     flashing=p>>24 not in {0x0F,0xFF} and (canonical in env_palettes or (key,canonical)in painted)
     if flashing:p=canonical
@@ -294,6 +307,8 @@ for key,p in keys:
         im=Image.fromarray(a)
         if blue.any():seam_repairs.append({'key':key,'palette':f'{actual_p:08X}','blue_pixels':int(blue.sum()),'patched_pixels':int(repair.sum())})
     if (key,p)in door_tiles:im=door_tiles[key,p]
+    effect_im=effect_tile(key,p)
+    if effect_im is not None:im=effect_im
     if (key,p)in closed_hidden:im=blank
     for guard,overlay in closed_variants.get((key,p),[]):
         rule(key,actual_p,Image.alpha_composite(im.convert('RGBA'),overlay),guard)
@@ -301,6 +316,8 @@ for key,p in keys:
         a=np.array(im);mask=np.repeat(np.repeat(ix==0,4,0),4,1)
         a[mask,:3]=PAL[(actual_p>>24)&63,:3];a[mask,3]=255
         im=Image.fromarray(a)
+    if fade_factor!=1:
+        a=np.array(im);a[:,:,:3]=(a[:,:,:3].astype(float)*fade_factor).astype('uint8');im=Image.fromarray(a)
     rule(key,actual_p,im)
 
 for name in ['title','radio']:
@@ -318,7 +335,7 @@ tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(O
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.4.2 - closed door layering and enemy hit frames','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.5.0 - cave, combat, generator and Area Clear','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
         '<condition>title,tileAtPosition,0,0,00000000000000000000000000000000,0F20152B,N',
@@ -329,9 +346,11 @@ header=['# Bionic Commando HD v0.4.2 - closed door layering and enemy hit frames
 header=header[:8]+['<options>disableSpriteLimit']+scene_conditions+pose_conditions+closed_conditions+header[8:]+scene_backgrounds+pose_additions
 (OUT/'hires.txt').write_text('\n'.join(header+rules)+'\n')
 stats={'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
-       'painted_spencer_pose_records':20,'spencer_paintings':18,'painted_enemy_poses':11,'virtual_sprite_keys':len(virtual_keys),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
+       'painted_spencer_pose_records':21,'spencer_paintings':18,'painted_enemy_poses':12,'virtual_sprite_keys':len(virtual_keys),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
        'water_patterns':len(water_keys),'lamp_patterns':len(lamp_tiles),
        'door_patterns':len(door_tiles),'exterior_seam_patterns':len(seam_patches),
+       'polished_fixture_patterns':len(polished),'painted_effect_patterns':effect_pattern_count,
+       'environment_fade_aliases':len(fades),'feedback_v050_new_keys':86,
        'closed_door_sprite_patterns':len(closed_hidden),'closed_door_background_cells':sum(map(len,closed_variants.values())),
        'tile_rules':len(rules),'unique_atlas_tiles':len(atlas),'scale':4,
        'output_size':[1024,896],'overscan_top_bottom':8}

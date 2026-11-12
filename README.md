@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.4.2 — closed-door layering and enemy hit frames**
+**v0.5.0 — cave, combat, generator and Area Clear**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening and Are
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.4.2.zip`.
+   `Bionic_Commando_HD_v0.5.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -21,6 +21,14 @@ directory must match its base name exactly.
 
 ## Included in this pass
 
+- Painted cave lift machinery, moving platform, gate, crates, rock edges and elevator rims.
+- Additional recorded enemy hit palettes, including the bazooka soldier, retain HD figures.
+- A new firing pose for the final-room armored guard covers its extended gauntlet attack.
+- A painted fallback for partially occluded actors prevents overlap/clipping from exposing NES body fragments when a complete pose signature is unavailable.
+- An additional shallow swing angle reuses the painted mechanical-arm pose.
+- Completed generator housings and pipe edges, painted explosion phases and electric-hazard emitters.
+- Painted scenery, effects and actors fade with the native generator shutdown sequence.
+- A new Area Clear illustration and results panel, active before the header types in; bonus values and reward text remain live.
 - Painted closed exterior radio-room doors, with Spencer visible in front as he passes in either direction.
 - The recorded enemy hit-palette variants now retain their painted poses and damage tint.
 - A complete painted steel doorway in the communication room, including the previously occluded header and right jamb.
@@ -30,11 +38,11 @@ directory must match its base name exactly.
   enemy speakers. All four speakers retain their talking expressions; the final-room
   officer portrait is covered too.
 - Painted world-map terrain with live routes, area numbers, selection and units.
-- Eighteen Spencer paintings mapped to twenty selected pose records covering standing, running, crouching,
+- Eighteen Spencer paintings mapped to twenty-one selected pose records covering standing, running, crouching,
   firing, hanging, swinging and the parachute entry, with full painted bodies.
 - A clearly exposed steel grappling arm across the painted Spencer poses, with two additional rotated swing poses.
 - Consistent enemy artwork scale across crouching and firing; pose bounds no longer stretch bodies according to weapon length.
-- Eleven selected enemy poses covering rifle troops, crouching soldiers,
+- Twelve selected enemy poses covering rifle troops, crouching soldiers,
   bazooka troops, a grenade thrower and the large armored guard.
 - Palette-specific material fallbacks and metal grapple links for other states.
 - Painted fortress masonry, girders, barrels, cliffs, water, tower stucco
@@ -62,9 +70,10 @@ original game.
 
 Painted poses follow the game's native positions, flips and animation triggers.
 This is a selected-pose pass, not a complete redraw of every animation frame.
-Unrecognized poses keep the previous material treatment; transitions and
-unrecorded moves still need review. Some effects, unrecorded equipment icons and the
-Area Clear figure retain a smoothed baseline. Remaining architectural variants
+Unrecognized head patterns keep the previous material treatment; transitions and
+unrecorded moves still need review. If overlap hides a recognized pose's distinguishing
+body tiles, the most common painting for that head is used until the signature returns.
+Some effects and unrecorded equipment icons retain a smoothed baseline. Remaining architectural variants
 and map vehicle shapes need further art passes.
 The new title appears as a static composition; the original sliding logo and
 small title character animation are not reproduced.
@@ -74,13 +83,13 @@ Weapon-specific artwork can use Mesen equipment-memory conditions or distinct
 native weapon patterns. Machine-gun and bazooka player variants still need
 recordings, verified selection state and dedicated art before they are supported.
 
-The supplied opening/Area 1 recording, closed-door/enemy-hit recording and a controlled equipment-menu replay have been tested. Later areas,
+The supplied opening/Area 1 recording, closed-door/enemy-hit recording, cave-to-generator recording and a controlled equipment-menu replay have been tested. Later areas,
 unrecorded moves and alternate equipment or palette states need recordings
 and validation. Shared tile patterns may affect later areas.
 
 ## Validation and source
 
-See `validation/replay.json` and `validation/replay-feedback-v042.json` for replay coverage and RAM parity results, and
+See `validation/replay.json`, `validation/replay-feedback-v042.json` and `validation/replay-feedback-v050.json` for replay coverage and RAM parity results, and
 `DEVELOPMENT.md` for the reproducible build and capture workflow.
 
 The install ZIP contains only the pack and its install notes. ROMs, emulator

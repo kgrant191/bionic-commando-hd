@@ -77,3 +77,21 @@ military security-door panel, worn burgundy and charcoal steel, center seam,
 inset panels and bolts, small silver mechanical wing/radio badge in the middle
 third; no scenery, lettering, people or political symbols. The builder scales
 it to the native 32 by 24 pixel panel at 4x and maps it under the live actors.
+
+## v0.5.0 sources
+
+All six new sources were made with the built-in image tool. These are the final
+prompt specifications; the deterministic builder slices and fits them to native
+geometry. Preview comparisons are actual emulator frames.
+
+| Asset | Final prompt specification |
+| --- | --- |
+| cave-lift-v5.png | Edit the cave screenshot with all geometry locked. Replace flat purple lift hydraulics with detailed brushed steel, blue-black ribs, pistons, bolts and valves. Replace the blue doorway with a dark steel gate and cyan indicator, and the red platform with rust-red metal and a silver underside. Finish coarse rock edges. Remove Spencer; retain olive wall, red rocks and black voids. |
+| cave-fixtures-v5.png | Preserve the cave screenshot layout and accepted rock, pipe and wall art. Complete flat purple crate edges as riveted gunmetal, elevator strips as silver rims and coarse vertical rock strips as detailed red stone. Remove both figures, no added objects or text. |
+| reactor-reference-v5.png | Edit the generator screenshot at fixed geometry. Remove characters, orb and explosions. Complete purple housing/pipe slivers and unfinished blue vent panels with adjacent painted steel materials. Retain amber core, gold platforms, navy walls and black voids. |
+| effects-v5.png | Four transparent cells: compact orange-white impact, expanding radial fireball, dissipating blast ring with an open center, and symmetrical ceiling-mounted steel electric emitter with cyan coil. Crisp painted arcade style, separate complete silhouettes, no labels or background. |
+| area-clear-spencer-v5.png | Recreate only the original victory-screen figure as a full-body transparent painted cutout. Orange swept-back hair, sunglasses, green fatigues, black boots, radio and shoulder bazooka; visibly robotic silver left arm with articulated metal fingers. Relaxed airborne victory pose, detailed 1990s arcade illustration, no text or scene. |
+| armored-guard-fire-v5.png | Use the existing stocky armored guard as the identity reference. One full-body transparent pose: burgundy helmet and armor, feet apart, torso facing forward, head turned left, one arm extended horizontally left with a silver mechanical gauntlet and short wrist barrel, the other fist at the torso. Preserve proportions and painted arcade style; no projectile, floor, labels or other figures. |
+
+The shallow swing addition reuses and reflects the existing v0.4 swing painting.
+The results-screen frame and live typography are drawn by the pack builder.

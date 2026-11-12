@@ -1,0 +1,944 @@
+{
+  "00002CA6ACA6ACA600005CDEDCDEDCDE:0F342303": [
+    60,
+    59,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "000034653565356500003A7B3B7B3B7B:0F342303": [
+    60,
+    99,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "000178787878787800FF878787878787:0F342303": [
+    60,
+    91,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "000F7E7E7E7E7E7E000F777777777777:0F342303": [
+    60,
+    59,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "004F6363004F636300707C7C00707C7C:0F342303": [
+    60,
+    107,
+    160,
+    "cave-lift-v5.png"
+  ],
+  "005F67000F161616006078000F191919:0F342303": [
+    60,
+    107,
+    176,
+    "cave-lift-v5.png"
+  ],
+  "00801E1E1E1E1E1E00FFE1E1E1E1E1E1:0F342303": [
+    60,
+    67,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "00BFA04A555F544900BFBFF5EAE0EBF6:0F342303": [
+    60,
+    107,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "00C0108880E4C4A400C0F078781C3C5C:0F342303": [
+    60,
+    115,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "00E2C6C600F6C6C6001E3E3E000E3E3E:0F342303": [
+    60,
+    115,
+    160,
+    "cave-lift-v5.png"
+  ],
+  "00EA8A0000889494001E7E0000889C9C:0F342303": [
+    60,
+    115,
+    176,
+    "cave-lift-v5.png"
+  ],
+  "00F07E7E7E7E7E7E00F0EEEEEEEEEEEE:0F342303": [
+    60,
+    99,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "0103FFFFFFFFFFFFFEFD030303030303:0F342303": [
+    60,
+    83,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "0730233523352335073F3C3A3C3A3C3A:0F342303": [
+    60,
+    107,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "07FFEAE5FAF5FAF5FF000502050A050A:0F342303": [
+    60,
+    83,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "0B070B070B070B07FFFFFFFFFFFFFFFF:0F342303": [
+    60,
+    91,
+    128,
+    "cave-lift-v5.png"
+  ],
+  "0FC39180D1E0D1E00FFCDC99FEFFFEFF:0F342303": [
+    60,
+    67,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "16161616001616001919191900191900:0F342303": [
+    60,
+    107,
+    184,
+    "cave-lift-v5.png"
+  ],
+  "1E1E1E1E1E1EFF00E1E1E1E1E1E1FF00:0F342303": [
+    60,
+    67,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "23352335233523353C3A3C3A3C3A3C3A:0F342303": [
+    60,
+    107,
+    114,
+    "cave-lift-v5.png"
+  ],
+  "2A2A2A2A2A2A2A2A3636363636363636:0F342303": [
+    60,
+    99,
+    127,
+    "cave-lift-v5.png"
+  ],
+  "2E732349133913393F742C5E1C3E1C3E:0F342303": [
+    60,
+    75,
+    136,
+    "cave-lift-v5.png"
+  ],
+  "33990C1AD2A1A44EF379FCDE32595CBE:0F342303": [
+    60,
+    83,
+    128,
+    "cave-lift-v5.png"
+  ],
+  "3561004E613E002A3B7F00717F3E0036:0F342303": [
+    60,
+    99,
+    120,
+    "cave-lift-v5.png"
+  ],
+  "54545454545454546C6C6C6C6C6C6C6C:0F342303": [
+    60,
+    59,
+    127,
+    "cave-lift-v5.png"
+  ],
+  "5475E89D98070027FFF6EF9E9F070038:0F342303": [
+    60,
+    107,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "5FAF5FAF50BF78E7A050A050AF5FB867:0F342303": [
+    60,
+    75,
+    120,
+    "cave-lift-v5.png"
+  ],
+  "74CEC492C89CC89CFC2E347A387C387C:0F342303": [
+    60,
+    83,
+    136,
+    "cave-lift-v5.png"
+  ],
+  "787878787878FF00878787878787FF00:0F342303": [
+    60,
+    91,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "7E7E7E7E7E6EF000EEEEEEEEEEFEF000:0F342303": [
+    60,
+    99,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "7E7E7E7E7E760F0077777777777F0F00:0F342303": [
+    60,
+    59,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "80C0FFFFFFFFFFFF7FBFC0C0C0C0C0C0:0F342303": [
+    60,
+    75,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "8B078B078B078B077FFF7FFF7FFF7FFF:0F342303": [
+    60,
+    91,
+    116,
+    "cave-lift-v5.png"
+  ],
+  "94949494149494009C9C9C9C1C9C9C00:0F342303": [
+    60,
+    115,
+    184,
+    "cave-lift-v5.png"
+  ],
+  "AC860072867C0054DCFE008EFE7C006C:0F342303": [
+    60,
+    59,
+    120,
+    "cave-lift-v5.png"
+  ],
+  "C4A4C4A4C4F000E63C5C3C5C3CF0001E:0F342303": [
+    60,
+    115,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "C4ACC4ACC4ACC4AC3C5C3C5C3C5C3C5C:0F342303": [
+    60,
+    115,
+    114,
+    "cave-lift-v5.png"
+  ],
+  "CC9930584B852271CF9E3F7B4C9A3D7E:0F342303": [
+    60,
+    75,
+    128,
+    "cave-lift-v5.png"
+  ],
+  "D0E0D0E0D0E0D0E0FFFFFFFFFFFFFFFF:0F342303": [
+    60,
+    67,
+    128,
+    "cave-lift-v5.png"
+  ],
+  "D1E0D1E0D1E0D1E0FEFFFEFFFEFFFEFF:0F342303": [
+    60,
+    67,
+    116,
+    "cave-lift-v5.png"
+  ],
+  "E00CC4ACC4ACC4ACE0FC3C5C3C5C3C5C:0F342303": [
+    60,
+    115,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "E0FF57A75FAF5FAFFF00A040A050A050:0F342303": [
+    60,
+    75,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "F0C389018B078B07F03F3B997FFF7FFF:0F342303": [
+    60,
+    91,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "FAF5FAF50AFD1EE7050A050AF5FA1DE6:0F342303": [
+    60,
+    83,
+    120,
+    "cave-lift-v5.png"
+  ],
+  "FFFFFFFFFFFF03010303030303030301:0F342303": [
+    60,
+    83,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "FFFFFFFFFFFFC080C0C0C0C0C0C0C080:0F342303": [
+    60,
+    75,
+    104,
+    "cave-lift-v5.png"
+  ],
+  "0007070D0B0B0B0B0007070F0D0D0D0D:0F21110B": [
+    60,
+    116,
+    72,
+    "cave-lift-v5.png"
+  ],
+  "3F9FCF8793F9FCFE3F9FCFC793F9FCFE:0F21110B": [
+    60,
+    123,
+    64,
+    "cave-lift-v5.png"
+  ],
+  "7F8181818181818101FEC2FEC2FEFEFE:0F21110B": [
+    60,
+    116,
+    64,
+    "cave-lift-v5.png"
+  ],
+  "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0:0F21110B": [
+    60,
+    92,
+    88,
+    "cave-lift-v5.png"
+  ],
+  "FE81818181818181807F437F437F7F7F:0F21110B": [
+    60,
+    92,
+    64,
+    "cave-lift-v5.png"
+  ],
+  "FFFFFFFFFFFFFF7FFFFFFFFFFFFFFF7F:0F21110B": [
+    60,
+    123,
+    72,
+    "cave-lift-v5.png"
+  ],
+  "00789D4ECD1FA5D30078FDBF3EF8FAEC:0F261606": [
+    60,
+    155,
+    96,
+    "cave-lift-v5.png"
+  ],
+  "65EED6C9C36F39037AF1E9F7FE7E3A00:0F261606": [
+    60,
+    155,
+    112,
+    "cave-lift-v5.png"
+  ],
+  "A657E3C7A74A94F6DDAF1F3C58B5FBF9:0F261606": [
+    960,
+    137,
+    170,
+    "cave-fixtures-v5.png"
+  ],
+  "007F7F7F40407F7F007F7F7F7F407F7F:0F342303": [
+    960,
+    41,
+    138,
+    "cave-fixtures-v5.png"
+  ],
+  "007F7F7F40607F7F007F7F7F7F607F7F:0F342303": [
+    960,
+    41,
+    130,
+    "cave-fixtures-v5.png"
+  ],
+  "00FEFEFE0202FEFE00FEFEFEFE02FEFE:0F342303": [
+    960,
+    49,
+    138,
+    "cave-fixtures-v5.png"
+  ],
+  "00FEFEFE0206FEFE00FEFEFEFE06FEFE:0F342303": [
+    960,
+    49,
+    130,
+    "cave-fixtures-v5.png"
+  ],
+  "0202020202FEFE00FEFEFEFEFE02FE00:0F342303": [
+    960,
+    193,
+    90,
+    "cave-fixtures-v5.png"
+  ],
+  "40404040407F7F003F3F3F3F3F007F00:0F342303": [
+    960,
+    185,
+    90,
+    "cave-fixtures-v5.png"
+  ],
+  "7365CF3F976172CF7C7AF03FE87E7DF0:0F342303": [
+    960,
+    57,
+    154,
+    "cave-fixtures-v5.png"
+  ],
+  "CEA6F3FCE9C6AEF33E5E0FFC173E5E0F:0F342303": [
+    960,
+    65,
+    154,
+    "cave-fixtures-v5.png"
+  ],
+  "FF00FFFF00FF007FFFFF0000FFFF007F:0F342303": [
+    960,
+    185,
+    82,
+    "cave-fixtures-v5.png"
+  ],
+  "FF00FFFF00FF00FEFFFF0000FFFF00FE:0F342303": [
+    960,
+    193,
+    82,
+    "cave-fixtures-v5.png"
+  ],
+  "FFAF6573CF3F9765FFD07A7CF03FE87A:0F342303": [
+    960,
+    57,
+    146,
+    "cave-fixtures-v5.png"
+  ],
+  "FFF5C6AEF3FCE9A6FF0B3E5E0FFC175E:0F342303": [
+    960,
+    65,
+    146,
+    "cave-fixtures-v5.png"
+  ],
+  "051A562871D29C0BFFF5E9D7CF2E5CEB:0F261606": [
+    960,
+    145,
+    50,
+    "cave-fixtures-v5.png"
+  ],
+  "A6776B93C3F69CC05E8F97EF7F7E5C00:0F261606": [
+    960,
+    145,
+    178,
+    "cave-fixtures-v5.png"
+  ],
+  "D23D1A9D2A98FD16ED4265E2D5FFFE6F:0F261606": [
+    960,
+    137,
+    50,
+    "cave-fixtures-v5.png"
+  ],
+  "D5A245AAC4A8D57FEAFDFAFDFBFEFDFF:0F261606": [
+    960,
+    137,
+    186,
+    "cave-fixtures-v5.png"
+  ],
+  "DAE48C57CD4BD5AAABDF73A832B42A55:0F261606": [
+    960,
+    137,
+    178,
+    "cave-fixtures-v5.png"
+  ],
+  "F8AC46DA2296ECBC387CFEEE5EFEFCCC:0F261606": [
+    960,
+    145,
+    186,
+    "cave-fixtures-v5.png"
+  ],
+  "4A1FFBF164121317BDF0E46EBBFDFFFF:0F261606": [
+    960,
+    145,
+    170,
+    "cave-fixtures-v5.png"
+  ],
+  "00000000000000FFFFFFFFFFFFFFFFFF:0F332313": [
+    6180,
+    188,
+    88,
+    "reactor-reference-v5.png"
+  ],
+  "00003F3F7F0000FFFF80BFBF80FFFFFF:0F332313": [
+    6180,
+    196,
+    88,
+    "reactor-reference-v5.png"
+  ],
+  "0000E0E0E00000FFFF1FFFFF1FFFFFFF:0F332313": [
+    6180,
+    204,
+    88,
+    "reactor-reference-v5.png"
+  ],
+  "000101010003030B000101010003030B:0F332313": [
+    6180,
+    180,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "000A080A0A007F8200FB18DBDB007F82:0F332313": [
+    6180,
+    220,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "000D0C0D0D00FEC000FD0CEDED00FEC0:0F332313": [
+    6180,
+    212,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "00122A505151515100122E5C59595959:0F332313": [
+    6180,
+    180,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "0048540A8A8A8A8A0048743A9A9A9A9A:0F332313": [
+    6180,
+    236,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "005010505000FE4100DF18DBDB00FE41:0F332313": [
+    6180,
+    196,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "0080808000C0C0D00080808000C0C0D0:0F332313": [
+    6180,
+    236,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "00B030B0B0007F0300BF30B7B7007F03:0F332313": [
+    6180,
+    204,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "037F00B0B030B000037F00B7B730BF00:0F332313": [
+    6180,
+    188,
+    56,
+    "reactor-reference-v5.png"
+  ],
+  "0B030300010101000B03030001010100:0F332313": [
+    6180,
+    180,
+    72,
+    "reactor-reference-v5.png"
+  ],
+  "26262A6A5D981C42E5E5EDEDDB961C42:0F332313": [
+    6180,
+    244,
+    48,
+    "reactor-reference-v5.png"
+  ],
+  "3173E0C080003300F1F3E0C383133300:0F332313": [
+    6180,
+    172,
+    56,
+    "reactor-reference-v5.png"
+  ],
+  "3B764444640077773B77666666007777:0F332313": [
+    6180,
+    188,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "3C634DE6B7535B4B3C7F73F9B8DCDCCC:0F332313": [
+    6180,
+    220,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "3CC6B267EDCADAD23CFECE9F1D3B3B33:0F332313": [
+    6180,
+    196,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "41FE00505010500041FE00DBDB18DF00:0F332313": [
+    6180,
+    180,
+    56,
+    "reactor-reference-v5.png"
+  ],
+  "421C985D6A2A2626421C96DBEDEDE5E5:0F332313": [
+    6180,
+    228,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "423819BA56546464423869DBB7B7A7A7:0F332313": [
+    6180,
+    188,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "49797949497979494A4A4A7A4A4A4A7A:0F332313": [
+    6180,
+    212,
+    32,
+    "reactor-reference-v5.png"
+  ],
+  "4B5B53B7E64D633CCCDCDCB8F9737F3C:0F332313": [
+    6180,
+    220,
+    48,
+    "reactor-reference-v5.png"
+  ],
+  "4E4E4E4EAE6D319EF1F1F1F1B1733F9E:0F332313": [
+    6180,
+    212,
+    48,
+    "reactor-reference-v5.png"
+  ],
+  "51515151502A1200595959595C2E1200:0F332313": [
+    6180,
+    180,
+    64,
+    "reactor-reference-v5.png"
+  ],
+  "535043440B172F7E5B5043470C183071:0F332313": [
+    6180,
+    164,
+    48,
+    "reactor-reference-v5.png"
+  ],
+  "63636363636363634343434343434343:0F332313": [
+    6180,
+    228,
+    96,
+    "reactor-reference-v5.png"
+  ],
+  "64645456BA193842A7A7B7B7DB693842:0F332313": [
+    6180,
+    188,
+    64,
+    "reactor-reference-v5.png"
+  ],
+  "7272727275B68C798F8F8F8F8DCEFC79:0F332313": [
+    6180,
+    188,
+    48,
+    "reactor-reference-v5.png"
+  ],
+  "73737373737377FB8F8F8F8F8F8F8FFF:0F332313": [
+    6180,
+    236,
+    88,
+    "reactor-reference-v5.png"
+  ],
+  "77770064444476007777006666667700:0F332313": [
+    6180,
+    188,
+    72,
+    "reactor-reference-v5.png"
+  ],
+  "798CB6757272727279FCCE8D8F8F8F8F:0F332313": [
+    6180,
+    204,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "827F000A0A080A00827F00DBDB18FB00:0F332313": [
+    6180,
+    220,
+    56,
+    "reactor-reference-v5.png"
+  ],
+  "8A8A8A8A0A5448009A9A9A9A3A744800:0F332313": [
+    6180,
+    236,
+    64,
+    "reactor-reference-v5.png"
+  ],
+  "9090909090909090D8D8D8D8D8D8D8D8:0F332313": [
+    6180,
+    236,
+    96,
+    "reactor-reference-v5.png"
+  ],
+  "929E9E92929E9E925252525E5252525E:0F332313": [
+    6180,
+    172,
+    32,
+    "reactor-reference-v5.png"
+  ],
+  "95959595959595955E5E5E5E5E5E5E5E:0F332313": [
+    6180,
+    164,
+    32,
+    "reactor-reference-v5.png"
+  ],
+  "9E316DAE4E4E4E4E9E3F73B1F1F1F1F1:0F332313": [
+    6180,
+    212,
+    152,
+    "reactor-reference-v5.png"
+  ],
+  "A5258C4623831310E6268FC7E363F3F0:0F332313": [
+    6180,
+    172,
+    48,
+    "reactor-reference-v5.png"
+  ],
+  "A9A9A9A9A9A9A9A97A7A7A7A7A7A7A7A:0F332313": [
+    6180,
+    220,
+    32,
+    "reactor-reference-v5.png"
+  ],
+  "BC7C924B67371E00CBE79F4F67371E00:0F332313": [
+    6180,
+    164,
+    56,
+    "reactor-reference-v5.png"
+  ],
+  "C0FE000D0D0C0D00C0FE00EDED0CFD00:0F332313": [
+    6180,
+    212,
+    56,
+    "reactor-reference-v5.png"
+  ],
+  "C6C6C6C6C6C6C6C6C2C2C2C2C2C2C2C2:0F332313": [
+    6180,
+    188,
+    104,
+    "reactor-reference-v5.png"
+  ],
+  "CECECECECECEEEDFF1F1F1F1F1F1F1FF:0F332313": [
+    6180,
+    180,
+    136,
+    "reactor-reference-v5.png"
+  ],
+  "CFCECECECECECECEF0F1F1F1F1F1F1F1:0F332313": [
+    6180,
+    180,
+    80,
+    "reactor-reference-v5.png"
+  ],
+  "D0C0C00080808000D0C0C00080808000:0F332313": [
+    6180,
+    236,
+    72,
+    "reactor-reference-v5.png"
+  ],
+  "D2DACAED67B2C63C333B3B1D9FCEFE3C:0F332313": [
+    6180,
+    180,
+    48,
+    "reactor-reference-v5.png"
+  ],
+  "DC6E22222600EEEEDCEE66666600EEEE:0F332313": [
+    6180,
+    228,
+    144,
+    "reactor-reference-v5.png"
+  ],
+  "EEEE002622226E00EEEE00666666EE00:0F332313": [
+    6180,
+    244,
+    56,
+    "reactor-reference-v5.png"
+  ],
+  "F3737373737373730F8F8F8F8F8F8F8F:0F332313": [
+    6180,
+    236,
+    80,
+    "reactor-reference-v5.png"
+  ],
+  "FF0000000000000000FFFFFFFFFFFFFF:0F332313": [
+    6180,
+    187,
+    80,
+    "reactor-reference-v5.png"
+  ],
+  "FF0000003F3F7F0000FFFF80BFBF80FF:0F332313": [
+    6180,
+    196,
+    80,
+    "reactor-reference-v5.png"
+  ],
+  "FF000000E0E0E00000FFFF1FFFFF1FFF:0F332313": [
+    6180,
+    204,
+    80,
+    "reactor-reference-v5.png"
+  ],
+  "0000C020101090D00000C020101090D0:0F372716": [
+    6180,
+    220,
+    112,
+    "reactor-reference-v5.png"
+  ],
+  "003E3C003830202000FEFC00F8F02020:0F372716": [
+    6180,
+    220,
+    96,
+    "reactor-reference-v5.png"
+  ],
+  "00F8F800F8F800F000070700070700F0:0F372716": [
+    6180,
+    212,
+    96,
+    "reactor-reference-v5.png"
+  ],
+  "05050474047402710505047404740271:0F372716": [
+    6180,
+    196,
+    104,
+    "reactor-reference-v5.png"
+  ],
+  "1202C214C0E8F4F51606C6F430180C0D:0F372716": [
+    6180,
+    212,
+    104,
+    "reactor-reference-v5.png"
+  ],
+  "A0A0202E202E408EA0A0202E202E408E:0F372716": [
+    6180,
+    220,
+    104,
+    "reactor-reference-v5.png"
+  ],
+  "D0002030003C3E00D000E0F000FCFE00:0F372716": [
+    6180,
+    220,
+    120,
+    "reactor-reference-v5.png"
+  ],
+  "E200F8F800F8F800E600070700070700:0F372716": [
+    6180,
+    212,
+    120,
+    "reactor-reference-v5.png"
+  ],
+  "F0F0EBC014C2020208081B30F4C60606:0F372716": [
+    6180,
+    212,
+    112,
+    "reactor-reference-v5.png"
+  ],
+  "000002FE0606161600FEFE06FEFE0E4E:0F221202": [
+    6180,
+    12,
+    96,
+    "reactor-reference-v5.png"
+  ],
+  "0000407F70707070007F7F606F6F6869:0F221202": [
+    6180,
+    4,
+    96,
+    "reactor-reference-v5.png"
+  ],
+  "0000BFC0C4C0D0C000FFC0FFFCF3F0E6:0F221202": [
+    6180,
+    4,
+    128,
+    "reactor-reference-v5.png"
+  ],
+  "0000FA0626160E6E00FE06FE1E8E0606:0F221202": [
+    6180,
+    12,
+    128,
+    "reactor-reference-v5.png"
+  ],
+  "6E0E1626C606060206060E1E3EFE0602:0F221202": [
+    6180,
+    12,
+    136,
+    "reactor-reference-v5.png"
+  ],
+  "73707370737073706869686968696868:0F221202": [
+    6180,
+    4,
+    112,
+    "reactor-reference-v5.png"
+  ],
+  "73707370737073706869686968696869:0F221202": [
+    6180,
+    4,
+    104,
+    "reactor-reference-v5.png"
+  ],
+  "77707070705F7F00686F696F6F7F7F00:0F221202": [
+    6180,
+    4,
+    120,
+    "reactor-reference-v5.png"
+  ],
+  "C0D5C0C4C0C0C080E0F0F0FCFFFFC080:0F221202": [
+    6180,
+    4,
+    136,
+    "reactor-reference-v5.png"
+  ],
+  "F606060606FAFE000EFE8EFEFEFEFE00:0F221202": [
+    6180,
+    12,
+    120,
+    "reactor-reference-v5.png"
+  ],
+  "F616F616F616F6160E4E0E4E0E4E0E0E:0F221202": [
+    6180,
+    12,
+    112,
+    "reactor-reference-v5.png"
+  ],
+  "F616F616F616F6160E4E0E4E0E4E0E4E:0F221202": [
+    6180,
+    12,
+    104,
+    "reactor-reference-v5.png"
+  ],
+  "FFFF00FF00FFFFFFFFFF00FFFFFFFFFF:0F221202": [
+    6180,
+    20,
+    96,
+    "reactor-reference-v5.png"
+  ],
+  "00E0E0B0D0D0D0D000E0E0F0B0B0B0B0:0F21110B": [
+    60,
+    92,
+    72,
+    "cave-lift-v5.png"
+  ],
+  "00F7F7FF7F77B7C000E7C7838347A7C0:0F21110B": [
+    60,
+    100,
+    64,
+    "cave-lift-v5.png"
+  ],
+  "00EFEFFFFEEEED0300E7E3C1C1E2E503:0F21110B": [
+    60,
+    108,
+    64,
+    "cave-lift-v5.png"
+  ],
+  "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D:0F21110B": [
+    60,
+    116,
+    88,
+    "cave-lift-v5.png"
+  ],
+  "007F7F7F40607F7F007F7F7F7F607F7F:0F372716": [
+    3660,
+    64,
+    176,
+    "cave-lift-v5.png"
+  ],
+  "007F7F7F40407F7F007F7F7F7F407F7F:0F372716": [
+    3660,
+    64,
+    184,
+    "cave-lift-v5.png"
+  ],
+  "00FEFEFE0206FEFE00FEFEFEFE06FEFE:0F372716": [
+    3660,
+    72,
+    176,
+    "cave-lift-v5.png"
+  ],
+  "00FEFEFE0202FEFE00FEFEFEFE02FEFE:0F372716": [
+    3660,
+    72,
+    184,
+    "cave-lift-v5.png"
+  ]
+}

@@ -10,6 +10,7 @@ parser.add_argument('--home',type=Path,required=True)
 parser.add_argument('--log',type=Path,required=True)
 parser.add_argument('--frames',type=int,default=40442)
 parser.add_argument('--report',default='replay.json')
+parser.add_argument('--checkpoint-step',type=int,default=None)
 args=parser.parse_args()
 root=Path(__file__).resolve().parents[1];pack=root/'pack'
 rules=(pack/'hires.txt').read_text().splitlines()
@@ -39,8 +40,9 @@ stop_marker=int((args.home/'done').read_text())
 assert args.frames<=stop_marker<=args.frames+2 # A pause request may finish one extra frame.
 assert (args.hd/f'{args.frames:05d}.ram').is_file()
 original=[p for p in sorted(args.original.glob('*.ram')) if int(p.stem)<=args.frames]
-if args.frames==40442:assert len(original)==339, len(original)
-else:assert len(original)==args.frames, 'Short feedback recordings require every-frame checkpoints'
+step=args.checkpoint_step or (120 if args.frames==40442 else 1)
+expected={1,args.frames}|set(range(step,args.frames+1,step))
+assert {int(p.stem)for p in original}==expected,'Incomplete native checkpoint set'
 mismatches=[]
 for p in original:
     q=args.hd/p.name
@@ -60,7 +62,7 @@ assert all(a in set(definitions)and v in set(definitions)for a,v in additions)
 assert len(virtual_keys)==stats['virtual_sprite_keys']
 for v in virtual_keys:
     assert any(l.startswith('<tile>')and tuple(l[6:].split(',')[1:3])==v for l in rules),'Missing virtual fallback'
-report={'version':'0.4.2','movie_input_frames':args.frames,
+report={'version':'0.5.0','movie_input_frames':args.frames,'checkpoint_interval':step,
         'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),

@@ -1,4 +1,4 @@
-# Development checkpoint — v0.4.2
+# Development checkpoint — v0.5.0
 
 ## Inputs
 
@@ -218,20 +218,62 @@ Branch: fix/closed-door-hit-frames-v0.4.2.
   replay-feedback-v042.json` with original/HD/home/log arguments as usual.
   Original and HD RAM are captured every frame for this recording. The full
   movie keeps its 120-frame checkpoints and writes `validation/replay.json`.
+
 - `validation/v042-art-regression.json` confirms that all 4,093 existing
   default tile images are pixel-identical to v0.4.1. The changes add new
   keys and conditional rules instead of repainting unrelated defaults.
-- The current comparison preview uses this short recording: frames 440, 480
+- The v0.4.2 comparison preview uses this short recording: frames 440, 480
   and 154, with the same crop and zoom in v0.4.1 and v0.4.2. Pass those folders
   to `scripts/package.py --before OLD --screenshots NEW --output OUTPUT`.
 - The cumulative source bundle still uses the pushed v0.3.0 commit
   0c153e4f056eb2ba5c8e8872d5116ffced281534 as its prerequisite.
 
+## v0.5.0 cave, combat, generator and results
+
+Base commit: 1b9e93f349fbc10326a48c8ab925824dc6976786.
+Branch: feature/cave-generator-polish-v0.5.0.
+
+- `Bionic Commando (USA)(3).mmo` contains 6,842 inputs, from the cave lift through
+  Area Clear. Every-frame native tile metadata finds 86 new pattern/palette pairs.
+  `capture/feedback-v050/extra-keys.json` and `new-keys-audit.json` retain their
+  inventory, first/last observations and counts without including the movie.
+- `scripts/level_polish.py` extracts fixture tiles from exact native screenshot
+  matches. The cave gate uses its full metadata grid to include cells hidden by
+  Spencer. The moving lift and effects remain ordinary flipped OAM components.
+- Generator palette fades alias to painted normal materials, with decreasing
+  brightness at each native palette step. All-black actor palettes stay black.
+- A recognized actor head can outlive its visible body-signature tiles during
+  crowded OAM overlap. Virtual additions use the most frequent head-matched pose
+  as a last-resort painting; local head/offset tests suppress surviving native
+  fragments. Full signatures retain priority. This does not alter collision or
+  animation state, but may temporarily approximate a partly obscured pose.
+  When the head itself is completely hidden, surviving enemy-only body patterns
+  use masked crops from the painting; shared Spencer/projectile keys retain their
+  existing rules. This avoids native-colored limb fragments behind other actors.
+- Spencer pose 102 covers the additional shallow swing head from 26 metadata
+  observations, using a reflected source cell from `spencer-swing-v4.png`.
+- Enemy pose 11 supplies the armored guard's extended-gauntlet attack. Its
+  complete 13-component signature was observed 300 times in the new recording;
+  the additional painting uses the same source-cell body scale as the old sheet.
+- The Area Clear blank-tile/palette condition is active before the header types
+  in. This pair occurs only in Area Clear in the captured inputs. Header-letter
+  conditions are too late and expose the old victory figure during the pause.
+  Text is rendered per native glyph, and unknown glyphs retain transparent ink.
+- The new replay uses 30-frame RAM checkpoints plus first/last frames. Validate
+  with `--frames 6842 --checkpoint-step 30 --report replay-feedback-v050.json`.
+  The door/hit replay retains every-frame checks; the full movie retains 120-frame
+  checks. Targeted screenshots include single-frame hits, overlap cases, swing,
+  the shutdown fade and the first Area Clear frames.
+- The v0.5.0 comparison preview uses frames 60, 960, 3276, 6180 and 6842
+  from the cave-to-generator recording, at matching crops in v0.4.2 and v0.5.0.
+- The source bundle remains cumulative from the last confirmed pushed v0.3.0
+  commit, 0c153e4f056eb2ba5c8e8872d5116ffced281534.
+
 ## Next art passes
 
 1. Expand painted pose coverage and inspect transitions, flips and damage states.
 2. Remaining enemies, projectiles and effects.
-3. Remaining equipment icons, Area Clear figure and more detailed map vehicles.
+3. Remaining equipment icons and more detailed map vehicles.
 4. Remaining architectural variants; inspect shared tile patterns.
 5. Gather later-area and unrecorded-move recordings before expanding coverage.
 

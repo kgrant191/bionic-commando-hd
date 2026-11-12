@@ -13,27 +13,33 @@ font_path='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 title_font=ImageFont.truetype(font_path,32)
 small_font=ImageFont.truetype(font_path,17)
 label_font=ImageFont.truetype(font_path,20)
-canvas=Image.new('RGB',(1360,1328),(13,19,26));d=ImageDraw.Draw(canvas)
-d.text((24,18),'BIONIC COMMANDO HD — v0.4.2',font=title_font,fill=(241,210,131))
-d.text((24,66),'v0.4.1 — BEFORE',font=label_font,fill=(182,193,205))
-d.text((696,66),'v0.4.2 — AFTER',font=label_font,fill=(241,210,131))
-for row,(n,box,label)in enumerate([(440,(416,440,800,632),'CLOSED EXTERIOR RADIO-ROOM DOOR'),(480,(416,440,800,632),'SPENCER STAYS IN FRONT WHEN PASSING'),(154,(584,456,872,600),'ENEMY HIT FLASH — HD POSE RETAINED')]):
-    y=128+row*400
+canvas=Image.new('RGB',(1360,3168),(13,19,26));d=ImageDraw.Draw(canvas)
+d.text((24,18),'BIONIC COMMANDO HD — v0.5.0',font=title_font,fill=(241,210,131))
+d.text((24,66),'v0.4.2 — BEFORE',font=label_font,fill=(182,193,205))
+d.text((696,66),'v0.5.0 — AFTER',font=label_font,fill=(241,210,131))
+comparisons=[(60,None,'CAVE LIFT, MOVING PLATFORM AND GATE'),
+             (960,None,'CAVE CRATES, ROCK EDGES AND ELEVATOR RIMS'),
+             (3276,(256,408,640,744),'BAZOOKA SOLDIER HIT FLASH — PAINTED POSE RETAINED'),
+             (6180,None,'GENERATOR EDGES AND EXPLOSION PHASES'),
+             (6842,None,'AREA CLEAR — NEW ART, LIVE BONUS AND REWARD TEXT')]
+for row,(n,box,label)in enumerate(comparisons):
+    y=118+row*600
     for col,folder in enumerate([args.before,args.screenshots]):
         im=Image.open(folder/f'{n:05d}.png').convert('RGB');assert im.size==(1024,896)
-        canvas.paste(im.crop(box).resize((640,320),Image.Resampling.LANCZOS),(24+col*672,y))
-    d.text((24,y+334),label,font=label_font,fill=(216,226,234))
-d.text((24,1300),'Actual MesenCE replay screenshots • Matching frames, crop and zoom',font=small_font,fill=(156,173,184))
-preview=args.output/'Bionic_Commando_HD_v0.4.2_Preview.png';canvas.save(preview)
+        if box:im=im.crop(box)
+        canvas.paste(im.resize((640,560),Image.Resampling.LANCZOS),(24+col*672,y))
+    d.text((24,y+572),label,font=label_font,fill=(216,226,234))
+d.text((24,3136),'Actual MesenCE replay screenshots • Matching frames, crop and zoom',font=small_font,fill=(156,173,184))
+preview=args.output/'Bionic_Commando_HD_v0.5.0_Preview.png';canvas.save(preview)
 
-install=args.output/'Bionic_Commando_HD_v0.4.2.zip'
-allowed={'hires.txt','README.txt','title.png','radio.png','sky.png','tiles.png','worldmap.png','equipment.png'}|{f'portrait{i}.png'for i in range(10)}
+install=args.output/'Bionic_Commando_HD_v0.5.0.zip'
+allowed={'hires.txt','README.txt','title.png','radio.png','sky.png','tiles.png','worldmap.png','equipment.png','area-clear.png'}|{f'portrait{i}.png'for i in range(10)}
 assert {p.name for p in (root/'pack').iterdir()if p.is_file()}==allowed
 with zipfile.ZipFile(install,'w',zipfile.ZIP_DEFLATED,compresslevel=9)as z:
     for name in sorted(allowed):z.write(root/'pack'/name,name)
 with zipfile.ZipFile(install)as z:assert z.testzip()is None
 
-source=args.output/'Bionic_Commando_HD_v0.4.2_Source.zip'
+source=args.output/'Bionic_Commando_HD_v0.5.0_Source.zip'
 with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED,compresslevel=9)as z:
     for p in sorted(root.rglob('*')):
         if not p.is_file()or any(part in {'.git','__pycache__'}for part in p.relative_to(root).parts):continue
