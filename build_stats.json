@@ -1,0 +1,13 @@
+{
+  "builder_tile_palette_keys": 3097,
+  "captured_tile_palette_keys": 3242,
+  "painted_environment_keys": 282,
+  "tile_rules": 4671,
+  "unique_atlas_tiles": 2783,
+  "scale": 4,
+  "output_size": [
+    1024,
+    896
+  ],
+  "overscan_top_bottom": 8
+}

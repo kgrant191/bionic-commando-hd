@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.nes
+*.mmo
+*.mss
+*.so
+*.dylib
+*.dll
+dist/

@@ -1,0 +1,10 @@
+{
+  "rom_file": "Bionic Commando (USA).nes",
+  "rom_sha1": "D3A4BFD995D18C4A386971631759AECA3A7CFF8D",
+  "movie_file": "Bionic Commando (USA)(1).mmo",
+  "movie_sha256": "476df16882ed414637583aff8dd7dafec468542e1e4fc3c55241276871f808aa",
+  "movie_format_version": 3,
+  "mesen_version": "2.2.1",
+  "movie_input_frames": 40442,
+  "repository": "https://github.com/kgrant191/bionic-commando-hd"
+}
