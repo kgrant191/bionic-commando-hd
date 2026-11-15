@@ -109,19 +109,6 @@ def extend_area4(root,keys,indices,tile,scale,rule,blank):
   additions.append(f'[{guard}&area4BossFace&{talk}]<background>area4-boss{i}.png,1,0,0,20')
  portrait_parts={ (k,p)for state in json.loads((root/'capture/area4/boss-portrait-states.json').read_text()) for x,y,k,p,h,v in state['parts']}
  for k,p in portrait_parts:rule(k,p,blank,guard+'&area4BossFace')
- # A HUD light must not inherit the general character cloth texture.
- conditions.append('<condition>area4HudY,positionCheckY,<,32')
- health='7EC381818181C37E003C7E7E7E7E3C00'
- yy,xx=np.mgrid[:32,:32];radius=np.sqrt((xx-15.5)**2+(yy-15.5)**2)
- for k,p in keys:
-  if k!=health or p>>24!=255:continue
-  rim=np.array(tile('FFFFFFFFFFFFFFFF0000000000000000',p))[0,0,:3].astype(float)
-  center=np.array(tile('0000000000000000FFFFFFFFFFFFFFFF',p))[0,0,:3].astype(float)
-  a=np.zeros((32,32,4),dtype='uint8');inside=radius<11.5
-  light=np.clip(1.1-(xx+yy)/100,.6,1.1)
-  a[:,:,:3]=np.clip(np.where(inside[:,:,None],center,rim)*light[:,:,None],0,255)
-  a[:,:,3]=np.uint8(np.clip(15-radius,0,1)*255)
-  rule(k,p,Image.fromarray(a),guard+'&area4HudY')
  c,a,v=make_actor(root,keys,lambda k,p,im,g=None:rule(k,p,im,(guard+'&'+g)if g else None),blank,'area4',1,0xFF36150F)
  conditions+=c;additions+=a
  (root/'validation/area4_mapping.json').write_text(json.dumps({'painted':mapping,'actor_records':6,'area_address':'004D','area_value':'04'},indent=2)+'\n')

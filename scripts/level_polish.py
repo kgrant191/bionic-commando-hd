@@ -141,6 +141,10 @@ def area_clear(root, out, keys, indices, scale):
     # before the header types in. Header-based triggers exposed the NES hero
     # during the opening pause. Verified against both Area 1 recordings.
     conditions = ['<condition>areaClear,tileAtPosition,0,0,00000000000000000000000000000000,0F200F0F,N']
+    conditions += ['<condition>clearHeaderY0,positionCheckY,>=,40',
+                   '<condition>clearHeaderY1,positionCheckY,<,48',
+                   '<condition>clearHeaderX0,positionCheckX,>=,88',
+                   '<condition>clearHeaderX1,positionCheckX,<,184']
     guard = 'areaClear'
     im = Image.new('RGBA', (1024,960), (7,15,20,255)); d = ImageDraw.Draw(im)
     font = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
@@ -148,6 +152,8 @@ def area_clear(root, out, keys, indices, scale):
     d.rounded_rectangle((64,72,960,880), radius=16, fill=(18,31,34), outline=(114,137,131), width=3)
     d.rectangle((65,74,958,77), fill=(205,169,86))
     d.text((104,105),'MISSION DEBRIEF',font=ImageFont.truetype(font,20),fill=(167,190,178))
+    d.text((192,176),'AREA',anchor='lm',font=ImageFont.truetype(mono,29),fill=(233,231,211))
+    d.text((392,176),'CLEAR',anchor='lm',font=ImageFont.truetype(mono,29),fill=(233,231,211))
     d.line((104,220,918,220),fill=(64,88,89),width=2)
     d.rounded_rectangle((104,260,616,344),radius=8,fill=(9,22,27),outline=(68,93,94),width=2)
     d.rounded_rectangle((104,416,648,600),radius=8,fill=(9,22,27),outline=(68,93,94),width=2)
@@ -164,12 +170,16 @@ def area_clear(root, out, keys, indices, scale):
     for x,y,text in lines:
         for i,c in enumerate(text):
             if c != ' ': glyphs[at[x+i*8,y]] = c
+    glyphs.update(json.loads((root/'capture/debrief-glyphs.json').read_text()))
     # All live values retain native positions and timing; unknown letters
     # remain transparent-ink fallbacks instead of being blanked.
     fonts = ImageFont.truetype(mono,29)
+    from items import pickup_art
+    bonus_bullet=pickup_art(root)[0]
     def render(k,p):
         if p >> 24 == 255: return Image.new('RGBA',(32,32))
         if p != 0x0F200F0F: return None
+        if k=='18347A747A007A000000000000000000':return bonus_bullet
         a = np.zeros((8,8,4),dtype=np.uint8); a[indices(k)>0]=[231,233,216,255]
         tile = scale(Image.fromarray(a))
         if k in glyphs:

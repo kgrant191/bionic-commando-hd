@@ -10,5 +10,10 @@ def pickup_art(root):
         im=im.crop(im.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox())
         im.thumbnail((size,size),Image.Resampling.LANCZOS)
         icon=Image.new('RGBA',(size,size));icon.alpha_composite(im,((size-im.width)//2,(size-im.height)//2))
+        if col==0:
+            im=Image.open(root/'art/bullet-v072.png').convert('RGBA')
+            im=im.crop(im.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox())
+            im.thumbnail((30,32),Image.Resampling.LANCZOS)
+            icon=Image.new('RGBA',(32,32));icon.alpha_composite(im,((32-im.width)//2,(32-im.height)//2))
         icons.append(icon)
     return icons

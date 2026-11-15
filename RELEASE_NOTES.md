@@ -1,3 +1,15 @@
+# v0.7.2 — Animation, portraits, HUD and water-edge fixes
+
+- Stabilizes body proportions and head alignment across Area 4 shield-boss and red-rifle animations, plus the Area 13 red runner.
+- Gives both white idle NPCs matching white-uniform, patrol-cap portraits with separate idle/talking expressions and distinct faces.
+- Makes the XP bullet a bold upright white-and-green cartridge based on its original silhouette; room and enemy drops share it.
+- Unifies player and enemy health indicators with a clean metal bezel and colored lens, retaining native counts and color states.
+- Reformats the mission heading as AREA + live two-digit area number + CLEAR, including matching digits 0–9.
+- Covers stale nametable scenery below the bottom water row on the first Area 1 descent, with a local water-neighbor condition.
+- Adds 14 tile/palette pairs exposed by the water-glitch recording, including edge-of-screen scrolling states.
+
+Review build; ROM and game state are unchanged. See validation/FEEDBACK_v0.7.2.md.
+
 # v0.7.1 — Bullet and flare bomb correction
 
 The Area 13 room drop is an XP bullet, matching the collectible dropped by enemies. All observed sprite-palette variants now use the same cartridge artwork. The flare bomb pickup and equipment icon use a compact unlit illumination canister. Energy Recovery remains separate. These corrections supersede the pill and handheld-flare interpretation in v0.7.0.

@@ -75,7 +75,20 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
             dy=round(y1*4-(ab[3]-ab[1])*factor)
             art=art.crop(ab).resize((round((ab[2]-ab[0])*factor),round((ab[3]-ab[1])*factor)),Image.Resampling.LANCZOS)
             canvas.alpha_composite(art,(dx,dy))
-        elif actor in {'contact','neutral'} and not rec.get('fit_native_bounds'):
+        elif actor in {'area4','a13trooper','neutral'}:
+            # Keep one body scale across an animation sheet. Native stride
+            # widths vary; fitting every pose into that width inflated torsos.
+            ref=sheet.crop((0,0,cw,ch))
+            rb=ref.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox()
+            factor=128/(rb[3]-rb[1])
+            band=np.array(art.getchannel('A'))[ab[1]:ab[1]+round(ch*.12)]>64
+            xs=np.where(band)[1]
+            head_x=float(np.median(xs)) if len(xs) else (ab[0]+ab[2])/2
+            dx=round(44*4+(ab[0]-head_x)*factor)
+            dy=24*4
+            art=art.crop(ab).resize((round((ab[2]-ab[0])*factor),round((ab[3]-ab[1])*factor)),Image.Resampling.LANCZOS)
+            canvas.alpha_composite(art,(dx,dy))
+        elif actor=='contact' and not rec.get('fit_native_bounds'):
             art=art.crop(ab);height=(y1-y0)*4
             width=round(art.width*height/art.height)
             art=art.resize((width,height),Image.Resampling.LANCZOS)
@@ -83,6 +96,8 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         else:
             art=art.crop(ab).resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
             canvas.alpha_composite(art,(x0*4,y0*4))
+        pose_dir=root/'validation/pose-previews'/actor;pose_dir.mkdir(parents=True,exist_ok=True)
+        canvas.save(pose_dir/f"{rec['id']}.png")
         images[rec['id']]=canvas
         stats.append({'id':rec['id'],'head':rec['head'],'cell':cell,'native_bounds':bbox,'signature':[list(t)for t in signature],'sample_frames':len(rec['frames'])})
     families={}

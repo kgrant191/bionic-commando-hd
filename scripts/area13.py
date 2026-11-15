@@ -161,10 +161,11 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
    talking=sheet.crop((col*cw,ch,(col+1)*cw,2*ch)).resize((192,256),Image.Resampling.LANCZOS)
    # Six-by-eight source tile sprite dimensions, attached to the live helmet.
    art=sheet.crop((col*cw,0,(col+1)*cw,ch)).resize((192,256),Image.Resampling.LANCZOS)
-   if col==3:
-    informant=Image.open(root/'art/area13-informant.png').convert('RGBA');iw=informant.width//2
-    art=informant.crop((0,0,iw,informant.height)).resize((192,256),Image.Resampling.LANCZOS)
-    talking=informant.crop((iw,0,2*iw,informant.height)).resize((192,256),Image.Resampling.LANCZOS)
+   if col in (0,3):
+    white=Image.open(root/'art/area13-white-portraits-v072.png').convert('RGBA');ww,wh=white.width//2,white.height//2
+    wc=1 if col==0 else 0
+    art=white.crop((wc*ww,0,(wc+1)*ww,wh)).resize((192,256),Image.Resampling.LANCZOS)
+    talking=white.crop((wc*ww,wh,(wc+1)*ww,2*wh)).resize((192,256),Image.Resampling.LANCZOS)
    # Crop into a symmetric 48x64 portrait; the native frame/text stay live.
    for y in range(0,64,8):
     for x in range(-8,40,8):

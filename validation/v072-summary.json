@@ -1,0 +1,62 @@
+[
+  {
+    "recording": "opening",
+    "frames": 40442,
+    "checkpoints": 339,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 3673,
+    "final_pack_sha256": "07c0a4c796a3e6e53e3f86152440c08a2e367777818ed6854c6e5ed6119f1f61"
+  },
+  {
+    "recording": "door",
+    "frames": 1081,
+    "checkpoints": 11,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 360,
+    "final_pack_sha256": "07c0a4c796a3e6e53e3f86152440c08a2e367777818ed6854c6e5ed6119f1f61"
+  },
+  {
+    "recording": "cave",
+    "frames": 6842,
+    "checkpoints": 59,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 2003,
+    "final_pack_sha256": "07c0a4c796a3e6e53e3f86152440c08a2e367777818ed6854c6e5ed6119f1f61"
+  },
+  {
+    "recording": "area13",
+    "frames": 7434,
+    "checkpoints": 63,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 1314,
+    "final_pack_sha256": "07c0a4c796a3e6e53e3f86152440c08a2e367777818ed6854c6e5ed6119f1f61"
+  },
+  {
+    "recording": "area4",
+    "frames": 11830,
+    "checkpoints": 100,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 2465,
+    "final_pack_sha256": "07c0a4c796a3e6e53e3f86152440c08a2e367777818ed6854c6e5ed6119f1f61"
+  },
+  {
+    "recording": "water",
+    "frames": 2065,
+    "checkpoints": 70,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 522,
+    "final_pack_sha256": "07c0a4c796a3e6e53e3f86152440c08a2e367777818ed6854c6e5ed6119f1f61"
+  }
+]

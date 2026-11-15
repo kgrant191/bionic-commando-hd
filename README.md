@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.7.1 — Bullet and flare bomb correction**
+**v0.7.2 — Animation, portraits, HUD and water-edge fixes**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,30 @@ This is a work-in-progress graphics remake covering the supplied opening, Area 1
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.7.1.zip`.
+   `Bionic_Commando_HD_v0.7.2.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## Visual fixes in v0.7.2
+
+Movement frames for the Area 4 shield boss, red rifle guards and Area 13 red
+runner share one body scale and a stable head anchor. White NPC portraits
+match each standing character's face, white uniform and patrol cap.
+
+The XP bullet keeps the original broad white-and-green silhouette for better
+visibility. Player and enemy health use the same metal-rimmed indicator style
+with their original colors, counts and timing. The mission debrief displays
+`AREA 04 CLEAR` (or the live area number) in one consistent font.
+
+The initial Area 1 descent no longer reveals stale wall and ground fragments
+under the bottom water row. The replacement requires actual water directly
+above the affected edge tile and is restricted to Area 1 gameplay.
+
+See `validation/FEEDBACK_v0.7.2.md` for the replay coverage and review limits.
 
 ## Item corrections in v0.7.1
 

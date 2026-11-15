@@ -1,4 +1,4 @@
-BIONIC COMMANDO HD — v0.7.1
+BIONIC COMMANDO HD — v0.7.2
 Bullet and flare bomb correction review build
 
 INSTALL
@@ -37,7 +37,7 @@ Unrecognized heads keep the previous material treatment. Occluded recognized
 poses use their most common head-matched painting until body signatures return.
 Some effects and unrecorded equipment icons still use a smoothed baseline.
 v0.7.0 replayed all five unique supplied recordings.
-v0.7.1 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
+v0.7.2 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
 and inventory icons. The unnumbered and (1) movies are identical.
 Frame-by-frame tile-rule audit plus sampled rendered-image review.
 The pistol is the starter design; machine-gun/bazooka player art is still pending.
@@ -50,3 +50,5 @@ No ROM, movie recording, emulator or development files are included.
 Target: MesenCE 2.2.1 / Mesen-compatible HD pack format 109.
 Supported whole-ROM SHA1: D3A4BFD995D18C4A386971631759AECA3A7CFF8D
 
+
+0.7.2: stable actor proportions, matching white NPC portraits, visible XP bullet, unified health indicators, readable debrief heading, and initial water-edge cleanup.
