@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.7.5 — Knife guard and active flare corrections**
+**v0.7.6 — Area 1 doors, crate rewards and grenade animation**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,27 @@ This is a work-in-progress graphics remake covering the supplied opening, Area 1
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.7.5.zip`.
+   `Bionic_Commando_HD_v0.7.6.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## Area 1 corrections in v0.7.6
+
+Rebuild the open exterior doorframe from an unobstructed steel frame. The
+communication-room and boss entrances are included in the replay review.
+Crate rewards now have an illustrated POW emblem and green recovery flask.
+The orbiting POW star keeps its native movement and expiration timing while
+using the new artwork through recorded palette changes.
+
+The bazooka soldier now has dedicated grenade wind-up and release poses,
+including the previously unmapped release head. Thrown grenades have their
+own compact sprite. Clipped red soldiers retain painted lower-body pieces.
+
+See `validation/AREA1_FIXES_v0.7.6.md` for verification and limits.
 
 ## Knife guard and active flare in v0.7.5
 

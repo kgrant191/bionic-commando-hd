@@ -1,0 +1,12 @@
+{
+  "flask_pattern_offsets_in_user_rom": [
+    132192,
+    132208
+  ],
+  "flask_keys": [
+    "040403030706060E0707030003020206",
+    "3876C4C0C0703C0F0F397B7F7F3F0F00"
+  ],
+  "flask_validation": "Native patterns recovered from the supplied screenshot and matched byte-for-byte in the ROM; rendered with native horizontal mirroring. No full flask pickup appears in the supplied new movie.",
+  "star_palettes_identical": true
+}

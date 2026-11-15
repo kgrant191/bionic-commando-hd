@@ -1,0 +1,63 @@
+{
+  "full_regression_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb",
+  "shipping_pack_sha256": "365d504fb1a4da19885f37016e07618cf9d7938299d3ed1c20ef72a660ab2fc3",
+  "rule_count": 41988,
+  "per_key_rule_order_conditions_and_additions_identical": true,
+  "changed_native_keys": [
+    "01010101390101FEFF83BBBBBB83FFFE",
+    "5B6D7F64604F7F7D7F491240446F7E7E",
+    "808080809C80807FFFC1DDDDDDC1FF7F",
+    "FFDBFFC9D35FEFCF7F5305415BDF2F2F"
+  ],
+  "changed_rules": [
+    {
+      "per_key_rule": 0,
+      "condition": "",
+      "key": "808080809C80807FFFC1DDDDDDC1FF7F",
+      "palette": "0F271505"
+    },
+    {
+      "per_key_rule": 0,
+      "condition": "",
+      "key": "5B6D7F64604F7F7D7F491240446F7E7E",
+      "palette": "0F271505"
+    },
+    {
+      "per_key_rule": 0,
+      "condition": "",
+      "key": "FFDBFFC9D35FEFCF7F5305415BDF2F2F",
+      "palette": "0F271505"
+    },
+    {
+      "per_key_rule": 0,
+      "condition": "",
+      "key": "01010101390101FEFF83BBBBBB83FFFE",
+      "palette": "0F271505"
+    }
+  ],
+  "other_pack_images_unchanged": [
+    "portrait8.png",
+    "portrait4.png",
+    "portrait6.png",
+    "portrait1.png",
+    "sky.png",
+    "portrait9.png",
+    "portrait0.png",
+    "title.png",
+    "area4-boss1.png",
+    "area4-boss0.png",
+    "portrait3.png",
+    "area13-distance.png",
+    "area13-distance-alert.png",
+    "worldmap.png",
+    "portrait2.png",
+    "portrait5.png",
+    "area4-distance.png",
+    "equipment.png",
+    "area-clear.png",
+    "area13-distance-flash.png",
+    "radio.png",
+    "portrait7.png"
+  ],
+  "scope": "Only four first-communication-door header patterns changed after full regression. All other tile pixels and rendering rules are identical."
+}

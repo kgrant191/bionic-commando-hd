@@ -1,3 +1,15 @@
+# v0.7.6 — Area 1 doors, crate rewards and grenade animation
+
+- Replace contaminated exterior doorframe crops with a complete clean red steel frame.
+- Review the other Area 1 entrances, including the communication room and boss entrance.
+- Replace POW lettering and the green recovery flask with illustrated crate-reward sprites.
+- Replace the orbiting POW star across recorded normal and flash palettes, retaining native timing.
+- Cover the bazooka soldier's grenade wind-up and release poses with matching HD artwork.
+- Add a compact grenade sprite and painted lower-body fallbacks for clipped red soldiers.
+- Include all approved v0.7.5 corrections.
+
+Review build; no ROM or gameplay changes. See `validation/AREA1_FIXES_v0.7.6.md`.
+
 # v0.7.5 — Knife guard and active flare corrections
 
 - Give the fast charging burgundy guard a heavier build and a knife, matching his original role.

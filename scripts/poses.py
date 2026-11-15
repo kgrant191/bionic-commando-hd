@@ -65,12 +65,13 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         if actor=='enemy':
             # One pixels-per-body scale across the sheet; weapon length no
             # longer enlarges a standing soldier relative to his crouch pose.
-            factor=152/cw
+            factor=rec.get('body_scale',152)/cw
             top=np.array(art.getchannel('A'))>64
             band=top[ab[1]:ab[1]+int(ch*.1)]
             xs=np.where(band)[1]
             head_x=float(np.median(xs))if len(xs)else cw/2
             if rec['cell']==5:head_x=cw*.49 # Raised grenade is above the helmet.
+            if 'head_align_x' in rec:head_x=cw*rec['head_align_x']
             dx=round(44*4+(ab[0]-head_x)*factor)
             dy=round(y1*4-(ab[3]-ab[1])*factor)
             art=art.crop(ab).resize((round((ab[2]-ab[0])*factor),round((ab[3]-ab[1])*factor)),Image.Resampling.LANCZOS)
@@ -177,7 +178,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         fragments=set()
         for rec in records:
             for dx,dy,k,h,v in rec['parts']:
-                if k in shared or k in fragments or k in offset_groups:continue
+                if (k in shared and actor!='enemy') or k in fragments or k in offset_groups:continue
                 fragments.add(k)
                 im=images[rec['id']].crop(((40+dx)*4,(24+dy)*4,(48+dx)*4,(32+dy)*4))
                 if h:im=ImageOps.mirror(im)
@@ -185,6 +186,11 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
                 a=np.array(im);solid=np.repeat(np.repeat(pattern(k)>0,4,0),4,1)
                 a[~solid,3]=0;im=Image.fromarray(a)
                 for p in sorted(keypal.get(k,[])):
+                    # A clipped ordinary red soldier can lose his head anchor
+                    # while shared leg patterns remain visible at the top edge.
+                    # Only his unique normal palette may use this limb fallback;
+                    # Spencer and damage palettes retain their existing rules.
+                    if k in shared and p!=normal_palette:continue
                     rule(k,p,palette_pose(im,p),'!title')
     (root/f'validation/{actor}_pose_mapping.json').write_text(json.dumps({'poses':stats,'virtual_offsets':offset_groups,'virtual_keys':[[k,f'{p:08X}']for k,p in virtual]},indent=2)+'\n')
     return conds,additions,virtual

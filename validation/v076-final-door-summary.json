@@ -1,0 +1,20 @@
+[
+  {
+    "recording": "opening-prefix",
+    "frames": 7920,
+    "checkpoints": 67,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "pack_sha256": "365d504fb1a4da19885f37016e07618cf9d7938299d3ed1c20ef72a660ab2fc3"
+  },
+  {
+    "recording": "door",
+    "frames": 1081,
+    "checkpoints": 11,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "pack_sha256": "365d504fb1a4da19885f37016e07618cf9d7938299d3ed1c20ef72a660ab2fc3"
+  }
+]

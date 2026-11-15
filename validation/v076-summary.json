@@ -1,0 +1,72 @@
+[
+  {
+    "recording": "opening",
+    "frames": 40442,
+    "checkpoints": 339,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 3718,
+    "replay_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb"
+  },
+  {
+    "recording": "door",
+    "frames": 1081,
+    "checkpoints": 11,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 360,
+    "replay_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb"
+  },
+  {
+    "recording": "cave",
+    "frames": 6842,
+    "checkpoints": 59,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 2018,
+    "replay_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb"
+  },
+  {
+    "recording": "area13",
+    "frames": 7434,
+    "checkpoints": 63,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 1328,
+    "replay_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb"
+  },
+  {
+    "recording": "area4",
+    "frames": 11830,
+    "checkpoints": 100,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 2478,
+    "replay_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb"
+  },
+  {
+    "recording": "water",
+    "frames": 2065,
+    "checkpoints": 70,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 522,
+    "replay_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb"
+  },
+  {
+    "recording": "pow-crate",
+    "frames": 2407,
+    "checkpoints": 82,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 736,
+    "replay_pack_sha256": "3c47d03a1a2e34dbb937e0e0015b302a95e1d5aa143c82ad5b3146b1e2fc67cb"
+  }
+]
