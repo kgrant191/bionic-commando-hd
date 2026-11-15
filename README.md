@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.7.3 — Area 13 conversations and scenery**
+**v0.7.4 — Projectile artwork and damage-palette fixes**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,24 @@ This is a work-in-progress graphics remake covering the supplied opening, Area 1
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.7.3.zip`.
+   `Bionic_Commando_HD_v0.7.4.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## Projectile fixes in v0.7.4
+
+Enemy gunshots in Area 13 now use dedicated HD projectile artwork. The same
+shot stays visually consistent when Spencer's invulnerability palette flashes
+in Area 4. All six recorded palette variants use the same projectile instead
+of alternating between character-material shading and enlarged NES graphics.
+Native flight paths, timing, sprite flips and hit detection remain live.
+
+Includes the approved v0.7.3 town portraits, scenery, frames and doorway fixes.
+See `validation/PROJECTILES_v0.7.4.md` for the evidence and regression coverage.
 
 ## Area 13 polish in v0.7.3
 

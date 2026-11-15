@@ -1,0 +1,28 @@
+{
+  "previous_pack_sha256": "16164791876a22ec9d951e4d96f328b716bd764827c52f4ada2892e23eefd994",
+  "final_pack_sha256": "88b113988a4283e42563ac4b92743fd9f1196c19705200de99682a34df913d08",
+  "existing_rules_and_pixel_content_unchanged": true,
+  "other_pack_images_byte_identical": 22,
+  "new_projectile_rules": 6,
+  "palettes": [
+    "FF202015",
+    "FF202A0F",
+    "FF30150F",
+    "FF30160F",
+    "FF36150F",
+    "FF36300F"
+  ],
+  "shared_projectile_rgba_sha256": "f556ceea2d1e3eb9a70e9e8431844934351ccffd5cefdb8c23a934a158ce1f95",
+  "alpha_bbox_in_4x_tile": [
+    0,
+    4,
+    28,
+    28
+  ],
+  "native_footprint": [
+    0,
+    1,
+    7,
+    7
+  ]
+}

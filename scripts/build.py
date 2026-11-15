@@ -9,6 +9,7 @@ from area13 import extend_area13
 from area4 import extend_area4
 from hud import health_tile
 from water_edge import water_edge
+from projectiles import make_projectile, GUARD as PROJECTILE_GUARD
 from characters import CharacterMaterials
 from poses import make_poses
 from scenes import make_scenes, map_tile, MAP_PALETTES, PORTRAIT_PALETTES
@@ -240,8 +241,11 @@ a4_conditions,a4_backgrounds=extend_area4(ROOT,keys,indices,tile,scale,rule,blan
 scene_conditions+=a4_conditions;scene_backgrounds+=a4_backgrounds
 
 scene_conditions+=water_edge(ROOT,rule)
+projectile_tile=make_projectile(ROOT)
 
 for key,p in keys:
+    projectile_im=projectile_tile(key,p)
+    if projectile_im is not None:rule(key,p,projectile_im,PROJECTILE_GUARD)
     hud_im=health_tile(key,p,tile)
     if hud_im is not None:rule(key,p,hud_im,'!title&!worldmap&!equipment&!radio&!areaClear')
     if p==0x0F200F0F:rule(key,p,blank,'areaClear&clearHeaderY0&clearHeaderY1&clearHeaderX0&clearHeaderX1')
@@ -357,7 +361,7 @@ tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(O
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.7.3 - Area 13 conversations and scenery','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.7.4 - Projectile art and damage-palette consistency','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
         '<condition>title,tileAtPosition,128,64,3D3D3E3E3F3F3F3FDADADDDDDEDEDFDF,0F20152B,N',
@@ -370,7 +374,7 @@ header=header[:8]+['<options>disableSpriteLimit']+scene_conditions+pose_conditio
 from additions import coalesce_additions
 header,rules,merged_additions=coalesce_additions(header,rules)
 (OUT/'hires.txt').write_text('\n'.join(header+rules)+'\n')
-stats={'version':'0.7.3','merged_duplicate_sprite_additions':merged_additions,'area4_guard_pose_records':6,'area4_guard_paintings':6,'area4_inventory_icons':2,'area4_boss_portrait_expressions':2,'area13_red_rifle_guard_poses':3,'area13_white_guard_poses':8,'area13_contact_poses':4,'area13_neutral_guard_poses':3,'area13_portrait_characters':4,'area13_portrait_expressions':8,'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
+stats={'version':'0.7.4','projectile_palette_variants':sum(projectile_tile(k,p) is not None for k,p in keys),'merged_duplicate_sprite_additions':merged_additions,'area4_guard_pose_records':6,'area4_guard_paintings':6,'area4_inventory_icons':2,'area4_boss_portrait_expressions':2,'area13_red_rifle_guard_poses':3,'area13_white_guard_poses':8,'area13_contact_poses':4,'area13_neutral_guard_poses':3,'area13_portrait_characters':4,'area13_portrait_expressions':8,'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
        'painted_spencer_pose_records':22,'spencer_paintings':19,'painted_enemy_poses':12,'virtual_sprite_keys':len({tuple(l[10:].split(',')[4:6])for l in header if l.startswith('<addition>')}),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
        'water_patterns':len(water_keys),'lamp_patterns':len(lamp_tiles),
        'door_patterns':len(door_tiles),'exterior_seam_patterns':len(seam_patches),

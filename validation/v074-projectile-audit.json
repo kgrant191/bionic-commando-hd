@@ -1,0 +1,113 @@
+{
+  "all_visible_projectile_occurrences_select_dedicated_artwork": true,
+  "runtime_verified_palettes": [
+    "FF202015",
+    "FF202A0F",
+    "FF36150F",
+    "FF36300F"
+  ],
+  "additional_palette_rules_checked_by_atlas_scope_comparison": [
+    "FF30150F",
+    "FF30160F"
+  ],
+  "palette_occurrences": {
+    "FF202015": [
+      {
+        "recording": "opening",
+        "first_frame": 23913,
+        "last_frame": 38079,
+        "instances": 646
+      },
+      {
+        "recording": "cave",
+        "first_frame": 3317,
+        "last_frame": 3390,
+        "instances": 36
+      },
+      {
+        "recording": "area4",
+        "first_frame": 3896,
+        "last_frame": 4213,
+        "instances": 339
+      }
+    ],
+    "FF202A0F": [
+      {
+        "recording": "opening",
+        "first_frame": 2785,
+        "last_frame": 39208,
+        "instances": 26421
+      },
+      {
+        "recording": "door",
+        "first_frame": 136,
+        "last_frame": 202,
+        "instances": 536
+      },
+      {
+        "recording": "cave",
+        "first_frame": 958,
+        "last_frame": 6085,
+        "instances": 10599
+      },
+      {
+        "recording": "area13",
+        "first_frame": 2645,
+        "last_frame": 6665,
+        "instances": 855
+      },
+      {
+        "recording": "area4",
+        "first_frame": 908,
+        "last_frame": 10698,
+        "instances": 9416
+      },
+      {
+        "recording": "water",
+        "first_frame": 149,
+        "last_frame": 797,
+        "instances": 972
+      }
+    ],
+    "FF36150F": [
+      {
+        "recording": "opening",
+        "first_frame": 8005,
+        "last_frame": 39121,
+        "instances": 14020
+      },
+      {
+        "recording": "door",
+        "first_frame": 68,
+        "last_frame": 973,
+        "instances": 2181
+      },
+      {
+        "recording": "cave",
+        "first_frame": 2877,
+        "last_frame": 6075,
+        "instances": 5330
+      },
+      {
+        "recording": "area4",
+        "first_frame": 1874,
+        "last_frame": 10459,
+        "instances": 1162
+      },
+      {
+        "recording": "water",
+        "first_frame": 33,
+        "last_frame": 1941,
+        "instances": 2269
+      }
+    ],
+    "FF36300F": [
+      {
+        "recording": "area13",
+        "first_frame": 6267,
+        "last_frame": 6579,
+        "instances": 1560
+      }
+    ]
+  }
+}

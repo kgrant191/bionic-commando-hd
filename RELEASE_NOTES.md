@@ -1,3 +1,13 @@
+# v0.7.4 — Projectile artwork and damage-palette fixes
+
+- Replace the enlarged original enemy shot in Area 13 with dedicated HD artwork.
+- Keep Spencer's projectile appearance consistent while his damage palette flashes in Area 4.
+- Cover all six recorded gunshot palette variants, including red and white enemies.
+- Preserve native projectile footprint, position, flight direction, speed and damage logic.
+- Include all approved v0.7.3 town portrait, scenery, frame and doorway improvements.
+
+Review build. See `validation/PROJECTILES_v0.7.4.md` for replay evidence and limits.
+
 # v0.7.3 — Area 13 conversations and scenery
 
 - Red and green town NPCs use side-facing portraits matching their standing outfits and the white-cap portrait style.

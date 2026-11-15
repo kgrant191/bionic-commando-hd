@@ -1,5 +1,6 @@
 {
-  "version": "0.7.3",
+  "version": "0.7.4",
+  "projectile_palette_variants": 6,
   "merged_duplicate_sprite_additions": 83,
   "area4_guard_pose_records": 6,
   "area4_guard_paintings": 6,
@@ -32,8 +33,8 @@
   "feedback_v050_new_keys": 86,
   "closed_door_sprite_patterns": 5,
   "closed_door_background_cells": 16,
-  "tile_rules": 23744,
-  "unique_atlas_tiles": 7619,
+  "tile_rules": 23750,
+  "unique_atlas_tiles": 7620,
   "scale": 4,
   "output_size": [
     1024,

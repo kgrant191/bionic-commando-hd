@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.7.3
-Area 13 conversations and scenery review build
+BIONIC COMMANDO HD — v0.7.4
+Projectile art and damage-palette correction review build
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -9,6 +9,10 @@ confirm installation, enable HD packs in NES video settings, and reload.
 Manual install: put hires.txt and all PNGs together in:
   HdPacks/Bionic Commando (USA)/
 The directory name must exactly match your ROM's filename without .nes.
+
+PROJECTILES
+Dedicated HD gunshots remain consistent across enemy and damage palettes.
+Original projectile positions, directions, speeds and collision logic are retained.
 
 AREA 4
 Painted mountain gorge, limestone caves, copper pipes, mesh, vents and ledges.
@@ -41,7 +45,7 @@ Unrecognized heads keep the previous material treatment. Occluded recognized
 poses use their most common head-matched painting until body signatures return.
 Some effects and unrecorded equipment icons still use a smoothed baseline.
 v0.7.0 replayed all five unique supplied recordings.
-v0.7.3 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
+v0.7.4 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
 and inventory icons. The unnumbered and (1) movies are identical.
 Frame-by-frame tile-rule audit plus sampled rendered-image review.
 The pistol is the starter design; machine-gun/bazooka player art is still pending.
@@ -55,4 +59,4 @@ Target: MesenCE 2.2.1 / Mesen-compatible HD pack format 109.
 Supported whole-ROM SHA1: D3A4BFD995D18C4A386971631759AECA3A7CFF8D
 
 
-0.7.3: stable actor proportions, matching white NPC portraits, visible XP bullet, unified health indicators, readable debrief heading, and initial water-edge cleanup.
+0.7.4: stable actor proportions, matching white NPC portraits, visible XP bullet, unified health indicators, readable debrief heading, and initial water-edge cleanup.
