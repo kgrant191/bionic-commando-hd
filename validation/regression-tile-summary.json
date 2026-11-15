@@ -1,0 +1,26 @@
+[
+  {
+    "recording": 1,
+    "observed_key_palette_layer_rule_states": 3653,
+    "unmatched_states": [],
+    "audit_frames": 40442
+  },
+  {
+    "recording": 2,
+    "observed_key_palette_layer_rule_states": 360,
+    "unmatched_states": [],
+    "audit_frames": 1081
+  },
+  {
+    "recording": 3,
+    "observed_key_palette_layer_rule_states": 1997,
+    "unmatched_states": [],
+    "audit_frames": 6842
+  },
+  {
+    "recording": 4,
+    "observed_key_palette_layer_rule_states": 1283,
+    "unmatched_states": [],
+    "audit_frames": 7434
+  }
+]

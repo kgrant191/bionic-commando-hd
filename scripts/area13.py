@@ -109,7 +109,40 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
     if h:t=ImageOps.mirror(t)
     if v:t=ImageOps.flip(t)
     for kk,pp in keys:
-     if kk==k and pp>>24==255:rule(k,pp,t,guard)
+     if kk==k and pp>>24==255:rule(k,pp,t,guard if cell!=2 else '!title&!worldmap&!radio&!equipment')
+  # The supply drop has its own shorter 16x16 canopy animation.
+  drop=cells[2].resize((64,64),Image.Resampling.LANCZOS)
+  native=[l.split(',')for l in (root/'capture/23520.tiles').read_text().splitlines()]
+  seen=set()
+  for ly,x,y,k,p,h,v in native:
+   x,y=int(x),int(y)
+   if ly!='1' or not(79<=x<95 and 125<=y<141) or k in seen:continue
+   seen.add(k);t=drop.crop(((x-79)*4,(y-125)*4,(x-71)*4,(y-117)*4))
+   if int(h):t=ImageOps.mirror(t)
+   for kk,pp in keys:
+    if kk==k and pp>>24==255:rule(k,pp,t,'!title&!worldmap&!radio&!equipment')
+  # The hanging supply case shares mirrored quarters in the native sprite.
+  case=cells[0].resize((64,64),Image.Resampling.LANCZOS)
+  seen=set()
+  for ly,x,y,k,p,h,v in native:
+   x,y=int(x),int(y)
+   if ly!='1' or not(79<=x<95 and 141<=y<157) or k in seen:continue
+   seen.add(k);t=case.crop(((x-79)*4,(y-141)*4,(x-71)*4,(y-133)*4))
+   if int(h):t=ImageOps.mirror(t)
+   if int(v):t=ImageOps.flip(t)
+   for kk,pp in keys:
+    if kk==k and pp>>24==255:rule(k,pp,t,'!title&!worldmap&!radio&!equipment')
+  # Spencer uses a wider canopy pattern than the Area 13 soldiers.
+  canopy=cells[2].resize((128,64),Image.Resampling.LANCZOS)
+  native=[l.split(',')for l in (root/'capture/17400.tiles').read_text().splitlines()]
+  seen=set()
+  for ly,x,y,k,p,h,v in native:
+   x,y=int(x),int(y)
+   if ly!='1' or not(112<=x<144 and 53<=y<69) or k in seen:continue
+   seen.add(k);t=canopy.crop(((x-112)*4,(y-53)*4,(x-104)*4,(y-45)*4))
+   if int(h):t=ImageOps.mirror(t)
+   for kk,pp in keys:
+    if kk==k and pp>>24==255:rule(k,pp,t,'!title&!worldmap&!radio&!equipment')
   # The small green pickup is a background cell, blinking through palette.
   k='';item_candidates=json.loads((root/'capture/area13/item-keys.json').read_text())if(root/'capture/area13/item-keys.json').exists()else[]
   for k,p in item_candidates:rule(k,int(p,16),cells[0].resize((32,32),Image.Resampling.LANCZOS),guard)

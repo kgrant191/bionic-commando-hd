@@ -53,6 +53,7 @@ keys.extend((k,int(p,16))for k,p in json.loads((CAP/'area13/extra-keys.json').re
 for l in (CAP/'area13/original-rules.txt').read_text().splitlines():
     if l.startswith('<tile>'):
         a=l[6:].split(',');keys.append((a[1],int(a[2],16)))
+keys.extend((k,int(p,16))for k,p in json.loads((CAP/'regression-extra-keys.json').read_text()))
 keys=list(dict.fromkeys(keys))
 characters=CharacterMaterials(ROOT,indices,scale,tile)
 scene_conditions,scene_backgrounds=make_scenes(ROOT,OUT)
@@ -343,18 +344,19 @@ tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(O
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.6.0 - Area 13 outpost, guards and equipment','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.6.1 - Area 13 outpost, guards and equipment','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
-        '<condition>title,tileAtPosition,0,0,00000000000000000000000000000000,0F20152B,N',
+        '<condition>title,tileAtPosition,128,64,3D3D3E3E3F3F3F3FDADADDDDDEDEDFDF,0F20152B,N',
         '<condition>radio,tileAtPosition,0,0,0000000000000000FFFFFFFFFFFFFFFF,0F090909,N',
-        '<background>sky.png,1,0,0,0',
+        '<condition>screenEnabled,memoryCheckConstant,00FF,==,1A',
+        '[screenEnabled]<background>sky.png,1,0,0,0',
         '[title]<background>title.png,1,0,0,10',
         '[radio]<background>radio.png,1,0,0,10']
 header=header[:8]+['<options>disableSpriteLimit']+scene_conditions+pose_conditions+closed_conditions+header[8:]+scene_backgrounds+pose_additions
 (OUT/'hires.txt').write_text('\n'.join(header+rules)+'\n')
-stats={'version':'0.6.0','area13_white_guard_poses':8,'area13_contact_poses':1,'area13_neutral_guard_poses':3,'area13_portrait_characters':4,'area13_portrait_expressions':8,'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
-       'painted_spencer_pose_records':21,'spencer_paintings':18,'painted_enemy_poses':12,'virtual_sprite_keys':len({tuple(l[10:].split(',')[4:6])for l in header if l.startswith('<addition>')}),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
+stats={'version':'0.6.1','area13_white_guard_poses':8,'area13_contact_poses':4,'area13_neutral_guard_poses':3,'area13_portrait_characters':4,'area13_portrait_expressions':8,'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
+       'painted_spencer_pose_records':22,'spencer_paintings':19,'painted_enemy_poses':12,'virtual_sprite_keys':len({tuple(l[10:].split(',')[4:6])for l in header if l.startswith('<addition>')}),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
        'water_patterns':len(water_keys),'lamp_patterns':len(lamp_tiles),
        'door_patterns':len(door_tiles),'exterior_seam_patterns':len(seam_patches),
        'polished_fixture_patterns':len(polished),'painted_effect_patterns':effect_pattern_count,

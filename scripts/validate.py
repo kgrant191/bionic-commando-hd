@@ -9,10 +9,11 @@ parser.add_argument('--hd',type=Path,required=True)
 parser.add_argument('--home',type=Path,required=True)
 parser.add_argument('--log',type=Path,required=True)
 parser.add_argument('--frames',type=int,default=40442)
+parser.add_argument('--pack',type=Path,default=None)
 parser.add_argument('--report',default='replay.json')
 parser.add_argument('--checkpoint-step',type=int,default=None)
 args=parser.parse_args()
-root=Path(__file__).resolve().parents[1];pack=root/'pack'
+root=Path(__file__).resolve().parents[1];pack=args.pack or root/'pack'
 rules=(pack/'hires.txt').read_text().splitlines()
 images=[];definitions=[];additions=[]
 for l in rules:
@@ -48,6 +49,8 @@ for p in original:
     q=args.hd/p.name
     if not q.is_file() or p.read_bytes()!=q.read_bytes():mismatches.append(p.name)
 assert not mismatches,mismatches
+ppu_mismatches=[p.stem for p in original if (args.original/(p.stem+'.ppu')).read_bytes()!=(args.hd/(p.stem+'.ppu')).read_bytes()]
+assert not ppu_mismatches,ppu_mismatches
 screens=[]
 for p in sorted(args.hd.glob('*.png')):
     if p.stat().st_size<100:continue # No decoded frame is available at frame 1.
@@ -59,15 +62,15 @@ assert not re.search(r'\[HDPack\].*(error|Error)|script error|Script error|Excep
 stats=json.loads((root/'build_stats.json').read_text())
 virtual_keys={v for a,v in additions}
 assert all(a in set(definitions)and v in set(definitions)for a,v in additions)
-assert len(virtual_keys)==stats['virtual_sprite_keys']
+if args.pack is None:assert len(virtual_keys)==stats['virtual_sprite_keys']
 for v in virtual_keys:
     assert any(l.startswith('<tile>')and tuple(l[6:].split(',')[1:3])==v for l in rules),'Missing virtual fallback'
-report={'version':'0.6.0','movie_input_frames':args.frames,'checkpoint_interval':step,
-        'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,
+report={'version':'0.6.1','movie_input_frames':args.frames,'checkpoint_interval':step,
+        'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,'ppu_mismatches':ppu_mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),
         'unique_tile_palette_keys':len(set(definitions)),
-        'captured_key_count':stats['captured_tile_palette_keys'],
+        'captured_key_count':len(set(definitions))-len(virtual_keys),
         'virtual_sprite_keys':len(virtual_keys),'sprite_additions_checked':len(additions),
         'sprite_limit_removal':True,
         'completion':'Area 1 Clear followed by return to world map' if args.frames==40442 else 'Complete feedback recording',
@@ -75,6 +78,6 @@ report={'version':'0.6.0','movie_input_frames':args.frames,'checkpoint_interval'
         'overscan_note':'Eight source rows trimmed at top and bottom; no ROM patch.',
         'limits':'Sampled visual inspection, not every rendered frame. Unrecorded states and later areas are untested.',
         'pack_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted(pack.iterdir())if p.is_file()}}
-assert report['unique_tile_palette_keys']==stats['captured_tile_palette_keys']+len(virtual_keys)
+if args.pack is None:assert report['unique_tile_palette_keys']==stats['captured_tile_palette_keys']+len(virtual_keys)
 (root/'validation'/args.report).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items()if k!='pack_sha256'},indent=2))

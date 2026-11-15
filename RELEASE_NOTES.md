@@ -1,3 +1,9 @@
+# v0.6.1 — Recording regression fixes
+
+Game Over no longer triggers title artwork, and the sky is hidden during display-off transitions. Adds Spencer’s final death pose, player/enemy/supply parachutes, the Area 13 green contact’s walking cycle, and a missing electrical-effect palette variant.
+
+Review build; no gameplay changes. Includes the unpushed v0.6.0 Area 13 work.
+
 # Bionic Commando HD v0.6.0 — Area 13 review build
 
 - Painted outpost buildings, medical signs, bronze shutters and rocky banks.

@@ -2989,5 +2989,46 @@
     "rows": 1,
     "cell": 1,
     "mirror_art": true
+  },
+  {
+    "id": 103,
+    "head": "0070FCFCB8C0A0C00040889BD6BFDCFE",
+    "parts": [
+      [
+        -8,
+        0,
+        "40828191F94100017CFEFFFFFFFFFFFF",
+        0,
+        0
+      ],
+      [
+        -16,
+        0,
+        "000901070CDC7C3F00FFFFFFFFF7672F",
+        0,
+        0
+      ],
+      [
+        -24,
+        0,
+        "0080C4ECFD7F7C700081C7AFFF7F7C70",
+        0,
+        0
+      ]
+    ],
+    "cell": 0,
+    "asset": "spencer-death-v061.png",
+    "columns": 1,
+    "rows": 1,
+    "mirror_art": true,
+    "count": 6,
+    "frames": [
+      9000,
+      9120,
+      15000,
+      25920,
+      26040,
+      37680
+    ]
   }
 ]

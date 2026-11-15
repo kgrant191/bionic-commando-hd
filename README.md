@@ -1,17 +1,17 @@
 # Bionic Commando HD
 
-**v0.6.0 — cave, combat, generator and Area Clear**
+**v0.6.1 — Area 13 and recording regression fixes**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
 A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is a work-in-progress graphics remake covering the supplied opening and Area 1 recording.
+This is a work-in-progress graphics remake covering the supplied opening, Area 1 and Area 13 recordings.
 
 ## Install
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.6.0.zip`.
+   `Bionic_Commando_HD_v0.6.1.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -19,7 +19,18 @@ For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
 
-## Included in this pass
+## Regression fixes in v0.6.1
+
+- Correct Game Over detection; title art no longer covers its text.
+- Suppress the painted sky during native display-off transitions.
+- Add Spencer’s final lying-down death pose.
+- Replace the distinct player, enemy and supply-drop parachute patterns.
+- Cover the missing electrical-hazard palette variant.
+- Complete the Area 13 green contact’s walking poses.
+
+See `validation/REGRESSION_v0.6.1.md` for recording coverage and limits.
+
+## Included artwork
 
 - Painted cave lift machinery, moving platform, gate, crates, rock edges and elevator rims.
 - Additional recorded enemy hit palettes, including the bazooka soldier, retain HD figures.
