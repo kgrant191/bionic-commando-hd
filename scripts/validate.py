@@ -32,7 +32,7 @@ for l in rules:
     if body.startswith('<addition>'):
         a=body[10:].split(',')
         assert len(a)==7 and a[-1]=='N'
-        assert -40<=int(a[2])<=48 and -24<=int(a[3])<=48
+        assert -40<=int(a[2])<=48 and -24<=int(a[3])<=56
         additions.append(((a[0],a[1]),(a[4],a[5])))
 assert '<overscan>8,0,8,0' in rules
 assert '<options>disableSpriteLimit' in rules
@@ -62,7 +62,7 @@ assert all(a in set(definitions)and v in set(definitions)for a,v in additions)
 assert len(virtual_keys)==stats['virtual_sprite_keys']
 for v in virtual_keys:
     assert any(l.startswith('<tile>')and tuple(l[6:].split(',')[1:3])==v for l in rules),'Missing virtual fallback'
-report={'version':'0.5.0','movie_input_frames':args.frames,'checkpoint_interval':step,
+report={'version':'0.6.0','movie_input_frames':args.frames,'checkpoint_interval':step,
         'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),

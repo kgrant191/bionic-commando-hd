@@ -8,7 +8,7 @@ HEAD='000102F17A797A7E52FFFE8F7E67064E'
 def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
     records=json.loads((root/f'capture/{actor}-poses.json').read_text())
     for rec in records:rec.setdefault('head',HEAD)
-    src=Image.open(root/f'art/{actor}-poses-v{4 if actor=="spencer"else 3}.png').convert('RGBA')
+    src=Image.open(root/f'art/{actor}-poses-v{4 if actor=="spencer"else 3}.png').convert('RGBA') if actor not in {'contact','neutral'} else Image.open(root/'art/area13-npcs.png').convert('RGBA')
     assert src.getchannel('A').getextrema()[0]==0,'Painted sprites need genuine alpha'
     records.sort(key=lambda r:(-len({t[2]for t in r['parts']}),-r['count']))
     keypal={}
@@ -54,6 +54,8 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         sheet=Image.open(root/'art'/rec['asset']).convert('RGBA')if 'asset'in rec else src
         columns=rec.get('columns',4);cell=rec['cell'];cw=sheet.width//columns;ch=sheet.height//rec.get('rows',rows)
         art=sheet.crop((cell%columns*cw,cell//columns*ch,(cell%columns+1)*cw,(cell//columns+1)*ch))
+        if rec.get('alpha_cutoff'):
+            aa=np.array(art);aa[aa[:,:,3]<rec['alpha_cutoff'],3]=0;art=Image.fromarray(aa)
         if rec.get('mirror_art'):art=ImageOps.mirror(art)
         # Remove very faint isolated matte pixels from the bounding calculation
         # only; keep the generated alpha in the actual art.
@@ -72,6 +74,11 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
             dy=round(y1*4-(ab[3]-ab[1])*factor)
             art=art.crop(ab).resize((round((ab[2]-ab[0])*factor),round((ab[3]-ab[1])*factor)),Image.Resampling.LANCZOS)
             canvas.alpha_composite(art,(dx,dy))
+        elif actor in {'contact','neutral'}:
+            art=art.crop(ab);height=(y1-y0)*4
+            width=round(art.width*height/art.height)
+            art=art.resize((width,height),Image.Resampling.LANCZOS)
+            canvas.alpha_composite(art,(round((x0+x1)*2-width/2),y0*4))
         else:
             art=art.crop(ab).resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
             canvas.alpha_composite(art,(x0*4,y0*4))

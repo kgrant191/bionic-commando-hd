@@ -1,0 +1,95 @@
+{
+  "poses": [
+    {
+      "id": 0,
+      "head": "040201E1797E7E383C7EFFFF7F0E5E38",
+      "cell": 0,
+      "native_bounds": [
+        31,
+        24,
+        55,
+        56
+      ],
+      "signature": [
+        [
+          -1,
+          8,
+          "FFFCFCF80801C3377E070FFFFFFFFF3F",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 149
+    }
+  ],
+  "virtual_offsets": {
+    "040201E1797E7E383C7EFFFF7F0E5E38": [
+      [
+        -8,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -8,
+        8
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        -8,
+        16
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        -8,
+        24
+      ],
+      [
+        0,
+        24
+      ]
+    ]
+  },
+  "virtual_keys": [
+    [
+      "6E4B37856C689F02B9DF89E5281BA15E",
+      "FF202A0F"
+    ],
+    [
+      "49A99957C4C8974BE6E141A4BB0E5849",
+      "FF202A0F"
+    ],
+    [
+      "F701CDECCBA5CBA920CDB4DB0BC28943",
+      "FF202A0F"
+    ],
+    [
+      "A8E6BE43B3C82220B85D8035EFAA1A33",
+      "FF202A0F"
+    ],
+    [
+      "2646E233B436043EBB0A1AEED5FE75D0",
+      "FF202A0F"
+    ],
+    [
+      "D2FA8D9032A1D3A8AF29CB05C3BE2199",
+      "FF202A0F"
+    ],
+    [
+      "8033DE09B6A866CD7BCB21CBDC2DC13A",
+      "FF202A0F"
+    ],
+    [
+      "4CA414626692E2714B2FB4AB2541B58F",
+      "FF202A0F"
+    ]
+  ]
+}

@@ -1,0 +1,949 @@
+{
+  "painted": {
+    "0000000000000F7DFFFFFFFFFFFFF082:0F201C0C": [
+      2040,
+      7,
+      128,
+      "area13-exterior.png"
+    ],
+    "000000000000D800FFFFFFFFFFFF27FF:0F201C0C": [
+      2040,
+      15,
+      128,
+      "area13-exterior.png"
+    ],
+    "0000000001010307FFFFFFFFFEFFFEF8:0F201C0C": [
+      2040,
+      55,
+      120,
+      "area13-exterior.png"
+    ],
+    "0000000001A3FF47FFFFFFFFFF5F04B8:0F201C0C": [
+      2040,
+      47,
+      128,
+      "area13-exterior.png"
+    ],
+    "00000000020BBF03FFFFFFFFFDF440FC:0F201C0C": [
+      2040,
+      39,
+      128,
+      "area13-exterior.png"
+    ],
+    "0000000017057FFFFFFFFFFFE8FA8000:0F201C0C": [
+      2040,
+      63,
+      64,
+      "area13-exterior.png"
+    ],
+    "000000002EF80200FFFFFFFFD107FDFF:0F201C0C": [
+      2040,
+      71,
+      120,
+      "area13-exterior.png"
+    ],
+    "0000000040AAFEFDFFFFFFFFBF550102:0F201C0C": [
+      2040,
+      71,
+      64,
+      "area13-exterior.png"
+    ],
+    "0000001F1F1F1FFFFFFFFFE0E0E0E000:0F201505": [
+      2040,
+      135,
+      56,
+      "area13-exterior.png"
+    ],
+    "0000002020202020FFFFC0E0E0E0E0E0:0F271707": [
+      2040,
+      111,
+      80,
+      "area13-exterior.png"
+    ],
+    "00000040000800240000004000080027:0F271707": [
+      2040,
+      239,
+      192,
+      "area13-exterior.png"
+    ],
+    "00000084001000A400000084001000A6:0F271707": [
+      2040,
+      247,
+      192,
+      "area13-exterior.png"
+    ],
+    "000000BB5800011DFFFFFF44A7FFFEE2:0F201C0C": [
+      2040,
+      55,
+      64,
+      "area13-exterior.png"
+    ],
+    "000000F8F8F8F8FFFFFFFF0707070700:0F201505": [
+      2040,
+      127,
+      56,
+      "area13-exterior.png"
+    ],
+    "0000080400000000FFFFF7FFFFFFFFFF:0F201000": [
+      2040,
+      167,
+      144,
+      "area13-exterior.png"
+    ],
+    "0000226F3F00091F00003F7F3F003F3F:0F271707": [
+      2040,
+      127,
+      80,
+      "area13-exterior.png"
+    ],
+    "000048FFFF0011FF0000FFFFFF00FDFF:0F271707": [
+      2040,
+      135,
+      80,
+      "area13-exterior.png"
+    ],
+    "000060F0F8FCFEF7FFFF9F0F1F2F371B:0F201C0C": [
+      2040,
+      63,
+      120,
+      "area13-exterior.png"
+    ],
+    "0000800000000000FFFFFFFFFFFBFFFF:0F201000": [
+      2040,
+      167,
+      152,
+      "area13-exterior.png"
+    ],
+    "0000C0C0E0F0F0F8FFFFFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      7,
+      136,
+      "area13-exterior.png"
+    ],
+    "0000E000000003E6FFFF1FFFFFFFFCF9:0F201C0C": [
+      2040,
+      39,
+      136,
+      "area13-exterior.png"
+    ],
+    "0001000040000400FFFEFFFFFFFFFBFF:0F201000": [
+      2040,
+      159,
+      152,
+      "area13-exterior.png"
+    ],
+    "0001000208000480FFFEFFFFFFFFFBFF:0F201000": [
+      2040,
+      159,
+      72,
+      "area13-exterior.png"
+    ],
+    "0020300000080000FFDFDFFFFFFFFFFF:0F201000": [
+      2040,
+      159,
+      144,
+      "area13-exterior.png"
+    ],
+    "0060000000030F1BFF9FFFFFFFFCF0E4:0F201C0C": [
+      2040,
+      15,
+      136,
+      "area13-exterior.png"
+    ],
+    "007F7F7F8000FFFE7F000000FF00FF03:0F201000": [
+      2040,
+      247,
+      112,
+      "area13-exterior.png"
+    ],
+    "0080004010002001FF7FFFFFFFFFDFFF:0F201000": [
+      2040,
+      103,
+      72,
+      "area13-exterior.png"
+    ],
+    "0080004038003BFBFF7FFF7FBFC3DA7B:0F201000": [
+      2040,
+      151,
+      104,
+      "area13-exterior.png"
+    ],
+    "0080E02090402080FF7F1FDF6FBFDF7F:0F201C0C": [
+      2040,
+      63,
+      136,
+      "area13-exterior.png"
+    ],
+    "0088DD2779C8072D00883EDD8F77F8F7:0F201C0C": [
+      2040,
+      7,
+      208,
+      "area13-exterior.png"
+    ],
+    "00A00609E1FF5F0A00A00609E1FFFFCF:0F271707": [
+      2040,
+      7,
+      176,
+      "area13-exterior.png"
+    ],
+    "00C060389C767B3CFF7FFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      31,
+      136,
+      "area13-exterior.png"
+    ],
+    "00FF4700000000FD00FFA8FFFFFFFFFD:0F201000": [
+      2040,
+      95,
+      48,
+      "area13-exterior.png"
+    ],
+    "00FF5F00000019FF00FFA0FFFF7FFFFF:0F201000": [
+      2040,
+      103,
+      48,
+      "area13-exterior.png"
+    ],
+    "00FFE200000000BF00FF15FFFFFFFFBF:0F201000": [
+      2040,
+      167,
+      48,
+      "area13-exterior.png"
+    ],
+    "00FFFA00000018FF00FF05FFFFFEFFFF:0F201000": [
+      2040,
+      199,
+      64,
+      "area13-exterior.png"
+    ],
+    "00FFFA00000098FF00FF05FFFFFEFFFF:0F201000": [
+      2040,
+      159,
+      48,
+      "area13-exterior.png"
+    ],
+    "00FFFA00000880FF00FF05FFFFFFFFFF:0F201000": [
+      2040,
+      191,
+      64,
+      "area13-exterior.png"
+    ],
+    "0100010000000000FFFFEFDFDFDFBF7F:0F201000": [
+      2040,
+      143,
+      104,
+      "area13-exterior.png"
+    ],
+    "019B5D3DE23CC437001CB34F3FE33FD8:0F201C0C": [
+      2040,
+      15,
+      208,
+      "area13-exterior.png"
+    ],
+    "01FEFEFE0100FF7FFF010101FF00FF80:0F201000": [
+      2040,
+      239,
+      112,
+      "area13-exterior.png"
+    ],
+    "0200000000000000FDFFFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      215,
+      8,
+      "area13-exterior.png"
+    ],
+    "0203010100000000FFFEFEFFFFFFFFFF:0F201000": [
+      2040,
+      143,
+      96,
+      "area13-exterior.png"
+    ],
+    "02323202FCFE0000FFCFC7E7FCFE0000:0F201000": [
+      2040,
+      247,
+      120,
+      "area13-exterior.png"
+    ],
+    "0309414155AEF5A80309414155AFFFFF:0F271707": [
+      2040,
+      15,
+      176,
+      "area13-exterior.png"
+    ],
+    "030F3C6A9FFCDFB9FCF0C39560032046:0F201C0C": [
+      2040,
+      23,
+      136,
+      "area13-exterior.png"
+    ],
+    "0340FF00000000000BFFFF0000000000:0F201000": [
+      2040,
+      191,
+      160,
+      "area13-exterior.png"
+    ],
+    "04050505050704040607070707070607:0F201000": [
+      2040,
+      199,
+      184,
+      "area13-exterior.png"
+    ],
+    "040C0C0000080000FFFBFBFFFFFFFFFF:0F201000": [
+      2040,
+      103,
+      64,
+      "area13-exterior.png"
+    ],
+    "040C0C0000888000FFFBFBFFFFFFFFFF:0F201000": [
+      2040,
+      151,
+      96,
+      "area13-exterior.png"
+    ],
+    "048A050200000000CFCF074700000000:0F271707": [
+      2040,
+      7,
+      184,
+      "area13-exterior.png"
+    ],
+    "05040504050505050707070607070707:0F201000": [
+      2040,
+      199,
+      176,
+      "area13-exterior.png"
+    ],
+    "0602301088462381FFFFFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      71,
+      136,
+      "area13-exterior.png"
+    ],
+    "08080A02020202020C0F0F0303030303:0F201000": [
+      2040,
+      199,
+      168,
+      "area13-exterior.png"
+    ],
+    "0909090909090909E7E7E7E7E7E7E7E7:0F201000": [
+      2040,
+      167,
+      60,
+      "area13-exterior.png"
+    ],
+    "0C9CAE732747391CFFEFDFFFFFFFFFFF:0F201C0C": [
+      2040,
+      71,
+      128,
+      "area13-exterior.png"
+    ],
+    "0D3DFDFDF9F5F9ECF3C30303070B0712:0F201000": [
+      2040,
+      151,
+      48,
+      "area13-exterior.png"
+    ],
+    "0F172D53B6CDBBF1F0E8D2AC4932440E:0F201C0C": [
+      2040,
+      55,
+      128,
+      "area13-exterior.png"
+    ],
+    "101050404040404030F0F0C0C0C0C0C0:0F201000": [
+      2040,
+      175,
+      168,
+      "area13-exterior.png"
+    ],
+    "1718E083D4391A65EFF73FFF3FC6FDFB:0F201C0C": [
+      2040,
+      15,
+      216,
+      "area13-exterior.png"
+    ],
+    "18DFEF6C5A545EBE9CFF5EDDDBD7DF87:0F271707": [
+      2040,
+      79,
+      128,
+      "area13-exterior.png"
+    ],
+    "1F3F7FFFFFFFFFFFF0E9F3C7CC103CE1:0F201C0C": [
+      2040,
+      47,
+      136,
+      "area13-exterior.png"
+    ],
+    "20202020201F007DE0E0E0E0E0DFFB83:0F271707": [
+      2040,
+      111,
+      88,
+      "area13-exterior.png"
+    ],
+    "2030300000100000FFDFDFFFFFFFFFFF:0F201000": [
+      2040,
+      159,
+      64,
+      "area13-exterior.png"
+    ],
+    "20A0A0A0A0E0202060E0E0E0E0E060E0:0F201000": [
+      2040,
+      175,
+      184,
+      "area13-exterior.png"
+    ],
+    "2F1F1D793A303F3F50606246454F4040:0F201000": [
+      2040,
+      111,
+      64,
+      "area13-exterior.png"
+    ],
+    "3B394600FC0C070044467F00FFFFFFFF:0F201000": [
+      2040,
+      111,
+      72,
+      "area13-exterior.png"
+    ],
+    "3D286C78ACBCB89C7D7C7C7CBEBCBC9C:0F201C0C": [
+      2040,
+      15,
+      232,
+      "area13-exterior.png"
+    ],
+    "3F00441F3F00213F3F007F3F3F003F3F:0F271707": [
+      2040,
+      127,
+      88,
+      "area13-exterior.png"
+    ],
+    "3F1F5F6E1F3F3F3F4060605160404040:0F201000": [
+      2040,
+      111,
+      56,
+      "area13-exterior.png"
+    ],
+    "40585840BF3F0000BFA7A3B3FF7F0000:0F201000": [
+      2040,
+      239,
+      120,
+      "area13-exterior.png"
+    ],
+    "4FF8F8F8F80000000007070707FFFFFF:0F201505": [
+      2040,
+      127,
+      48,
+      "area13-exterior.png"
+    ],
+    "55A8500000C0C000FFFFF8F9C0C0C000:0F271707": [
+      2040,
+      15,
+      184,
+      "area13-exterior.png"
+    ],
+    "61E68F2F6FD59596E1E68F2F6FF7F7F7:0F271707": [
+      2040,
+      87,
+      120,
+      "area13-exterior.png"
+    ],
+    "6F1300000000000090ECFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      223,
+      8,
+      "area13-exterior.png"
+    ],
+    "6FFFDFFFFFFFFFFD9000200000000002:0F201000": [
+      2040,
+      119,
+      48,
+      "area13-exterior.png"
+    ],
+    "765E70A3DEFCF9FB89A18F5C2183C7F7:0F201C0C": [
+      2040,
+      23,
+      144,
+      "area13-exterior.png"
+    ],
+    "77EEDCFB67D9FFDF8891E3E4F8FFFFFF:0F201C0C": [
+      2040,
+      15,
+      144,
+      "area13-exterior.png"
+    ],
+    "7BF76E0E1E141496F8F48DEDFDF7F7F7:0F271707": [
+      2040,
+      87,
+      136,
+      "area13-exterior.png"
+    ],
+    "7BF7EFCE9CDD1898860C18397B33F7F7:0F271707": [
+      2040,
+      79,
+      112,
+      "area13-exterior.png"
+    ],
+    "80248924C21890048064C926C2189004:0F271707": [
+      2040,
+      247,
+      200,
+      "area13-exterior.png"
+    ],
+    "8337EFEFDF8F2B777CD810902073D488:0F201C0C": [
+      2040,
+      55,
+      136,
+      "area13-exterior.png"
+    ],
+    "870B175B0A00058A8F0F175F0A00058A:0F271707": [
+      2040,
+      239,
+      200,
+      "area13-exterior.png"
+    ],
+    "9090909090909090E7E7E7E7E7E7E7E7:0F201000": [
+      2040,
+      95,
+      60,
+      "area13-exterior.png"
+    ],
+    "988C7760208C9E36FFEF7760208C9EBE:0F271707": [
+      2040,
+      79,
+      120,
+      "area13-exterior.png"
+    ],
+    "A020A020A0A0A0A0E0E0E060E0E0E0E0:0F201000": [
+      2040,
+      175,
+      176,
+      "area13-exterior.png"
+    ],
+    "B0BCBFBF9FAF9F37CFC3C0C0E0D0E048:0F201000": [
+      2040,
+      111,
+      48,
+      "area13-exterior.png"
+    ],
+    "B4048565E5A7E363F707E7E7E7E7E363:0F201C0C": [
+      2040,
+      7,
+      232,
+      "area13-exterior.png"
+    ],
+    "BE7FFBB53EE7B9FFFFFFFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      7,
+      144,
+      "area13-exterior.png"
+    ],
+    "C002FF0000000000D0FFFF0000000000:0F201000": [
+      2040,
+      183,
+      160,
+      "area13-exterior.png"
+    ],
+    "C283030606060626BFFF7F7EBEBEBEBE:0F271707": [
+      2040,
+      79,
+      136,
+      "area13-exterior.png"
+    ],
+    "C2DCE4A4FEBFAF0EFDFD7DBDF9B7BFBE:0F201C0C": [
+      2040,
+      7,
+      224,
+      "area13-exterior.png"
+    ],
+    "C793E9F7DFEEF7FBFFFFFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      31,
+      144,
+      "area13-exterior.png"
+    ],
+    "CBE5B38AC20080403F1F4F773FFF7FBF:0F201C0C": [
+      2040,
+      63,
+      128,
+      "area13-exterior.png"
+    ],
+    "D0F41C080A0A0A19D317FFFBFBFBFBF9:0F271707": [
+      2040,
+      87,
+      128,
+      "area13-exterior.png"
+    ],
+    "DC9C62003F30E0002262FE00FFFFFFFF:0F201000": [
+      2040,
+      151,
+      72,
+      "area13-exterior.png"
+    ],
+    "E700539190909090E70075E6E7E7E7E7:0F201000": [
+      2040,
+      95,
+      56,
+      "area13-exterior.png"
+    ],
+    "E700CA8909090909E700AE67E7E7E7E7:0F201000": [
+      2040,
+      167,
+      56,
+      "area13-exterior.png"
+    ],
+    "E704F00B0B0B0B0BEFFFF80F0F0F0F0F:0F201000": [
+      2040,
+      199,
+      160,
+      "area13-exterior.png"
+    ],
+    "E7200FD0D0D0D0D0F7FF1FF0F0F0F0F0:0F201000": [
+      2040,
+      175,
+      160,
+      "area13-exterior.png"
+    ],
+    "E7E3115A9B4764A57FFF5F5EFC7BBFBF:0F201C0C": [
+      2040,
+      15,
+      224,
+      "area13-exterior.png"
+    ],
+    "EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:0F201C0C": [
+      2040,
+      1,
+      151,
+      "area13-exterior.png"
+    ],
+    "F04C0000000000000FB3FFFFFFFFFFFF:0F201C0C": [
+      2040,
+      231,
+      8,
+      "area13-exterior.png"
+    ],
+    "F4F8B89E5C0CFCFC0A064662A2F20202:0F201000": [
+      2040,
+      151,
+      64,
+      "area13-exterior.png"
+    ],
+    "F6FFFBFFFFFFFFBF0900040000000040:0F201000": [
+      2040,
+      143,
+      48,
+      "area13-exterior.png"
+    ],
+    "F7FFDC1E54D8FFFD080023E1AB270002:0F201000": [
+      2040,
+      127,
+      64,
+      "area13-exterior.png"
+    ],
+    "F7FFFF3F39E9E42A182020E0E6E627EB:0F271707": [
+      2040,
+      87,
+      112,
+      "area13-exterior.png"
+    ],
+    "FCF8FA76F8FCFCFC0206068A06020202:0F201000": [
+      2040,
+      151,
+      56,
+      "area13-exterior.png"
+    ],
+    "FDCF3800FF0702000270FF00FEFEFFFF:0F201000": [
+      2040,
+      127,
+      72,
+      "area13-exterior.png"
+    ],
+    "FDE7803B8CC93F7F22F9FFE7FF3ECFE3:0F201C0C": [
+      2040,
+      7,
+      216,
+      "area13-exterior.png"
+    ],
+    "FEEF10003F30E0000130FF00FFFFFFFF:0F201000": [
+      2040,
+      135,
+      72,
+      "area13-exterior.png"
+    ],
+    "FF00031000000000FF00FFFFFFFFFFFF:0F201000": [
+      2040,
+      199,
+      72,
+      "area13-exterior.png"
+    ],
+    "FF0045FFFF0009FFFF00FFFFFF00FFFF:0F271707": [
+      2040,
+      135,
+      88,
+      "area13-exterior.png"
+    ],
+    "FF00830518000000FF00FFFEFFFFFFFF:0F201000": [
+      2040,
+      159,
+      56,
+      "area13-exterior.png"
+    ],
+    "FF00900002000000FF00FFFFFFFFFFFF:0F201000": [
+      2040,
+      191,
+      72,
+      "area13-exterior.png"
+    ],
+    "FF00C1A018000000FF00FF7FFFFFFFFF:0F201000": [
+      2040,
+      103,
+      56,
+      "area13-exterior.png"
+    ],
+    "FF1F1F1F1F00000000E0E0E0E0FFFFFF:0F201505": [
+      2040,
+      135,
+      48,
+      "area13-exterior.png"
+    ],
+    "FFC3FFFFC3FFFF01013D7D013D7D01FF:0F271707": [
+      2040,
+      119,
+      88,
+      "area13-exterior.png"
+    ],
+    "FFCFFFFFFEFFFFFF0030000001000000:0F201000": [
+      2040,
+      119,
+      56,
+      "area13-exterior.png"
+    ],
+    "FFEF0000FFE040000010FF007F7FFFFF:0F201000": [
+      2040,
+      119,
+      72,
+      "area13-exterior.png"
+    ],
+    "FFF3FFFF7FFFFFFF000C000080000000:0F201000": [
+      2040,
+      143,
+      56,
+      "area13-exterior.png"
+    ],
+    "FFF70000FF0702000008FF00FEFEFFFF:0F201000": [
+      2040,
+      143,
+      72,
+      "area13-exterior.png"
+    ],
+    "FFFFDCC44C44FFFF0000233BB3BB0000:0F201000": [
+      2040,
+      135,
+      64,
+      "area13-exterior.png"
+    ],
+    "FFFFDFD68BD6FFDF0000202974290020:0F201000": [
+      2040,
+      143,
+      64,
+      "area13-exterior.png"
+    ],
+    "FFFFFB6BD16BFFFB000004942E940004:0F201000": [
+      2040,
+      119,
+      64,
+      "area13-exterior.png"
+    ],
+    "FFFFFF43FFFFC3FF017D01BD7D013D7D:0F271707": [
+      2040,
+      119,
+      80,
+      "area13-exterior.png"
+    ],
+    "FFFFFFFFFAE08000FFFFFFFFFAE08000:0F201C0C": [
+      2040,
+      15,
+      168,
+      "area13-exterior.png"
+    ],
+    "FFFFFFFFFF7F2F01FFFFFFFFFF7F2F01:0F201C0C": [
+      2040,
+      7,
+      168,
+      "area13-exterior.png"
+    ],
+    "000000000000048A000000000000048A:0F201000": [
+      2520,
+      56,
+      40,
+      "area13-interior.png"
+    ],
+    "00000000000004AA00000000000004AA:0F201000": [
+      2520,
+      48,
+      40,
+      "area13-interior.png"
+    ],
+    "0000008080022E00FEFEFEFC7CFAFE00:0F201000": [
+      2520,
+      24,
+      8,
+      "area13-interior.png"
+    ],
+    "0000101010303064001000002008481C:0F201000": [
+      2520,
+      168,
+      192,
+      "area13-interior.png"
+    ],
+    "0007070D0B0B0B0B0007070F0D0D0D0D:0F201000": [
+      2520,
+      56,
+      168,
+      "area13-interior.png"
+    ],
+    "0008080808181832080000001004240E:0F201000": [
+      2520,
+      160,
+      192,
+      "area13-interior.png"
+    ],
+    "0040373F3B363F77007F7F7F7B777F77:0F201000": [
+      2520,
+      56,
+      56,
+      "area13-interior.png"
+    ],
+    "0082FFF3FF9FFFE600FEFFFBFFFFFFE6:0F201000": [
+      2520,
+      48,
+      56,
+      "area13-interior.png"
+    ],
+    "00E0E0B0D0D0D0D000E0E0F0B0B0B0B0:0F201000": [
+      2520,
+      32,
+      168,
+      "area13-interior.png"
+    ],
+    "00EFEFFFFEEEED0300E7E3C1C1E2E503:0F201000": [
+      2520,
+      48,
+      160,
+      "area13-interior.png"
+    ],
+    "00F7F7FF7F77B7C000E7C7838347A7C0:0F201000": [
+      2520,
+      40,
+      160,
+      "area13-interior.png"
+    ],
+    "030000401000CF00FCFFFFFFFFF3EF00:0F201000": [
+      2520,
+      8,
+      8,
+      "area13-interior.png"
+    ],
+    "0300008001C36E00FEFFFFFFFFFAEF00:0F201000": [
+      2520,
+      16,
+      8,
+      "area13-interior.png"
+    ],
+    "0840371F1B060301087F3F1F1B070301:0F201000": [
+      2520,
+      72,
+      88,
+      "area13-interior.png"
+    ],
+    "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D:0F201000": [
+      2520,
+      56,
+      172,
+      "area13-interior.png"
+    ],
+    "1800FFFBFFFEF36718FFFFFFFFFEF7E7:0F201000": [
+      2520,
+      56,
+      48,
+      "area13-interior.png"
+    ],
+    "1800FFFBFFFEF36F18FFFFFFFFFEF7EF:0F201000": [
+      2520,
+      72,
+      80,
+      "area13-interior.png"
+    ],
+    "35F9EF9440110049CC06106BFFEEFFB7:0F201000": [
+      2520,
+      0,
+      16,
+      "area13-interior.png"
+    ],
+    "3A403F0F0F0701003A7F3F1F0F070100:0F201000": [
+      2520,
+      64,
+      80,
+      "area13-interior.png"
+    ],
+    "7F8181818181818101FEC2FEC2FEFEFE:0F201000": [
+      2520,
+      56,
+      160,
+      "area13-interior.png"
+    ],
+    "80D880C08118C3007F377F3F7FFFFF00:0F201000": [
+      2520,
+      0,
+      8,
+      "area13-interior.png"
+    ],
+    "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0:0F201000": [
+      2520,
+      32,
+      172,
+      "area13-interior.png"
+    ],
+    "F0403F2F7F1F3F75F07F7F7F7F7F7F77:0F201000": [
+      2520,
+      48,
+      48,
+      "area13-interior.png"
+    ],
+    "F9FFE380A883414286001C7F577FBFBF:0F201000": [
+      2520,
+      16,
+      16,
+      "area13-interior.png"
+    ],
+    "FAFDD6830022A4870502297CFFDD5F7B:0F201000": [
+      2520,
+      24,
+      16,
+      "area13-interior.png"
+    ],
+    "FCFED0801002060202002E7EECFAFEFE:0F201000": [
+      2520,
+      8,
+      16,
+      "area13-interior.png"
+    ],
+    "FE81818181818181807F437F437F7F7F:0F201000": [
+      2520,
+      32,
+      160,
+      "area13-interior.png"
+    ],
+    "FFFF0300FD01FC030000FC03FEFFFF03:0F201000": [
+      2520,
+      160,
+      200,
+      "area13-interior.png"
+    ],
+    "FFFFE0009F901FC000003FC0DFDFDFC0:0F201000": [
+      2520,
+      168,
+      200,
+      "area13-interior.png"
+    ]
+  },
+  "guard_pose_count": 8,
+  "area_address": "004D",
+  "area_value": "0D"
+}

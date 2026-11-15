@@ -278,3 +278,17 @@ Branch: feature/cave-generator-polish-v0.5.0.
 5. Gather later-area and unrecorded-move recordings before expanding coverage.
 
 This is a review build. No GitHub release is implied by its local version.
+
+## Area 13 checkpoint — v0.6.0
+
+Base: feature/cave-generator-polish-v0.5.0, commit 484f70b6bb6fe8d362c96380d5fb2cc4ce8b7755.
+New input: Bionic Commando (USA)(4).mmo, 7,434 frames, matching the existing ROM SHA1.
+New module: scripts/area13.py; all area-specific environment replacements use a read-only area-state condition at RAM $004D == $0D and exclude map/equipment/title/radio screens.
+Metadata was sampled every 6 frames, with original visible-tile recording over the entire movie. Additional keys are retained under capture/area13.
+Guard metasprites reuse the native anchor, flip, priority and local pose conditions. NPC artwork retains its aspect ratio. Portrait additions attach to the moving native helmet anchor; mouth changes follow the original nearby mouth pattern.
+The original and HD replay checkpoints are compared every 120 frames plus start/end. Only the graphics pack is modified; no ROM or gameplay memory writes are used.
+
+Build: BIONIC_XBRZ_LIBRARY=/path/to/scale.so python3 scripts/build.py
+Validate with scripts/validate.py using --frames 7434 --checkpoint-step 120 and the original/HD replay directories.
+Package with scripts/package.py using the v0.5.0 replay as --before and the new replay as --screenshots.
+Coverage is the supplied Area 13 recording; this pass does not claim a fresh full-game regression.

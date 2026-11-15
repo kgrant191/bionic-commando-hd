@@ -95,3 +95,17 @@ geometry. Preview comparisons are actual emulator frames.
 
 The shallow swing addition reuses and reflects the existing v0.4 swing painting.
 The results-screen frame and live typography are drawn by the pack builder.
+
+## Area 13 assets
+
+Generated with the built-in image tool, then integrated as 4x tile/metasprite atlas assets.
+- area13-exterior.png: redraw the exact Area 13 outpost geometry in the established painted metal/stone style, bronze shutters, medical cross, rocky bank, teal water.
+- area13-interior.png: exact stone-room layout, limestone borders and dark slate brick recesses, no characters.
+- area13-poses-v3.png: eight white-guard poses in a 4-by-2 transparent sheet, native standing/aiming/walking/landing forms.
+- area13-npcs.png: olive and burgundy sentries. Alpha cleanup in the atlas builder discards the generator's soft surrounding halo; body proportions are preserved.
+- area13-portraits.png: white, burgundy and olive helmeted contacts, closed/open mouth rows; three columns by two rows.
+- area13-items.png: olive supply canister, red first-aid badge and cream/burgundy parachute with cords.
+
+Generated scene artwork is sampled into CHR-RAM tile rules; it is not a static replacement screenshot. Live sprites, collision geometry, dialogue text, item timing and palette alarms remain driven by the ROM.
+
+- area13-informant.png: auburn-haired neutral-area informant, closed/open mouth pair based directly on the recorded portrait.

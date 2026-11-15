@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.5.0
-Cave, combat, generator and Area Clear polish
+BIONIC COMMANDO HD — v0.6.0
+Area 13 review build
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -11,33 +11,11 @@ Manual install: put hires.txt and all PNGs together in:
 The directory name must exactly match your ROM's filename without .nes.
 
 THIS PASS
-Painted cave lift, moving platform, gate, crates, rock edges and elevator rims.
-Additional enemy hit palettes and a painted fallback for partially hidden actors.
-New firing pose for the final-room armored guard's extended gauntlet attack.
-An additional shallow swing angle with Spencer's exposed mechanical arm.
-Completed generator edges, painted explosion phases and electric-hazard emitters.
-HD scenery and actors remain painted through the native shutdown fade.
-New Area Clear art and panel from its first frame; live bonus and reward text.
-Painted closed exterior radio-room doors; Spencer stays in front when passing.
-Painted enemy hit-palette variants with the existing damage tint.
-Complete painted communication-room doorway, including header and both jambs.
-Corrected blue lines in barrel/platform/ladder texture crops across Area 1.
-Exposed mechanical grappling arm and two corrected rotated swing poses.
-Consistent enemy body scale between crouching and firing poses.
-Painted searchlight, restricted water matching and wall/beam edge materials.
-HD equipment menu, live cursor and painted handgun/radio icons.
-Painted map terrain; live routes, numbers, selection and units preserved.
-Eight radio portrait expressions covering four speakers in this recording.
-18 Spencer paintings mapped to 21 pose records; 12 painted enemy poses.
-Standing, running, crouching, grappling, rifle troops, bazookas and armored guard.
-Painted reactor tubing and amber core; scenery retained through palette flashes.
-Olive-brass machinery and rails in the later underground section.
-Material fallbacks for other states and metal arm links.
-Painted tower stucco/coping and atmospheric exterior sky.
-Approved title, radio panel and Area 1 environment art retained.
-4x graphics, 1024 x 896 before aspect-ratio correction.
-Top/bottom overscan trims eight NES pixels each to hide observed edge garbage.
-Sprite-limit removal reduces missing sprite strips during crowded combat.
+Area 13 outpost buildings, medical signage, rocky banks and stone interiors.
+Eight white-guard poses, parachute canopy, neutral-area contacts and portraits.
+Green supply and first-aid pickups. Live dialogue, portrait talking and alarm palettes.
+Includes all approved v0.5.0 Area 1 improvements.
+
 
 WORK IN PROGRESS
 This is a selected-pose pass, not a complete frame-by-frame character redraw.

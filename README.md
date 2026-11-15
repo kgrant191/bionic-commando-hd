@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.5.0 — cave, combat, generator and Area Clear**
+**v0.6.0 — cave, combat, generator and Area Clear**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening and Are
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.5.0.zip`.
+   `Bionic_Commando_HD_v0.6.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -98,3 +98,7 @@ binaries, gameplay recordings and developer files are not included.
 Tested core: MesenCE 2.2.1; HD-pack format 109.
 Whole-file ROM SHA1: `D3A4BFD995D18C4A386971631759AECA3A7CFF8D`.
 
+
+## Area 13 review pass
+
+Adds Area 13 scenery, stone interiors, white guards and parachutes, neutral-area contacts, animated dialogue portraits and two item pickups. Based on the v0.5.0 cave/generator branch. Review build; no release is implied.
