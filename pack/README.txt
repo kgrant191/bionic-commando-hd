@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.7.4
-Projectile art and damage-palette correction review build
+BIONIC COMMANDO HD — v0.7.5
+Knife guard and active flare correction review build
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -9,6 +9,10 @@ confirm installation, enable HD packs in NES video settings, and reload.
 Manual install: put hires.txt and all PNGs together in:
   HdPacks/Bionic Commando (USA)/
 The directory name must exactly match your ROM's filename without .nes.
+
+KNIFE GUARD AND FLARE
+Bulky burgundy knife guard with three consistent charging poses.
+Active flare uses a lit red canister, distinct from ordinary gunshots.
 
 PROJECTILES
 Dedicated HD gunshots remain consistent across enemy and damage palettes.
@@ -45,7 +49,7 @@ Unrecognized heads keep the previous material treatment. Occluded recognized
 poses use their most common head-matched painting until body signatures return.
 Some effects and unrecorded equipment icons still use a smoothed baseline.
 v0.7.0 replayed all five unique supplied recordings.
-v0.7.4 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
+v0.7.5 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
 and inventory icons. The unnumbered and (1) movies are identical.
 Frame-by-frame tile-rule audit plus sampled rendered-image review.
 The pistol is the starter design; machine-gun/bazooka player art is still pending.

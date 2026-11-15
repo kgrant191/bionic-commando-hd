@@ -1,0 +1,41 @@
+{
+  "final_pack_sha256": "88250363db385f328a24058f7880e3d8dc71c4942891009fd7d6ea8bfe973c10",
+  "other_pack_images_byte_identical": 22,
+  "unchanged_images": [
+    "area-clear.png",
+    "area13-distance-alert.png",
+    "area13-distance-flash.png",
+    "area13-distance.png",
+    "area4-boss0.png",
+    "area4-boss1.png",
+    "area4-distance.png",
+    "equipment.png",
+    "portrait0.png",
+    "portrait1.png",
+    "portrait2.png",
+    "portrait3.png",
+    "portrait4.png",
+    "portrait5.png",
+    "portrait6.png",
+    "portrait7.png",
+    "portrait8.png",
+    "portrait9.png",
+    "radio.png",
+    "sky.png",
+    "title.png",
+    "worldmap.png"
+  ],
+  "source_pose_changes_confined_to_knife_guard": true,
+  "changed_pose_records": {
+    "area4": [
+      0,
+      1,
+      2
+    ],
+    "a13trooper": [
+      0,
+      1,
+      2
+    ]
+  }
+}

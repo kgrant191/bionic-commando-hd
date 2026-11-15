@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.7.4 — Projectile artwork and damage-palette fixes**
+**v0.7.5 — Knife guard and active flare corrections**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,28 @@ This is a work-in-progress graphics remake covering the supplied opening, Area 1
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.7.4.zip`.
+   `Bionic_Commando_HD_v0.7.5.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## Knife guard and active flare in v0.7.5
+
+The fast charging burgundy guard has a broader, muscular build and carries a
+visible knife. His three movement poses share one scale and head anchor. The
+same native enemy in Area 13 receives the correction too; other character
+identities retain their own artwork.
+
+An active flare now appears as a lit red illumination canister. It no longer
+shares the silver gunshot artwork, even when Spencer fires while the flare
+is rising or the camera scrolls. The existing unlit flare pickup/equipment
+icon and XP bullet collectible retain their separate designs.
+
+Includes the v0.7.3 town improvements and v0.7.4 gunshot palette fixes.
+See `validation/KNIFE_FLARE_v0.7.5.md` for evidence and review limits.
 
 ## Projectile fixes in v0.7.4
 

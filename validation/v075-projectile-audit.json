@@ -1,0 +1,123 @@
+{
+  "all_visible_projectile_rules_select_dedicated_artwork": true,
+  "flare_selected_only_in_area4": true,
+  "runtime_verified_palettes": [
+    "FF202015",
+    "FF202A0F",
+    "FF36150F",
+    "FF36300F"
+  ],
+  "recordings": [
+    {
+      "recording": "opening",
+      "selected_artwork": [
+        {
+          "kind": "gunshot",
+          "palette": "FF202015",
+          "instances": 646
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF202A0F",
+          "instances": 26421
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF36150F",
+          "instances": 14020
+        }
+      ]
+    },
+    {
+      "recording": "door",
+      "selected_artwork": [
+        {
+          "kind": "gunshot",
+          "palette": "FF202A0F",
+          "instances": 536
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF36150F",
+          "instances": 2181
+        }
+      ]
+    },
+    {
+      "recording": "cave",
+      "selected_artwork": [
+        {
+          "kind": "gunshot",
+          "palette": "FF202015",
+          "instances": 36
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF202A0F",
+          "instances": 10599
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF36150F",
+          "instances": 5330
+        }
+      ]
+    },
+    {
+      "recording": "area13",
+      "selected_artwork": [
+        {
+          "kind": "gunshot",
+          "palette": "FF202A0F",
+          "instances": 855
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF36300F",
+          "instances": 1560
+        }
+      ]
+    },
+    {
+      "recording": "area4",
+      "selected_artwork": [
+        {
+          "kind": "flare",
+          "palette": "FF202A0F",
+          "instances": 904
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF202015",
+          "instances": 339
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF202A0F",
+          "instances": 8512
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF36150F",
+          "instances": 1162
+        }
+      ]
+    },
+    {
+      "recording": "water",
+      "selected_artwork": [
+        {
+          "kind": "gunshot",
+          "palette": "FF202A0F",
+          "instances": 972
+        },
+        {
+          "kind": "gunshot",
+          "palette": "FF36150F",
+          "instances": 2269
+        }
+      ]
+    }
+  ],
+  "final_pack_sha256": "88250363db385f328a24058f7880e3d8dc71c4942891009fd7d6ea8bfe973c10"
+}

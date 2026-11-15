@@ -1,0 +1,70 @@
+{
+  "diagnostic": "Player fires while the flare is active; B held at frames 919-970 in an isolated copy of Area 4 recording",
+  "frames": 1100,
+  "ram_ppu_checkpoints": 185,
+  "ram_mismatches": 0,
+  "ppu_mismatches": 0,
+  "pixel_checks": [
+    {
+      "frame": 924,
+      "changed_pixels_confined_to_flare": true,
+      "difference_bounds": [
+        564,
+        476,
+        592,
+        508
+      ]
+    },
+    {
+      "frame": 936,
+      "changed_pixels_confined_to_flare": true,
+      "difference_bounds": [
+        564,
+        428,
+        592,
+        460
+      ]
+    },
+    {
+      "frame": 948,
+      "changed_pixels_confined_to_flare": true,
+      "difference_bounds": [
+        564,
+        380,
+        592,
+        412
+      ]
+    },
+    {
+      "frame": 960,
+      "changed_pixels_confined_to_flare": true,
+      "difference_bounds": [
+        564,
+        332,
+        592,
+        364
+      ]
+    },
+    {
+      "frame": 984,
+      "changed_pixels_confined_to_flare": true,
+      "difference_bounds": [
+        564,
+        236,
+        592,
+        268
+      ]
+    },
+    {
+      "frame": 1008,
+      "changed_pixels_confined_to_flare": true,
+      "difference_bounds": [
+        468,
+        140,
+        496,
+        172
+      ]
+    }
+  ],
+  "final_pack_sha256": "88250363db385f328a24058f7880e3d8dc71c4942891009fd7d6ea8bfe973c10"
+}

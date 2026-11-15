@@ -1,3 +1,14 @@
+# v0.7.5 — Knife guard and active flare corrections
+
+- Give the fast charging burgundy guard a heavier build and a knife, matching his original role.
+- Keep one body scale across his three movement poses in Areas 4 and 13.
+- Render the active flare as a lit red canister, separate from ordinary silver gunshots.
+- Track the flare by its native object type and position through camera movement and simultaneous gunfire.
+- Preserve the unlit flare pickup/equipment icon, XP bullet collectible and existing projectile palette fixes.
+- Include the approved v0.7.3 town improvements and v0.7.4 gunshot corrections.
+
+Review build; no ROM or game-state changes. See `validation/KNIFE_FLARE_v0.7.5.md` for regression coverage and limits.
+
 # v0.7.4 — Projectile artwork and damage-palette fixes
 
 - Replace the enlarged original enemy shot in Area 13 with dedicated HD artwork.
