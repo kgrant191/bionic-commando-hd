@@ -8,7 +8,8 @@ HEAD='000102F17A797A7E52FFFE8F7E67064E'
 def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
     records=json.loads((root/f'capture/{actor}-poses.json').read_text())
     for rec in records:rec.setdefault('head',HEAD)
-    src=Image.open(root/f'art/{actor}-poses-v{4 if actor=="spencer"else 3}.png').convert('RGBA') if actor not in {'contact','neutral'} else Image.open(root/'art/area13-npcs.png').convert('RGBA')
+    default=root/f'art/{actor}-poses-v{4 if actor=="spencer" else 3}.png'
+    src=Image.open(default if default.exists() else root/'art'/records[0].get('asset','area13-npcs.png')).convert('RGBA')
     assert src.getchannel('A').getextrema()[0]==0,'Painted sprites need genuine alpha'
     records.sort(key=lambda r:(-len({t[2]for t in r['parts']}),-r['count']))
     keypal={}
@@ -74,7 +75,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
             dy=round(y1*4-(ab[3]-ab[1])*factor)
             art=art.crop(ab).resize((round((ab[2]-ab[0])*factor),round((ab[3]-ab[1])*factor)),Image.Resampling.LANCZOS)
             canvas.alpha_composite(art,(dx,dy))
-        elif actor in {'contact','neutral'}:
+        elif actor in {'contact','neutral'} and not rec.get('fit_native_bounds'):
             art=art.crop(ab);height=(y1-y0)*4
             width=round(art.width*height/art.height)
             art=art.resize((width,height),Image.Resampling.LANCZOS)
@@ -93,7 +94,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
     # same OAM flip/priority. No ROM, RAM or animation values are changed.
     def palette_pose(im,hp):
         if hp!=normal_palette:
-            a=np.array(im);a[:,:,:3]=np.clip(a[:,:,:3].astype(float)*[1.15,.72,.65],0,255);im=Image.fromarray(a)
+            a=np.array(im);a[:,:,:3]=np.clip(a[:,:,:3].astype(float)*([1.1,1.1,1.1] if actor=='area13' else [1.15,.72,.65]),0,255);im=Image.fromarray(a)
         fade=next((step for base in (normal_palette,0xFF202A0F,0xFF30160F)
                    for step in range(1,5) if fade_palette(base,step)==hp),0)
         if hp==0xFF0F0F0F:fade=4
@@ -151,7 +152,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
                 t=(k,p,guard)
                 if t in hidden:continue
                 hidden.add(t);rule(k,p,blank,guard)
-    if actor=='enemy':
+    if actor in {'enemy','area4','a13trooper'}:
         # If another sprite completely covers the head, no head addition can
         # be emitted. Preserve the surviving limb's occlusion with a crop of
         # the painted pose, rather than reverting to a material-tinted NES limb.
@@ -176,5 +177,6 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
 def make_poses(root,keys,rule,blank):
     result=[[],[],[]]
     for actor,rows,palette in [('spencer',4,0xFF36060F),('enemy',3,0xFF36150F)]:
-        for out,items in zip(result,make_actor(root,keys,rule,blank,actor,rows,palette)):out.extend(items)
+        emit=rule if actor=='spencer' else lambda k,p,im,g=None:rule(k,p,im,'!area13&'+g if g is not None else None)
+        for out,items in zip(result,make_actor(root,keys,emit,blank,actor,rows,palette)):out.extend(items)
     return result

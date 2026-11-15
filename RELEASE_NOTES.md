@@ -1,3 +1,13 @@
+# v0.7.0 — Area 4 review build
+
+Adds the mountain gorge, cave materials, copper pipework, shaft ledges and vents. New sleeveless-guard walking poses and shield-guard mappings cover the recorded combat states. Includes flare and communicator inventory art, boss dialogue expressions and doorway trim and all v0.6.1 regression fixes.
+
+Duplicate invisible sprite layers are combined so Area 13 mappings do not clip overlapping enemies in earlier areas.
+
+No gameplay changes. Coverage and validation limits are recorded in validation/AREA4_v0.7.0.md.
+
+Area 13 corrections: white, green and red NPCs keep their native uniform colors and distinct identities. The red runner has a dedicated three-pose cycle; armed and unarmed green contacts no longer share artwork. The red rifle guard is covered in Area 13 as well as Area 4, matching the shared native character. White idle NPCs have separate designs, and hit flashes retain white guard artwork. The pill is a capsule and the flare is a burning cartridge, including its equipment icon.
+
 # v0.6.1 — Recording regression fixes
 
 Game Over no longer triggers title artwork, and the sky is hidden during display-off transitions. Adds Spencer’s final death pose, player/enemy/supply parachutes, the Area 13 green contact’s walking cycle, and a missing electrical-effect palette variant.

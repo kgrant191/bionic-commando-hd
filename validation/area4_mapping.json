@@ -1,0 +1,1003 @@
+{
+  "painted": {
+    "00000000000000000000002020100010:0F19090B": [
+      600,
+      56,
+      128,
+      "area4-exterior.png"
+    ],
+    "00000000000000002448100444820910:0F19090B": [
+      600,
+      48,
+      128,
+      "area4-exterior.png"
+    ],
+    "00000000000000007F3F3F3F3F7F7FFF:0F311C01": [
+      600,
+      48,
+      8,
+      "area4-exterior.png"
+    ],
+    "00000000000000007FFFFFFFFFFF7F7F:0F311C01": [
+      600,
+      48,
+      16,
+      "area4-exterior.png"
+    ],
+    "0000000000000000FEFCFCFCFCFEFEFF:0F311C01": [
+      600,
+      136,
+      8,
+      "area4-exterior.png"
+    ],
+    "0000000000000000FEFFFFFFFFFFFEFE:0F311C01": [
+      600,
+      136,
+      16,
+      "area4-exterior.png"
+    ],
+    "000000000006040CFFFFFFFFFFF8FAF0:0F311C01": [
+      600,
+      136,
+      32,
+      "area4-exterior.png"
+    ],
+    "0000000000602030FFFFFFFFFF1F5F0F:0F311C01": [
+      600,
+      48,
+      32,
+      "area4-exterior.png"
+    ],
+    "000000000060E0B0FFFFFFFFFF9F1F4F:0F311C01": [
+      600,
+      64,
+      32,
+      "area4-exterior.png"
+    ],
+    "0000000001030387FFFFFFFFFEFCFC78:0F311C01": [
+      600,
+      112,
+      48,
+      "area4-exterior.png"
+    ],
+    "0000000080C0C0E1FFFFFFFF7F3F3F1E:0F311C01": [
+      600,
+      88,
+      48,
+      "area4-exterior.png"
+    ],
+    "0000001020000001060904001158B924:0F19090B": [
+      600,
+      48,
+      136,
+      "area4-exterior.png"
+    ],
+    "0000062933361E4C3F3F39164C4BE7FF:0F311C01": [
+      600,
+      48,
+      48,
+      "area4-exterior.png"
+    ],
+    "00006094CC6C7832FCFC9C6832D2E7FF:0F311C01": [
+      600,
+      136,
+      48,
+      "area4-exterior.png"
+    ],
+    "00080010200810000001088C0A142A08:0F19090B": [
+      600,
+      56,
+      136,
+      "area4-exterior.png"
+    ],
+    "00303992276F6622003039962F6F6622:0F271606": [
+      600,
+      224,
+      152,
+      "area4-exterior.png"
+    ],
+    "00789D4ECD1FA5D30078FDBF3EF8FAEC:0F201000": [
+      600,
+      0,
+      192,
+      "area4-exterior.png"
+    ],
+    "0084448A512205489C6008348E48B287:0F19090B": [
+      600,
+      56,
+      144,
+      "area4-exterior.png"
+    ],
+    "00C4D9BB1B696EB600C4D9BB1B696EB6:0F271606": [
+      600,
+      232,
+      152,
+      "area4-exterior.png"
+    ],
+    "01030502040A108452841A0993E5CB12:0F19090B": [
+      600,
+      48,
+      144,
+      "area4-exterior.png"
+    ],
+    "01036396CC6C7832FEFC9C6933D3E7FF:0F311C01": [
+      600,
+      120,
+      48,
+      "area4-exterior.png"
+    ],
+    "048084844E368287FD7D7D7CBEDE7EFF:0F271606": [
+      600,
+      160,
+      16,
+      "area4-exterior.png"
+    ],
+    "051A562871D29C0BFFF5E9D7CF2E5CEB:0F201000": [
+      600,
+      232,
+      128,
+      "area4-exterior.png"
+    ],
+    "0800000000A41100045181151511EE5D:0F19090B": [
+      600,
+      48,
+      152,
+      "area4-exterior.png"
+    ],
+    "08583B92276F6622397B3B962F6F6622:0F271606": [
+      600,
+      224,
+      168,
+      "area4-exterior.png"
+    ],
+    "1824266363D1C8CCE7DFDB9D9D2E3733:0F311C01": [
+      600,
+      128,
+      40,
+      "area4-exterior.png"
+    ],
+    "182464C6C68B1333E7FBDBB9B974ECCC:0F311C01": [
+      600,
+      56,
+      40,
+      "area4-exterior.png"
+    ],
+    "1BB6EADDFDBFFFEFFEFDFFFFFFFFFFFF:0F311C01": [
+      600,
+      48,
+      56,
+      "area4-exterior.png"
+    ],
+    "1C18302240834B22E0E4CEDEBEFEFDFE:0F311C01": [
+      600,
+      136,
+      40,
+      "area4-exterior.png"
+    ],
+    "1F35625B4469373D1C3E7F777A7F3F33:0F201000": [
+      600,
+      224,
+      8,
+      "area4-exterior.png"
+    ],
+    "20012121726C41E1BFBEBE3E7D7B7EFF:0F271606": [
+      600,
+      8,
+      16,
+      "area4-exterior.png"
+    ],
+    "2005FFF7FBD7EBDD75BFAA5DAE7DBE7F:0F19090B": [
+      600,
+      48,
+      160,
+      "area4-exterior.png"
+    ],
+    "22010000001045004D344425252FAA55:0F19090B": [
+      600,
+      56,
+      152,
+      "area4-exterior.png"
+    ],
+    "28D4EFD7AFD7AB5D7D7EBA7DFA7DFEFF:0F19090B": [
+      600,
+      56,
+      160,
+      "area4-exterior.png"
+    ],
+    "36AD56737B7B3000F7AF57737B7B3000:0F201000": [
+      600,
+      232,
+      136,
+      "area4-exterior.png"
+    ],
+    "37333379181A1D0E37777379381A1D0E:0F271606": [
+      600,
+      144,
+      8,
+      "area4-exterior.png"
+    ],
+    "38180C4402C1D2440727737B7D7FBF7F:0F311C01": [
+      600,
+      48,
+      40,
+      "area4-exterior.png"
+    ],
+    "4A1FFBF164121317BDF0E46EBBFDFFFF:0F201000": [
+      600,
+      8,
+      200,
+      "area4-exterior.png"
+    ],
+    "4BA4CBF76B373E1C3BDCFFFF7F3F3E1C:0F201000": [
+      600,
+      224,
+      136,
+      "area4-exterior.png"
+    ],
+    "4E773BDFEFF7FDFFFFFFFFFFFFFFFFFF:0F311C01": [
+      600,
+      128,
+      56,
+      "area4-exterior.png"
+    ],
+    "5B2731EAB3D2AB55D5FBCE154C2D54AA:0F201000": [
+      600,
+      232,
+      16,
+      "area4-exterior.png"
+    ],
+    "5EBFFBD160131D1FF9F0E56FBFFFFFE7:0F201000": [
+      600,
+      248,
+      8,
+      "area4-exterior.png"
+    ],
+    "60608E1A1B393C789CBC76E6EFDFFFFF:0F311C01": [
+      600,
+      136,
+      80,
+      "area4-exterior.png"
+    ],
+    "65EED6C9C36F39037AF1E9F7FE7E3A00:0F201000": [
+      600,
+      224,
+      16,
+      "area4-exterior.png"
+    ],
+    "67652C0C08189991FFF5EAEBE7D7D7DF:0F271606": [
+      600,
+      152,
+      8,
+      "area4-exterior.png"
+    ],
+    "67658818183A3C7898BA77E7EFDFFFFF:0F311C01": [
+      600,
+      56,
+      48,
+      "area4-exterior.png"
+    ],
+    "6EE4C9AB1B696EF6EEE4D9BB1B696EF6:0F271606": [
+      600,
+      232,
+      168,
+      "area4-exterior.png"
+    ],
+    "70A377F3F072261873E7F7F3F0762618:0F271606": [
+      600,
+      224,
+      160,
+      "area4-exterior.png"
+    ],
+    "72EEDCFBF7EFBFFFFFFFFFFFFFFFFFFF:0F311C01": [
+      600,
+      56,
+      56,
+      "area4-exterior.png"
+    ],
+    "733AD6A74F9BB12E8DC7EBF9F4EFDFFF:0F311C01": [
+      600,
+      88,
+      56,
+      "area4-exterior.png"
+    ],
+    "7366444C08B890887367464E8CF8D8EC:0F271606": [
+      600,
+      40,
+      32,
+      "area4-exterior.png"
+    ],
+    "73EEDDFBF6EEBEFEFFFFFFFFFEFEFEFE:0F311C01": [
+      600,
+      136,
+      88,
+      "area4-exterior.png"
+    ],
+    "7BF6FCE8D9B0366CFFFFFFFFFFFFFFFF:0F311C01": [
+      600,
+      128,
+      80,
+      "area4-exterior.png"
+    ],
+    "7BFDFFFFFFFFFFFFFFFFFFFF7F3F3F1E:0F311C01": [
+      600,
+      120,
+      64,
+      "area4-exterior.png"
+    ],
+    "7CF28079FEEDF6677CFEFE8703170E9F:0F201000": [
+      600,
+      8,
+      192,
+      "area4-exterior.png"
+    ],
+    "7F3ED6A74F9BB12E8DC7EBF9F4EFDFFF:0F311C01": [
+      600,
+      120,
+      72,
+      "area4-exterior.png"
+    ],
+    "80C0C66933361E4C7F3F3996CCCBE7FF:0F311C01": [
+      600,
+      64,
+      48,
+      "area4-exterior.png"
+    ],
+    "8D8F87C7C3E7E6F6FFFFFFFFFFFFFEFE:0F271606": [
+      600,
+      0,
+      16,
+      "area4-exterior.png"
+    ],
+    "A3D3A7DCBAF8F161FDFFFFFCF8FEFFFE:0F271606": [
+      600,
+      8,
+      8,
+      "area4-exterior.png"
+    ],
+    "A657E3C7A74A94F6DDAF1F3C58B5FBF9:0F201000": [
+      600,
+      0,
+      200,
+      "area4-exterior.png"
+    ],
+    "AB45A2552315ABFE57BF5FBFDF7FBFFF:0F201000": [
+      600,
+      232,
+      8,
+      "area4-exterior.png"
+    ],
+    "ACDA35A442010000ACDA35A442010000:0F311C01": [
+      600,
+      48,
+      120,
+      "area4-exterior.png"
+    ],
+    "B1F1E1E3C3E7676FFFFFFFFFFFFF7F7F:0F271606": [
+      600,
+      152,
+      16,
+      "area4-exterior.png"
+    ],
+    "B8180CC482C1D244C7E7F3FBFD7FBFFF:0F311C01": [
+      600,
+      64,
+      40,
+      "area4-exterior.png"
+    ],
+    "BDE7B0458705462F43194FBE7EFEFFFF:0F201000": [
+      600,
+      248,
+      16,
+      "area4-exterior.png"
+    ],
+    "BE73FFEDFFFF7FFFFFFFFFFFFFFFFFFF:0F19090B": [
+      600,
+      48,
+      168,
+      "area4-exterior.png"
+    ],
+    "BF1F0FC783C1D244C7E7F3FBFD7FBFFF:0F311C01": [
+      600,
+      128,
+      72,
+      "area4-exterior.png"
+    ],
+    "C5CBE53B5D1F8F86BFFFFF3F1F7FFF7F:0F271606": [
+      600,
+      160,
+      8,
+      "area4-exterior.png"
+    ],
+    "C8BC7CE0E2C60ADEF8FC7CE0E6CE1EDE:0F271606": [
+      600,
+      232,
+      160,
+      "area4-exterior.png"
+    ],
+    "CE5C6BE5F2D98D74B1E3D79F2FF7FBFF:0F311C01": [
+      600,
+      112,
+      56,
+      "area4-exterior.png"
+    ],
+    "CE662232101D0911CEE66272311F1B37:0F271606": [
+      600,
+      144,
+      16,
+      "area4-exterior.png"
+    ],
+    "D23D1A9D2A98FD16ED4265E2D5FFFE6F:0F201000": [
+      600,
+      224,
+      128,
+      "area4-exterior.png"
+    ],
+    "D57A351A44221000D57A351A44221000:0F311C01": [
+      600,
+      56,
+      120,
+      "area4-exterior.png"
+    ],
+    "D86D57BBBFFDFFF77FBFFFFFFFFFFFFF:0F311C01": [
+      600,
+      120,
+      56,
+      "area4-exterior.png"
+    ],
+    "E457A3D7A74E9C7EDFAF5F2C58B9F3E1:0F201000": [
+      600,
+      240,
+      8,
+      "area4-exterior.png"
+    ],
+    "E6A61118185C3C1E195DEEE7F7FBFFFF:0F311C01": [
+      600,
+      128,
+      48,
+      "area4-exterior.png"
+    ],
+    "E6A6343010189989FFAF57D7E7EBEBFB:0F271606": [
+      600,
+      0,
+      8,
+      "area4-exterior.png"
+    ],
+    "ECCCCC9E1858B870ECEECE9E1C58B870:0F271606": [
+      600,
+      40,
+      8,
+      "area4-exterior.png"
+    ],
+    "EEFFFFF7FFFF6FFFFFFFFFFFFFFFFFFF:0F19090B": [
+      600,
+      56,
+      168,
+      "area4-exterior.png"
+    ],
+    "F8F0E0C0C68E1F3FF6EEDCBCBC7AE7CF:0F311C01": [
+      600,
+      136,
+      72,
+      "area4-exterior.png"
+    ],
+    "FCFCF9F3F7EFEFFFFFFFFFFFFFFFFFFF:0F311C01": [
+      600,
+      128,
+      88,
+      "area4-exterior.png"
+    ],
+    "FD57A64FA6CF14B28AAC5DB85930FBFD:0F201000": [
+      600,
+      240,
+      16,
+      "area4-exterior.png"
+    ],
+    "FEFEFFFFFFFFFEFCFEFEFFFFFFFEFDFB:0F311C01": [
+      600,
+      136,
+      64,
+      "area4-exterior.png"
+    ],
+    "FFFFFF7933361E4C7F3F3996CCCBE7FF:0F311C01": [
+      600,
+      112,
+      64,
+      "area4-exterior.png"
+    ],
+    "FFFFFFBF5E2D9B56FFFFFFBF5E2D9B56:0F311C01": [
+      600,
+      48,
+      112,
+      "area4-exterior.png"
+    ],
+    "FFFFFFFFDFED562BFFFFFFFFDFED562B:0F311C01": [
+      600,
+      56,
+      112,
+      "area4-exterior.png"
+    ],
+    "FFFFFFFFFFFFFFBFFFFFFFFFFF9F1F4F:0F311C01": [
+      600,
+      128,
+      64,
+      "area4-exterior.png"
+    ],
+    "000000000000000B000000000000000C:0F271606": [
+      1320,
+      22,
+      98,
+      "area4-cave.png"
+    ],
+    "000000000000002000000000000000E0:0F271606": [
+      1320,
+      30,
+      98,
+      "area4-cave.png"
+    ],
+    "00000101000000000000010100000000:0F271606": [
+      1320,
+      118,
+      114,
+      "area4-cave.png"
+    ],
+    "0000100010183074000010100028084C:0F201000": [
+      1320,
+      14,
+      178,
+      "area4-cave.png"
+    ],
+    "00008080000000000000808000000000:0F271606": [
+      1320,
+      142,
+      114,
+      "area4-cave.png"
+    ],
+    "000800080C183A1C0008080014042634:0F201000": [
+      1320,
+      6,
+      178,
+      "area4-cave.png"
+    ],
+    "0808080C183A1C120800001404263422:0F201000": [
+      1320,
+      14,
+      194,
+      "area4-cave.png"
+    ],
+    "0B2B2B8B0B4B4B0B0C2C2C8C0C4C4C0C:0F271606": [
+      1320,
+      22,
+      106,
+      "area4-cave.png"
+    ],
+    "0B4B2B8B2B6B4B0B0C4C2C8C2C6C4C0C:0F271606": [
+      1320,
+      22,
+      114,
+      "area4-cave.png"
+    ],
+    "16161616161636342626262626262624:0F201000": [
+      1320,
+      6,
+      194,
+      "area4-cave.png"
+    ],
+    "16161616162626142626262626363614:0F201000": [
+      1320,
+      14,
+      202,
+      "area4-cave.png"
+    ],
+    "1818DFDF1818DB181818DFDF1818DB18:0F271606": [
+      1320,
+      134,
+      114,
+      "area4-cave.png"
+    ],
+    "1818FBFB1818DB181818FBFB1818DB18:0F271606": [
+      1320,
+      126,
+      114,
+      "area4-cave.png"
+    ],
+    "18DB1818DB18181B18DB1818DB18181B:0F271606": [
+      1320,
+      126,
+      122,
+      "area4-cave.png"
+    ],
+    "18DB1818DB1818D818DB1818DB1818D8:0F271606": [
+      1320,
+      134,
+      122,
+      "area4-cave.png"
+    ],
+    "1A161616161616162A26262626262626:0F201000": [
+      1320,
+      6,
+      186,
+      "area4-cave.png"
+    ],
+    "2020212121212022E0E0E1E1E1E1E0E2:0F271606": [
+      1320,
+      30,
+      114,
+      "area4-cave.png"
+    ],
+    "2022228038C48484E0E2E280F83C7C7C:0F271606": [
+      1320,
+      30,
+      130,
+      "area4-cave.png"
+    ],
+    "2024212323212626E0E4E1E3E3E1E6E6:0F271606": [
+      1320,
+      30,
+      106,
+      "area4-cave.png"
+    ],
+    "24272F3F1F202B0B3838303F1F202C0C:0F271606": [
+      1320,
+      22,
+      138,
+      "area4-cave.png"
+    ],
+    "28140C4C4C6C6C6C78746C6C6C6C6C6C:0F201000": [
+      1320,
+      14,
+      186,
+      "area4-cave.png"
+    ],
+    "2B6B2B8B2B6B6B2B2C6C2C8C2C6C6C2C:0F271606": [
+      1320,
+      22,
+      122,
+      "area4-cave.png"
+    ],
+    "2B6B4B45182F27262C6C4C471F303838:0F271606": [
+      1320,
+      22,
+      130,
+      "area4-cave.png"
+    ],
+    "34242424242434302434343434343430:0F201000": [
+      1320,
+      6,
+      202,
+      "area4-cave.png"
+    ],
+    "70A377F300FF00FF73E7F7F300FFFF00:0F271606": [
+      1320,
+      6,
+      130,
+      "area4-cave.png"
+    ],
+    "8254A80004C8029C5AD4A80004C8029C:0F271606": [
+      1320,
+      110,
+      138,
+      "area4-cave.png"
+    ],
+    "8484C4FCF80022227C7C3CFCF800E2E2:0F271606": [
+      1320,
+      30,
+      138,
+      "area4-cave.png"
+    ],
+    "9078800400A854D0F0F8800400A8D40A:0F271606": [
+      1320,
+      110,
+      130,
+      "area4-cave.png"
+    ],
+    "A6776B93C3F69CC05E8F97EF7F7E5C00:0F201000": [
+      1320,
+      142,
+      178,
+      "area4-cave.png"
+    ],
+    "C8BC401E12D23DDDF8FC401E1AD2F333:0F271606": [
+      1320,
+      14,
+      130,
+      "area4-cave.png"
+    ],
+    "D133D3121E4000E63FFFDB121E4000E6:0F271606": [
+      1320,
+      14,
+      138,
+      "area4-cave.png"
+    ],
+    "D5A245AAC4A8D57FEAFDFAFDFBFEFDFF:0F201000": [
+      1320,
+      134,
+      186,
+      "area4-cave.png"
+    ],
+    "DAE48C57CD4BD5AAABDF73A832B42A55:0F201000": [
+      1320,
+      134,
+      178,
+      "area4-cave.png"
+    ],
+    "E147EEE600F70AFDE7CFEEE600F7FB06:0F271606": [
+      1320,
+      102,
+      130,
+      "area4-cave.png"
+    ],
+    "F508F7000048CC410EFBF7000048CC41:0F271606": [
+      1320,
+      102,
+      138,
+      "area4-cave.png"
+    ],
+    "F8AC46DA2296ECBC387CFEEE5EFEFCCC:0F201000": [
+      1320,
+      142,
+      186,
+      "area4-cave.png"
+    ],
+    "FF00FF000024662200FFFF0000246622:0F271606": [
+      1320,
+      6,
+      138,
+      "area4-cave.png"
+    ],
+    "00FCFC0424244C240002FE0626266E26:0F271606": [
+      1560,
+      108,
+      50,
+      "area4-pipes.png"
+    ],
+    "00FFFFC0C9C9D2C900007F4049495B49:0F271606": [
+      1560,
+      100,
+      50,
+      "area4-pipes.png"
+    ],
+    "091E012000152A0B0F1F012000152B50:0F271606": [
+      1560,
+      132,
+      82,
+      "area4-pipes.png"
+    ],
+    "244C242404FC0000266E262606FEFE00:0F271606": [
+      1560,
+      108,
+      58,
+      "area4-pipes.png"
+    ],
+    "412A1500201340395A2B150020134039:0F271606": [
+      1560,
+      132,
+      90,
+      "area4-pipes.png"
+    ],
+    "87E2776700EF50BFE7F3776700EFDF60:0F271606": [
+      1560,
+      140,
+      82,
+      "area4-pipes.png"
+    ],
+    "AF10EF000012338270DFEF0000123382:0F271606": [
+      1560,
+      140,
+      90,
+      "area4-pipes.png"
+    ],
+    "C9D2C9C9C0FF8000495B4949407F7F00:0F271606": [
+      1560,
+      100,
+      58,
+      "area4-pipes.png"
+    ],
+    "000000FF0400FF008C8C8C00F3F3FF00:0F19090B": [
+      6000,
+      38,
+      88,
+      "area4-shaft.png"
+    ],
+    "000000FF2000FF0031313100CFCFFF00:0F19090B": [
+      6000,
+      30,
+      88,
+      "area4-shaft.png"
+    ],
+    "033C3CFC00FC0301FCBF3FFF03FF0301:0F201000": [
+      6000,
+      78,
+      56,
+      "area4-shaft.png"
+    ],
+    "033C3CFC00FC0301FCBF3FFF03FF0301:0F271606": [
+      6000,
+      142,
+      232,
+      "area4-shaft.png"
+    ],
+    "1414140F4000FF0096F6F6F09F9FFF00:0F19090B": [
+      6000,
+      22,
+      88,
+      "area4-shaft.png"
+    ],
+    "185B18180B000000185B18180B000000:0F271606": [
+      6000,
+      94,
+      56,
+      "area4-shaft.png"
+    ],
+    "20000F070000010020000F0700000100:0F271606": [
+      6000,
+      86,
+      48,
+      "area4-shaft.png"
+    ],
+    "2020A7A72020A7202020A7A72020A720:0F271606": [
+      6000,
+      6,
+      16,
+      "area4-shaft.png"
+    ],
+    "20A72020A72020A020A72020A72020A0:0F271606": [
+      6000,
+      118,
+      8,
+      "area4-shaft.png"
+    ],
+    "282828F00200FF00696F6F0FF9F9FF00:0F19090B": [
+      6000,
+      46,
+      88,
+      "area4-shaft.png"
+    ],
+    "36AD56737B7B3000F7AF57737B7B3000:0F271606": [
+      6000,
+      14,
+      232,
+      "area4-shaft.png"
+    ],
+    "3F40001F10161454C09F9FFFF0F6F696:0F19090B": [
+      6000,
+      22,
+      80,
+      "area4-shaft.png"
+    ],
+    "4BA4CBF76B373E1C3BDCFFFF7F3F3E1C:0F271606": [
+      6000,
+      6,
+      232,
+      "area4-shaft.png"
+    ],
+    "E82F2F2F202FE0E02FEFEFEFE0EFE0E0:0F201000": [
+      6000,
+      70,
+      56,
+      "area4-shaft.png"
+    ],
+    "E82F2F2F202FE0E02FEFEFEFE0EFE0E0:0F271606": [
+      6000,
+      134,
+      232,
+      "area4-shaft.png"
+    ],
+    "FC0200F80868282A03F9F9FF0F6F6F69:0F19090B": [
+      6000,
+      46,
+      80,
+      "area4-shaft.png"
+    ],
+    "FF00FFFF03FF03FFFFFF0000FCFC00FC:0F201000": [
+      6000,
+      78,
+      48,
+      "area4-shaft.png"
+    ],
+    "FF00FFFFC0FFE0E7FFFF00003F3F2027:0F201000": [
+      6000,
+      70,
+      48,
+      "area4-shaft.png"
+    ],
+    "FF0400FF008C000000F3F3FF008C8C8C:0F19090B": [
+      6000,
+      38,
+      80,
+      "area4-shaft.png"
+    ],
+    "FF2000FF0031000000CFCFFF00313131:0F19090B": [
+      6000,
+      30,
+      80,
+      "area4-shaft.png"
+    ],
+    "0007050B0B0B0B0B0007070D0D0D0D0D:0F271606": [
+      1920,
+      164,
+      134,
+      "radio-door-from-existing-painted-assets"
+    ],
+    "00E0A0D0D0D0D0D000E0E0B0B0B0B0B0:0F271606": [
+      1920,
+      140,
+      134,
+      "radio-door-from-existing-painted-assets"
+    ],
+    "01000000000000000100000000000000:0F271606": [
+      9240,
+      209,
+      83,
+      "goal-door-from-existing-painted-assets"
+    ],
+    "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D:0F271606": [
+      1920,
+      164,
+      150,
+      "radio-door-from-existing-painted-assets"
+    ],
+    "80000000000000008000000000000000:0F271606": [
+      9240,
+      217,
+      83,
+      "goal-door-from-existing-painted-assets"
+    ],
+    "81838383838383837273737373737373:0F271606": [
+      9240,
+      201,
+      75,
+      "goal-door-from-existing-painted-assets"
+    ],
+    "88C81878F8F8F8F847C71777F7F7F7F7:0F271606": [
+      9240,
+      225,
+      75,
+      "goal-door-from-existing-painted-assets"
+    ],
+    "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0:0F271606": [
+      1920,
+      140,
+      150,
+      "radio-door-from-existing-painted-assets"
+    ],
+    "DF2F5EBEDC414DBC10BFE17E64C1CDA0:0F271606": [
+      9240,
+      217,
+      75,
+      "goal-door-from-existing-painted-assets"
+    ],
+    "FBF478FDFBC2F2F50AFD85FEE6C3F3CD:0F271606": [
+      9240,
+      209,
+      75,
+      "goal-door-from-existing-painted-assets"
+    ],
+    "808080809C80807FFFC1DDDDDDC1FF7F:0F271606": [
+      1920,
+      140,
+      126,
+      "radio-door-from-existing-painted-assets"
+    ],
+    "5B6D7F64604F7F7D7F491240446F7E7E:0F271606": [
+      1920,
+      148,
+      126,
+      "radio-door-from-existing-painted-assets"
+    ],
+    "FFDBFFC9D35FEFCF7F5305415BDF2F2F:0F271606": [
+      1920,
+      156,
+      126,
+      "radio-door-from-existing-painted-assets"
+    ],
+    "01010101390101FEFF83BBBBBB83FFFE:0F271606": [
+      1920,
+      164,
+      126,
+      "radio-door-from-existing-painted-assets"
+    ]
+  },
+  "actor_records": 6,
+  "area_address": "004D",
+  "area_value": "04"
+}

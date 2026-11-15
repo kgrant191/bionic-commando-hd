@@ -1,0 +1,84 @@
+[
+  {
+    "recording": "opening",
+    "identical": 334,
+    "changed": [
+      {
+        "frame": 4440,
+        "pixels": 3218,
+        "bbox": [
+          512,
+          740,
+          576,
+          804
+        ]
+      },
+      {
+        "frame": 23520,
+        "pixels": 3948,
+        "bbox": [
+          316,
+          524,
+          380,
+          588
+        ]
+      },
+      {
+        "frame": 28200,
+        "pixels": 3218,
+        "bbox": [
+          512,
+          740,
+          576,
+          804
+        ]
+      },
+      {
+        "frame": 34080,
+        "pixels": 3948,
+        "bbox": [
+          120,
+          180,
+          184,
+          244
+        ]
+      }
+    ]
+  },
+  {
+    "recording": "door",
+    "identical": 10,
+    "changed": []
+  },
+  {
+    "recording": "cave",
+    "identical": 58,
+    "changed": []
+  },
+  {
+    "recording": "area4",
+    "identical": 97,
+    "changed": [
+      {
+        "frame": 240,
+        "pixels": 3323,
+        "bbox": [
+          192,
+          260,
+          256,
+          324
+        ]
+      },
+      {
+        "frame": 360,
+        "pixels": 3324,
+        "bbox": [
+          384,
+          740,
+          448,
+          804
+        ]
+      }
+    ]
+  }
+]

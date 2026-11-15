@@ -54,10 +54,10 @@
       ]
     ],
     "cell": 0,
-    "columns": 2,
+    "columns": 4,
     "rows": 1,
-    "asset": "area13-npcs.png",
-    "alpha_cutoff": 180,
+    "asset": "area13-green-characters-v070.png",
+    "alpha_cutoff": 0,
     "count": 149,
     "frames": [
       3918,
@@ -209,7 +209,8 @@
       3846,
       3342,
       3336
-    ]
+    ],
+    "fit_native_bounds": true
   },
   {
     "id": 1,
@@ -265,11 +266,11 @@
         0
       ]
     ],
-    "cell": 0,
-    "columns": 2,
+    "cell": 1,
+    "columns": 4,
     "rows": 1,
-    "asset": "area13-npcs.png",
-    "alpha_cutoff": 180,
+    "asset": "area13-green-characters-v070.png",
+    "alpha_cutoff": 0,
     "count": 60,
     "frames": [
       3144,
@@ -409,11 +410,11 @@
         0
       ]
     ],
-    "cell": 0,
-    "columns": 2,
+    "cell": 2,
+    "columns": 4,
     "rows": 1,
-    "asset": "contact-walk-v061.png",
-    "alpha_cutoff": 180,
+    "asset": "area13-green-characters-v070.png",
+    "alpha_cutoff": 0,
     "count": 38,
     "frames": [
       3150,
@@ -517,11 +518,11 @@
         0
       ]
     ],
-    "cell": 1,
-    "columns": 2,
+    "cell": 3,
+    "columns": 4,
     "rows": 1,
-    "asset": "contact-walk-v061.png",
-    "alpha_cutoff": 180,
+    "asset": "area13-green-characters-v070.png",
+    "alpha_cutoff": 0,
     "count": 38,
     "frames": [
       3156,

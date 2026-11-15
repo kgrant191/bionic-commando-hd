@@ -292,3 +292,40 @@ Build: BIONIC_XBRZ_LIBRARY=/path/to/scale.so python3 scripts/build.py
 Validate with scripts/validate.py using --frames 7434 --checkpoint-step 120 and the original/HD replay directories.
 Package with scripts/package.py using the v0.5.0 replay as --before and the new replay as --screenshots.
 Coverage is the supplied Area 13 recording; this pass does not claim a fresh full-game regression.
+
+## v0.7.0 Area 4
+
+`area4.py` adds area-scoped cave materials and six guard pose records. Native
+RAM byte $004D == $04 selects the area; map, equipment, title, radio and results
+screens are excluded. Inventory icons are independently scoped to the map and
+equipment screens. No memory is written.
+
+Distant mountains and forest are a background beneath only their native tile
+families. The all-zero pattern in the same palette is also used between spikes
+and must remain opaque black. Rock material cells use snapped 0/32 texture
+coordinates; arbitrary scrolling offsets would crop beyond the 64-pixel swatch
+and introduce transparent strips. All mapped structural tile crops assert full
+opacity. Spikes, ledges and stone share a palette and are classified by their
+recorded scene regions, not palette alone.
+
+See `validation/AREA4_v0.7.0.md` for the final replay coverage and limitations.
+
+Area 13 corrections in this build separate the red runner, armed green contact,
+unarmed green contact and white idle NPC artwork. Standard enemy rules are
+excluded from Area 13, while white-guard additions cover all four observed hit
+palettes. Their flash uses brightness rather than recoloring the uniform.
+The capsule sprite and flare pickup have dedicated artwork; the equipment flare
+uses the same source. Supply cases and parachutes retain their own mappings.
+
+MesenCE caps additional sprites at four per pixel, even when their selected
+replacement is transparent. `additions.py` coalesces matching native anchor,
+palette and offset additions into one virtual layer, merges their area-specific
+conditional artwork and emits one transparent fallback after those conditions.
+This prevents inactive Area 13 layers from consuming slots needed by overlapping
+Area 1 enemies. The validator rejects duplicate anchor/offset addition records.
+
+The white recoil pose uses the same primary head anchor as the corresponding
+native recoil pose outside Area 13. Its former anchor was the other half of
+the head and would create a second virtual body over regular enemies. White
+hit-palette additions are limited to pairs actually observed in the Area 13
+all-frame audit, rather than every palette seen elsewhere in the game.

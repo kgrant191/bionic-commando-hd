@@ -1,23 +1,38 @@
 # Bionic Commando HD
 
-**v0.6.1 — Area 13 and recording regression fixes**
+**v0.7.0 — Area 4 and Area 13 character corrections**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
 A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is a work-in-progress graphics remake covering the supplied opening, Area 1 and Area 13 recordings.
+This is a work-in-progress graphics remake covering the supplied opening, Area 1, Area 13 and Area 4 recordings.
 
 ## Install
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.6.1.zip`.
+   `Bionic_Commando_HD_v0.7.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## Area 4 in v0.7.0
+
+Painted gorge, limestone caves, copper pipes, mesh panels, vents and ledges. Adds sleeveless guard walking states, shield guards, and flare/communicator icons. The boss dialogue portrait has idle/talking expressions, and the open doorway has painted trim. Cave darkness and native palette changes remain live.
+
+## Area 13 corrections in v0.7.0
+
+White, green and red uniforms retain their original colors. White idle NPCs,
+armed and unarmed green contacts, and the red runner have distinct artwork.
+The red runner uses a consistent three-pose cycle; the red rifle guard is also
+covered. White guard hit flashes retain their white artwork. The pill is a
+capsule and the flare is a burning cartridge, including its equipment icon.
+Shared sprite layers are combined to avoid clipping overlapping enemies.
+
+See `validation/AREA4_v0.7.0.md` for replay results and review limits.
 
 ## Regression fixes in v0.6.1
 

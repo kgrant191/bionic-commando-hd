@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.6.1
-Area 13 + full-recording regression review build
+BIONIC COMMANDO HD — v0.7.0
+Area 4 and Area 13 character-correction review build
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -10,6 +10,12 @@ Manual install: put hires.txt and all PNGs together in:
   HdPacks/Bionic Commando (USA)/
 The directory name must exactly match your ROM's filename without .nes.
 
+AREA 4
+Painted mountain gorge, limestone caves, copper pipes, mesh, vents and ledges.
+Sleeveless walking guards and shield guards. Flare and communicator icons.
+Boss portrait with idle/talking expressions and painted goal-door trim.
+Native darkness, palette transitions and gameplay remain live.
+
 REGRESSION FIXES
 Correct Game Over screen and black transitions.
 Painted final death pose, player/enemy/supply parachutes and green contact walks.
@@ -18,7 +24,10 @@ Missing electrical-hazard palette variant covered.
 AREA 13
 Area 13 outpost buildings, medical signage, rocky banks and stone interiors.
 Eight white-guard poses, parachute canopy, neutral-area contacts and portraits.
-Green supply and first-aid pickups. Live dialogue, portrait talking and alarm palettes.
+Distinct white, green and red NPCs retain their original uniform colors.
+Dedicated red running cycle, separate armed/unarmed green contacts and white idle NPCs.
+Capsule pill and burning flare pickups. White guards retain their artwork when hit.
+Live dialogue and portrait talking remain intact.
 Includes all approved v0.5.0 Area 1 improvements.
 
 
@@ -27,8 +36,8 @@ This is a selected-pose pass, not a complete frame-by-frame character redraw.
 Unrecognized heads keep the previous material treatment. Occluded recognized
 poses use their most common head-matched painting until body signatures return.
 Some effects and unrecorded equipment icons still use a smoothed baseline.
-All four unique supplied recordings replayed: opening/Area 1, closed-door/hit,
-cave/generator, and Area 13. The unnumbered and (1) movies are identical.
+v0.7.0 replays all five unique supplied recordings: opening/Area 1, closed-door/hit,
+cave/generator, Area 13 and Area 4. The unnumbered and (1) movies are identical.
 Frame-by-frame tile-rule audit plus sampled rendered-image review.
 The pistol is the starter design; machine-gun/bazooka player art is still pending.
 Equipment-dependent graphics are supported by the HD engine, not implemented

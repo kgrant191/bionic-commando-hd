@@ -88,10 +88,11 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
    a[mask]=np.array(scale(tile(k,p)))[mask];im=Image.fromarray(a)
   rule(k,p,im,guard)
  # Fully painted guard poses reuse the same native anchor/flip machinery.
- white=[(k,p)for k,p in keys if p==0xFF36300F]
+ observed={(k,int(p,16)) for k,p in json.loads((root/'capture/area13/observed-sprite-palettes.json').read_text())}
+ white=[(k,p)for k,p in keys if (k,p) in observed and p in {0xFF36300F,0xFF202A0F,0xFF36060F,0xFF36150F}]
  c,a,v=make_actor(root,white,lambda k,p,im,g=None:rule(k,p,im,(guard+'&'+g)if g is not None else None),blank,'area13',2,0xFF36300F)
  conds+=c;backgrounds+=a
- for actor,pal in [('contact',0xFF202A0F),('neutral',0xFF36150F)]:
+ for actor,pal in [('contact',0xFF202A0F),('neutral',0xFF36150F),('a13trooper',0xFF36150F)]:
   c,a,v=make_actor(root,[(k,p)for k,p in keys if p==pal],lambda k,p,im,g=None:rule(k,p,im,(guard+'&'+g)if g is not None else None),blank,actor,1,pal)
   conds+=c;backgrounds+=a
  # Single-object items and canopy preserve source tile positions and mirrors.
@@ -100,6 +101,9 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
   cells=[]
   for i in range(3):
    im=sheet.crop((i*cw,0,(i+1)*cw,sheet.height));box=im.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox();cells.append(im.crop(box))
+  pickups=Image.open(root/'art/area13-pill-flare-v070.png').convert('RGBA');pw=pickups.width//2
+  pill=pickups.crop((0,0,pw,pickups.height));pill=pill.crop(pill.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox())
+  flare=pickups.crop((pw,0,pw*2,pickups.height));cells[1]=flare.crop(flare.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox())
   for n,box,cell in [(4680,(200,177,216,193),1),(5880,(120,11,136,35),2)]:
    x0,y0,x1,y1=box;im=cells[cell].resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
    for ly,x,y,k,p,h,v in entries(root,n):
@@ -143,9 +147,9 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
    if int(h):t=ImageOps.mirror(t)
    for kk,pp in keys:
     if kk==k and pp>>24==255:rule(k,pp,t,'!title&!worldmap&!radio&!equipment')
-  # The small green pickup is a background cell, blinking through palette.
+  # The small green pickup is a capsule pill sprite.
   k='';item_candidates=json.loads((root/'capture/area13/item-keys.json').read_text())if(root/'capture/area13/item-keys.json').exists()else[]
-  for k,p in item_candidates:rule(k,int(p,16),cells[0].resize((32,32),Image.Resampling.LANCZOS),guard)
+  for k,p in item_candidates:rule(k,int(p,16),pill.resize((32,32),Image.Resampling.LANCZOS),guard)
  if (root/'art/area13-portraits.png').exists():
   sheet=Image.open(root/'art/area13-portraits.png').convert('RGBA');cw=sheet.width//3;ch=sheet.height//2
   anchor='00030F1F3F7FFFFF00030F1F3F7FFFFF'

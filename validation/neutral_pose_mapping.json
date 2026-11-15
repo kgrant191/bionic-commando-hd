@@ -3,7 +3,7 @@
     {
       "id": 0,
       "head": "3E7F7F7FFF7F7E1D3E7F0F6B4309771F",
-      "cell": 7,
+      "cell": 1,
       "native_bounds": [
         38,
         24,
@@ -24,7 +24,7 @@
     {
       "id": 2,
       "head": "3E7F7F7FFF7F7E1D3E7F0F6B4309771F",
-      "cell": 7,
+      "cell": 2,
       "native_bounds": [
         37,
         24,
@@ -45,7 +45,7 @@
     {
       "id": 1,
       "head": "3E7F7F7FFF7F7E1D3E7F0F6B4309771F",
-      "cell": 1,
+      "cell": 0,
       "native_bounds": [
         40,
         24,
@@ -92,10 +92,6 @@
       ],
       [
         8,
-        8
-      ],
-      [
-        16,
         8
       ],
       [
@@ -159,10 +155,6 @@
     ],
     [
       "AF9AF0D43F3CD55478712F17A526F4DE",
-      "FF36150F"
-    ],
-    [
-      "076740AF6EFB93AE7EE9067C2793FB91",
       "FF36150F"
     ],
     [
