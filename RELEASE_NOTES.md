@@ -1,3 +1,9 @@
+# v0.7.1 — Bullet and flare bomb correction
+
+The Area 13 room drop is an XP bullet, matching the collectible dropped by enemies. All observed sprite-palette variants now use the same cartridge artwork. The flare bomb pickup and equipment icon use a compact unlit illumination canister. Energy Recovery remains separate. These corrections supersede the pill and handheld-flare interpretation in v0.7.0.
+
+Reference: https://strategywiki.org/wiki/Bionic_Commando_(NES)/Items
+
 # v0.7.0 — Area 4 review build
 
 Adds the mountain gorge, cave materials, copper pipework, shaft ledges and vents. New sleeveless-guard walking poses and shield-guard mappings cover the recorded combat states. Includes flare and communicator inventory art, boss dialogue expressions and doorway trim and all v0.6.1 regression fixes.

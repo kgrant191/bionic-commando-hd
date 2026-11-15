@@ -1,0 +1,12 @@
+{
+  "changed_native_patterns": [
+    "071F1F3F6070D0C10010191F21214746",
+    "6482FEFAFAFAFEFA5CFEFE868686FE86",
+    "86060C0C18F0E0E074C4C80810E02060",
+    "D3D17068301F0F074C462721110F0804",
+    "E0F0F0E80C0C0606201030E00808C4C4"
+  ],
+  "unrelated_tile_patterns_unchanged": 2310,
+  "all_conditions_and_sprite_additions_unchanged": true,
+  "all_background_images_unchanged": true
+}

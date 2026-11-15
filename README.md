@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.7.0 — Area 4 and Area 13 character corrections**
+**v0.7.1 — Bullet and flare bomb correction**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,20 @@ This is a work-in-progress graphics remake covering the supplied opening, Area 1
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.7.0.zip`.
+   `Bionic_Commando_HD_v0.7.1.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## Item corrections in v0.7.1
+
+The Area 13 room drop is the same XP bullet dropped by enemies. Both use the
+same cartridge artwork. Flare bombs use a compact unlit illumination canister
+for their pickup and equipment icon. Energy Recovery remains a separate item.
+Reference: https://strategywiki.org/wiki/Bionic_Commando_(NES)/Items
 
 ## Area 4 in v0.7.0
 
@@ -28,8 +35,8 @@ Painted gorge, limestone caves, copper pipes, mesh panels, vents and ledges. Add
 White, green and red uniforms retain their original colors. White idle NPCs,
 armed and unarmed green contacts, and the red runner have distinct artwork.
 The red runner uses a consistent three-pose cycle; the red rifle guard is also
-covered. White guard hit flashes retain their white artwork. The pill is a
-capsule and the flare is a burning cartridge, including its equipment icon.
+covered. White guard hit flashes retain their white artwork. The room pickup and enemy drops share one XP-bullet cartridge. The flare bomb
+is a compact illumination canister in both the room and equipment icon.
 Shared sprite layers are combined to avoid clipping overlapping enemies.
 
 See `validation/AREA4_v0.7.0.md` for replay results and review limits.

@@ -5,6 +5,7 @@ import numpy as np
 from PIL import Image,ImageOps
 from scipy.ndimage import map_coordinates
 from poses import make_actor
+from items import pickup_art
 
 def entries(root,n):
  return [(int(a[0]),int(a[1]),int(a[2]),a[3],int(a[4]),int(a[5]),int(a[6]))for a in (l.split(',')for l in (root/f'capture/area13/{n:05}.tiles').read_text().splitlines())]
@@ -101,9 +102,7 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
   cells=[]
   for i in range(3):
    im=sheet.crop((i*cw,0,(i+1)*cw,sheet.height));box=im.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox();cells.append(im.crop(box))
-  pickups=Image.open(root/'art/area13-pill-flare-v070.png').convert('RGBA');pw=pickups.width//2
-  pill=pickups.crop((0,0,pw,pickups.height));pill=pill.crop(pill.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox())
-  flare=pickups.crop((pw,0,pw*2,pickups.height));cells[1]=flare.crop(flare.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox())
+  bullet,cells[1]=pickup_art(root)
   for n,box,cell in [(4680,(200,177,216,193),1),(5880,(120,11,136,35),2)]:
    x0,y0,x1,y1=box;im=cells[cell].resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
    for ly,x,y,k,p,h,v in entries(root,n):
@@ -147,9 +146,12 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
    if int(h):t=ImageOps.mirror(t)
    for kk,pp in keys:
     if kk==k and pp>>24==255:rule(k,pp,t,'!title&!worldmap&!radio&!equipment')
-  # The small green pickup is a capsule pill sprite.
+  # The room and defeated enemies share the same XP-bullet CHR pattern.
+  # Use one replacement across gameplay, including its native palette variants.
   k='';item_candidates=json.loads((root/'capture/area13/item-keys.json').read_text())if(root/'capture/area13/item-keys.json').exists()else[]
-  for k,p in item_candidates:rule(k,int(p,16),pill.resize((32,32),Image.Resampling.LANCZOS),guard)
+  bullet_keys={k for k,p in item_candidates}
+  for k,p in keys:
+   if k in bullet_keys and p>>24==255:rule(k,p,bullet.resize((32,32),Image.Resampling.LANCZOS),'!title&!worldmap&!equipment&!radio')
  if (root/'art/area13-portraits.png').exists():
   sheet=Image.open(root/'art/area13-portraits.png').convert('RGBA');cw=sheet.width//3;ch=sheet.height//2
   anchor='00030F1F3F7FFFFF00030F1F3F7FFFFF'

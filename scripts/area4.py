@@ -3,6 +3,7 @@ import json
 import numpy as np
 from PIL import Image,ImageOps
 from poses import make_actor
+from items import pickup_art
 from level_polish import fade_aliases
 
 def extend_area4(root,keys,indices,tile,scale,rule,blank):
@@ -23,9 +24,8 @@ def extend_area4(root,keys,indices,tile,scale,rule,blank):
  sheet=Image.open(root/'art/area4-items.png').convert('RGBA');cw=sheet.width//2
  for n,x0,y0,col in [(240,48,73,0),(360,48,73,1)]:
   cell=sheet.crop((col*cw,0,(col+1)*cw,sheet.height))
-  if col==0:
-   flare=Image.open(root/'art/area13-pill-flare-v070.png').convert('RGBA');cell=flare.crop((flare.width//2,0,flare.width,flare.height))
-  cell=cell.crop(cell.getchannel('A').point(lambda a:255 if a>128 else 0).getbbox()).resize((64,64),Image.Resampling.LANCZOS)
+  if col==0:cell=pickup_art(root)[1]
+  else:cell=cell.crop(cell.getchannel('A').point(lambda a:255 if a>128 else 0).getbbox()).resize((64,64),Image.Resampling.LANCZOS)
   for a in (l.split(',')for l in (root/f'capture/area4/{n:05}.tiles').read_text().splitlines()):
    ly,x,y,k,p,h,v=int(a[0]),int(a[1]),int(a[2]),a[3],int(a[4]),int(a[5]),int(a[6])
    if ly!=1 or not(x0<=x<x0+16 and y0<=y<y0+16):continue

@@ -1,0 +1,29 @@
+[
+  {
+    "recording": "area4",
+    "frames": 11830,
+    "checkpoints": 100,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 2461
+  },
+  {
+    "recording": "cave",
+    "frames": 6842,
+    "checkpoints": 59,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 1997
+  },
+  {
+    "recording": "area13",
+    "frames": 7434,
+    "checkpoints": 63,
+    "ram_mismatches": 0,
+    "ppu_mismatches": 0,
+    "unmatched_tile_keys": 0,
+    "audited_tile_rule_combinations": 1314
+  }
+]

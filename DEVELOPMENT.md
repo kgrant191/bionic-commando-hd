@@ -329,3 +329,13 @@ native recoil pose outside Area 13. Its former anchor was the other half of
 the head and would create a second virtual body over regular enemies. White
 hit-palette additions are limited to pairs actually observed in the Area 13
 all-frame audit, rather than every palette seen elsewhere in the game.
+
+## v0.7.1 item identity correction
+
+Reference: https://strategywiki.org/wiki/Bionic_Commando_(NES)/Items
+The room's 8x8 sprite is the same XP-bullet pattern used by defeated enemies.
+`items.py` supplies a shared cartridge painting for every observed gameplay
+palette, while the room and equipment screen share one flare-bomb icon.
+The original flare-bomb pickup is round; the replacement uses a compact unlit
+illumination canister rather than a medical badge or burning handheld stick.
+Energy Recovery is a separate item. No native projectile keys are replaced.

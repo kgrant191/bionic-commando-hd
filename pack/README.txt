@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.7.0
-Area 4 and Area 13 character-correction review build
+BIONIC COMMANDO HD — v0.7.1
+Bullet and flare bomb correction review build
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -26,7 +26,7 @@ Area 13 outpost buildings, medical signage, rocky banks and stone interiors.
 Eight white-guard poses, parachute canopy, neutral-area contacts and portraits.
 Distinct white, green and red NPCs retain their original uniform colors.
 Dedicated red running cycle, separate armed/unarmed green contacts and white idle NPCs.
-Capsule pill and burning flare pickups. White guards retain their artwork when hit.
+Shared XP-bullet cartridge for the room and enemy drops. Compact flare bomb pickup. White guards retain their artwork when hit.
 Live dialogue and portrait talking remain intact.
 Includes all approved v0.5.0 Area 1 improvements.
 
@@ -36,8 +36,9 @@ This is a selected-pose pass, not a complete frame-by-frame character redraw.
 Unrecognized heads keep the previous material treatment. Occluded recognized
 poses use their most common head-matched painting until body signatures return.
 Some effects and unrecorded equipment icons still use a smoothed baseline.
-v0.7.0 replays all five unique supplied recordings: opening/Area 1, closed-door/hit,
-cave/generator, Area 13 and Area 4. The unnumbered and (1) movies are identical.
+v0.7.0 replayed all five unique supplied recordings.
+v0.7.1 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
+and inventory icons. The unnumbered and (1) movies are identical.
 Frame-by-frame tile-rule audit plus sampled rendered-image review.
 The pistol is the starter design; machine-gun/bazooka player art is still pending.
 Equipment-dependent graphics are supported by the HD engine, not implemented

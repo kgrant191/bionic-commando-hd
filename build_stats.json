@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "merged_duplicate_sprite_additions": 85,
   "area4_guard_pose_records": 6,
   "area4_guard_paintings": 6,
@@ -32,8 +32,8 @@
   "feedback_v050_new_keys": 86,
   "closed_door_sprite_patterns": 5,
   "closed_door_background_cells": 16,
-  "tile_rules": 23457,
-  "unique_atlas_tiles": 7631,
+  "tile_rules": 23460,
+  "unique_atlas_tiles": 7627,
   "scale": 4,
   "output_size": [
     1024,
