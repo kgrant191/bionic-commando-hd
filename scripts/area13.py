@@ -6,14 +6,15 @@ from PIL import Image,ImageOps
 from scipy.ndimage import map_coordinates
 from poses import make_actor
 from items import pickup_art
+from area13_polish import town_polish
 
 def entries(root,n):
  return [(int(a[0]),int(a[1]),int(a[2]),a[3],int(a[4]),int(a[5]),int(a[6]))for a in (l.split(',')for l in (root/f'capture/area13/{n:05}.tiles').read_text().splitlines())]
 
 def extend_area13(root,keys,indices,tile,scale,rule,blank):
  conds=['<condition>area13,memoryCheckConstant,004D,==,0D']
- guard='area13&!worldmap&!equipment&!title&!radio'
- backgrounds=[];painted={};mapping={}
+ guard='area13&!worldmap&!equipment&!title&!radio&!areaClear'
+ backgrounds=town_polish(root,keys,entries,indices,rule,guard,conds);painted={};mapping={}
  # Match native 8x8 pixels, then sample the geometrically aligned painting.
  for n,asset in [(2040,'area13-exterior.png'),(2520,'area13-interior.png')]:
   native=np.array(Image.open(root/f'capture/area13/{n:05}.png').convert('RGB'))
@@ -166,11 +167,20 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
     wc=1 if col==0 else 0
     art=white.crop((wc*ww,0,(wc+1)*ww,wh)).resize((192,256),Image.Resampling.LANCZOS)
     talking=white.crop((wc*ww,wh,(wc+1)*ww,2*wh)).resize((192,256),Image.Resampling.LANCZOS)
+   else:
+    color=Image.open(root/'art/area13-color-portraits-v073.png').convert('RGBA');ww,wh=color.width//2,color.height//2
+    wc=col-1
+    art=color.crop((wc*ww,0,(wc+1)*ww,wh)).resize((192,256),Image.Resampling.LANCZOS)
+    talking=color.crop((wc*ww,wh,(wc+1)*ww,2*wh)).resize((192,256),Image.Resampling.LANCZOS)
+   # The older face repeats its top-left head tile, mirrored, on the right.
+   # Anchor this portrait to its unique right cheek instead: one portrait per
+   # character, without a second invisible layer consuming sprite slots.
+   trigger,ax,ay=(('FDDE2E1EFE1E0D0D7130104000E0F0F0',24,24) if col==3 else (anchor,0,0))
    # Crop into a symmetric 48x64 portrait; the native frame/text stay live.
    for y in range(0,64,8):
     for x in range(-8,40,8):
      vk=hashlib.md5(f'area13portrait:{palette}:{x}:{y}'.encode()).hexdigest().upper()
-     backgrounds.append(f'<addition>{anchor},{palette:08X},{x},{y},{vk},{palette:08X},N')
+     backgrounds.append(f'<addition>{trigger},{palette:08X},{x-ax},{y-ay},{vk},{palette:08X},N')
      mouthcond=f'a13mouth{len(conds)}'
      conds.append(f'<condition>{mouthcond},spriteNearby,{8-x},{40-y},{mouth},FF263506,Y')
      rule(vk,palette,talking.crop(((x+8)*4,y*4,(x+16)*4,(y+8)*4)),guard+'&'+mouthcond)

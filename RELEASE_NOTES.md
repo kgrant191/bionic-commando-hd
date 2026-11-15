@@ -1,3 +1,14 @@
+# v0.7.3 — Area 13 conversations and scenery
+
+- Red and green town NPCs use side-facing portraits matching their standing outfits and the white-cap portrait style.
+- Remove the duplicate older white NPC portrait caused by a mirrored native head tile.
+- Replace chunky dialogue/portrait borders with a consistent metal frame.
+- Add painted sky, clouds, snow mountains and distant trees, retaining native alarm colors.
+- Repair the supply-room doorway header and side posts; align the spike bases while preserving alternating native heights.
+- Paint the small barred town façades that still used enlarged native graphics.
+
+Review build; no ROM or game-state changes. Existing communication-room portraits are preserved. See `validation/AREA13_v0.7.3.md`.
+
 # v0.7.2 — Animation, portraits, HUD and water-edge fixes
 
 - Stabilizes body proportions and head alignment across Area 4 shield-boss and red-rifle animations, plus the Area 13 red runner.

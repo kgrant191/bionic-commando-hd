@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.7.2 — Animation, portraits, HUD and water-edge fixes**
+**v0.7.3 — Area 13 conversations and scenery**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,31 @@ This is a work-in-progress graphics remake covering the supplied opening, Area 1
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.7.2.zip`.
+   `Bionic_Commando_HD_v0.7.3.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## Area 13 polish in v0.7.3
+
+Town conversations use illustrated three-quarter portraits against the live
+black dialogue panel. Red and green contacts match their standing characters;
+the two white-cap portraits retain their distinct identities. The older white
+NPC now renders once, using a unique face tile instead of a mirrored head tile.
+Communication-room portraits keep their existing presentation.
+
+The dialogue and portrait frames share a restrained metal border. A painted
+sky, clouds, layered snow mountains and distant trees replace the repeated
+native scenery. The backdrop follows the game's alarm palette changes.
+The supply-room doorway has a complete header and continuous side posts;
+spikes retain the original alternating heights with clean, matching bases.
+Small barred building façades also receive painted materials.
+
+See `validation/AREA13_v0.7.3.md` for the six-recording regression results and
+visual review limits.
 
 ## Visual fixes in v0.7.2
 

@@ -1,0 +1,18 @@
+{
+  "unique_recordings": 6,
+  "full_regression_input_frames": 69694,
+  "full_regression_checkpoints": 642,
+  "final_area13_repeat_frames": 7434,
+  "final_area13_repeat_checkpoints": 63,
+  "ram_ppu_mismatches": 0,
+  "unmatched_tile_keys": 0,
+  "loader_errors": 0,
+  "final_scope_check": {
+    "base_pack_sha256": "497b37d3d972a2443ab3ab9203d300572aeecb8ac245bd4b6c09793cc8687651",
+    "final_pack_sha256": "16164791876a22ec9d951e4d96f328b716bd764827c52f4ada2892e23eefd994",
+    "unchanged_non_rule_pack_files": 24,
+    "images_byte_identical": true,
+    "per_key_rule_priority_and_referenced_conditions_outside_area13_identical": true,
+    "final_adjustment": "Add native barred-opening neighbor guards to 16 facade cells; replay Area 13 again."
+  }
+}

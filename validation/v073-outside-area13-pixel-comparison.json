@@ -1,0 +1,34 @@
+[
+  {
+    "recording": 1,
+    "identical_captures": 339,
+    "capture_timing_differences": []
+  },
+  {
+    "recording": 2,
+    "identical_captures": 11,
+    "capture_timing_differences": []
+  },
+  {
+    "recording": 3,
+    "identical_captures": 59,
+    "capture_timing_differences": []
+  },
+  {
+    "recording": 5,
+    "identical_captures": 216,
+    "capture_timing_differences": [
+      {
+        "frame": 10217,
+        "identical_to_baseline_offset": [
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "recording": 6,
+    "identical_captures": 70,
+    "capture_timing_differences": []
+  }
+]
