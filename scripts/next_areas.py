@@ -1,5 +1,5 @@
 """Intro and Areas 5/15; all runtime decisions use native state and tiles."""
-import json
+import json, hashlib
 from collections import Counter
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageOps
@@ -94,6 +94,22 @@ def extend_next(root,keys,indices,tile,scale,rule,blank):
     for _,x,y,k,p,h,v in joe:
         im=art.crop(((x-x0)*4,(y-y0)*4,(x-x0+8)*4,(y-y0+8)*4))
         joe_paint[k]=im
+    # The painted rear leg extends into three cells absent from native OAM.
+    # Attach those cells to Joe's unique head, including its fade palettes,
+    # so the whole existing illustration is drawn without changing its scale.
+    occupied={(x,y)for _,x,y,k,p,h,v in joe}
+    anchor='00000001030F0707000105161C111909';ax,ay=152,89
+    for y in range(y0,y1,8):
+        for x in range(x0,x1,8):
+            if (x,y)in occupied:continue
+            im=art.crop(((x-x0)*4,(y-y0)*4,(x-x0+8)*4,(y-y0+8)*4))
+            if not im.getchannel('A').getbbox():continue
+            vk=hashlib.md5(f'super-joe-complete:{x-x0}:{y-y0}'.encode()).hexdigest().upper()
+            for k,p in keys:
+                if k==anchor and p>>24==255:
+                    backgrounds.append(f'<addition>{anchor},{p:08X},{x-ax},{y-ay},{vk},{p:08X},N')
+                    rule(vk,p,im,story+'&storyScene4')
+                    rule(vk,p,blank)
     for k,p in keys:
         if p>>24==255:
             if k in joe_paint:rule(k,p,joe_paint[k],story+'&storyScene4')

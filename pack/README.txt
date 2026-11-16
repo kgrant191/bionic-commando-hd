@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.8.1
-Intro, Area 5 and Area 15 correction review build
+BIONIC COMMANDO HD — v0.8.2
+Focused review build: complete Super Joe rear foot in the intro
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.

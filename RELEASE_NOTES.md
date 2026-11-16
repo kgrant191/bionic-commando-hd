@@ -1,3 +1,7 @@
+# Bionic Commando HD v0.8.2 — Super Joe rear foot
+
+The intro illustration extended into three cells absent from the original sprite layout, clipping the rear leg and boot. Attach those missing pieces to Super Joe's native head, including the recorded palette transitions. Preserve the existing art, size and position. No other artwork changes.
+
 # Bionic Commando HD v0.8.1 — review corrections
 
 Correct the initial boot/power-cycle title, intermittent story fragments, Area 1 cave frames, and the reported Area 5/15 artwork problems. Area 5 now has solid earth, mechanical ceiling objects, helicopter infantry, visible springs, consistent knife guards and a painted robot boss. The overhead encounter has revised scenery, proper overhead figures, new cover and bunker artwork. Both Area 15 interiors, dialogue fragments, the 1UP, barrier and colored radios are covered.

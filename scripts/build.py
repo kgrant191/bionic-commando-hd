@@ -382,7 +382,7 @@ tower_raw.crop((0,0,350,328)).resize((1024,960),Image.Resampling.BICUBIC).save(O
 im=Image.new('RGBA',(2048,math.ceil(len(atlas)/64)*32))
 for i,t in enumerate(atlas):im.paste(t,(i%64*32,i//64*32))
 im.save(OUT/'tiles.png',optimize=True)
-header=['# Bionic Commando HD v0.8.1 - Intro, factory and town corrections','<ver>109','<scale>4',
+header=['# Bionic Commando HD v0.8.2 - Intro, factory and town corrections','<ver>109','<scale>4',
         '<supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D',
         '<overscan>8,0,8,0','<img>tiles.png',
         '<condition>title,tileAtPosition,128,64,3D3D3E3E3F3F3F3FDADADDDDDEDEDFDF,0F20152B,N',
@@ -395,7 +395,7 @@ header=header[:8]+['<options>disableSpriteLimit']+scene_conditions+pose_conditio
 from additions import coalesce_additions
 header,rules,merged_additions=coalesce_additions(header,rules)
 (OUT/'hires.txt').write_text('\n'.join(header+rules)+'\n')
-stats={'version':'0.8.1','projectile_palette_variants':sum(projectile_tile(k,p) is not None for k,p in keys),'merged_duplicate_sprite_additions':merged_additions,'area4_guard_pose_records':6,'area4_guard_paintings':6,'area4_inventory_icons':2,'area4_boss_portrait_expressions':2,'area13_red_rifle_guard_poses':3,'area13_white_guard_poses':8,'area13_contact_poses':4,'area13_neutral_guard_poses':3,'area13_portrait_characters':4,'area13_portrait_expressions':8,'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
+stats={'version':'0.8.2','projectile_palette_variants':sum(projectile_tile(k,p) is not None for k,p in keys),'merged_duplicate_sprite_additions':merged_additions,'area4_guard_pose_records':6,'area4_guard_paintings':6,'area4_inventory_icons':2,'area4_boss_portrait_expressions':2,'area13_red_rifle_guard_poses':3,'area13_white_guard_poses':8,'area13_contact_poses':4,'area13_neutral_guard_poses':3,'area13_portrait_characters':4,'area13_portrait_expressions':8,'builder_tile_palette_keys':raw_key_count,'captured_tile_palette_keys':len(keys),'painted_environment_keys':len(painted),
        'painted_spencer_pose_records':22,'spencer_paintings':19,'painted_enemy_poses':14,'virtual_sprite_keys':len({tuple(l[10:].split(',')[4:6])for l in header if l.startswith('<addition>')}),'sprite_material_keys':sprite_count,'portrait_expressions':8,'portrait_screen_states':10,'dense_sprite_capture_interval':15,
        'water_patterns':len(water_keys),'lamp_patterns':len(lamp_tiles),
        'door_patterns':len(door_tiles),'exterior_seam_patterns':len(seam_patches),

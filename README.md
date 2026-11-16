@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.8.1 — Intro, factory and town corrections**
+**v0.8.2 — Super Joe rear-foot correction**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,17 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.8.1.zip`.
+   `Bionic_Commando_HD_v0.8.2.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.8.2
+
+Complete Super Joe's rear leg and boot during the intro. The existing artwork, scale and position are preserved; three missing sprite cells now render throughout the recorded scene and its palette transitions. Other scenes and gameplay artwork are unchanged from v0.8.1.
 
 ## New in v0.8.1
 
