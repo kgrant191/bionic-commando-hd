@@ -1,0 +1,488 @@
+{
+  "poses": [
+    {
+      "id": 12,
+      "head": "6F88F80C1494A4E47FF808FCFCFCFCFC",
+      "cell": 1,
+      "native_bounds": [
+        26,
+        17,
+        48,
+        43
+      ],
+      "signature": [
+        [
+          0,
+          15,
+          "EA54A84000000000EA54A84000000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 3
+    },
+    {
+      "id": 13,
+      "head": "6F88F80C1494A4E47FF808FCFCFCFCFC",
+      "cell": 1,
+      "native_bounds": [
+        26,
+        17,
+        48,
+        44
+      ],
+      "signature": [
+        [
+          0,
+          8,
+          "0810EE1FFF77AB54F8F0FEFFFF77AB54",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 3
+    },
+    {
+      "id": 14,
+      "head": "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
+      "cell": 2,
+      "native_bounds": [
+        40,
+        16,
+        60,
+        44
+      ],
+      "signature": [
+        [
+          8,
+          8,
+          "FFFFFFFFFFFFBF5DB08080B080E0BF5D",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 2
+    },
+    {
+      "id": 31,
+      "head": "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
+      "cell": 2,
+      "native_bounds": [
+        40,
+        16,
+        60,
+        44
+      ],
+      "signature": [
+        [
+          8,
+          8,
+          "0DFFC54FFD7EBF5DFDFFFD7FFD7EBF5D",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 1
+    },
+    {
+      "id": 32,
+      "head": "013F0702000000003F3E040301000000",
+      "cell": 1,
+      "native_bounds": [
+        42,
+        17,
+        64,
+        43
+      ],
+      "signature": [
+        [
+          16,
+          15,
+          "EA54A84000000000EA54A84000000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 1
+    },
+    {
+      "id": 0,
+      "head": "161108080404120EEE6F37373B1B1D0F",
+      "cell": 0,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        43
+      ],
+      "signature": [
+        [
+          0,
+          15,
+          "2A150A01000000002A150A0100000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 37
+    },
+    {
+      "id": 1,
+      "head": "302D17180C070118D0DDEFE773381E1F",
+      "cell": 3,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        43
+      ],
+      "signature": [
+        [
+          0,
+          15,
+          "2E150A01000000002E150A0100000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 17
+    },
+    {
+      "id": 2,
+      "head": "161108080404120EEE6F37373B1B1D0F",
+      "cell": 0,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        44
+      ],
+      "signature": [
+        [
+          8,
+          8,
+          "BA3A22FCBA54AA54E6E6FEFCBA54AA54",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 14
+    },
+    {
+      "id": 3,
+      "head": "228100081F0FEF723EBFFFFFFDF818F0",
+      "cell": 3,
+      "native_bounds": [
+        32,
+        16,
+        48,
+        43
+      ],
+      "signature": [
+        [
+          -8,
+          15,
+          "2E150A01000000002E150A0100000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 14
+    },
+    {
+      "id": 4,
+      "head": "161108080404120EEE6F37373B1B1D0F",
+      "cell": 0,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        44
+      ],
+      "signature": [
+        [
+          8,
+          8,
+          "BA3AE2BC9A74F2F4E6E6FEFCFA74F2F4",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 13
+    },
+    {
+      "id": 5,
+      "head": "58381B1B1F1B1B1B6824070707040607",
+      "cell": 0,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        44
+      ],
+      "signature": [
+        [
+          8,
+          8,
+          "0CF44448FA7CFA34FCFC7C78FA7CFA34",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 11
+    },
+    {
+      "id": 6,
+      "head": "2707031F1F0303033F1D1E1F1E1E1C1F",
+      "cell": 2,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        43
+      ],
+      "signature": [
+        [
+          8,
+          15,
+          "AA54A84000000000AA54A84000000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 8
+    },
+    {
+      "id": 7,
+      "head": "302D17180C070118D0DDEFE773381E1F",
+      "cell": 3,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        44
+      ],
+      "signature": [
+        [
+          8,
+          8,
+          "840870D46AD4EAF4FCF8F0D4EAD4EAF4",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 7
+    },
+    {
+      "id": 9,
+      "head": "302D17180C070118D0DDEFE773381E1F",
+      "cell": 3,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        44
+      ],
+      "signature": [
+        [
+          0,
+          8,
+          "4760F0FF73352A557F7FFFFF73352A55",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 4
+    },
+    {
+      "id": 10,
+      "head": "0C38F0C0010EF9420B37EFFFFFFEFFFE",
+      "cell": 1,
+      "native_bounds": [
+        32,
+        16,
+        48,
+        43
+      ],
+      "signature": [
+        [
+          -8,
+          15,
+          "2A150A01000000002A150A0100000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 4
+    },
+    {
+      "id": 11,
+      "head": "228100081F0FEF723EBFFFFFFDF818F0",
+      "cell": 3,
+      "native_bounds": [
+        32,
+        16,
+        48,
+        44
+      ],
+      "signature": [
+        [
+          0,
+          8,
+          "840870D46AD4EAF4FCF8F0D4EAD4EAF4",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 4
+    },
+    {
+      "id": 15,
+      "head": "58381B1B1F1B1B1B6824070707040607",
+      "cell": 0,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        43
+      ],
+      "signature": [
+        [
+          8,
+          15,
+          "FAF4F86000000000FAF4F86000000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 2
+    },
+    {
+      "id": 16,
+      "head": "1E3D7FFCF8DE2B060203070B173FEF07",
+      "cell": 1,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        44
+      ],
+      "signature": [
+        [
+          0,
+          8,
+          "0414265F2F5F3E7F0717275F2F5F3E7F",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 2
+    },
+    {
+      "id": 17,
+      "head": "228100081F0FEF723EBFFFFFFDF818F0",
+      "cell": 3,
+      "native_bounds": [
+        32,
+        16,
+        48,
+        44
+      ],
+      "signature": [
+        [
+          -8,
+          8,
+          "4760F0FF73352A557F7FFFFF73352A55",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 2
+    },
+    {
+      "id": 34,
+      "head": "0C38F0C0010EF9420B37EFFFFFFEFFFE",
+      "cell": 1,
+      "native_bounds": [
+        32,
+        16,
+        48,
+        44
+      ],
+      "signature": [
+        [
+          -8,
+          8,
+          "0414265F2F5F3E7F0717275F2F5F3E7F",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 1
+    },
+    {
+      "id": 35,
+      "head": "1E3D7FFCF8DE2B060203070B173FEF07",
+      "cell": 1,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        42
+      ],
+      "signature": [
+        [
+          0,
+          14,
+          "2A150A01000000002A150A0100000000",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 1
+    },
+    {
+      "id": 8,
+      "head": "190610181F3FFF7EFFFFFFFFFFC98143",
+      "cell": 2,
+      "native_bounds": [
+        40,
+        16,
+        56,
+        44
+      ],
+      "signature": [
+        [
+          0,
+          8,
+          "01020204187C3E1E3F3E7E7C787C3E1E",
+          0,
+          0
+        ]
+      ],
+      "sample_frames": 7
+    },
+    {
+      "id": 19,
+      "head": "9F1F3E7CD8080078F8E1E2F4F8F8F8F8",
+      "cell": 2,
+      "native_bounds": [
+        32,
+        16,
+        48,
+        44
+      ],
+      "signature": [
+        [
+          0,
+          8,
+          "01020204187C3E1E3F3E7E7C787C3E1E",
+          1,
+          0
+        ]
+      ],
+      "sample_frames": 1
+    }
+  ],
+  "direct_component_patterns": 81
+}

@@ -109,7 +109,7 @@ def extend_area4(root,keys,indices,tile,scale,rule,blank):
   additions.append(f'[{guard}&area4BossFace&{talk}]<background>area4-boss{i}.png,1,0,0,20')
  portrait_parts={ (k,p)for state in json.loads((root/'capture/area4/boss-portrait-states.json').read_text()) for x,y,k,p,h,v in state['parts']}
  for k,p in portrait_parts:rule(k,p,blank,guard+'&area4BossFace')
- c,a,v=make_actor(root,keys,lambda k,p,im,g=None:rule(k,p,im,(guard+'&'+g)if g else None),blank,'area4',1,0xFF36150F)
+ c,a,v=make_actor(root,keys,lambda k,p,im,g=None:rule(k,p,im,(guard.replace('area4','knifeAreas')+'&'+g)if g else None),blank,'area4',1,0xFF36150F)
  conditions+=c;additions+=a
  (root/'validation/area4_mapping.json').write_text(json.dumps({'painted':mapping,'actor_records':6,'area_address':'004D','area_value':'04'},indent=2)+'\n')
  return conditions,additions

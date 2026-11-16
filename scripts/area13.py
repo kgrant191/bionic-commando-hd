@@ -93,7 +93,7 @@ def extend_area13(root,keys,indices,tile,scale,rule,blank):
   rule(k,p,im,guard)
  # Fully painted guard poses reuse the same native anchor/flip machinery.
  observed={(k,int(p,16)) for k,p in json.loads((root/'capture/area13/observed-sprite-palettes.json').read_text())}
- white=[(k,p)for k,p in keys if (k,p) in observed and p in {0xFF36300F,0xFF202A0F,0xFF36060F,0xFF36150F}]
+ white=[(k,p)for k,p in keys if p in {0xFF36300F,0xFF202A0F,0xFF36060F,0xFF36150F}]
  c,a,v=make_actor(root,white,lambda k,p,im,g=None:rule(k,p,im,(guard+'&'+g)if g is not None else None),blank,'area13',2,0xFF36300F)
  conds+=c;backgrounds+=a
  for actor,pal in [('contact',0xFF202A0F),('neutral',0xFF36150F),('a13trooper',0xFF36150F)]:

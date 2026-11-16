@@ -1,3 +1,9 @@
+# Bionic Commando HD v0.8.1 — review corrections
+
+Correct the initial boot/power-cycle title, intermittent story fragments, Area 1 cave frames, and the reported Area 5/15 artwork problems. Area 5 now has solid earth, mechanical ceiling objects, helicopter infantry, visible springs, consistent knife guards and a painted robot boss. The overhead encounter has revised scenery, proper overhead figures, new cover and bunker artwork. Both Area 15 interiors, dialogue fragments, the 1UP, barrier and colored radios are covered.
+
+This is a review build, not a public release. Includes the v0.8.0 work and all approved v0.7.6 changes. No ROM or movie is bundled, and no gameplay state is changed.
+
 # v0.8.0 — Intro story, Area 5 and Area 15
 
 - Replace the story dossier, headquarters and sunset scenes with painted artwork, plus a complete Super Joe illustration and refreshed live text.

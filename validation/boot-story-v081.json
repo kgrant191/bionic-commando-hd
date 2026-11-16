@@ -1,0 +1,30 @@
+{
+  "coldboot": {
+    "frames_run": 600,
+    "screenshot_interval": 6,
+    "visible_title_screens_compared": 93,
+    "pixel_mismatches_against_HD_title": [],
+    "explicit_power_cycle_called": false
+  },
+  "powercycle": {
+    "frames_run": 600,
+    "screenshot_interval": 6,
+    "visible_title_screens_compared": 93,
+    "pixel_mismatches_against_HD_title": [],
+    "explicit_power_cycle_called": true
+  },
+  "dense_story": {
+    "frames_run": 4752,
+    "screenshot_interval": 6,
+    "scenery_regions_compared": {
+      "1": 73,
+      "2": 153,
+      "3": 125
+    },
+    "native_black_transition_frames": [
+      1242
+    ],
+    "unexpected_scenery_pixels": [],
+    "scope": "Exact upper scenery region for narration/dossier/headquarters. Super Joe reviewed in sampled rendered frames."
+  }
+}

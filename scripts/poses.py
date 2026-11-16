@@ -117,6 +117,26 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         if fade:
             a=np.array(im);a[:,:,:3]=(a[:,:,:3].astype(float)*[1,.62,.32,.12,0][fade]).astype('uint8');im=Image.fromarray(a)
         return im
+    if actor.startswith('overhead'):
+        # One replacement per native OAM cell. This preserves native overlap
+        # and avoids duplicate figures when a pose exposes two possible anchors.
+        seen=set();fallback={}
+        for rec in sorted(records,key=lambda r:-r['count']):
+            for dx,dy,k,h,v in [(0,0,rec['head'],0,0)]+rec['parts']:
+                hs=-1 if h else 1;vs=-1 if v else 1
+                guard=pose_guard(rec,dx,dy,hs,vs)
+                if k!=rec['head']:guard+='&'+condition(-dx*hs,-dy*vs,rec['head'],normal_palette,False)
+                sig=(k,guard)
+                if sig in seen:continue
+                seen.add(sig)
+                im=images[rec['id']].crop(((40+dx)*4,(24+dy)*4,(48+dx)*4,(32+dy)*4))
+                if h:im=ImageOps.mirror(im)
+                if v:im=ImageOps.flip(im)
+                rule(k,normal_palette,im,guard)
+                fallback.setdefault(k,im)
+        for k,im in fallback.items():rule(k,normal_palette,im,'!title')
+        (root/f'validation/{actor}_pose_mapping.json').write_text(json.dumps({'poses':stats,'direct_component_patterns':len(fallback)},indent=2)+'\n')
+        return conds,[],[]
     offset_groups={}
     for head in sorted({r['head']for r in records}):
         group=[r for r in records if r['head']==head]
@@ -131,6 +151,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
             vkey=hashlib.md5(f'BionicCommandoHD:{actor}:{head}:{x}:{y}'.encode()).hexdigest().upper()
             assert all(k!=vkey for k,p in keys)
             for hp in sorted(keypal[head]):
+                if actor.startswith('overhead') and hp!=normal_palette:continue
                 additions.append(f'<addition>{head},{hp:08X},{x},{y},{vkey},{hp:08X},N')
                 virtual.append((vkey,hp))
                 for rec in group:
@@ -152,8 +173,9 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         for dx,dy,k,h,v in [(0,0,rec['head'],0,0)]+rec['parts']:
             hs=-1 if h else 1;vs=-1 if v else 1
             guard=pose_guard(rec,dx,dy,hs,vs)
-            if k!=rec['head']:guard+='&'+condition(-dx*hs,-dy*vs,rec['head'],normal_palette,True)
+            if k!=rec['head']:guard+='&'+condition(-dx*hs,-dy*vs,rec['head'],normal_palette,not actor.startswith('overhead'))
             for p in sorted(keypal.get(k,[])):
+                if actor.startswith('overhead') and k==rec['head'] and p!=normal_palette:continue
                 t=(k,p,guard)
                 if t in hidden:continue
                 hidden.add(t);rule(k,p,blank,guard)
@@ -163,8 +185,9 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
     for rec in records:
         for dx,dy,k,h,v in [(0,0,rec['head'],0,0)]+rec['parts']:
             hs=-1 if h else 1;vs=-1 if v else 1
-            guard='!title' if k==rec['head'] else '!title&'+condition(-dx*hs,-dy*vs,rec['head'],normal_palette,True)
+            guard='!title' if k==rec['head'] else '!title&'+condition(-dx*hs,-dy*vs,rec['head'],normal_palette,not actor.startswith('overhead'))
             for p in sorted(keypal.get(k,[])):
+                if actor.startswith('overhead') and k==rec['head'] and p!=normal_palette:continue
                 t=(k,p,guard)
                 if t in hidden:continue
                 hidden.add(t);rule(k,p,blank,guard)

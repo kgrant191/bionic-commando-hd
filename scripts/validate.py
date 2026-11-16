@@ -68,7 +68,7 @@ assert all(a in definition_set and v in definition_set for a,v in additions)
 if args.pack is None:assert len(virtual_keys)==stats['virtual_sprite_keys']
 unconditional={tuple(l[6:].split(',')[1:3])for l in rules if l.startswith('<tile>')}
 assert virtual_keys<=unconditional,'Missing virtual fallback'
-report={'version':'0.8.0','movie_input_frames':args.frames,'checkpoint_interval':step,
+report={'version':'0.8.1','movie_input_frames':args.frames,'checkpoint_interval':step,
         'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,'ppu_mismatches':ppu_mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),

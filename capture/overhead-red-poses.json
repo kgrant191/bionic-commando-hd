@@ -1,39 +1,39 @@
 [
   {
-    "head": "609050A848AC5A99E0F0F0F8F8FCFEFF",
+    "head": "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "609050A848AC5A99E0F0F0F8F8FCFEFF",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "0608081090F0796A077FFFFFFF9F5F5F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "2707031F1F0303033F1D1E1F1E1E1C1F",
         0,
         0
       ],
       [
         -8,
-        16,
+        8,
         "1E1A0A0A0A0A0A0A1E16161616161616",
         0,
         0
       ],
       [
         -8,
-        24,
+        16,
         "0A0E060E020E120C16161E1E1E1E1E0C",
-        0,
-        0
-      ],
-      [
-        0,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
         0,
         0
       ]
@@ -85,59 +85,60 @@
     "palette": "FF36150F",
     "id": 0,
     "count": 42,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
+    "head": "2707031F1F0303033F1D1E1F1E1E1C1F",
     "parts": [
       [
         0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
+        -8,
+        "0608081090F0796A077FFFFFFF9F5F5F",
         0,
         0
       ],
       [
         0,
-        15,
+        7,
         "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A848AC5A99E0F0F0F8F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
         0,
         0
       ],
       [
         8,
-        15,
+        7,
         "0CF44448FA7CFA34FCFC7C78FA7CFA34",
         0,
         0
       ],
       [
         8,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -177,45 +178,46 @@
     "palette": "FF36150F",
     "id": 1,
     "count": 29,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "01020408080808050307070F0F0F0F0F",
+    "head": "171B0F0F9FFFC98A1F3E7FF8F0FECF8F",
     "parts": [
       [
+        0,
         -8,
-        8,
+        "01020408080808050307070F0F0F0F0F",
+        0,
+        0
+      ],
+      [
+        -8,
+        0,
         "00000000010204080000000003050B17",
         0,
         0
       ],
       [
         -8,
-        16,
+        8,
         "1122C488102040802F5EBCF8F0E0C080",
         0,
         0
       ],
       [
-        0,
         8,
-        "171B0F0F9FFFC98A1F3E7FF8F0FECF8F",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
+        -8,
         "885D2F57AE54AE558EFFFFFFFEFCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
         0,
         0
@@ -255,46 +257,47 @@
     "palette": "FF36150F",
     "id": 2,
     "count": 29,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+    "head": "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
     "parts": [
       [
+        0,
+        -8,
+        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+        0,
+        0
+      ],
+      [
         -16,
-        8,
+        0,
         "00000000010204080000000003050B17",
         0,
         0
       ],
       [
         -16,
-        16,
+        8,
         "1122C488102040802F5EBCF8F0E0C080",
         0,
         0
       ],
       [
         -8,
-        0,
+        -8,
         "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "171B0F0F9FFFC98A1F3E7FF8F0FECF8F",
-        0,
-        0
-      ],
-      [
-        0,
-        8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
         0,
         0
       ]
@@ -327,45 +330,46 @@
     "palette": "FF36150F",
     "id": 3,
     "count": 23,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
+    "head": "2707031F1F0303033F1D1E1F1E1E1C1F",
     "parts": [
       [
         0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
+        -8,
+        "0608081090F0796A077FFFFFFF9F5F5F",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "1E1A0A0A0A0A0A0A1E16161616161616",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "0A0E060E020E120C16161E1E1E1E1E0C",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A848AC5A99E0F0F0F8F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
         0,
         0
@@ -392,38 +396,46 @@
     "palette": "FF36150F",
     "id": 4,
     "count": 16,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "008060A050B050B00080E0E0F0F0F0F0",
+    "head": "72E180080F0DDC7DFEFFFFFFFFFFFFFF",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "008060A050B050B00080E0E0F0F0F0F0",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "001831A0E162212A60FFFFFFFF7F3F7F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "353A1F180C060318FFFFFFFF7F3F1F1F",
         0,
         0
       ],
       [
         -8,
-        16,
+        8,
         "180720502F532F5F3F3F3F5F3F5F2F5F",
         0,
         0
       ],
       [
         -8,
-        24,
+        16,
         "2E150A01000000002E150A0100000000",
         0,
         0
@@ -431,20 +443,13 @@
       [
         0,
         8,
-        "72E180080F0DDC7DFEFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
         "3ECC1A7CBA54AA54FCFCFAFCBA54AA54",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -470,73 +475,74 @@
     "palette": "FF36150F",
     "id": 5,
     "count": 15,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 4,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "C6880810F030799F377FFFFFFFFFFFFF",
+    "head": "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
     "parts": [
       [
         0,
-        8,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
+        -8,
+        "C6880810F030799F377FFFFFFFFFFFFF",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "8CEFEA9A7E5E3E4D7F1F7EFE7E5E3E4D",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A849A858F0E0F0F0F8FFFFFFFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "E0C705050F1FFF0F7FFFFFFFF9F1F9FF",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "0DFFC54FFD7EBF5DFDFFFD7FFD7EBF5D",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
       ],
       [
         16,
-        8,
+        0,
         "C0E0E0F0E0E0E0F040A0A090A0A0A010",
         0,
         0
       ],
       [
         16,
-        16,
+        8,
         "E0E0E0F0E0E0C0802020201020204080",
         0,
         0
@@ -561,59 +567,60 @@
     "palette": "FF36150F",
     "id": 6,
     "count": 14,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "008060A050B050B00080E0E0F0F0F0F0",
+    "head": "72E180080F0DDC7DFEFFFFFFFFFFFFFF",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "008060A050B050B00080E0E0F0F0F0F0",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "001831A0E162212A60FFFFFFFF7F3F7F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "353A1F180C060318FFFFFFFF7F3F1F1F",
         0,
         0
       ],
       [
         -8,
-        15,
+        7,
         "0F0020512E552B551F1F3F5F2F572B55",
         0,
         0
       ],
       [
         -8,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         0,
-        8,
-        "72E180080F0DDC7DFEFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
+        7,
         "840870D46AD4EAF4FCF8F0D4EAD4EAF4",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "FA74F85000000000FA74F85000000000",
         0,
         0
@@ -632,59 +639,60 @@
     "palette": "FF36150F",
     "id": 7,
     "count": 8,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 4,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "01020408080808050307070F0F0F0F0F",
+    "head": "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
     "parts": [
       [
         0,
-        8,
-        "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
+        -8,
+        "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "04172F5E2C552A5507172F5E2C552A55",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "885D2F57AE54AE558EFFFFFFFEFCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "0204FECEBE3CFA74FEFCFEFEBE3CFA74",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -703,73 +711,74 @@
     "palette": "FF36150F",
     "id": 8,
     "count": 8,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "C6880810F030799F377FFFFFFFFFFFFF",
+    "head": "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
     "parts": [
       [
         0,
-        8,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
+        -8,
+        "C6880810F030799F377FFFFFFFFFFFFF",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "8CEFEA9A7E5E3E4D7F1F7EFE7E5E3E4D",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A848A858F0E0F0F0F8F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "E0C004ECFFFFFFFF7FFFFFFF9F808090",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "FFFFFFFFFFFFBF5DB08080B080E0BF5D",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
       ],
       [
         16,
-        7,
+        -1,
         "00804040F0F0F0F00080C0C0F0901010",
         0,
         0
       ],
       [
         16,
-        15,
+        7,
         "F0F0F0F0F0F0E08050D01010D0106080",
         0,
         0
@@ -787,59 +796,60 @@
     "palette": "FF36150F",
     "id": 9,
     "count": 7,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "008060A050B050B00080E0E0F0F0F0F0",
+    "head": "72E180080F0DDC7DFEFFFFFFFFFFFFFF",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "008060A050B050B00080E0E0F0F0F0F0",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "001831A0E162212A60FFFFFFFF7F3F7F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "353A1F180C060318FFFFFFFF7F3F1F1F",
         0,
         0
       ],
       [
         -8,
-        15,
+        7,
         "4760F0FF73352A557F7FFFFF73352A55",
         0,
         0
       ],
       [
         -8,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         0,
-        8,
-        "72E180080F0DDC7DFEFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
+        7,
         "C81060F8FC7CBE5CF8F0E0F8FC7CBE5C",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -857,38 +867,46 @@
     "palette": "FF36150F",
     "id": 10,
     "count": 7,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 4,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+    "head": "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
         0,
         0
       ],
       [
         -8,
-        16,
+        8,
         "04172F5E2C552A5507172F5E2C552A55",
         0,
         0
       ],
       [
         -8,
-        24,
+        16,
         "2A150A01000000002A150A0100000000",
         0,
         0
@@ -896,20 +914,13 @@
       [
         0,
         8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
         "0204FECEBE3CFA74FEFCFEFEBE3CFA74",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -927,59 +938,60 @@
     "palette": "FF36150F",
     "id": 11,
     "count": 7,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081011100918070F0F1F1F7FFFFF",
+    "head": "36333018180C160E7F7F3F3F3F1F1F1F",
     "parts": [
       [
         0,
-        8,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
+        -8,
+        "0608081011100918070F0F1F1F7FFFFF",
         0,
         0
       ],
       [
         0,
-        15,
+        7,
         "0E110E43365F3E5D1F1F1F5F3E5F3E5D",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "60B159A959A95FBBECFFFFFFFFFFFFFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "7AC602020110383DFEFEFEFEFFFFFFFF",
         0,
         0
       ],
       [
         8,
-        15,
+        7,
         "7DAE22E2DE7CFA34FFFEFEFEFE7CFA34",
         0,
         0
       ],
       [
         8,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -995,59 +1007,60 @@
     "palette": "FF36150F",
     "id": 12,
     "count": 5,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 4,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
+    "head": "2707031F1F0303033F1D1E1F1E1E1C1F",
     "parts": [
       [
         0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
+        -8,
+        "0608081090F0796A077FFFFFFF9F5F5F",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "030222433D5F2F571F1F3F5F3F5F2F57",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "2F170F03000000002F170F0300000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A848AC5A99E0F0F0F8F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "82E49C582A54AA94FEFC9C582A54AA94",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "AA94A84000000000AA94A84000000000",
         0,
         0
@@ -1063,218 +1076,74 @@
     "palette": "FF36150F",
     "id": 13,
     "count": 5,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "C6880810F030799F377FFFFFFFFFFFFF",
+    "head": "033F0707010000003F3E000601000000",
     "parts": [
       [
         0,
-        1,
-        "C6880810F030799F377FFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        0,
-        8,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
-        0,
-        0
-      ],
-      [
-        0,
-        9,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "8CEFEA9A7E5E3E4D7F1F7EFE7E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "8E89E8E818792F5F7F7F1F7F7F7F2F5F",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2F1F0F06000000002F1F0F0600000000",
+        -8,
+        "00000000000003030000000000003F3F",
         0,
         0
       ],
       [
         8,
-        0,
-        "609050A848A858F0E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        1,
-        "609050A848A858F0E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "E0C004ECFFFFFFFF7FFFFFFF9F808090",
-        0,
-        0
-      ],
-      [
-        8,
-        9,
-        "E0C004ECFFFFFFFF7FFFFFFF9F808090",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "FFFFFFFFFFFFBF5DB08080B080E0BF5D",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "FFFFFFFFFFFFFF5F90B08080B080E05F",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        16,
-        7,
-        "00804040F0F0F0F00080C0C0F0901010",
-        0,
-        0
-      ],
-      [
-        16,
-        8,
-        "00804040F0F0F0F00080C0C0F0901010",
-        0,
-        0
-      ],
-      [
-        16,
-        15,
-        "F0F0F0F0F0F0E08050D01010D0106080",
-        0,
-        0
-      ],
-      [
-        16,
-        16,
-        "F0F0F0F0F0F0E08050D01010D0106080",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1248,
-      1290,
-      1302,
-      1416,
-      1434
-    ],
-    "palette": "FF36150F",
-    "id": 14,
-    "count": 5,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "00000000000003030000000000003F3F",
-    "parts": [
-      [
-        0,
-        8,
-        "033F0707010000003F3E000601000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
+        -8,
         "000000000000203100070F1F1F1FFFFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "335E285F245A275F3F5F2F5F275B275F",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "2F150A01000000002F150A0100000000",
         0,
         0
       ],
       [
         16,
-        0,
+        -8,
         "00802054325EB9590080E0FCFEFEFFFF",
         0,
         0
       ],
       [
         16,
-        8,
+        0,
         "A96FFF3814146480FFFFFFF8FCFCFCF8",
         0,
         0
       ],
       [
         16,
-        16,
+        8,
         "C40832F42A74EAF4FCF8F2F4EAF4EAF4",
         0,
         0
       ],
       [
         16,
-        24,
+        16,
         "EA54A84000000000EA54A84000000000",
         0,
         0
@@ -1290,59 +1159,60 @@
     "palette": "FF36150F",
     "id": 15,
     "count": 5,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "01020408080808050307070F0F0F0F0F",
+    "head": "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
     "parts": [
       [
         0,
-        8,
-        "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
+        -8,
+        "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         0,
-        15,
+        7,
         "0414265F2F5F3E7F0717275F2F5F3E7F",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "3C150A01000000003C150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "885D2F57AE54AE558EFFFFFFFEFCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
         0,
         0
       ],
       [
         8,
-        15,
+        7,
         "341868D4AA54AA54FCF8E8D4AA54AA54",
         0,
         0
       ],
       [
         8,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -1358,59 +1228,60 @@
     "palette": "FF36150F",
     "id": 16,
     "count": 5,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
+    "head": "2707031F1F0303033F1D1E1F1E1E1C1F",
     "parts": [
       [
         0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
+        -8,
+        "0608081090F0796A077FFFFFFF9F5F5F",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "020223433E5D2A541F1F3F5F3E5D2A54",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "2A140A01000000002A140A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A848AC5A99E0F0F0F8F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "FCE484844A74FAF4FCFCFCFC7A74FAF4",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "FAF4F86000000000FAF4F86000000000",
         0,
         0
@@ -1425,52 +1296,60 @@
     "palette": "FF36150F",
     "id": 17,
     "count": 4,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "00802054325EB9590080E0FCFEFEFFFF",
+    "head": "A96FFF3814146480FFFFFFF8FCFCFCF8",
     "parts": [
       [
-        -16,
         0,
+        -8,
+        "00802054325EB9590080E0FCFEFEFFFF",
+        0,
+        0
+      ],
+      [
+        -16,
+        -8,
         "00000000000003030000000000003F3F",
         0,
         0
       ],
       [
         -16,
-        8,
+        0,
         "033F0707010000003F3E000601000000",
         0,
         0
       ],
       [
         -8,
-        0,
+        -8,
         "000000000000203100070F1F1F1FFFFF",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
         0,
         0
       ],
       [
         -8,
-        16,
+        8,
         "335E285F245A275F3F5F2F5F275B275F",
         0,
         0
       ],
       [
         -8,
-        24,
+        16,
         "2F150A01000000002F150A0100000000",
         0,
         0
@@ -1478,20 +1357,13 @@
       [
         0,
         8,
-        "A96FFF3814146480FFFFFFF8FCFCFCF8",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
         "C40832F42A74EAF4FCF8F2F4EAF4EAF4",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "EA54A84000000000EA54A84000000000",
         0,
         0
@@ -1506,52 +1378,60 @@
     "palette": "FF36150F",
     "id": 18,
     "count": 4,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "00802054325EB9590080E0FCFEFEFFFF",
+    "head": "A96FFF3814146480FFFFFFF8FCFCFCF8",
     "parts": [
       [
-        -16,
         0,
+        -8,
+        "00802054325EB9590080E0FCFEFEFFFF",
+        0,
+        0
+      ],
+      [
+        -16,
+        -8,
         "00000000000003030000000000003F3F",
         0,
         0
       ],
       [
         -16,
-        8,
+        0,
         "033F0707010000003F3E000601000000",
         0,
         0
       ],
       [
         -8,
-        0,
+        -8,
         "000000000000203100070F1F1F1FFFFF",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
         0,
         0
       ],
       [
         -8,
-        16,
+        8,
         "0000131E3CFDFE3D0F1F1F1E3CFDFE3D",
         0,
         0
       ],
       [
         -8,
-        24,
+        16,
         "2A150A01000000002A150A0100000000",
         0,
         0
@@ -1559,20 +1439,13 @@
       [
         0,
         8,
-        "A96FFF3814146480FFFFFFF8FCFCFCF8",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
         "0F3FFF63AA54AA54FFFFFF63AA54AA54",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -1587,59 +1460,60 @@
     "palette": "FF36150F",
     "id": 19,
     "count": 4,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "01020408080808050307070F0F0F0F0F",
+    "head": "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
     "parts": [
       [
         0,
-        8,
-        "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
+        -8,
+        "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         0,
-        15,
+        7,
         "001B3E3D7EF9FA650F1F3E3D7EF9FA65",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "885D2F57AE54AE558EFFFFFFFEFCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
         0,
         0
       ],
       [
         8,
-        15,
+        7,
         "0707DF6F5EAC54A80707FF6F5EAC54A8",
         0,
         0
       ],
       [
         8,
-        23,
+        15,
         "54A854A85080000054A854A850800000",
         0,
         0
@@ -1654,59 +1528,60 @@
     "palette": "FF36150F",
     "id": 20,
     "count": 4,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+    "head": "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
         0,
         0
       ],
       [
         -8,
-        15,
+        7,
         "0414265F2F5F3E7F0717275F2F5F3E7F",
         0,
         0
       ],
       [
         -8,
-        23,
+        15,
         "3C150A01000000003C150A0100000000",
         0,
         0
       ],
       [
         0,
-        8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
+        7,
         "341868D4AA54AA54FCF8E8D4AA54AA54",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -1720,59 +1595,60 @@
     "palette": "FF36150F",
     "id": 21,
     "count": 3,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "609050A848AC5A99E0F0F0F8F8FCFEFF",
+    "head": "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "609050A848AC5A99E0F0F0F8F8FCFEFF",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "0608081090F0796A077FFFFFFF9F5F5F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "2707031F1F0303033F1D1E1F1E1E1C1F",
         0,
         0
       ],
       [
         -8,
-        15,
+        7,
         "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
         0,
         0
       ],
       [
         -8,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         0,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
+        7,
         "0CF44448FA7CFA34FCFC7C78FA7CFA34",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -1785,209 +1661,61 @@
     "palette": "FF36150F",
     "id": 22,
     "count": 2,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "C6880810F030799F377FFFFFFFFFFFFF",
+    "head": "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
     "parts": [
       [
         0,
-        1,
-        "C6880810F030799F377FFFFFFFFFFFFF",
+        -8,
+        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
         0,
         0
       ],
-      [
-        0,
-        8,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
-        0,
-        0
-      ],
-      [
-        0,
-        9,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "888CEFE91F7F2A557F7F1F7F7F7F2A55",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "8CEFEA9A7E5E3E4D7F1F7EFE7E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A150A05000000002A150A0500000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848A858F0E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        1,
-        "609050A848A858F0E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "E0C004ECFFFFFFFF7FFFFFFF9F808090",
-        0,
-        0
-      ],
-      [
-        8,
-        9,
-        "E0C004ECFFFFFFFF7FFFFFFF9F808090",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "FFFFFFFFFFFFBF5DB08080B080E0BF5D",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "FFFFFFFFFFFFFF7F90B08080B080E07F",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "FAF4F8F000000000FAF4F8F000000000",
-        0,
-        0
-      ],
-      [
-        16,
-        7,
-        "00804040F0F0F0F00080C0C0F0901010",
-        0,
-        0
-      ],
-      [
-        16,
-        8,
-        "00804040F0F0F0F00080C0C0F0901010",
-        0,
-        0
-      ],
-      [
-        16,
-        15,
-        "F0F0F0F0F0F0E08050D01010D0106080",
-        0,
-        0
-      ],
-      [
-        16,
-        16,
-        "F0F0F0F0F0F0E08050D01010D0106080",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1008,
-      1020
-    ],
-    "palette": "FF36150F",
-    "id": 23,
-    "count": 2,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "885D2F57AE54AE558EFFFFFFFEFCFEFF",
-    "parts": [
       [
         -16,
-        7,
+        -1,
         "00000000010204080000000003050B17",
         0,
         0
       ],
       [
         -16,
-        8,
+        0,
         "00000000010204080000000003050B17",
         0,
         0
       ],
       [
         -16,
-        15,
+        7,
         "1122C488102040802F5EBCF8F0E0C080",
         0,
         0
       ],
       [
         -16,
-        16,
+        8,
         "1122C488102040802F5EBCF8F0E0C080",
         0,
         0
       ],
       [
         -8,
-        0,
+        -8,
         "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "171B0F0F9FFFC98A1F3E7FF8F0FECF8F",
-        0,
-        0
-      ],
-      [
-        0,
-        8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
         0,
         0
       ]
@@ -1999,73 +1727,74 @@
     "palette": "FF36150F",
     "id": 24,
     "count": 2,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "C6880810F030799F377FFFFFFFFFFFFF",
+    "head": "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
     "parts": [
       [
         0,
-        8,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
+        -8,
+        "C6880810F030799F377FFFFFFFFFFFFF",
         0,
         0
       ],
       [
         0,
-        15,
+        7,
         "888CEFE91F7F2A557F7F1F7F7F7F2A55",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "2A150A05000000002A150A0500000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A848A858F0E0F0F0F8F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "E0C004ECFFFFFFFF7FFFFFFF9F808090",
         0,
         0
       ],
       [
         8,
-        15,
+        7,
         "FFFFFFFFFFFFFF7F90B08080B080E07F",
         0,
         0
       ],
       [
         8,
-        23,
+        15,
         "FAF4F8F000000000FAF4F8F000000000",
         0,
         0
       ],
       [
         16,
-        7,
+        -1,
         "00804040F0F0F0F00080C0C0F0901010",
         0,
         0
       ],
       [
         16,
-        15,
+        7,
         "F0F0F0F0F0F0E08050D01010D0106080",
         0,
         0
@@ -2078,59 +1807,60 @@
     "palette": "FF36150F",
     "id": 25,
     "count": 2,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081011100918070F0F1F1F7FFFFF",
+    "head": "36333018180C160E7F7F3F3F3F1F1F1F",
     "parts": [
       [
         0,
-        8,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
+        -8,
+        "0608081011100918070F0F1F1F7FFFFF",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "011C0342365E3E5E1F1F1F5E3E5E3E5E",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "3E1E0E05000000003E1E0E0500000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "60B159A959A95FBBECFFFFFFFFFFFFFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "7AC602020110383DFEFEFEFEFFFFFFFF",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "A62222FCBA54AA54FEFEFEFCBA54AA54",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -2143,73 +1873,74 @@
     "palette": "FF36150F",
     "id": 26,
     "count": 2,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 4,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "00000000000003030000000000003F3F",
+    "head": "033F0707010000003F3E000601000000",
     "parts": [
       [
         0,
-        8,
-        "033F0707010000003F3E000601000000",
+        -8,
+        "00000000000003030000000000003F3F",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "000000000000203100070F1F1F1FFFFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "0000131E3CFDFE3D0F1F1F1E3CFDFE3D",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         16,
-        0,
+        -8,
         "00802054325EB9590080E0FCFEFEFFFF",
         0,
         0
       ],
       [
         16,
-        8,
+        0,
         "A96FFF3814146480FFFFFFF8FCFCFCF8",
         0,
         0
       ],
       [
         16,
-        16,
+        8,
         "0F3FFF63AA54AA54FFFFFF63AA54AA54",
         0,
         0
       ],
       [
         16,
-        24,
+        16,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -2222,73 +1953,74 @@
     "palette": "FF36150F",
     "id": 27,
     "count": 2,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "00000000000003030000000000003F3F",
+    "head": "033F0707010000003F3E000601000000",
     "parts": [
       [
         0,
-        8,
-        "033F0707010000003F3E000601000000",
+        -8,
+        "00000000000003030000000000003F3F",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "000000000000203100070F1F1F1FFFFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
         0,
         0
       ],
       [
         8,
-        15,
+        7,
         "58FCFF390A552A557FFFFF390A552A55",
         0,
         0
       ],
       [
         8,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         16,
-        0,
+        -8,
         "00802054325EB9590080E0FCFEFEFFFF",
         0,
         0
       ],
       [
         16,
-        8,
+        0,
         "A96FFF3814146480FFFFFFF8FCFCFCF8",
         0,
         0
       ],
       [
         16,
-        15,
+        7,
         "0810EE1FFF77AB54F8F0FEFFFF77AB54",
         0,
         0
       ],
       [
         16,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -2301,73 +2033,74 @@
     "palette": "FF36150F",
     "id": 28,
     "count": 2,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "00802054325EB9590080E0FCFEFEFFFF",
+    "head": "A96FFF3814146480FFFFFFF8FCFCFCF8",
     "parts": [
       [
-        -16,
         0,
+        -8,
+        "00802054325EB9590080E0FCFEFEFFFF",
+        0,
+        0
+      ],
+      [
+        -16,
+        -8,
         "00000000000003030000000000003F3F",
         0,
         0
       ],
       [
         -16,
-        8,
+        0,
         "033F0707010000003F3E000601000000",
         0,
         0
       ],
       [
         -8,
-        0,
+        -8,
         "000000000000203100070F1F1F1FFFFF",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
         0,
         0
       ],
       [
         -8,
-        15,
+        7,
         "58FCFF390A552A557FFFFF390A552A55",
         0,
         0
       ],
       [
         -8,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         0,
-        8,
-        "A96FFF3814146480FFFFFFF8FCFCFCF8",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
+        7,
         "0810EE1FFF77AB54F8F0FEFFFF77AB54",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -2380,59 +2113,60 @@
     "palette": "FF36150F",
     "id": 29,
     "count": 2,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081011100918070F0F1F1F7FFFFF",
+    "head": "36333018180C160E7F7F3F3F3F1F1F1F",
     "parts": [
       [
         0,
-        8,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
+        -8,
+        "0608081011100918070F0F1F1F7FFFFF",
         0,
         0
       ],
       [
         0,
-        16,
+        8,
         "2100305F3E552A543F1F3F5F3E552A54",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "2A140A01000000002A140A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "60B159A959A95FBBECFFFFFFFFFFFFFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "7AC602020110383DFEFEFEFEFFFFFFFF",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "A222E2BC9A74F2F4FEFEFEFCFA74F2F4",
         0,
         0
       ],
       [
         8,
-        24,
+        16,
         "F2F4F06000000000F2F4F06000000000",
         0,
         0
@@ -2444,497 +2178,60 @@
     "palette": "FF36150F",
     "id": 30,
     "count": 1,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 4,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
+    "head": "190610181F3FFF7EFFFFFFFFFFC98143",
     "parts": [
       [
         0,
-        1,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        9,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        17,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        25,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        1,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        9,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0CF44448FA7CFA34FCFC7C78FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        17,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        25,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      960
-    ],
-    "palette": "FF36150F",
-    "id": 31,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        3,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        11,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        0,
-        18,
-        "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        26,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        3,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        11,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        8,
-        18,
-        "0CF44448FA7CFA34FCFC7C78FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        26,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      966
-    ],
-    "palette": "FF36150F",
-    "id": 32,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        2,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        10,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0CF44448FA7CFA34FCFC7C78FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      966
-    ],
-    "palette": "FF36150F",
-    "id": 33,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
         -8,
-        12,
-        "0608081011100918070F0F1F1F7FFFFF",
-        0,
-        0
-      ],
-      [
-        -8,
-        20,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
-        0,
-        0
-      ],
-      [
-        -8,
-        28,
-        "011C0342365E3E5E1F1F1F5E3E5E3E5E",
-        0,
-        0
-      ],
-      [
-        -8,
-        36,
-        "3E1E0E05000000003E1E0E0500000000",
+        "0102010241426122071F3F3F7F7F7F7F",
         0,
         0
       ],
       [
         0,
         8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        12,
-        "60B159A959A95FBBECFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        0,
-        14,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        0,
-        20,
-        "7AC602020110383DFEFEFEFEFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        0,
-        22,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        28,
-        "A62222FCBA54AA54FEFEFEFCBA54AA54",
-        0,
-        0
-      ],
-      [
-        0,
-        36,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        14,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        8,
-        22,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      972
-    ],
-    "palette": "FF36150F",
-    "id": 34,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0102010241426122071F3F3F7F7F7F7F",
-    "parts": [
-      [
-        0,
-        8,
-        "190610181F3FFF7EFFFFFFFFFFC98143",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
         "01020204187C3E1E3F3E7E7C787C3E1E",
         0,
         0
       ],
       [
         0,
-        24,
+        16,
         "1E1C3830000000001E1C383000000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "00C060A020A048DF00C0F8FCFEFFFFFC",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "9F1F3E7CD8080078F8E1E2F4F8F8F8F8",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "01020204187C3E1E3F3E7E7C787C3E1E",
         1,
         0
       ],
       [
         8,
-        24,
+        16,
         "1E1C3830000000001E1C383000000000",
         1,
         0
@@ -2946,1289 +2243,60 @@
     "palette": "FF36150F",
     "id": 36,
     "count": 1,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "C6880810F030799F377FFFFFFFFFFFFF",
+    "head": "2707031F1F0303033F1D1E1F1E1E1C1F",
     "parts": [
       [
         0,
-        8,
-        "9F7F5988888C8F88FF7E3F7F7F7F7F7F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "8E89E8E818792F5F7F7F1F7F7F7F2F5F",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2F1F0F06000000002F1F0F0600000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848A858F0E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "E0C004ECFFFFFFFF7FFFFFFF9F808090",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "FFFFFFFFFFFFFF5F90B08080B080E05F",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        16,
-        7,
-        "00804040F0F0F0F00080C0C0F0901010",
-        0,
-        0
-      ],
-      [
-        16,
-        15,
-        "F0F0F0F0F0F0E08050D01010D0106080",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1014
-    ],
-    "palette": "FF36150F",
-    "id": 37,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        31,
-        "1C3C040406040404041C3E3E3E3C3C3C",
-        0,
-        0
-      ],
-      [
-        0,
-        39,
-        "0404050667F6F7E73C3D3F3F3F1F1F7F",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0CF44448FA7CFA34FCFC7C78FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        39,
-        "1804040A06AA57ECF8FCFCFEFEFEFFFF",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1074
-    ],
-    "palette": "FF36150F",
-    "id": 38,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "030222433D5F2F571F1F3F5F3F5F2F57",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2F170F03000000002F170F0300000000",
-        0,
-        0
-      ],
-      [
-        0,
-        29,
-        "1C3C040406040404041C3E3E3E3C3C3C",
-        0,
-        0
-      ],
-      [
-        0,
-        37,
-        "0404050667F6F7E73C3D3F3F3F1F1F7F",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "82E49C582A54AA94FEFC9C582A54AA94",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "AA94A84000000000AA94A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        37,
-        "1804040A06AA57ECF8FCFCFEFEFEFFFF",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1080
-    ],
-    "palette": "FF36150F",
-    "id": 39,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        25,
-        "1C3C040406040404041C3E3E3E3C3C3C",
-        0,
-        0
-      ],
-      [
-        0,
-        33,
-        "0404050667F6F7E73C3D3F3F3F1F1F7F",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0CF44448FA7CFA34FCFC7C78FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        33,
-        "1804040A06AA57ECF8FCFCFEFEFEFFFF",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1086
-    ],
-    "palette": "FF36150F",
-    "id": 40,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "1C3C040406040404041C3E3E3E3C3C3C",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        32,
-        "0404050667F6F7E73C3D3F3F3F1F1F7F",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        32,
-        "1804040A06AA57ECF8FCFCFEFEFEFFFF",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1092
-    ],
-    "palette": "FF36150F",
-    "id": 41,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
+        -8,
         "0608081090F0796A077FFFFFFF9F5F5F",
         0,
         0
       ],
       [
         0,
-        23,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        31,
-        "1E1A0A0A0A0A0A0A1E16161616161616",
-        0,
-        0
-      ],
-      [
-        0,
-        39,
-        "0A0E060E020E120C16161E1E1E1E1E0C",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0CF44448FA7CFA34FCFC7C78FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1110
-    ],
-    "palette": "FF36150F",
-    "id": 42,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "02031F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0CF44448FA7CFA34FCFC7C78FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        29,
+        6,
         "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        8,
-        37,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        16,
-        15,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        16,
-        23,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        16,
-        29,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        16,
-        37,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1110
-    ],
-    "palette": "FF36150F",
-    "id": 43,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081011100918070F0F1F1F7FFFFF",
-    "parts": [
-      [
-        0,
-        8,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "0E110E43365F3E5D1F1F1F5F3E5F3E5D",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "60B159A959A95FBBECFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "7AC602020110383DFEFEFEFEFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        13,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "7DAE22E2DE7CFA34FFFEFEFEFE7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        21,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        27,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        8,
-        35,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        16,
-        13,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        16,
-        21,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        16,
-        27,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        16,
-        35,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1116
-    ],
-    "palette": "FF36150F",
-    "id": 44,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        13,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        0,
-        21,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        29,
-        "1E1A0A0A0A0A0A0A1E16161616161616",
-        0,
-        0
-      ],
-      [
-        0,
-        37,
-        "0A0E060E020E120C16161E1E1E1E1E0C",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        13,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        8,
-        21,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1116
-    ],
-    "palette": "FF36150F",
-    "id": 45,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081011100918070F0F1F1F7FFFFF",
-    "parts": [
-      [
-        0,
-        8,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "011C0342365E3E5E1F1F1F5E3E5E3E5E",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "3E1E0E05000000003E1E0E0500000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "60B159A959A95FBBECFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "7AC602020110383DFEFEFEFEFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        14,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "A62222FCBA54AA54FEFEFEFCBA54AA54",
-        0,
-        0
-      ],
-      [
-        8,
-        22,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        28,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        8,
-        36,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        16,
-        14,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        16,
-        22,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        16,
-        28,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        16,
-        36,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1122
-    ],
-    "palette": "FF36150F",
-    "id": 46,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0608081011100918070F0F1F1F7FFFFF",
-    "parts": [
-      [
-        0,
-        8,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "0E110E43365F3E5D1F1F1F5F3E5F3E5D",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "60B159A959A95FBBECFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "7AC602020110383DFEFEFEFEFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        12,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "7DAE22E2DE7CFA34FFFEFEFEFE7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        20,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        26,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        8,
-        34,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        16,
-        12,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        16,
-        20,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        16,
-        26,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        16,
-        34,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1128
-    ],
-    "palette": "FF36150F",
-    "id": 47,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "0608081011100918070F0F1F1F7FFFFF",
-    "parts": [
-      [
-        0,
-        8,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "2100305F3E552A543F1F3F5F3E552A54",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "60B159A959A95FBBECFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "7AC602020110383DFEFEFEFEFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        14,
-        "0608081090F0796A077FFFFFFF9F5F5F",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "A222E2BC9A74F2F4FEFEFEFCFA74F2F4",
-        0,
-        0
-      ],
-      [
-        8,
-        22,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "F2F4F06000000000F2F4F06000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        28,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        8,
-        36,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        16,
-        14,
-        "609050A848AC5A99E0F0F0F8F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        16,
-        22,
-        "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
-        0,
-        0
-      ],
-      [
-        16,
-        28,
-        "FCE484844A74FAF4FCFCFCFC7A74FAF4",
-        0,
-        0
-      ],
-      [
-        16,
-        36,
-        "FAF4F86000000000FAF4F86000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1134
-    ],
-    "palette": "FF36150F",
-    "id": 48,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "0608081090F0796A077FFFFFFF9F5F5F",
-    "parts": [
-      [
-        0,
-        8,
-        "2707031F1F0303033F1D1E1F1E1E1C1F",
         0,
         0
       ],
       [
         0,
         14,
-        "020223433E5D2A541F1F3F5F3E5D2A54",
-        0,
-        0
-      ],
-      [
-        0,
-        22,
         "2A140A01000000002A140A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "609050A848AC5A99E0F0F0F8F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "71F0F1F9FEFEFEE2FFBF7FF7E2021EFE",
         0,
         0
       ],
       [
         8,
-        14,
+        6,
         "FCE484844A74FAF4FCFCFCFC7A74FAF4",
         0,
         0
       ],
       [
         8,
-        22,
+        14,
         "FAF4F86000000000FAF4F86000000000",
         0,
         0
@@ -4240,701 +2308,60 @@
     "palette": "FF36150F",
     "id": 49,
     "count": 1,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 6,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "01020408080808050307070F0F0F0F0F",
-    "parts": [
-      [
-        -4,
-        16,
-        "00802054325EB9590080E0FCFEFEFFFF",
-        1,
-        0
-      ],
-      [
-        -4,
-        24,
-        "A96FFF3814146480FFFFFFF8FCFCFCF8",
-        1,
-        0
-      ],
-      [
-        -4,
-        32,
-        "0F3FFF63AA54AA54FFFFFF63AA54AA54",
-        1,
-        0
-      ],
-      [
-        -4,
-        40,
-        "AA54A84000000000AA54A84000000000",
-        1,
-        0
-      ],
-      [
-        0,
-        8,
-        "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "0414265F2F5F3E7F0717275F2F5F3E7F",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "3C150A01000000003C150A0100000000",
-        0,
-        0
-      ],
-      [
-        4,
-        16,
-        "000000000000203100070F1F1F1FFFFF",
-        1,
-        0
-      ],
-      [
-        4,
-        24,
-        "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
-        1,
-        0
-      ],
-      [
-        4,
-        32,
-        "0000131E3CFDFE3D0F1F1F1E3CFDFE3D",
-        1,
-        0
-      ],
-      [
-        4,
-        40,
-        "2A150A01000000002A150A0100000000",
-        1,
-        0
-      ],
-      [
-        8,
-        0,
-        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "341868D4AA54AA54FCF8E8D4AA54AA54",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        12,
-        16,
-        "00000000000003030000000000003F3F",
-        1,
-        0
-      ],
-      [
-        12,
-        24,
-        "033F0707010000003F3E000601000000",
-        1,
-        0
-      ]
-    ],
-    "frames": [
-      1518
-    ],
-    "palette": "FF36150F",
-    "id": 50,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "01020408080808050307070F0F0F0F0F",
+    "head": "04061F1F020203021F1F1F1E1F1F1F1F",
     "parts": [
       [
         0,
-        8,
-        "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
+        -8,
+        "080608989070702978FFFFFFFF5F5F3F",
         0,
         0
       ],
-      [
-        0,
-        16,
-        "04172F5E2C552A5507172F5E2C552A55",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        1,
-        15,
-        "00802054325EB9590080E0FCFEFEFFFF",
-        1,
-        0
-      ],
-      [
-        1,
-        23,
-        "A96FFF3814146480FFFFFFF8FCFCFCF8",
-        1,
-        0
-      ],
-      [
-        1,
-        31,
-        "C40832F42A74EAF4FCF8F2F4EAF4EAF4",
-        1,
-        0
-      ],
-      [
-        1,
-        39,
-        "EA54A84000000000EA54A84000000000",
-        1,
-        0
-      ],
-      [
-        8,
-        0,
-        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "0204FECEBE3CFA74FEFCFEFEBE3CFA74",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        9,
-        15,
-        "000000000000203100070F1F1F1FFFFF",
-        1,
-        0
-      ],
-      [
-        9,
-        23,
-        "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
-        1,
-        0
-      ],
-      [
-        9,
-        31,
-        "335E285F245A275F3F5F2F5F275B275F",
-        1,
-        0
-      ],
-      [
-        9,
-        39,
-        "2F150A01000000002F150A0100000000",
-        1,
-        0
-      ],
-      [
-        17,
-        15,
-        "00000000000003030000000000003F3F",
-        1,
-        0
-      ],
-      [
-        17,
-        23,
-        "033F0707010000003F3E000601000000",
-        1,
-        0
-      ]
-    ],
-    "frames": [
-      1524
-    ],
-    "palette": "FF36150F",
-    "id": 51,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "01020408080808050307070F0F0F0F0F",
-    "parts": [
       [
         0,
         8,
-        "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
-        "001B3E3D7EF9FA650F1F3E3D7EF9FA65",
-        0,
-        0
-      ],
-      [
-        0,
-        23,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        7,
-        12,
-        "00802054325EB9590080E0FCFEFEFFFF",
-        1,
-        0
-      ],
-      [
-        7,
-        20,
-        "A96FFF3814146480FFFFFFF8FCFCFCF8",
-        1,
-        0
-      ],
-      [
-        7,
-        27,
-        "0810EE1FFF77AB54F8F0FEFFFF77AB54",
-        1,
-        0
-      ],
-      [
-        7,
-        35,
-        "AA54A84000000000AA54A84000000000",
-        1,
-        0
-      ],
-      [
-        8,
-        0,
-        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
-        0,
-        0
-      ],
-      [
-        8,
-        15,
-        "0707DF6F5EAC54A80707FF6F5EAC54A8",
-        0,
-        0
-      ],
-      [
-        8,
-        23,
-        "54A854A85080000054A854A850800000",
-        0,
-        0
-      ],
-      [
-        15,
-        12,
-        "000000000000203100070F1F1F1FFFFF",
-        1,
-        0
-      ],
-      [
-        15,
-        20,
-        "38FDFFFEF0F0E067EFEF3F1F1F8FDF7F",
-        1,
-        0
-      ],
-      [
-        15,
-        27,
-        "58FCFF390A552A557FFFFF390A552A55",
-        1,
-        0
-      ],
-      [
-        15,
-        35,
-        "2A150A01000000002A150A0100000000",
-        1,
-        0
-      ],
-      [
-        23,
-        12,
-        "00000000000003030000000000003F3F",
-        1,
-        0
-      ],
-      [
-        23,
-        20,
-        "033F0707010000003F3E000601000000",
-        1,
-        0
-      ]
-    ],
-    "frames": [
-      1530
-    ],
-    "palette": "FF36150F",
-    "id": 52,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "080608989070702978FFFFFFFF5F5F3F",
-    "parts": [
-      [
-        0,
-        8,
-        "04061F1F020203021F1F1F1E1F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
         "021F1F5D3E5E3E4D1F1F1F5F3E5E3E4D",
         0,
         0
       ],
       [
         0,
-        17,
-        "0608081011100918070F0F1F1F7FFFFF",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        25,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        32,
-        "0E110E43365F3E5D1F1F1F5F3E5F3E5D",
-        0,
-        0
-      ],
-      [
-        0,
-        40,
+        16,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         8,
-        0,
+        -8,
         "0040A050A85CAA5900C0E0F0F8FCFEFF",
         0,
         0
       ],
       [
         8,
-        8,
+        0,
         "B160C0871F1FEF0EFFFFFF79F1F1F1F2",
         0,
         0
       ],
       [
         8,
-        16,
+        8,
         "1EFF5F4EFA7CFA34F2E17176FA7CFA34",
         0,
         0
       ],
       [
         8,
-        17,
-        "60B159A959A95FBBECFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        25,
-        "7AC602020110383DFEFEFEFEFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        32,
-        "7DAE22E2DE7CFA34FFFEFEFEFE7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        40,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1530
-    ],
-    "palette": "FF36150F",
-    "id": 53,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
-  },
-  {
-    "head": "080608989070702978FFFFFFFF5F5F3F",
-    "parts": [
-      [
-        0,
-        8,
-        "04061F1F020203021F1F1F1E1F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        13,
-        "0608081011100918070F0F1F1F7FFFFF",
-        0,
-        0
-      ],
-      [
-        0,
         16,
-        "021F1F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        21,
-        "36333018180C160E7F7F3F3F3F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        0,
-        29,
-        "2100305F3E552A543F1F3F5F3E552A54",
-        0,
-        0
-      ],
-      [
-        0,
-        37,
-        "2A140A01000000002A140A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "0040A050A85CAA5900C0E0F0F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "B160C0871F1FEF0EFFFFFF79F1F1F1F2",
-        0,
-        0
-      ],
-      [
-        8,
-        13,
-        "60B159A959A95FBBECFFFFFFFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "1EFF5F4EFA7CFA34F2E17176FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        21,
-        "7AC602020110383DFEFEFEFEFFFFFFFF",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
-        "AA54A84000000000AA54A84000000000",
-        0,
-        0
-      ],
-      [
-        8,
-        29,
-        "A222E2BC9A74F2F4FEFEFEFCFA74F2F4",
-        0,
-        0
-      ],
-      [
-        8,
-        37,
-        "F2F4F06000000000F2F4F06000000000",
-        0,
-        0
-      ]
-    ],
-    "frames": [
-      1536
-    ],
-    "palette": "FF36150F",
-    "id": 54,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "080608989070702978FFFFFFFF5F5F3F",
-    "parts": [
-      [
-        0,
-        8,
-        "04061F1F020203021F1F1F1E1F1F1F1F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "021F1F5D3E5E3E4D1F1F1F5F3E5E3E4D",
-        0,
-        0
-      ],
-      [
-        0,
-        24,
-        "2A150A01000000002A150A0100000000",
-        0,
-        0
-      ],
-      [
-        8,
-        0,
-        "0040A050A85CAA5900C0E0F0F8FCFEFF",
-        0,
-        0
-      ],
-      [
-        8,
-        8,
-        "B160C0871F1FEF0EFFFFFF79F1F1F1F2",
-        0,
-        0
-      ],
-      [
-        8,
-        16,
-        "1EFF5F4EFA7CFA34F2E17176FA7CFA34",
-        0,
-        0
-      ],
-      [
-        8,
-        24,
         "AA54A84000000000AA54A84000000000",
         0,
         0
@@ -4946,59 +2373,60 @@
     "palette": "FF36150F",
     "id": 55,
     "count": 1,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   },
   {
-    "head": "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+    "head": "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
     "parts": [
       [
-        -8,
         0,
+        -8,
+        "885D2F57AE54AE558EFFFFFFFEFCFEFF",
+        0,
+        0
+      ],
+      [
+        -8,
+        -8,
         "01020408080808050307070F0F0F0F0F",
         0,
         0
       ],
       [
         -8,
-        8,
+        0,
         "171B0F0F1FBF49081F3E7FF8F0FE4F0F",
         0,
         0
       ],
       [
         -8,
-        15,
+        7,
         "001B3E3D7EF9FA650F1F3E3D7EF9FA65",
         0,
         0
       ],
       [
         -8,
-        23,
+        15,
         "2A150A01000000002A150A0100000000",
         0,
         0
       ],
       [
         0,
-        8,
-        "ACF8F0E0E2FEFA80FF7FFFFE1E0EBEFC",
-        0,
-        0
-      ],
-      [
-        0,
-        15,
+        7,
         "0707DF6F5EAC54A80707FF6F5EAC54A8",
         0,
         0
       ],
       [
         0,
-        23,
+        15,
         "54A854A85080000054A854A850800000",
         0,
         0
@@ -5010,101 +2438,10 @@
     "palette": "FF36150F",
     "id": 56,
     "count": 1,
-    "asset": "interception-soldiers.png",
+    "asset": "overhead-commandos-v081.png",
     "columns": 4,
     "rows": 2,
-    "cell": 4
-  },
-  {
-    "head": "00001820001C3218048406426262CD67",
-    "parts": [
-      [
-        -8,
-        8,
-        "000006080903060606C33907061CF909",
-        0,
-        0
-      ],
-      [
-        -8,
-        16,
-        "000006080903060606C33907061CF909",
-        0,
-        1
-      ],
-      [
-        0,
-        8,
-        "60CE9F38B62881901F3160C749D77E6F",
-        0,
-        0
-      ],
-      [
-        0,
-        16,
-        "60CE9F38B62881901F3160C749D77E6F",
-        0,
-        1
-      ],
-      [
-        0,
-        24,
-        "00001820001C3218048406426262CD67",
-        0,
-        1
-      ],
-      [
-        8,
-        0,
-        "00001820001C3218048406426262CD67",
-        1,
-        0
-      ],
-      [
-        8,
-        8,
-        "60CE9F38B62881901F3160C749D77E6F",
-        1,
-        0
-      ],
-      [
-        8,
-        16,
-        "60CE9F38B62881901F3160C749D77E6F",
-        1,
-        1
-      ],
-      [
-        8,
-        24,
-        "00001820001C3218048406426262CD67",
-        1,
-        1
-      ],
-      [
-        16,
-        8,
-        "000006080903060606C33907061CF909",
-        1,
-        0
-      ],
-      [
-        16,
-        16,
-        "000006080903060606C33907061CF909",
-        1,
-        1
-      ]
-    ],
-    "frames": [
-      1650
-    ],
-    "palette": "FF36150F",
-    "id": 57,
-    "count": 1,
-    "asset": "interception-soldiers.png",
-    "columns": 4,
-    "rows": 2,
-    "cell": 5
+    "cell": 5,
+    "anchor_palette": "FF36150F"
   }
 ]

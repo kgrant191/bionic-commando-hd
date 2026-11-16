@@ -280,11 +280,11 @@
     "palette": "FF30210F",
     "id": 0,
     "count": 209,
-    "asset": "blue-acrobat.png",
-    "columns": 4,
+    "asset": "helicopter-infantry-v081.png",
+    "columns": 2,
     "rows": 1,
-    "cell": 1,
-    "mirror_art": true
+    "cell": 0,
+    "mirror_art": false
   },
   {
     "head": "187E7E3C183C7EB0003C663C18427E7F",
@@ -559,10 +559,10 @@
     "palette": "FF30210F",
     "id": 1,
     "count": 166,
-    "asset": "blue-acrobat.png",
-    "columns": 4,
+    "asset": "helicopter-infantry-v081.png",
+    "columns": 2,
     "rows": 1,
-    "cell": 2,
-    "mirror_art": true
+    "cell": 1,
+    "mirror_art": false
   }
 ]

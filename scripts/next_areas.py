@@ -55,11 +55,10 @@ def extend_next(root,keys,indices,tile,scale,rule,blank):
         '<condition>storyTop,positionCheckY,<,160',
         '<condition>area5,memoryCheckConstant,004D,==,05',
         '<condition>area15,memoryCheckConstant,004D,==,0F',
-        '<condition>townRoom,memoryCheckConstant,004A,==,02',
         '<condition>interception,memoryCheckConstant,004C,==,13',
     ]
     backgrounds=[];stats={}
-    story='introMode&introArea&storyActive&storyEnd&!title'
+    story='introMode&introArea&storyActive&storyEnd'
     font=font_tiles(root,indices,tile,scale)
     for scene,name in [(1,None),(2,'intro-dossier.png'),(3,'intro-headquarters.png'),(4,'intro-sunset.png')]:
         cn=f'storyScene{scene}';conds.append(f'<condition>{cn},memoryCheckConstant,00CE,==,{scene:02X}')
@@ -73,16 +72,16 @@ def extend_next(root,keys,indices,tile,scale,rule,blank):
             else:canvas.paste(art.resize((1024,640),Image.Resampling.LANCZOS),(0,0))
         # The foreground illustration covers every old scenery pixel.
         canvas.save(root/f'pack/story-base-{scene}.png')
-        backgrounds.append(f'[{story}&{cn}&screenEnabled]<background>story-base-{scene}.png,1,0,0,10')
+        backgrounds.append(f'[{story}&{cn}]<background>story-base-{scene}.png,1,0,0,10')
         canvas.paste((0,0,0,0),(0,640,1024,960))
         canvas.save(root/f'pack/story-{scene}.png')
-        backgrounds.append(f'[{story}&{cn}&screenEnabled]<background>story-{scene}.png,1,0,0,20')
+        backgrounds.append(f'[{story}&{cn}]<background>story-{scene}.png,1,0,0,20')
     intro_pairs={(k,int(p,16)) for k,p in json.loads((root/'capture/new-intro/extra-keys.json').read_text())}
     for line in (root/'capture/new-intro/original-rules.txt').read_text().splitlines():
         if line.startswith('<tile>'):
             fields=line[6:].split(',');intro_pairs.add((fields[1],int(fields[2],16)))
     for k,p in keys:
-        if p>>24!=255 and (k,p) in intro_pairs:
+        if p>>24!=255 and k in {kk for kk,pp in intro_pairs}:
             rule(k,p,blank,story+'&storyTop')
             rule(k,p,font(k,p),story+'&!storyTop')
     # This illustration has three native palettes. Replace every component,
@@ -91,9 +90,14 @@ def extend_next(root,keys,indices,tile,scale,rule,blank):
     x0=min(e[1] for e in joe);y0=min(e[2] for e in joe);x1=max(e[1] for e in joe)+8;y1=max(e[2] for e in joe)+8
     sheet=Image.open(root/'art/super-joe.png').convert('RGBA');cw=sheet.width//3
     art=sheet.crop((cw,0,cw*2,sheet.height));art=art.crop(art.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox()).resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
+    joe_paint={}
     for _,x,y,k,p,h,v in joe:
         im=art.crop(((x-x0)*4,(y-y0)*4,(x-x0+8)*4,(y-y0+8)*4))
-        rule(k,p,im,story+'&storyScene4')
+        joe_paint[k]=im
+    for k,p in keys:
+        if p>>24==255:
+            if k in joe_paint:rule(k,p,joe_paint[k],story+'&storyScene4')
+            rule(k,p,blank,story)
 
     normal='!title&!worldmap&!equipment&!radio&!areaClear'
     # Each family is scoped so shared patterns cannot repaint earlier areas.
@@ -102,8 +106,9 @@ def extend_next(root,keys,indices,tile,scale,rule,blank):
            ('5',1560,'area5-hazards.png','area5&'+normal,None),
            ('5',6840,'area5-shaft.png','area5&'+normal,None),
            ('5',21360,'area5-reactor.png','area5&'+normal,None),
+           ('5',20880,'area5-reactor.png','area5&'+normal,None),
            ('15',4920,'area15-room.png','area15&townRoom&'+normal,None),
-           ('15',1080,'interception-terrain.png','interception&'+normal,None)]
+           ('15',1080,'interception-terrain-v081.png','interception&'+normal,None)]
     families={};mapping={}
     for movie,n,asset,guard,warp in specs:
         paint,m,art=painted_tiles(root,movie,n,asset,indices,tile,warp)
@@ -168,36 +173,12 @@ def extend_next(root,keys,indices,tile,scale,rule,blank):
         if h:im=ImageOps.mirror(im)
         a=np.array(im);a[np.repeat(np.repeat(indices(k)==0,4,0),4,1),3]=0
         rule(k,p,Image.fromarray(a),'area15&townRoom&'+normal)
-    # Shield acrobats: native head and pose signatures select the paintings.
+    # Helicopter infantry: native pose signatures retain the rotor/flight states.
     c,a,_=make_actor(root,keys,lambda k,p,im,g=None:rule(k,p,im,'area5&'+normal+'&'+g if g else None),blank,'blue',1,0xFF30210F)
     conds+=c;backgrounds+=a
-    # Compact blue pose uses mirrored native halves, independent of a head anchor.
-    curled=Image.open(root/'art/blue-curled.png').convert('RGBA');curled=curled.crop(curled.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox()).resize((64,64),Image.Resampling.LANCZOS)
-    for k,x,y in [('FFFFFEF8FCCC5ECC2445FE18244CD2CC',32,0),('1F0FBFBF05FC0300140C4440FEFF0300',0,32)]:
-        for kk,p in keys:
-            if kk==k and p>>24==255:rule(k,p,curled.crop((x,y,x+32,y+32)),'area5&'+normal)
     # The brief overhead hit puff flashes through two palettes at one position.
     effects=Image.open(root/'art/effects-v5.png').convert('RGBA');small=effects.crop((0,0,round(effects.width*510/2208),effects.height));small=small.crop(small.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox()).resize((64,32),Image.Resampling.LANCZOS)
     for k,p in keys:
         if k=='FFFF7F5F3D0B0601048672603E0E0701' and p>>24==255:rule(k,p,small.crop((0,0,32,32)),'interception&'+normal)
-    # Top-down figures use direct component replacements; no extra sprite layer.
-    for actor,palette in [('overhead-green',0xFF202A0F),('overhead-red',0xFF36150F)]:
-        records=json.loads((root/f'capture/{actor}-poses.json').read_text());sheet=Image.open(root/'art/interception-soldiers.png').convert('RGBA');cw,ch=sheet.width//4,sheet.height//2
-        seen=set();fallback={}
-        for rec in sorted(records,key=lambda r:-r['count']):
-            parts=[(0,0,rec['head'],0,0)]+rec['parts'];x0=min(t[0]for t in parts);y0=min(t[1]for t in parts);x1=max(t[0]for t in parts)+8;y1=max(t[1]for t in parts)+8
-            cell=rec['cell'];art=sheet.crop((cell%4*cw,cell//4*ch,(cell%4+1)*cw,(cell//4+1)*ch));box=art.getchannel('A').point(lambda a:255 if a>32 else 0).getbbox();art=art.crop(box).resize(((x1-x0)*4,(y1-y0)*4),Image.Resampling.LANCZOS)
-            for dx,dy,k,h,v in parts:
-                sig=(dx,dy,k,h,v,rec['head'])
-                if sig in seen:continue
-                seen.add(sig);hs=-1 if h else 1;vs=-1 if v else 1
-                cn=f'topdownPart{len(conds)}';conds.append(f'<condition>{cn},spriteNearby,{-dx*hs},{-dy*vs},{rec["head"]},{palette:08X},N')
-                im=art.crop(((dx-x0)*4,(dy-y0)*4,(dx-x0+8)*4,(dy-y0+8)*4))
-                if h:im=ImageOps.mirror(im)
-                if v:im=ImageOps.flip(im)
-                rule(k,palette,im,'interception&'+normal+'&'+cn)
-                fallback.setdefault(k,im)
-        for k,im in fallback.items():rule(k,palette,im,'interception&'+normal)
-        stats[actor]=len(records)
     (root/'validation/intro-areas5-15-mapping.json').write_text(json.dumps({'painted_families':stats,'mapping':mapping},indent=2)+'\n')
     return conds,backgrounds

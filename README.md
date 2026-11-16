@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.8.0 — Intro story, Area 5 and Area 15**
+**v0.8.1 — Intro, factory and town corrections**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.8.0.zip`.
+   `Bionic_Commando_HD_v0.8.1.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -19,16 +19,17 @@ For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
 
-## New in v0.8.0 — Intro story, Area 5 and Area 15
+## New in v0.8.1
 
-- Replace the story dossier, headquarters and sunset scenes with painted artwork, plus a complete Super Joe illustration and refreshed live text.
-- Paint Area 5 factory walls, concrete huts, beams, chains, lava, shaft fixtures and reactor room.
-- Add the blue acrobat's two main recorded poses and painted clipped-body fallbacks.
-- Extend the town scenery, dialogue framing and NPC artwork to Area 15; paint its stone supply room.
-- Paint the overhead interception's road, water, rock banks and soldiers; keep its character rules separate from side-view gameplay.
-- Include the approved v0.7.6 fixes.
+- Show the HD title from the initial boot and power-cycle title state. Cover story scenery and native sprite fragments through palette transitions while keeping the original text live.
+- Replace Area 5's mistaken lava with solid earth; repair barrel scale, the distant wall behind lamps, open doorframes and the visible coil springs.
+- Use mechanical ceiling objects, rotor-equipped blue infantry, the established knife guard and a dedicated floating robot boss.
+- Rebuild overhead combat with a quieter dirt/water palette, proper overhead figures, painted barricades and an updated exit bunker.
+- Cover both Area 15 supply interiors, talking portrait fragments, the red-haired 1UP, moving barrier and colored radio pickups/menu icons.
+- Rejoin Area 1 cave doorway headers and jambs and replace the boss-room shutter.
 
-Review build. Original gameplay and story wording remain live. See `validation/INTRO_AREAS5_15_v0.8.0.md` for recording coverage and limits.
+Review build. Original gameplay, collision, dialogue and timing remain unchanged.
+See `validation/REVIEW_FIXES_v0.8.1.md` for recorded coverage and limits.
 
 ## Area 1 corrections in v0.7.6
 

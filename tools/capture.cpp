@@ -57,7 +57,8 @@ int main(int argc,char**argv){
  settings->SetFlag(EmulationFlags::MaximumSpeed);
  Pause();
  std::cerr<<"Loading ROM..."<<std::endl; if(!LoadRom(argv[2],"")) return 3; std::cerr<<"ROM loaded."<<std::endl;
- std::cerr<<"Loading movie..."<<std::endl; MoviePlay(argv[3]); std::cerr<<"Movie loaded."<<std::endl;
+ if(std::string(argv[3])!="-"){std::cerr<<"Loading movie..."<<std::endl; MoviePlay(argv[3]); std::cerr<<"Movie loaded."<<std::endl;}
+ if(std::getenv("BIONIC_POWER_CYCLE")){_emu->PowerCycle();std::cerr<<"Power cycle completed."<<std::endl;}
  auto nes=std::dynamic_pointer_cast<NesConsole>(_emu->GetConsole());
  std::cerr<<"PPU: "<<typeid(*nes->GetPpu()).name()<<" HD enabled: "<<n.EnableHdPacks<<std::endl;
  bool build=std::string(argv[5])!="-";
