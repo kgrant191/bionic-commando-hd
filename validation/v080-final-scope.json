@@ -1,0 +1,117 @@
+{
+  "unchanged_existing_tile_palette_definitions": 9194,
+  "changed_existing_keys": [
+    {
+      "key": [
+        "FFFFFEF8FCCC5ECC2445FE18244CD2CC",
+        "FF30210F"
+      ],
+      "old_guards": [
+        "[area5&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ],
+      "new_guards": [
+        "[area5&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ]
+    },
+    {
+      "key": [
+        "1F0FBFBF05FC0300140C4440FEFF0300",
+        "FF30210F"
+      ],
+      "old_guards": [
+        "[area5&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ],
+      "new_guards": [
+        "[area5&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ]
+    },
+    {
+      "key": [
+        "00FFFF00000000FFFFFFFFFFFFFFFFFF",
+        "FF30270F"
+      ],
+      "old_guards": [
+        "[areaClear]",
+        "[title]",
+        ""
+      ],
+      "new_guards": [
+        "[area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ]
+    },
+    {
+      "key": [
+        "080F6F6E0E0EFE07FFFFBFFDFDFDFD07",
+        "FF30270F"
+      ],
+      "old_guards": [
+        "[areaClear]",
+        "[title]",
+        ""
+      ],
+      "new_guards": [
+        "[area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ]
+    },
+    {
+      "key": [
+        "FF0000000000000000FFFFFFFFFFFFFF",
+        "FF30270F"
+      ],
+      "old_guards": [
+        "[areaClear]",
+        "[title]",
+        ""
+      ],
+      "new_guards": [
+        "[area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ]
+    },
+    {
+      "key": [
+        "FF0808686808080808FFFFBFFFFFFFFF",
+        "FF30270F"
+      ],
+      "old_guards": [
+        "[areaClear]",
+        "[title]",
+        ""
+      ],
+      "new_guards": [
+        "[area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear]",
+        "[areaClear]",
+        "[title]",
+        ""
+      ]
+    }
+  ],
+  "new_key": [
+    [
+      "FFFF7F5F3D0B0601048672603E0E0701",
+      "FF36150F"
+    ]
+  ],
+  "unchanged_background_files": 30,
+  "scope": "Only the Area 5 compact blue pose artwork, Area 15 supply chest, and an overhead impact palette alias differ from the full Area 1 regression build. Existing rule order, image pixels and conditions are unchanged for all other keys."
+}

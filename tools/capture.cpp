@@ -66,6 +66,8 @@ int main(int argc,char**argv){
  nes->StartRecordingHdPack(opts);
  }
  std::ifstream f(argv[4]);std::string script((std::istreambuf_iterator<char>(f)),{});
+ // Allow the paused emulation worker to finish startup before debugger creation.
+ std::this_thread::sleep_for(std::chrono::milliseconds(150));
  int id=LoadScript("capture",argv[1],script.c_str(),-1);
  auto listener=std::make_shared<CaptureListener>();
  if(!build && !std::getenv("SKIP_METADATA")) _emu->GetNotificationManager()->RegisterNotificationListener(listener);

@@ -12,7 +12,9 @@ def entries(root,n):
  return [(int(a[0]),int(a[1]),int(a[2]),a[3],int(a[4]),int(a[5]),int(a[6]))for a in (l.split(',')for l in (root/f'capture/area13/{n:05}.tiles').read_text().splitlines())]
 
 def extend_area13(root,keys,indices,tile,scale,rule,blank):
- conds=['<condition>area13,memoryCheckConstant,004D,==,0D']
+ # The two recorded neutral towns share tiles, guards and portrait families.
+ # Mask bit 1: precisely $0D (13) and $0F (15), with no other area values.
+ conds=['<condition>area13,memoryCheckConstant,004D,==,0D,FD']
  guard='area13&!worldmap&!equipment&!title&!radio&!areaClear'
  backgrounds=town_polish(root,keys,entries,indices,rule,guard,conds);painted={};mapping={}
  # Match native 8x8 pixels, then sample the geometrically aligned painting.

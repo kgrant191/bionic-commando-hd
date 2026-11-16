@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.7.6
-Area 1 doors, crate rewards and grenade animation review build
+BIONIC COMMANDO HD — v0.8.0
+Intro story and Areas 5 / 15 review build
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -9,6 +9,12 @@ confirm installation, enable HD packs in NES video settings, and reload.
 Manual install: put hires.txt and all PNGs together in:
   HdPacks/Bionic Commando (USA)/
 The directory name must exactly match your ROM's filename without .nes.
+
+INTRO, AREA 5 AND AREA 15
+Painted dossier, headquarters, sunset and Super Joe story illustration.
+Factory walls, huts, beams, chains, lava, shafts and reactor room.
+Blue acrobat poses, Area 15 town and supply room, overhead interception
+terrain and soldiers. Original story words, gameplay and timing remain live.
 
 AREA 1 FIXES
 Clean exterior doorway, illustrated POW and health-flask crate drops,
@@ -53,9 +59,9 @@ Unrecognized heads keep the previous material treatment. Occluded recognized
 poses use their most common head-matched painting until body signatures return.
 Some effects and unrecorded equipment icons still use a smoothed baseline.
 v0.7.0 replayed all five unique supplied recordings.
-v0.7.6 rechecks Area 13, Area 4 and cave/generator for room pickups, enemy drops
-and inventory icons. The unnumbered and (1) movies are identical.
-Frame-by-frame tile-rule audit plus sampled rendered-image review.
+v0.8.0 checks the supplied intro, Area 5 and Area 15 recordings, plus
+Area 1 and its door/cave follow-ups. Sampled rendered-image review and
+RAM/PPU checkpoint comparison; not an every-frame visual audit.
 The pistol is the starter design; machine-gun/bazooka player art is still pending.
 Equipment-dependent graphics are supported by the HD engine, not implemented
 for every weapon in this test build.

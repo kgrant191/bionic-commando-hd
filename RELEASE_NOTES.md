@@ -1,3 +1,14 @@
+# v0.8.0 — Intro story, Area 5 and Area 15
+
+- Replace the story dossier, headquarters and sunset scenes with painted artwork, plus a complete Super Joe illustration and refreshed live text.
+- Paint Area 5 factory walls, concrete huts, beams, chains, lava, shaft fixtures and reactor room.
+- Add the blue acrobat's two main recorded poses and painted clipped-body fallbacks.
+- Extend the town scenery, dialogue framing and NPC artwork to Area 15; paint its stone supply room.
+- Paint the overhead interception's road, water, rock banks and soldiers; keep its character rules separate from side-view gameplay.
+- Include the approved v0.7.6 fixes.
+
+Review build. Original gameplay and story wording remain live. See `validation/INTRO_AREAS5_15_v0.8.0.md` for recording coverage and limits.
+
 # v0.7.6 — Area 1 doors, crate rewards and grenade animation
 
 - Replace contaminated exterior doorframe crops with a complete clean red steel frame.

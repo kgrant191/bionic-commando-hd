@@ -1,0 +1,2685 @@
+{
+  "painted_families": {
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear": 386,
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear": 25,
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear": 128,
+    "overhead-green": 36,
+    "overhead-red": 57
+  },
+  "mapping": {
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000000000000000200000000000000FE:0F271807": [
+      "5",
+      2280,
+      2,
+      18,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000000000000030000000000000002F:0F271807": [
+      "5",
+      2280,
+      10,
+      18,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000000001000000FFFFFFFFFFFFFFFF:0F261000": [
+      "5",
+      2280,
+      108,
+      95,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00000020303838380080C0E0E0E0E4E6:0F271807": [
+      "5",
+      2280,
+      26,
+      226,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000070E1D3A3D3A0000070F1F3F3F3F:0F261000": [
+      "5",
+      2280,
+      42,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000102820400000FFFFEFDFFFFFFFFF:0F261000": [
+      "5",
+      2280,
+      90,
+      130,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000E070B85CBC5C0000E0F0F8FCFCFC:0F261000": [
+      "5",
+      2280,
+      130,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000FFBF4120A1830000FFFFBEDFDFBF:0F261000": [
+      "5",
+      2280,
+      50,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000FFFD820485C10000FFFF7DFBFBFD:0F261000": [
+      "5",
+      2280,
+      122,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000FFFF000000000000FFFFFFFFFFFF:0F261000": [
+      "5",
+      2280,
+      58,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000F384690204000FFFFFFF9EFDFBFFF:0F261000": [
+      "5",
+      2280,
+      58,
+      122,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:003F3F3F38393938FFC0DFDFD8D9D9D9:0F261000": [
+      "5",
+      2280,
+      74,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0040A0C020000000FFBFDFFFFFFFFFFF:0F261000": [
+      "5",
+      2280,
+      98,
+      138,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00F01C6209040200FFFFFF9FF7FBFDFF:0F261000": [
+      "5",
+      2280,
+      114,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00F8F8F818989898FF07FFFF1F9F9F9F:0F261000": [
+      "5",
+      2280,
+      98,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00FCEA020282020200FC16FEFE3E3EFE:0F271807": [
+      "5",
+      2280,
+      2,
+      42,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00FF00FFFFFF0000FF00FFFFFFFF0000:0F372616": [
+      "5",
+      2280,
+      0,
+      10,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00FFFFFF00999988FF00FFFF00999999:0F261000": [
+      "5",
+      2280,
+      82,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:01FFFBF3FF090101FF01010101F3F3FF:0F372616": [
+      "5",
+      2280,
+      50,
+      162,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:02020202020200007E3E1E0E06020000:0F271807": [
+      "5",
+      2280,
+      146,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0202020202020202FEFEFEFEFEFEFEFE:0F271807": [
+      "5",
+      2280,
+      2,
+      25,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0202020202040583FDFDFDFDFDFBFB7F:0F261000": [
+      "5",
+      2280,
+      122,
+      122,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:020282020202FEFCFEFE3E3EFEFEFEFC:0F271807": [
+      "5",
+      2280,
+      2,
+      34,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0901FDFEF2F2FE00F3F303FEFAF2FE00:0F372616": [
+      "5",
+      2280,
+      98,
+      10,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0C0E0E0E4E0E0E0EF4F6F6F69696F6F6:0F271807": [
+      "5",
+      2280,
+      42,
+      26,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0E0E0E0E4E0E0E0EF6F6F6F69696F6F6:0F271807": [
+      "5",
+      2280,
+      42,
+      34,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:150B050D050D0505EDF7FBF3FBF3FBFB:0F261000": [
+      "5",
+      2280,
+      122,
+      114,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:160B050D050D0505EFF7FBF3FBF3FBFB:0F261000": [
+      "5",
+      2280,
+      122,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:1E728282830684C0F1CDFDFD7DFBFBFF:0F261000": [
+      "5",
+      2280,
+      122,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:353B353B373B370B3F3F3F3F3F3F370F:0F261000": [
+      "5",
+      2280,
+      42,
+      122,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3838180800000000E727070707030100:0F271807": [
+      "5",
+      2280,
+      138,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3838383838383838E7E7E7E7E7E7E7E7:0F271807": [
+      "5",
+      2280,
+      10,
+      26,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3838383838383F1FE7E7E7E7E7E7FFDF:0F271807": [
+      "5",
+      2280,
+      10,
+      34,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3838383838393F00D9D9D9D9D9D9DFFF:0F261000": [
+      "5",
+      2280,
+      74,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3D3A3D3A19427D7A3F3F3F3F1B477F7F:0F261000": [
+      "5",
+      2280,
+      42,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3F600F2000000000FFFFF0DFFFFFFFFF:0F261000": [
+      "5",
+      2280,
+      114,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:404040404020A0C1BFBFBFBFBFDFDFFE:0F261000": [
+      "5",
+      2280,
+      50,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:5F4740407F003F00617F7F7F7F003F00:0F271807": [
+      "5",
+      2280,
+      18,
+      74,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:6161606860A07F009F9E9F9393DF7F00:0F271807": [
+      "5",
+      2280,
+      10,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:61616169616161619F9F9F93939F9F9F:0F271807": [
+      "5",
+      2280,
+      10,
+      74,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:68D0A0B0A0B0A0A0F7EFDFCFDFCFDFDF:0F261000": [
+      "5",
+      2280,
+      50,
+      114,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:70F0F0F0F8F0F0F04FCFCFCFC3C3CFCF:0F271807": [
+      "5",
+      2280,
+      50,
+      26,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:7365CF3F976172CF7C7AF03FE87E7DF0:0F372616": [
+      "5",
+      2280,
+      90,
+      154,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:784E4141C16021038FB3BFBFBEDFDFFF:0F261000": [
+      "5",
+      2280,
+      50,
+      122,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:7D7B7D7B3D1B3D7A7F7F7F7F3F1F3F7F:0F261000": [
+      "5",
+      2280,
+      42,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:7F3FE169616161617F419F93939F9F9F:0F271807": [
+      "5",
+      2280,
+      10,
+      66,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:7F404040BC5A3D737F7F7F7FC76D467F:0F271807": [
+      "5",
+      2280,
+      18,
+      66,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:807F77677FD0C0C0FF80808080A7A7BF:0F372616": [
+      "5",
+      2280,
+      42,
+      162,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:828202220202FC017E7EFECECEFEFC01:0F271807": [
+      "5",
+      2280,
+      34,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:828282A2828282827E7E7E4E4E7E7E7E:0F271807": [
+      "5",
+      2280,
+      34,
+      74,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:888888888899FF00999999999999FFFF:0F261000": [
+      "5",
+      2280,
+      78,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:989898989898F8009F9F9F9F9F9FFFFF:0F261000": [
+      "5",
+      2280,
+      98,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:A8D0A0B0A0B0A0A0B7EFDFCFDFCFDFDF:0F261000": [
+      "5",
+      2280,
+      50,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:ACDCACDCECDCECD0FCFCFCFCFCFCECF0:0F261000": [
+      "5",
+      2280,
+      130,
+      106,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:AFD7A7D6A7FFFF00D0FBFAFBF8FFFF00:0F261000": [
+      "5",
+      2280,
+      42,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:BC5CBC5C9842BE5EFCFCFCFCD8E2FEFE:0F261000": [
+      "5",
+      2280,
+      130,
+      98,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:BEDEBEDEBCD8BC5EFEFEFEFEFCF8FCFE:0F261000": [
+      "5",
+      2280,
+      130,
+      122,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:C01FFF3838383838C01FE0E7E7E7E7E7:0F271807": [
+      "5",
+      2280,
+      10,
+      42,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:CEA6F3FCE9C6AEF33E5E0FFC173E5E0F:0F372616": [
+      "5",
+      2280,
+      98,
+      154,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:D0C0FF3F27273F00A7A7807F77677F00:0F372616": [
+      "5",
+      2280,
+      90,
+      10,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F0F0F0F0F8F0F0F0CFCFCFCFC3C3CFCF:0F271807": [
+      "5",
+      2280,
+      50,
+      34,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F5EBE56BE5FFFF000BDF5FDF1FFFFF00:0F261000": [
+      "5",
+      2280,
+      130,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FC06F00400000000FFFF0FFBFFFFFFFF:0F261000": [
+      "5",
+      2280,
+      58,
+      114,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FCFE82A282828282FC027E4E4E7E7E7E:0F271807": [
+      "5",
+      2280,
+      34,
+      66,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FD71C101FF01FF0147FFFFFFFF01FF01:0F271807": [
+      "5",
+      2280,
+      26,
+      74,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FE00FEFE4E0E0E0EFE00FE069696F6F6:0F271807": [
+      "5",
+      2280,
+      42,
+      42,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF000000A5FFFF0000FFFFFF5AFFFF00:0F261000": [
+      "5",
+      2280,
+      50,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF000000DFFFFF0000FFFFFF20FFFF00:0F261000": [
+      "5",
+      2280,
+      66,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF000000F3FFFF0000FFFFFF0CFFFF00:0F261000": [
+      "5",
+      2280,
+      58,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF007F007C007C00FF007F007F007F00:0F271807": [
+      "5",
+      2280,
+      18,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF00FFFFF8F0F0F0FF00FFC0C3C3CFCF:0F271807": [
+      "5",
+      2280,
+      50,
+      42,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF0101011F0BFFE7FFFFFFFFE0F7215F:0F271807": [
+      "5",
+      2280,
+      26,
+      66,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF01FF0101010101FF01FF01FF01FF01:0F271807": [
+      "5",
+      2280,
+      26,
+      82,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFAF6573CF3F9765FFD07A7CF03FE87A:0F372616": [
+      "5",
+      2280,
+      90,
+      146,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFF5C6AEF3FCE9A6FF0B3E5E0FFC175E:0F372616": [
+      "5",
+      2280,
+      98,
+      146,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF00100000FF00FF00FFE7E7FFFF00:0F271807": [
+      "5",
+      2280,
+      18,
+      90,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFF00000000FF000000FFFFFFFF:0F372616": [
+      "5",
+      2280,
+      0,
+      162,
+      "area5-factory.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000000000003F600000000000003F7F:0F271807": [
+      "5",
+      1560,
+      123,
+      32,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000000000000E818000000000000F8E8:0F271807": [
+      "5",
+      1560,
+      131,
+      32,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00789D4ECD1FA5D30078FDBF3EF8FAEC:0F372616": [
+      "5",
+      1560,
+      11,
+      208,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:1414143F677070701C1C1C3F787F7F7F:0F271807": [
+      "5",
+      1560,
+      59,
+      16,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:18181818F800C0C0EFEFEFEFFF07FFFF:0F271807": [
+      "5",
+      1560,
+      67,
+      8,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:1F181F18F800C0C0EFE8EFEFFF07FFFF:0F271807": [
+      "5",
+      1560,
+      67,
+      72,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:4A1FFBF164121317BDF0E46EBBFDFFFF:0F372616": [
+      "5",
+      1560,
+      3,
+      216,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:5EBFFBD160131D1FF9F0E56FBFFFFFE7:0F372616": [
+      "5",
+      1560,
+      3,
+      232,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:707070703F0008147F7F7F7F3F00081C:0F271807": [
+      "5",
+      1560,
+      59,
+      8,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:7CF28079FEEDF6677CFEFE8703170E9F:0F372616": [
+      "5",
+      1560,
+      3,
+      208,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:A657E3C7A74A94F6DDAF1F3C58B5FBF9:0F372616": [
+      "5",
+      1560,
+      11,
+      216,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:BDE7B0458705462F43194FBE7EFEFFFF:0F372616": [
+      "5",
+      1560,
+      3,
+      224,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:C0C0C0F8F8181818FFFFFFFF0FEFEFEF:0F271807": [
+      "5",
+      1560,
+      67,
+      16,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E457A3D7A74E9C7EDFAF5F2C58B9F3E1:0F372616": [
+      "5",
+      1560,
+      11,
+      232,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FD57A64FA6CF14B28AAC5DB85930FBFD:0F372616": [
+      "5",
+      1560,
+      11,
+      224,
+      "area5-hazards.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00000000000386FC0000008F86931EFC:0F261606": [
+      "5",
+      6840,
+      73,
+      14,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000000001F1F1F1F000000003373F3F3:0F261606": [
+      "5",
+      6840,
+      81,
+      14,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000000084E3E3E7000000001C7F7F7F:0F261606": [
+      "5",
+      6840,
+      89,
+      14,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00000000F0F7F3F100000003919E9F9F:0F261606": [
+      "5",
+      6840,
+      65,
+      14,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00000006E6E6E6E601010107677F7F7F:0F261606": [
+      "5",
+      6840,
+      9,
+      174,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000001FC0C0C0DF0000001F585B5B5F:0F261606": [
+      "5",
+      6840,
+      1,
+      174,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0201000000FF00FF42454EDC0000FFFF:0F372616": [
+      "5",
+      6840,
+      1,
+      166,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0303030303030303F0FCFCFCFCFCFCFC:0F261606": [
+      "5",
+      6840,
+      113,
+      102,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0303030303030303FCFCFCFCFCFCFCFC:0F261606": [
+      "5",
+      6840,
+      113,
+      103,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:1F1F1F1F9FDFFFFF733393D373B3D303:0F261606": [
+      "5",
+      6840,
+      81,
+      22,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:4080000000FF00FF42A2723B0000FFFF:0F372616": [
+      "5",
+      6840,
+      9,
+      166,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:4F606063737F3F1F8FA0ACAC9CC0E0FF:0F261606": [
+      "5",
+      6840,
+      113,
+      94,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:852D455BB6EC18F07CFCBCF8F1E2050A:0F372616": [
+      "5",
+      6840,
+      121,
+      86,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:BFD4CFA8DAAF100F406B70771FCF2010:0F372616": [
+      "5",
+      6840,
+      113,
+      86,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:C0C0FFFFC0C0C0DF5B5B7F7F585B5B5F:0F261606": [
+      "5",
+      6840,
+      1,
+      190,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:C8C8C8C8C8C8C8C8C8DFCFCFDFD8DFDF:0F261606": [
+      "5",
+      6840,
+      121,
+      102,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:C8C8C8C8C8C8C8C8DFDFDFDFDFDFDFDF:0F261606": [
+      "5",
+      6840,
+      121,
+      108,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:D4D4D09040901017D4D4D09041931717:0F261606": [
+      "5",
+      6840,
+      129,
+      86,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:DFC0C0C0DFDFC0C05F585B5B5F5F585B:0F261606": [
+      "5",
+      6840,
+      1,
+      182,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E3E3F3EBE7E3E3E77F7F7F7F7F7F7F7F:0F261606": [
+      "5",
+      6840,
+      89,
+      30,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E6E6E6E6E6E6E6E667677F7F7F67677F:0F261606": [
+      "5",
+      6840,
+      9,
+      182,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E6E6E6E6E6E6E6E67F7F7F67677F7F7F:0F261606": [
+      "5",
+      6840,
+      9,
+      179,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E8C80207030100FFCACB011E9F9F9F00:0F261606": [
+      "5",
+      6840,
+      73,
+      22,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E8C80207030100FFEACB039F9F9F9FFF:0F261606": [
+      "5",
+      6840,
+      137,
+      86,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:EFFBF3E3FFFFE3E37F7F7F7F7F7F7F7F:0F261606": [
+      "5",
+      6840,
+      89,
+      22,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F1F1F1F3F6FCF8FF9F919F9F9E9D9B80:0F261606": [
+      "5",
+      6840,
+      65,
+      22,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F40008C8C9FBFBFBF40009CBDE0808FB:0F261606": [
+      "5",
+      6840,
+      121,
+      94,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F90CA251C91DE52D051265B238FC1CFC:0F372616": [
+      "5",
+      6840,
+      121,
+      78,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFF0F1F3F6FCF8FF9F9F9F9F9E9D9B80:0F261606": [
+      "5",
+      6840,
+      65,
+      38,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFF8F3EDDF9DBFBDF0E0C48200624042:0F372616": [
+      "5",
+      6840,
+      113,
+      78,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF0000010386FC00FF9F8F87931EFC:0F261606": [
+      "5",
+      6840,
+      73,
+      30,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF0000010386FCFFFF9F8F87939EFC:0F261606": [
+      "5",
+      6840,
+      137,
+      78,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF00FF004EC5030000FFFF004EC5C2:0F372616": [
+      "5",
+      6840,
+      1,
+      158,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF00FF0072A3400000FFFF0072A343:0F372616": [
+      "5",
+      6840,
+      9,
+      158,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF7FDF9F1F1F1F03F3F3D3B373F3F3:0F261606": [
+      "5",
+      6840,
+      81,
+      30,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF80C0D0D0D4D4FFFF87C3D1D0D4D4:0F261606": [
+      "5",
+      6840,
+      129,
+      78,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFFF8FCFEF7F3F1809F979B9D9E9F9F:0F261606": [
+      "5",
+      6840,
+      65,
+      30,
+      "area5-shaft.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00000000000000FFFFFFFFFFFFFFFFFF:0F332313": [
+      "5",
+      21360,
+      222,
+      88,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000002FE0606161600FEFE06FEFE0E4E:0F221202": [
+      "5",
+      21360,
+      11,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00003F3F7F0000FFFF80BFBF80FFFFFF:0F332313": [
+      "5",
+      21360,
+      195,
+      88,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000407F70707070007F7F606F6F6869:0F221202": [
+      "5",
+      21360,
+      3,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00005200480000FFFF802500B500FFFF:0F221202": [
+      "5",
+      21360,
+      3,
+      176,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000AA00480000FFFF015400B700FFFF:0F221202": [
+      "5",
+      21360,
+      11,
+      176,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000BFC0C4C0D0C000FFC0FFFCF3F0E6:0F221202": [
+      "5",
+      21360,
+      3,
+      128,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000C020101090D00000C020101090D0:0F372716": [
+      "5",
+      21360,
+      219,
+      112,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000E0E0E00000FFFF1FFFFF1FFFFFFF:0F332313": [
+      "5",
+      21360,
+      203,
+      88,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0000FA0626160E6E00FE06FE1E8E0606:0F221202": [
+      "5",
+      21360,
+      11,
+      128,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000101010003030B000101010003030B:0F332313": [
+      "5",
+      21360,
+      179,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000A080A0A007F8200FB18DBDB007F82:0F332313": [
+      "5",
+      21360,
+      219,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:000D0C0D0D00FEC000FD0CEDED00FEC0:0F332313": [
+      "5",
+      21360,
+      211,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00122A505151515100122E5C59595959:0F332313": [
+      "5",
+      21360,
+      179,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:001F1F001F1F000F00E0E000E0E0000F:0F372716": [
+      "5",
+      21360,
+      203,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:003E3C003830202000FEFC00F8F02020:0F372716": [
+      "5",
+      21360,
+      219,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0048540A8A8A8A8A0048743A9A9A9A9A:0F332313": [
+      "5",
+      21360,
+      235,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:005010505000FE4100DF18DBDB00FE41:0F332313": [
+      "5",
+      21360,
+      195,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:007C3C001C0C0404007F3F001F0F0404:0F372716": [
+      "5",
+      21360,
+      195,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0080808000C0C0D00080808000C0C0D0:0F332313": [
+      "5",
+      21360,
+      235,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00B030B0B0007F0300BF30B7B7007F03:0F332313": [
+      "5",
+      21360,
+      203,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:00F8F800F8F800F000070700070700F0:0F372716": [
+      "5",
+      21360,
+      211,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0202020202020202FEFEFEFEFEFEFEFE:0F201000": [
+      "5",
+      21360,
+      11,
+      8,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:02030303030200001EFFFFFF1FFEFC00:0F221202": [
+      "5",
+      21360,
+      27,
+      184,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:037F00B0B030B000037F00B7B730BF00:0F332313": [
+      "5",
+      21360,
+      187,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:08AB0BAB0BAB0BAB0C6F0F6F0F6F0F6F:0F221202": [
+      "5",
+      21360,
+      75,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0B030300010101000B03030001010100:0F332313": [
+      "5",
+      21360,
+      179,
+      72,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0BAB0CA904A30BA80F6F0C6907670F6D:0F221202": [
+      "5",
+      21360,
+      75,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0F0FD703284340401010D80C2F636060:0F372716": [
+      "5",
+      21360,
+      203,
+      112,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:0F0FFF00F8FCFFFF0000FFF007030000:0F372716": [
+      "5",
+      21360,
+      3,
+      64,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:10D2D0D2D0D2D0D230F3F0F3F0F3F0F3:0F221202": [
+      "5",
+      21360,
+      67,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:1202C214C0E8F4F51606C6F430180C0D:0F372716": [
+      "5",
+      21360,
+      211,
+      104,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:26262A6A5D981C42E5E5EDEDDB961C42:0F332313": [
+      "5",
+      21360,
+      243,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3173E0C080003300F1F3E0C383133300:0F332313": [
+      "5",
+      21360,
+      171,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3838383838383838E7E7E7E7E7E7E7E7:0F201000": [
+      "5",
+      21360,
+      3,
+      8,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3B764444640077773B77666666007777:0F332313": [
+      "5",
+      21360,
+      187,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3C634DE6B7535B4B3C7F73F9B8DCDCCC:0F332313": [
+      "5",
+      21360,
+      219,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3CC6B267EDCADAD23CFECE9F1D3B3B33:0F332313": [
+      "5",
+      21360,
+      195,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:3F21A1BFA1A1BF8F0040C0C0C0C0C080:0F221202": [
+      "5",
+      21360,
+      19,
+      176,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:40C0C0C0C040000078FFFFFFF87F3F00:0F221202": [
+      "5",
+      21360,
+      19,
+      184,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:41FE00505010500041FE00DBDB18DF00:0F332313": [
+      "5",
+      21360,
+      179,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:421C985D6A2A2626421C96DBEDEDE5E5:0F332313": [
+      "5",
+      21360,
+      227,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:423819BA56546464423869DBB7B7A7A7:0F332313": [
+      "5",
+      21360,
+      187,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:47001F1F001F1F006700E0E000E0E000:0F372716": [
+      "5",
+      21360,
+      203,
+      120,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:4840432803172FAF6860632F0C1830B0:0F372716": [
+      "5",
+      21360,
+      203,
+      104,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:49797949497979494A4A4A7A4A4A4A7A:0F332313": [
+      "5",
+      21360,
+      211,
+      32,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:4B5B53B7E64D633CCCDCDCB8F9737F3C:0F332313": [
+      "5",
+      21360,
+      219,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:4E4E4E4EAE6D319EF1F1F1F1B1733F9E:0F332313": [
+      "5",
+      21360,
+      211,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:51515151502A1200595959595C2E1200:0F332313": [
+      "5",
+      21360,
+      179,
+      64,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:535043440B172F7E5B5043470C183071:0F332313": [
+      "5",
+      21360,
+      163,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:63636363636363634343434343434343:0F332313": [
+      "5",
+      21360,
+      227,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:64645456BA193842A7A7B7B7DB693842:0F332313": [
+      "5",
+      21360,
+      187,
+      64,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:6E0E1626C606060206060E1E3EFE0602:0F221202": [
+      "5",
+      21360,
+      11,
+      136,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:7272727275B68C798F8F8F8F8DCEFC79:0F332313": [
+      "5",
+      21360,
+      187,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:73707370737073706869686968696868:0F221202": [
+      "5",
+      21360,
+      3,
+      112,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:73707370737073706869686968696869:0F221202": [
+      "5",
+      21360,
+      3,
+      104,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:73737373737377FB8F8F8F8F8F8F8FFF:0F332313": [
+      "5",
+      21360,
+      235,
+      88,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:77707070705F7F00686F696F6F7F7F00:0F221202": [
+      "5",
+      21360,
+      3,
+      120,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:77770064444476007777006666667700:0F332313": [
+      "5",
+      21360,
+      187,
+      72,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:798CB6757272727279FCCE8D8F8F8F8F:0F332313": [
+      "5",
+      21360,
+      203,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:827F000A0A080A00827F00DBDB18FB00:0F332313": [
+      "5",
+      21360,
+      219,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:870704F404F0EF2777F0F3F303F0FFFF:0F201000": [
+      "5",
+      21360,
+      3,
+      24,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:8A8A8A8A0A5448009A9A9A9A3A744800:0F332313": [
+      "5",
+      21360,
+      235,
+      64,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:9090909090909090D8D8D8D8D8D8D8D8:0F332313": [
+      "5",
+      21360,
+      235,
+      96,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:929E9E92929E9E925252525E5252525E:0F332313": [
+      "5",
+      21360,
+      171,
+      32,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:95959595959595955E5E5E5E5E5E5E5E:0F332313": [
+      "5",
+      21360,
+      163,
+      32,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:9E316DAE4E4E4E4E9E3F73B1F1F1F1F1:0F332313": [
+      "5",
+      21360,
+      211,
+      152,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:A0A0202E202E408EA0A0202E202E408E:0F372716": [
+      "5",
+      21360,
+      219,
+      104,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:A5258C4623831310E6268FC7E363F3F0:0F332313": [
+      "5",
+      21360,
+      171,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:A9A9A9A9A9A9A9A97A7A7A7A7A7A7A7A:0F332313": [
+      "5",
+      21360,
+      219,
+      32,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:BC7C924B67371E00CBE79F4F67371E00:0F332313": [
+      "5",
+      21360,
+      163,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:C0D5C0C4C0C0C080E0F0F0FCFFFFC080:0F221202": [
+      "5",
+      21360,
+      3,
+      136,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:C0FE000D0D0C0D00C0FE00EDED0CFD00:0F332313": [
+      "5",
+      21360,
+      211,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:CECECECECECEEEDFF1F1F1F1F1F1F1FF:0F332313": [
+      "5",
+      21360,
+      179,
+      136,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:D0002030003C3E00D000E0F000FCFE00:0F372716": [
+      "5",
+      21360,
+      219,
+      120,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:D0C0C00080808000D0C0C00080808000:0F332313": [
+      "5",
+      21360,
+      235,
+      72,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:D0D2309220C2D012F0F33093E0E3F073:0F221202": [
+      "5",
+      21360,
+      67,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:D2DACAED67B2C63C333B3B1D9FCEFE3C:0F332313": [
+      "5",
+      21360,
+      179,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:DC6E22222600EEEEDCEE66666600EEEE:0F332313": [
+      "5",
+      21360,
+      227,
+      144,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E1E1212E200EFEFEEF2FEFEEE00EFEFE:0F201000": [
+      "5",
+      21360,
+      11,
+      24,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:E200F8F800F8F800E600070700070700:0F372716": [
+      "5",
+      21360,
+      211,
+      120,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:EEEE002622226E00EEEE00666666EE00:0F332313": [
+      "5",
+      21360,
+      243,
+      56,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F0F0EBC014C2020208081B30F4C60606:0F372716": [
+      "5",
+      21360,
+      211,
+      112,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F0F0F7000303FFFF1010F707FCFC0000:0F372716": [
+      "5",
+      21360,
+      11,
+      64,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F3737373737373730F8F8F8F8F8F8F8F:0F332313": [
+      "5",
+      21360,
+      235,
+      80,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F606060606FAFE000EFE8EFEFEFEFE00:0F221202": [
+      "5",
+      21360,
+      11,
+      120,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F616F616F616F6160E4E0E4E0E4E0E0E:0F221202": [
+      "5",
+      21360,
+      11,
+      112,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:F616F616F616F6160E4E0E4E0E4E0E4E:0F221202": [
+      "5",
+      21360,
+      11,
+      104,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FC8C8DFD8D8DFDF10002030303030301:0F221202": [
+      "5",
+      21360,
+      27,
+      176,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FE00FEFF01010101FEFF0101FFFFFF0F:0F201000": [
+      "5",
+      21360,
+      11,
+      16,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF0000000000000000FFFFFFFFFFFFFF:0F332313": [
+      "5",
+      21360,
+      222,
+      80,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF0000003F3F7F0000FFFF80BFBF80FF:0F332313": [
+      "5",
+      21360,
+      195,
+      80,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF000000E0E0E00000FFFF1FFFFF1FFF:0F332313": [
+      "5",
+      21360,
+      203,
+      80,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF00FFFF80808080FFFF00007F7F7F70:0F201000": [
+      "5",
+      21360,
+      3,
+      16,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FF7F3F1F0F070301FF7F3F1F0F070301:0F221202": [
+      "5",
+      21360,
+      136,
+      69,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF00000000FF7FFFFF00000000FF7F:0F221202": [
+      "5",
+      21360,
+      3,
+      184,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF00000000FFFEFFFF00000000FFFE:0F221202": [
+      "5",
+      21360,
+      11,
+      184,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF001F00070301FFFF001F0F070301:0F221202": [
+      "5",
+      21360,
+      131,
+      64,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF00FF00FFFFFFFFFF00FFFFFFFFFF:0F221202": [
+      "5",
+      21360,
+      0,
+      48,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFF0300FD01FC030000FC03FEFFFF03:0F372716": [
+      "5",
+      21360,
+      3,
+      72,
+      "area5-reactor.png"
+    ],
+    "area5&!title&!worldmap&!equipment&!radio&!areaClear:FFFFE0009F901FC000003FC0DFDFDFC0:0F372716": [
+      "5",
+      21360,
+      11,
+      72,
+      "area5-reactor.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:000000000000048A000000000000048A:0F201000": [
+      "15",
+      4920,
+      56,
+      40,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:00000000000004AA00000000000004AA:0F201000": [
+      "15",
+      4920,
+      48,
+      40,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:0000008080022E00FEFEFEFC7CFAFE00:0F201000": [
+      "15",
+      4920,
+      24,
+      8,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:0000101010303064001000002008481C:0F201000": [
+      "15",
+      4920,
+      168,
+      192,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:0008080808181832080000001004240E:0F201000": [
+      "15",
+      4920,
+      160,
+      192,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:0040373F3B363F77007F7F7F7B777F77:0F201000": [
+      "15",
+      4920,
+      56,
+      56,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:0082FFF3FF9FFFE600FEFFFBFFFFFFE6:0F201000": [
+      "15",
+      4920,
+      48,
+      56,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:030000401000CF00FCFFFFFFFFF3EF00:0F201000": [
+      "15",
+      4920,
+      8,
+      8,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:0300008001C36E00FEFFFFFFFFFAEF00:0F201000": [
+      "15",
+      4920,
+      16,
+      8,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:0840371F1B060301087F3F1F1B070301:0F201000": [
+      "15",
+      4920,
+      72,
+      88,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:1800FFFBFFFEF36718FFFFFFFFFEF7E7:0F201000": [
+      "15",
+      4920,
+      56,
+      48,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:1800FFFBFFFEF36F18FFFFFFFFFEF7EF:0F201000": [
+      "15",
+      4920,
+      72,
+      80,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:35F9EF9440110049CC06106BFFEEFFB7:0F201000": [
+      "15",
+      4920,
+      0,
+      16,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:3A403F0F0F0701003A7F3F1F0F070100:0F201000": [
+      "15",
+      4920,
+      64,
+      80,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:7F8181818181818101FEC2FEC2FEFEFE:0F201000": [
+      "15",
+      4920,
+      56,
+      160,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:80D880C08118C3007F377F3F7FFFFF00:0F201000": [
+      "15",
+      4920,
+      0,
+      8,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0:0F201000": [
+      "15",
+      4920,
+      32,
+      172,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:F0403F2F7F1F3F75F07F7F7F7F7F7F77:0F201000": [
+      "15",
+      4920,
+      48,
+      48,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:F9FFE380A883414286001C7F577FBFBF:0F201000": [
+      "15",
+      4920,
+      16,
+      16,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:FAFDD6830022A4870502297CFFDD5F7B:0F201000": [
+      "15",
+      4920,
+      24,
+      16,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:FCFED0801002060202002E7EECFAFEFE:0F201000": [
+      "15",
+      4920,
+      8,
+      16,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:FE81818181818181807F437F437F7F7F:0F201000": [
+      "15",
+      4920,
+      32,
+      160,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:FFFF0300FD01FC030000FC03FEFFFF03:0F201000": [
+      "15",
+      4920,
+      160,
+      200,
+      "area15-room.png"
+    ],
+    "area15&townRoom&!title&!worldmap&!equipment&!radio&!areaClear:FFFFE0009F901FC000003FC0DFDFDFC0:0F201000": [
+      "15",
+      4920,
+      168,
+      200,
+      "area15-room.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:000000000100090300270F1FBEBF367C:0F10171C": [
+      "15",
+      1080,
+      240,
+      40,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:00000000800090C000E4F0F87DFD6C3E:0F10171C": [
+      "15",
+      1080,
+      8,
+      40,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:03090001000000007C36BFBE1F0F2700:0F10171C": [
+      "15",
+      1080,
+      224,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:030F0F5F1F5FBF3FFCF1F2A5EAA34DCB:0F10171C": [
+      "15",
+      1080,
+      240,
+      48,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:0362652681BADAE20363672783BBDBE3:0F271707": [
+      "15",
+      1080,
+      216,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:07030315030F1F07F8FCFDEAFDF0E1F8:0F10171C": [
+      "15",
+      1080,
+      224,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:070F1FAF1FBFFFFFF8F0E051E5472D1F:0F10171C": [
+      "15",
+      1080,
+      248,
+      40,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:077BFDFEFEFFFF7F077BFDFEFEFFFF7F:0F271707": [
+      "15",
+      1080,
+      48,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:084F4F370795E870084F6F37079DEE70:0F271707": [
+      "15",
+      1080,
+      8,
+      32,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:0B02AA45A9568D0AF6FD5FFADFFBFFDF:0F271707": [
+      "15",
+      1080,
+      64,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:0B934B0579FCFEFE1C9CCC067AFFFFFF:0F271707": [
+      "15",
+      1080,
+      40,
+      192,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:0E17A9E0ECF2F2100E77B9E0ECF6F210:0F271707": [
+      "15",
+      1080,
+      208,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:0E974F057AFDFEFF1F9FCF077BFFFFFF:0F271707": [
+      "15",
+      1080,
+      56,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:10F2F2ECE0A9170E10F2F6ECE0B9770E:0F271707": [
+      "15",
+      1080,
+      224,
+      48,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:16F2F6ECE0A9170C16F6F6ECE0B9770C:0F271707": [
+      "15",
+      1080,
+      240,
+      32,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:170F070F0F1F0F0FE9F5FAF0FAE1F2F1:0F10171C": [
+      "15",
+      1080,
+      224,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:1803C7EFF7FBF9FD1803C7EFF7FBF9FD:0F271707": [
+      "15",
+      1080,
+      208,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:18C0E3F7EFDF9FBF18C0E3F7EFDF9FBF:0F271707": [
+      "15",
+      1080,
+      40,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:1EBB9FCBEFF6FDFA61C4E1F4F0F9FCFB:0F271707": [
+      "15",
+      1080,
+      0,
+      8,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:1F0F1F0F07070F03E1F1E2F0F9F8F4FC:0F10171C": [
+      "15",
+      1080,
+      224,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:1F1F3F1F1F3F3F3FE2E3D1E3E5C3C5C3:0F10171C": [
+      "15",
+      1080,
+      224,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:2A152A9C2125D45AFFFFFEFCE1E5D4DA:0F271707": [
+      "15",
+      1080,
+      32,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:2E14AC782276B87EFEF4FCF8E6F6B87E:0F271707": [
+      "15",
+      1080,
+      32,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:32806C2F6EA154283280ECEFEEE1F4F8:0F271707": [
+      "15",
+      1080,
+      32,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:39FBFBFAFBFBFAFBC70505C60505C605:0F201000": [
+      "15",
+      1080,
+      104,
+      56,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:3E7FBFFF7FBFDFEFFEFFFFFF7FBFDFEF:0F271707": [
+      "15",
+      1080,
+      200,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:3EC6F9FDFCFEFEFE3EC6F9FDFCFEFEFE:0F271707": [
+      "15",
+      1080,
+      200,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:3FBF5F1F5F0F0F03CB4DA3EAA5F2F1FC:0F10171C": [
+      "15",
+      1080,
+      224,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:4234A54A11AA53AEBFEBDFFDFFFFFDFF:0F271707": [
+      "15",
+      1080,
+      72,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:4A976A9D51AA124BDFFFFFEFFB5FFDB6:0F271707": [
+      "15",
+      1080,
+      64,
+      120,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:4C0136F476852A144C0137F777872F1F:0F271707": [
+      "15",
+      1080,
+      248,
+      32,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:4F4FC0509E9DAE27CFCFC0DE9F9FAF27:0F271707": [
+      "15",
+      1080,
+      32,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:54A8543984A42B5AFFFF7F3F87A72B5B:0F271707": [
+      "15",
+      1080,
+      216,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:5E815287EF1FBF3FFEE1FEFFFFFFFFFF:0F271707": [
+      "15",
+      1080,
+      192,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:5FBF6FF7D3F9DD78DF3F9F0F2F872386:0F271707": [
+      "15",
+      1080,
+      200,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:5FD3E540BCB65AF4FFF3FDC0FCFEFEFC:0F271707": [
+      "15",
+      1080,
+      192,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:5FDF8FF7FBFDFEFEDFDF8FF7FBFDFEFE:0F271707": [
+      "15",
+      1080,
+      248,
+      16,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:684F6F370795E830686F6F37079DEE30:0F271707": [
+      "15",
+      1080,
+      40,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:6D1F3E97CFCFF1F792E0C1E8F2F0FEFF:0F271707": [
+      "15",
+      1080,
+      8,
+      16,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:70E89507374F4F0870EE9D07376F4F08:0F271707": [
+      "15",
+      1080,
+      40,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:70E9F2A05EBF7FFFF8F9F3E0DEFFFFFF:0F271707": [
+      "15",
+      1080,
+      192,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:70F7F7F7F7F7F7F78F08088F08088F08:0F201000": [
+      "15",
+      1080,
+      96,
+      56,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7357670379FDFEFF7377670379FDFEFF:0F271707": [
+      "15",
+      1080,
+      40,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7428351E446E1D7E7F2F3F1F676F1D7E:0F271707": [
+      "15",
+      1080,
+      216,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:778747E7F7FBFFFD788078F8F8FCFCFE:0F271707": [
+      "15",
+      1080,
+      40,
+      160,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:78DDF9D3F76FBF5F8623872F0F9F3FDF:0F271707": [
+      "15",
+      1080,
+      248,
+      8,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7A814AE1F7F8FDFC7F877FFFFFFFFFFF:0F271707": [
+      "15",
+      1080,
+      56,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7C639FBF3F7F7F7F7C639FBF3F7F7F7F:0F271707": [
+      "15",
+      1080,
+      48,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7CFEFDFFFEFDFBF77FFFFFFFFEFDFBF7:0F271707": [
+      "15",
+      1080,
+      48,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7E1D6E441E3528747E1D6F671F3F2F7F:0F271707": [
+      "15",
+      1080,
+      232,
+      48,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7EB8762278AC142E7EB8F6E6F8FCF4FE:0F271707": [
+      "15",
+      1080,
+      0,
+      32,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7F7F3F8F40A6CF997F7F3F8FC0E6CF9F:0F271707": [
+      "15",
+      1080,
+      48,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7F7FBFDFEFF1FBFA7F7FBFDFEFF1FBFB:0F271707": [
+      "15",
+      1080,
+      48,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:7FFEFD7E7078A7CF7FFFFF7F7E78A7CF:0F271707": [
+      "15",
+      1080,
+      32,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:85BD377B53E7E7E786BE3864FCF8F8F8:0F271707": [
+      "15",
+      1080,
+      40,
+      152,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:85BF1A2DFEFDFFE487BF3F7FFFFBFFFF:0F271707": [
+      "15",
+      1080,
+      56,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:87DF1EDD4DCCE47287DF1EDDCDCCE472:0F271707": [
+      "15",
+      1080,
+      40,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:94AA49B7E45BF7AD6BD5B64A1BA40852:0F271707": [
+      "15",
+      1080,
+      72,
+      128,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:A1BDECDECAE7E7E7617D1C263F1F1F1F:0F271707": [
+      "15",
+      1080,
+      240,
+      184,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:A1FD58B47FBFFF27E1FDFCFEFFDFFFFF:0F271707": [
+      "15",
+      1080,
+      192,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:AE55ABA54AA21443FFFFFFFFBDDFFBBF:0F271707": [
+      "15",
+      1080,
+      72,
+      120,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:B6F87CE9F3F38FEF490783174F0F7FFF:0F271707": [
+      "15",
+      1080,
+      240,
+      16,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:BD9B6F854AB2154C4264907AB56DEAFB:0F271707": [
+      "15",
+      1080,
+      64,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:BDF65AA49348A9954209A57B6EB7576A:0F271707": [
+      "15",
+      1080,
+      72,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:BF3EDD4903DB9B03BF3EDD4903DB9B03:0F271707": [
+      "15",
+      1080,
+      40,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:BF93E9C0BC96CAE47F7379407C7E3E1C:0F271707": [
+      "15",
+      1080,
+      240,
+      216,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:BFF7FFFDEFF9FEFF4008002210060104:0F271707": [
+      "15",
+      1080,
+      56,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:BFFF7FFAEFFFFEEF4000800510400110:0F271707": [
+      "15",
+      1080,
+      16,
+      16,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:C046A664815D5B47C0C6E6E4C1DDDBC7:0F271707": [
+      "15",
+      1080,
+      32,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:C0900080000000003E6CFD7DF8F0E400:0F10171C": [
+      "15",
+      1080,
+      24,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:C0F0F0FAF8FAFDFC3F8F4FA557C5B2D3:0F10171C": [
+      "15",
+      1080,
+      8,
+      48,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:CEEAE6C09EBF7FFFCEEEE6C09EBF7FFF:0F271707": [
+      "15",
+      1080,
+      208,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:CFA778707EFDFE7FCFA7787E7FFFFF7F:0F271707": [
+      "15",
+      1080,
+      0,
+      24,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:D0C9D2A09E3F7F7F383933605EFFFFFF:0F271707": [
+      "15",
+      1080,
+      240,
+      224,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:DAABF6AF552EFD74FFFFFFFFFFBFFFDF:0F271707": [
+      "15",
+      1080,
+      64,
+      112,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:DBA4DB2A5EFB5ECAFFFFFFFFFFFFFDEF:0F271707": [
+      "15",
+      1080,
+      72,
+      112,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:DBE4DBFAAEFF5E6AFFFFFFFFFFFFFDFF:0F271707": [
+      "15",
+      1080,
+      72,
+      104,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:E0C0C0A8C0F0F8E01F3FBF57BF0F871F:0F10171C": [
+      "15",
+      1080,
+      24,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:E0DEBF7F7FFFFFFEE0DEBF7F7FFFFFFE:0F271707": [
+      "15",
+      1080,
+      200,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:E0F0F8F5F8FDFFFF1F0F078AA7E2B4F8:0F10171C": [
+      "15",
+      1080,
+      0,
+      40,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:E1FB78BBB233274EE1FB78BBB333274E:0F271707": [
+      "15",
+      1080,
+      208,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:E8F0E0F0F0F8F0F097AF5F0F5F874F8F:0F10171C": [
+      "15",
+      1080,
+      24,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:EC1DE73E956FFBAD5BE298C57A900452:0F271707": [
+      "15",
+      1080,
+      64,
+      128,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:EEE1E2E7EFDFFFBF1E011E1F1F3F3F7F:0F271707": [
+      "15",
+      1080,
+      240,
+      192,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:EF8FF3F3E97CF8B6FF7F0F4F17830749:0F271707": [
+      "15",
+      1080,
+      192,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:F2F2030A79B975E4F3F3037BF9F9F5E4:0F271707": [
+      "15",
+      1080,
+      248,
+      24,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:F3E51E0E7EBF7FFEF3E51E7EFEFFFFFE:0F271707": [
+      "15",
+      1080,
+      232,
+      40,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:F770878600818378088FF7F773F7FF78:0F201000": [
+      "15",
+      1080,
+      96,
+      64,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:F7F1CFCF973E1F6DFFFEF0F2E8C1E092:0F271707": [
+      "15",
+      1080,
+      56,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:F8F0F8F0E0E0F0C0878F470F9F1F2F3F:0F10171C": [
+      "15",
+      1080,
+      24,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:F8F8FCF8F8FCFCFC47C78BC7A7C3A3C3:0F10171C": [
+      "15",
+      1080,
+      24,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FAAFFAAD5D2BFF757FFFFFFBFFBFFFFF:0F271707": [
+      "15",
+      1080,
+      64,
+      104,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FACBA7023D6D5A2FFFCFBF033F7F7F3F:0F271707": [
+      "15",
+      1080,
+      56,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FAFBF1EFDFBF7F7FFBFBF1EFDFBF7F7F:0F271707": [
+      "15",
+      1080,
+      0,
+      16,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FAFDF6EFCB9FBB1EFBFCF9F0F4E1C461:0F271707": [
+      "15",
+      1080,
+      48,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FB39024200C2C23805C7FAFA38FAFA38:0F201000": [
+      "15",
+      1080,
+      104,
+      64,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FBFFFFDBFF7FFFFC0400002400800013:0F271707": [
+      "15",
+      1080,
+      24,
+      8,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FCFDFAF8FAF0F0C0D3B2C557A54F8F3F:0F10171C": [
+      "15",
+      1080,
+      24,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FD7CBB92C0DBD9C0FD7CBB92C0DBD9C0:0F271707": [
+      "15",
+      1080,
+      240,
+      24,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FDC997033D695327FECE9E023E7E7C38:0F271707": [
+      "15",
+      1080,
+      40,
+      184,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FDEFFFBFF79F7FFF0210004408608020:0F271707": [
+      "15",
+      1080,
+      192,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FE7FBF7E0E1EE5F3FEFFFFFE7E1EE5F3:0F271707": [
+      "15",
+      1080,
+      216,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FEFEFCF10265F399FEFEFCF10367F3F9:0F271707": [
+      "15",
+      1080,
+      200,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FEFEFDFBF78FDF5FFEFEFDFBF78FDFDF:0F271707": [
+      "15",
+      1080,
+      200,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FF7F9FF7BFFFEFFD2080600844001002:0F271707": [
+      "15",
+      1080,
+      240,
+      8,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FF7FBF9EC0E6EACEFF7FBF9EC0E6EECE:0F271707": [
+      "15",
+      1080,
+      224,
+      40,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FF7FDFF7FFFFEFFD2080200800001002:0F271707": [
+      "15",
+      1080,
+      16,
+      8,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FF7FFFFDBFFFFFFF0080000240000010:0F271707": [
+      "15",
+      1080,
+      24,
+      16,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFEF9EFFDFFF7BF0401061022000840:0F271707": [
+      "15",
+      1080,
+      8,
+      8,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFEFD7903675773FFFEFD7903677773:0F271707": [
+      "15",
+      1080,
+      8,
+      24,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFBF1FAF1F0F071F2D47E551E0F0F8:0F10171C": [
+      "15",
+      1080,
+      232,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFDF8F5F8F0E0F8B4E2A78A070F1F:0F10171C": [
+      "15",
+      1080,
+      16,
+      144,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFF7FFF5FDFBFBFEFFF:0F10171C": [
+      "15",
+      1080,
+      232,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFAB5F6FBFFFFF7FFF:0F10171C": [
+      "15",
+      1080,
+      248,
+      48,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFBFFEEBEEFEFFFDFF:0F10171C": [
+      "15",
+      1080,
+      16,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFD5FAF6FDFFFFFEFF:0F10171C": [
+      "15",
+      1080,
+      0,
+      48,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFDFDFFFF7F7BFFE6F:0F10171C": [
+      "15",
+      1080,
+      232,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFF77FBFBDFFFFFFEF:0F10171C": [
+      "15",
+      1080,
+      0,
+      64,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFBFBFFEFEFFD7FF6:0F10171C": [
+      "15",
+      1080,
+      16,
+      96,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFD7FD7777FFFBFFF:0F10171C": [
+      "15",
+      1080,
+      232,
+      88,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFEFFFAFBFDFDF7FF:0F10171C": [
+      "15",
+      1080,
+      16,
+      80,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFF7FFFFFBF6F5FAB:0F10171C": [
+      "15",
+      1080,
+      232,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFFBFFFEFEFFFFFB7:0F10171C": [
+      "15",
+      1080,
+      0,
+      56,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFFFBFFFF777FFEEF:0F10171C": [
+      "15",
+      1080,
+      8,
+      64,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFFFE7FFFFFFDDFDF:0F10171C": [
+      "15",
+      1080,
+      8,
+      56,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFFFEFFFFFDF6FAD5:0F10171C": [
+      "15",
+      1080,
+      16,
+      136,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFFFFFFDF6FEF7FFF:0F10171C": [
+      "15",
+      1080,
+      232,
+      72,
+      "interception-terrain.png"
+    ],
+    "interception&!title&!worldmap&!equipment&!radio&!areaClear:FFFFFFFFFFFFFFFFFFFFFFFBF6F7FEFF:0F10171C": [
+      "15",
+      1080,
+      16,
+      72,
+      "interception-terrain.png"
+    ]
+  }
+}

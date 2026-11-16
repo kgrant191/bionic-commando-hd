@@ -60,14 +60,15 @@ for p in sorted(args.hd.glob('*.png')):
     screens.append(p.name)
 log=args.log.read_text()
 assert 'PPU: 8HdNesPpu HD enabled: 1' in log
-assert not re.search(r'\[HDPack\].*(error|Error)|script error|Script error|Exception',log)
+assert not re.search(r'\[HDPack\].*(?:error|invalid|unable)|script error|Exception',log,re.IGNORECASE)
 stats=json.loads((root/'build_stats.json').read_text())
 virtual_keys={v for a,v in additions}
-assert all(a in set(definitions)and v in set(definitions)for a,v in additions)
+definition_set=set(definitions)
+assert all(a in definition_set and v in definition_set for a,v in additions)
 if args.pack is None:assert len(virtual_keys)==stats['virtual_sprite_keys']
-for v in virtual_keys:
-    assert any(l.startswith('<tile>')and tuple(l[6:].split(',')[1:3])==v for l in rules),'Missing virtual fallback'
-report={'version':'0.7.6','movie_input_frames':args.frames,'checkpoint_interval':step,
+unconditional={tuple(l[6:].split(',')[1:3])for l in rules if l.startswith('<tile>')}
+assert virtual_keys<=unconditional,'Missing virtual fallback'
+report={'version':'0.8.0','movie_input_frames':args.frames,'checkpoint_interval':step,
         'original_and_hd_ram_checkpoints':len(original),'ram_mismatches':mismatches,'ppu_mismatches':ppu_mismatches,
         'hd_screenshots':len(screens),'dimensions':[1024,896],
         'hd_loader_errors':0,'tile_rules_checked':len(definitions),
@@ -76,7 +77,7 @@ report={'version':'0.7.6','movie_input_frames':args.frames,'checkpoint_interval'
         'virtual_sprite_keys':len(virtual_keys),'sprite_additions_checked':len(additions),
         'sprite_limit_removal':True,
         'completion':'Area 1 Clear followed by return to world map' if args.frames==40442 else 'Complete feedback recording',
-        'visual_review_frames':[int(p[:-4])for p in screens],
+        'captured_screenshot_frames':[int(p[:-4])for p in screens],
         'overscan_note':'Eight source rows trimmed at top and bottom; no ROM patch.',
         'limits':'Sampled visual inspection, not every rendered frame. Unrecorded states and later areas are untested.',
         'pack_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted(pack.iterdir())if p.is_file()}}

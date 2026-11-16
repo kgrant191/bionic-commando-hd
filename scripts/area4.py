@@ -7,7 +7,7 @@ from items import pickup_art
 from level_polish import fade_aliases
 
 def extend_area4(root,keys,indices,tile,scale,rule,blank):
- guard='area4&!title&!worldmap&!equipment&!radio&!areaClear'
+ guard='!interception&area4&!title&!worldmap&!equipment&!radio&!areaClear'
  conditions=['<condition>area4,memoryCheckConstant,004D,==,04'];additions=[]
  painted={};mapping={}
  exterior=Image.open(root/'art/area4-exterior.png').convert('RGBA').resize((1024,960))

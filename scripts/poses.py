@@ -168,7 +168,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
                 t=(k,p,guard)
                 if t in hidden:continue
                 hidden.add(t);rule(k,p,blank,guard)
-    if actor in {'enemy','area4','a13trooper'}:
+    if actor in {'enemy','area4','a13trooper','blue'}:
         # If another sprite completely covers the head, no head addition can
         # be emitted. Preserve the surviving limb's occlusion with a crop of
         # the painted pose, rather than reverting to a material-tinted NES limb.
@@ -198,6 +198,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
 def make_poses(root,keys,rule,blank):
     result=[[],[],[]]
     for actor,rows,palette in [('spencer',4,0xFF36060F),('enemy',3,0xFF36150F)]:
-        emit=rule if actor=='spencer' else lambda k,p,im,g=None:rule(k,p,im,'!area13&'+g if g is not None else None)
+        guard='!interception&' if actor=='spencer' else '!interception&!area13&'
+        emit=lambda k,p,im,g=None:rule(k,p,im,guard+g if g is not None else None)
         for out,items in zip(result,make_actor(root,keys,emit,blank,actor,rows,palette)):out.extend(items)
     return result

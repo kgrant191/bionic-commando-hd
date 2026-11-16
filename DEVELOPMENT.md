@@ -1,4 +1,13 @@
-# Development checkpoint — v0.5.0
+# Development checkpoint — v0.8.0
+
+New review inputs: intro.mmo (4,752 frames), 5.mmo (22,377), and 15.mmo (7,236).
+They use embedded Mesen 2.2.1 states and the same USA ROM listed below.
+`capture/new-*` contains selected original screenshots and native tile metadata,
+not ROMs or private movies. `scripts/next_areas.py` owns the new scoped mappings.
+Scene state $00CE selects story panels; $004D selects areas; $004C == $13
+selects overhead interceptions. No conditions use capture frame numbers.
+
+## Earlier build and capture details
 
 ## Inputs
 

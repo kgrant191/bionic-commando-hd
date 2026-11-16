@@ -1,23 +1,34 @@
 # Bionic Commando HD
 
-**v0.7.6 — Area 1 doors, crate rewards and grenade animation**
+**v0.8.0 — Intro story, Area 5 and Area 15**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
 A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is a work-in-progress graphics remake covering the supplied opening, Area 1, Area 13 and Area 4 recordings.
+This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 13, Area 4, Area 5 and Area 15 recordings.
 
 ## Install
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.7.6.zip`.
+   `Bionic_Commando_HD_v0.8.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.8.0 — Intro story, Area 5 and Area 15
+
+- Replace the story dossier, headquarters and sunset scenes with painted artwork, plus a complete Super Joe illustration and refreshed live text.
+- Paint Area 5 factory walls, concrete huts, beams, chains, lava, shaft fixtures and reactor room.
+- Add the blue acrobat's two main recorded poses and painted clipped-body fallbacks.
+- Extend the town scenery, dialogue framing and NPC artwork to Area 15; paint its stone supply room.
+- Paint the overhead interception's road, water, rock banks and soldiers; keep its character rules separate from side-view gameplay.
+- Include the approved v0.7.6 fixes.
+
+Review build. Original gameplay and story wording remain live. See `validation/INTRO_AREAS5_15_v0.8.0.md` for recording coverage and limits.
 
 ## Area 1 corrections in v0.7.6
 

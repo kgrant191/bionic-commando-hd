@@ -131,3 +131,20 @@ Four generated painted assets supply this review build:
 Native mirroring, sprite locations and lifetime remain live. The preview's upper
 rows are matching emulator screenshots; its bottom row shows explicitly labeled
 reward-tile assemblies because the supplied movie lacks a full flask pickup.
+
+
+## v0.8.0 sources
+
+Generated with the built-in image tool. Scenery references preserve the native
+screen layout and omit characters and HUD; the deterministic builder aligns
+and extracts tile crops. These are source paintings, not preview screenshots.
+
+| Assets | Brief and use |
+| --- | --- |
+| intro-dossier, intro-headquarters, intro-sunset | Leather secret dossier with fictional wing emblem; symmetrical stone military hall; purple/orange sunset and distant forest. Native scene state selects the image. |
+| super-joe | Transparent green-uniform rifleman; one cell is divided across all three palettes of the native story illustration. |
+| area5-factory, area5-hazards, area5-shaft, area5-reactor | Olive riveted plating, cracked concrete, copper girders and square-link chains; glowing lava; rust-colored shafts and lamps; blue machinery room. Native tile keys and palettes preserve scrolling and geometry. |
+| blue-acrobat, blue-curled | Transparent blue-uniform white-helmet acrobat sheet; kicking and descending poses follow native head and local pose signatures. A separate symmetrical curled pose supplies the compact mirrored tiles. |
+| area15-room | Stone supply-room walls, dark inset brick, chest and spike flooring. Native black openings and collision silhouette are retained. |
+| interception-terrain | Golden dirt road, rough rock banks, teal water and white barricades, with figures removed. |
+| interception-soldiers | Transparent green and burgundy overhead infantry. Direct tile components avoid extra sprite layers during crowded battles. |
