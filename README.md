@@ -1,23 +1,35 @@
 # Bionic Commando HD
 
-**v0.9.8 — Area 5 and Area 15 review corrections**
+**v0.10.0 — Weapons, damage states and Area 16**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
 A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 13, Area 4, Area 5 and Area 15 recordings.
+This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 13, Area 4, Area 5, Area 15 and Area 16 recordings.
 
 ## Install
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.9.8.zip`.
+   `Bionic_Commando_HD_v0.10.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.10.0
+
+- New rocket launcher and three-barrel wide-cannon equipment icons.
+- Spencer holds the selected weapon in side-view and overhead gameplay.
+- Rocket shots retain their original large circular footprint and movement.
+- HD overhead damage palettes, dropped grenade and brief impact effects.
+- Area 16 town scenery, interiors, portraits, guards, turret and transition palettes.
+
+Replayed both supplied recordings, a controlled wide-cannon test, and the previous
+Area 5 boss recording. See `validation/WEAPONS_AREA16_v0.10.0.md` for coverage
+and limits. This is a feature-branch review build, not a public release.
 
 ## New in v0.9.8
 

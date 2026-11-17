@@ -1,5 +1,5 @@
-BIONIC COMMANDO HD — v0.9.8
-Area 5 fixed rear nozzle and complete animated exhaust
+BIONIC COMMANDO HD — v0.10.0
+Distinct equipped weapons, circular rocket shot, damage fixes and Area 16
 
 Joined doorway plaster; native boss cells avoid extra overlap layers;
 red reactor hit flashes follow the original palette timing.
@@ -105,9 +105,8 @@ v0.7.0 replayed all five unique supplied recordings.
 v0.8.1 checks the supplied intro, Area 5 and Area 15 recordings, plus
 Area 1 and its door/cave follow-ups. Sampled rendered-image review and
 RAM/PPU checkpoint comparison; not an every-frame visual audit.
-The pistol is the starter design; machine-gun/bazooka player art is still pending.
-Equipment-dependent graphics are supported by the HD engine, not implemented
-for every weapon in this test build.
+The starter gun, three-barrel wide cannon and rocket launcher have distinct held art.
+Weapons beyond the supplied recordings still need review.
 Later areas and unrecorded states are not validated.
 
 No gameplay, controls, level geometry, music or ROM modifications.
@@ -121,3 +120,5 @@ Supported whole-ROM SHA1: D3A4BFD995D18C4A386971631759AECA3A7CFF8D
 V0.9.7: Painted rooftop railing and emblem. Complete Spencer/enemy damage-palette mappings. Generator glow preserves black recesses; original hit timing retained.
 
 V0.9.8: Fixed Area 5 rear thruster housing, restored the full exhaust plume and kept its original animation timing.
+
+V0.10.0: Distinct equipped rocket launcher and three-barrel wide cannon; new weapon menu icons; circular rocket projectile; overhead damage and grenade repairs; Area 16 scenery, portraits, turret, barrier, pickup and palette coverage.

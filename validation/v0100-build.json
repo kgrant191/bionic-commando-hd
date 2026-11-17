@@ -1,0 +1,22 @@
+{
+  "version": "0.10.0",
+  "new_atlas_cells": 3421,
+  "new_rules": 20513,
+  "new_conditions": 2770,
+  "new_additions": 37,
+  "town_rules_extended": 2954,
+  "damage_alias_rules": 382,
+  "observed_key_palette_pairs": 1756,
+  "transition_palette_tiles": 20,
+  "weapon_state_address": "04CA",
+  "wide_value": 2,
+  "rocket_value": 1,
+  "overhead_rocket_orb_size": [
+    32,
+    32
+  ],
+  "side_view_rocket_orb_size": [
+    64,
+    64
+  ]
+}

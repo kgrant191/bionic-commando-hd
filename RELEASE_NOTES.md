@@ -1,3 +1,18 @@
+# Bionic Commando HD v0.10.0 — Weapons, damage states and Area 16
+
+The rocket launcher and wide cannon now have their own menu icons and held
+weapons. The wide cannon has three barrels; the rocket retains its large,
+circular projectile. Weapon selection follows the live equipped-weapon value
+through room changes and overhead encounters.
+
+Cover overhead damage flashes, the dropped grenade, short impact effects,
+and both overhead encounter scene IDs. Add Area 16 town/room graphics,
+portraits, guards, wheeled turret, barrier, pickup and transition palettes.
+
+Review build on `feature/weapons-area16-v0.10.0`, based on v0.9.8. No ROM,
+movies or emulator binaries are distributed. No gameplay changes.
+See `validation/WEAPONS_AREA16_v0.10.0.md` for validation and limits.
+
 # Bionic Commando HD v0.9.8 — Approved Area 5/15 review build
 
 Includes the approved corrections since v0.8.2: stable building graphics and

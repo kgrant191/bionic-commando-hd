@@ -1,12 +1,12 @@
 {
-  "version": "0.9.8",
-  "baseline_version": "0.9.6",
+  "version": "0.10.0",
+  "baseline_version": "0.9.8",
   "scale": 4,
   "output_size": [
     1024,
     896
   ],
-  "runtime_files": 37,
-  "tile_rules": 84334,
-  "approved_runtime_hashes_match": true
+  "runtime_files": 38,
+  "tile_rules": 106068,
+  "virtual_sprite_keys": 2315
 }
