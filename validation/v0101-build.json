@@ -1,0 +1,9 @@
+{
+  "version": "0.10.1",
+  "primary_player_anchors": 5,
+  "new_atlas_cells": 550,
+  "new_rules": 2999,
+  "new_additions": 273,
+  "scroll_stable_sign_patterns": 26,
+  "contact_portrait_rules": 96
+}

@@ -1,0 +1,8 @@
+{
+  "version": "0.10.1",
+  "runtime_files": 39,
+  "runtime_zip_sha256": "9705c637e42c387f8848b6e1a89bb359a425f79f69f84acab45253621b115a33",
+  "review_video_seconds": 52.6,
+  "review_video_source": "Actual emulator captures at original playback speed; 60 fps overhead and 20 fps town samples repeated to 60 fps.",
+  "comparison_source": "Actual v0.10.0 and v0.10.1 emulator captures."
+}

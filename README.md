@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.10.0 — Weapons, damage states and Area 16**
+**v0.10.1 — Stable overhead movement and Area 16 corrections**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,25 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.10.0.zip`.
+   `Bionic_Commando_HD_v0.10.1.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.10.1
+
+- Assemble overhead Spencer as one complete pose through walking and hit flashes.
+- Correct downward and diagonal facing; use a substantial shoulder-fired rocket launcher.
+- Keep the large circular rocket projectile and distinct three-barrel wide cannon.
+- Preserve Area 16 building signs when their identifying tiles scroll off screen.
+- Give the red-clothed room contact matching bareheaded red dialogue portraits.
+
+Includes a frame-by-frame overhead replay, an eight-direction diagnostic, Area 16
+scrolling/dialogue review, and the prior Area 5 boss regression. See
+`validation/MOVEMENT_TOWN_v0.10.1.md` for validation scope.
 
 ## New in v0.10.0
 
