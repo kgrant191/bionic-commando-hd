@@ -1,0 +1,42 @@
+{
+  "version": "0.9.8",
+  "baseline_sha256": "4c476b6758d2905391b0f465fbb43bb84f2ed8525b29683bba05bf9244e5ee8e",
+  "native_component_positions": {
+    "16,16": [
+      "AA14A952A5499653D5EB57AF5EBE7DBE"
+    ],
+    "16,24": [
+      "99549251905020E07FB773B170B0E0E0"
+    ],
+    "24,16": [
+      "AA54A850A0D8FA7456ACD8F07824068C"
+    ],
+    "24,24": [
+      "A8D12F4F9D3D352F5DBEF0F0E2424A50",
+      "A8D32E43981C32105DBCF1FCE7634D6F"
+    ],
+    "24,32": [
+      "00000000000000006DB9061414040000",
+      "3A311B2C0E130100454E6413310C1A09"
+    ],
+    "32,24": [
+      "000000000000000000B080E0F098E000",
+      "00D0B8FCA8C2B11CC2204200563D4AE3"
+    ],
+    "32,32": [
+      "0000000000000000B080404000000000",
+      "CC80C4B038100804107E3A4CC4ECF65A"
+    ]
+  },
+  "new_additions": 20,
+  "new_rules": 1008,
+  "hardware_shared_between_phases": true,
+  "flame_phases": 2,
+  "patch_native_bounds": [
+    16,
+    16,
+    48,
+    48
+  ],
+  "conditions": 118
+}

@@ -1,3 +1,24 @@
+# Current build — v0.9.8
+
+Run `python3 scripts/build.py` to reproduce all 37 approved runtime files.
+Use `--output /path/to/output` to build into a separate directory.
+Dependencies: Python 3, Pillow and NumPy.
+
+Git history through v0.8.2 was recovered exactly from the earlier bundle and
+its original v0.7.6 prerequisite. The intermediate v0.8.3–v0.9.6 generator
+sources were not available; their approved output is preserved in the
+hash-verified `baselines/v096/` snapshot. The current build applies the
+versioned v0.9.7 and v0.9.8 artwork/mapping patches to that snapshot, then
+checks every result against `baselines/v098.json`. It does not regenerate
+those intermediate designs from the old v0.8.2 generator.
+
+`build_v082.py` and the historical source remain available for reference.
+`V097_DEVELOPMENT.md`, `V098_DEVELOPMENT.md`, and `validation/v09*` describe
+the recent fixes and recorded checks. Baseline images shared with the current
+pack are identical Git objects, avoiding duplicated asset bytes in the bundle.
+
+## Historical development notes
+
 # Development checkpoint — v0.8.0
 
 New review inputs: intro.mmo (4,752 frames), 5.mmo (22,377), and 15.mmo (7,236).

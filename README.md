@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.8.2 — Super Joe rear-foot correction**
+**v0.9.8 — Area 5 and Area 15 review corrections**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,26 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.8.2.zip`.
+   `Bionic_Commando_HD_v0.9.8.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.9.8
+
+- Keep the gray building facade stable while moving and after leaving rooms.
+- Repair the doorway facade, rooftop railing and emblem, and clipped upper enemy.
+- Restore the metallic blue ball and maintain HD damage/swinging graphics.
+- Preserve the Area 5 boss's crimson and white armor; use a fixed rear nozzle
+  and a complete animated flame with correct edge clipping.
+- Retain generator hit-flash timing and its intended black side recesses.
+
+The final Area 5 recording was checked across all 1,940 game-state frames and
+646 screenshots, plus 116 consecutive thruster-animation frames.
+This remains a review build; later areas and unrecorded states still need review.
 
 ## New in v0.8.2
 
@@ -212,6 +225,13 @@ unrecorded moves and alternate equipment or palette states need recordings
 and validation. Shared tile patterns may affect later areas.
 
 ## Validation and source
+
+Rebuild the approved runtime with `python3 scripts/build.py` (Python 3,
+Pillow and NumPy). The build verifies every output against the approved file
+hashes. The restored v0.8.2 generator is retained as `scripts/build_v082.py`;
+current builds use the preserved v0.9.6 runtime baseline and the versioned
+v0.9.7/v0.9.8 art and mapping patches. See `DEVELOPMENT.md` for provenance.
+
 
 See `validation/replay.json`, `validation/replay-feedback-v042.json` and `validation/replay-feedback-v050.json` for replay coverage and RAM parity results, and
 `DEVELOPMENT.md` for the reproducible build and capture workflow.

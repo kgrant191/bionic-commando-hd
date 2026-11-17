@@ -1,5 +1,45 @@
-BIONIC COMMANDO HD — v0.8.2
-Focused review build: complete Super Joe rear foot in the intro
+BIONIC COMMANDO HD — v0.9.8
+Area 5 fixed rear nozzle and complete animated exhaust
+
+Joined doorway plaster; native boss cells avoid extra overlap layers;
+red reactor hit flashes follow the original palette timing.
+
+Includes the crimson and white Area 5 boss
+
+Rebuilt red/pink and white armor with layered plating, dark joints, a clearer
+cannon, fixed exhaust nozzle and two native-timed flame states. Damage flashes retain this artwork.
+
+Includes platform gunner clipping and restored metallic blue ball
+
+The top-edge gunner keeps complete painted legs through crouching and firing.
+The rolling ball uses its earlier round metallic-blue artwork again.
+Review recording: metal-ball(1).mmo (2,183 frames).
+
+Includes stable gray building facades and HD room exit transitions
+
+Facade columns retain their textures at the screen edge. Interior artwork
+follows the room currently being displayed until the transition finishes.
+Includes the v0.9.2 characters, portrait, lift and earlier fixes.
+
+Area 15 march, dialogue portrait and moving-platform correction
+
+Complete escort and caped commander walking poses; native speech-driven
+commander portrait without the black face square; steel moving-lift artwork.
+Review scope: 15-errors.mmo.
+
+Includes the complete v0.9.1 map-number and earlier approved fixes.
+
+All ten map-dialogue digits now have explicit replacements for each map
+palette. This corrects the original bold 2, 3, 4 and 6 in area labels.
+
+Muted industrial background; complete full-width barrels; clean transparent
+lamps; correct repeating coil springs; metallic blue rolling balls; consistent
+helicopter proportions with both native rotor phases; mechanical ceiling
+turrets; neutral metallic boss damage flashes; HD enemy shots and complete
+reactor explosion pieces. Map dialogue letters and digits now share one font
+and color, including the AREA number's alternate typing palette.
+Includes the approved v0.8.6 green-truck encounters, joined Area 1 doors and
+boss eagles, Start transition, and Super Joe foot fixes.
 
 INSTALL
 Load your Bionic Commando (USA).nes ROM in Mesen/MesenCE.
@@ -77,3 +117,7 @@ Supported whole-ROM SHA1: D3A4BFD995D18C4A386971631759AECA3A7CFF8D
 
 
 0.7.4: stable actor proportions, matching white NPC portraits, visible XP bullet, unified health indicators, readable debrief heading, and initial water-edge cleanup.
+
+V0.9.7: Painted rooftop railing and emblem. Complete Spencer/enemy damage-palette mappings. Generator glow preserves black recesses; original hit timing retained.
+
+V0.9.8: Fixed Area 5 rear thruster housing, restored the full exhaust plume and kept its original animation timing.

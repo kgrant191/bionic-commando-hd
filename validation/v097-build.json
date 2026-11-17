@@ -1,0 +1,15 @@
+{
+  "version": "0.9.7",
+  "baseline_sha256": "f4866e612570114924003c214a913429694cdaf9e7e5d22dc32afbd4e6a3cbfd",
+  "missing_native_key_palette_pairs": 23,
+  "observed_damage_pairs_repaired": 90,
+  "aliases_including_virtual": 118,
+  "new_additions": 28,
+  "new_sprite_rules": 9630,
+  "roof_cells": 30,
+  "roof_conditions": 90,
+  "flash_rules_updated": 194,
+  "unlit_pixels_preserved": 29533,
+  "new_atlas_cells": 352,
+  "boss_rules_changed": 0
+}

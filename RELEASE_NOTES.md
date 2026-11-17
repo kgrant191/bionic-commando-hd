@@ -1,3 +1,17 @@
+# Bionic Commando HD v0.9.8 — Approved Area 5/15 review build
+
+Includes the approved corrections since v0.8.2: stable building graphics and
+room exits, doorway and rooftop repairs, the clipped upper enemy, restored
+metallic blue ball, crimson/white boss, HD damage and swing frames, and
+original generator hit timing. The rear thruster now has a fixed nozzle,
+a complete animated flame, and no stray exhaust at the opposite screen edge.
+The generator's black side recesses match the original layout and are retained.
+
+The supplied final recording passed 1,940-frame RAM/PPU comparison and
+646 screenshot scope checks. The thruster was also reviewed over 116
+consecutive frames. No ROM, movies, emulator binaries or gameplay changes
+are included. This is a review build, not a public release.
+
 # Bionic Commando HD v0.8.2 — Super Joe rear foot
 
 The intro illustration extended into three cells absent from the original sprite layout, clipping the rear leg and boot. Attach those missing pieces to Super Joe's native head, including the recorded palette transitions. Preserve the existing art, size and position. No other artwork changes.

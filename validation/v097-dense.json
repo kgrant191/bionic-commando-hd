@@ -1,0 +1,12 @@
+{
+  "frames_compared": 389,
+  "native_magenta_pixels_before": 24513,
+  "native_magenta_pixels_after": 0,
+  "RAM_and_PPU_match": true,
+  "enemy_flash_capture_frame": 185,
+  "swing_capture_frames": [
+    216,
+    225,
+    231
+  ]
+}

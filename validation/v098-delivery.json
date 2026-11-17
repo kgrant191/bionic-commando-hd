@@ -1,0 +1,9 @@
+{
+  "version": "0.9.8",
+  "runtime_zip": "Bionic_Commando_HD_v0.9.8.zip",
+  "runtime_zip_sha256": "a81acb47615094f5100fc3bdfae51ca8a997c7235578f7a91a5c7e2b7ebc8461",
+  "runtime_files": 37,
+  "baseline_library_file_id": "libfile_64f17ee1d3408191b0558a0e35fdac67",
+  "baseline_sha256": "4c476b6758d2905391b0f465fbb43bb84f2ed8525b29683bba05bf9244e5ee8e",
+  "checkpoint_kind": "incremental patch; not a Git bundle; no ROM or movie"
+}
