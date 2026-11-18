@@ -590,3 +590,29 @@ All other graphics states are compared with the preceding approved replay.
 The exact-ZIP full recording, original RAM/PPU parity, boss-edge checks and
 clean rebuild comparison remain required. Review scope is the supplied
 Area 3 recording, and the only delivered artifact is the install ZIP.
+
+## v0.12.5 Area 3 original-style materials
+
+Return to the native material arrangement: warm rocks, dark soil below the
+platforms, green grass with a thin snow cap, and snow patches following the
+original cliff markings. Non-grappleable backing uses quiet gray rock so it
+stays visually distinct from the warm foreground. The existing trees, deep
+powder, mountain panorama, door, pendant, creatures and robot are preserved.
+
+`capture_terrain_layout_v0125.py` recovers a consistent two-by-two material
+phase from 4,014 recorded frames and 872 unique neighbor constraints.
+Uniform fill and doorway patterns are excluded because their placement does
+not constrain a unique phase. The 70 gray backing patterns reuse their
+already checked 331-edge layout. Both textures stay fixed in world space.
+
+`build_v0125.py` prepends 312 material rules and 16 unchanged doorway rules
+to the preceding pack. The foreground lips retain the native one-pixel
+vertical offset and sample the matching ledge column; five new conditions
+provide the column tests and bounds guard. The new atlas contains 176 cells
+for 296 pattern/palette pairs. No new sprite additions or gameplay changes.
+
+Use `verify_v0125.py` for full `3.mmo` state parity, every-frame artwork
+selection, unchanged non-terrain graphics and preserved doorway/boss checks.
+Run the final full playback before `package_v0125.py`, then verify that every
+extracted ZIP file matches the pack loaded by that completed playback. Deliver
+only the install ZIP; no other-area recordings are part of this terrain pass.

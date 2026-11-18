@@ -1,9 +1,9 @@
-BIONIC COMMANDO HD — v0.12.4
+BIONIC COMMANDO HD — v0.12.5
 Area 3 review build
 
 NEW IN THIS BUILD
-The outdoor cliff now has a consistent packed-snow finish and ice ledges.
-Soft blue snow recesses distinguish non-grappleable backing from solid terrain.
+Original-style warm rock, dark soil, snowy grass ledges and scattered snow patches.
+Muted gray rock distinguishes recessed backing from solid foreground terrain.
 The outdoor entrance has a metal frame and opaque dark interior.
 All three robot destruction phases use painted explosion and smoke art.
 

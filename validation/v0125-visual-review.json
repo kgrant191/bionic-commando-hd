@@ -1,0 +1,38 @@
+{
+  "replay": "v0125-final-terrain",
+  "full_size_frames_reviewed": [
+    1441,
+    1900,
+    3001
+  ],
+  "contact_sheet_frames_reviewed": [
+    1441,
+    1900,
+    2041,
+    2401,
+    3001,
+    3601,
+    4021,
+    4501,
+    4981,
+    5041,
+    5401,
+    6301,
+    7801,
+    9301,
+    9794,
+    9853,
+    9860,
+    9867,
+    10801
+  ],
+  "findings": [
+    "Warm rock face and muted gray recesses match the original material arrangement.",
+    "Snowy grass ledges have continuous soil-to-rock transitions.",
+    "Native snow-patch placement, deep powder and tree artwork are retained.",
+    "Grapple foreground fragments match the underlying ledges.",
+    "Door stays opaque and playback enters the industrial interior without a crash.",
+    "Robot and three destruction phases retain enhanced artwork."
+  ],
+  "review_method": "Complete native emulator playback, every-frame graphics audit, sampled visual screenshots; not individual visual inspection of all frames."
+}

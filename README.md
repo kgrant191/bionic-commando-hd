@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.12.4 — Area 3 unified snowy cliff**
+**v0.12.5 — Area 3 original-style alpine terrain**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,20 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.12.4.zip`.
+   `Bionic_Commando_HD_v0.12.5.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.12.5
+
+- Warm rocky walls, dark earth beneath platforms, and snowy green grass return to the original terrain arrangement.
+- White snow patches follow the native cliff markings; subdued gray rock identifies recessed backing.
+- Foreground ledge pieces match the snow, grass and soil during grappling.
+- The pendant, deep powder, opaque doorway, reused robot and corrected boss effects remain intact.
 
 ## New in v0.12.4
 
