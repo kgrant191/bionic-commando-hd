@@ -503,3 +503,36 @@ distant cell. Keep the previous 49 PNGs and every prior tile rule unchanged.
 `verify_v0121.py` checks source-equivalent boss rules, bounded lookups,
 structure, original RAM/PPU parity and the exact-ZIP replay. The clean
 default builder and incremental review build must produce the same 52 files.
+
+## v0.12.2 Area 3 wall, entrance and destruction corrections
+
+The outdoor backing patterns (material catalog indices 71 and above, palette
+1C201000) are non-grappleable decoration. Their former granite treatment made
+them look like collision terrain. Reuse the fine dark mesh from the approved
+industrial atlas while retaining each native contour. Keep the solid brown
+cliff, snowy ledges, deep snow and transparent tree-side fragment unchanged.
+
+The exterior entrance has a 4-by-4 tile footprint in palette 1C201707. Its
+middle fill is also used by ordinary cliff cells, so select each doorway row
+using its left jamb. Bounds apply to these local tileNearby lookups. Reuse the
+approved metal frame and opaque dark doorway interior. This exterior entrance
+is not the final boss-room door; its header does not receive the eagle plaque.
+
+Robot destruction is a distinct five-pattern family, separate from the reused
+body and exhaust rules. The recorded sequence contains compact ignition
+(9852–9858), an expanded blast (9859–9865), and detached fragments (9866–9867).
+Reuse the approved fire/smoke atlas with explicit mirror cases for the first
+two phases. The last pose has eight separated cells and no center cells: give
+each cell a complete soft-edged smoke puff. Cropping a full cloud across this
+layout produced visibly square holes during the first playback review.
+The final fragment rule needs no neighboring-sprite lookups or new additions.
+
+`build_v0122.py` adds 103 scoped tile rules and one atlas containing 35 cells.
+The preceding 50 PNGs and every earlier tile rule remain byte-identical.
+`verify_v0122.py` additionally checks actual selection of all 70 backing
+patterns, 16 door cells and all five destruction patterns, then retains the
+approved boss selection and three-frame screen-edge pixel check. It verifies
+the full exact-ZIP playback and original RAM/PPU parity. Count valid PNG
+captures separately from the empty frame-one callback before the first render.
+`package_v0122.py` creates the 53-file install ZIP only. Review details and
+measured results are in `validation/v0122-*`.

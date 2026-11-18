@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.12.1 — Area 3 pendant, snow and robot corrections**
+**v0.12.2 — Area 3 wall insets, entrance and boss explosion**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,20 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.12.1.zip`.
+   `Bionic_Commando_HD_v0.12.2.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.12.2
+
+- Dark recessed grilles distinguish non-grappleable wall insets from solid terrain.
+- The outdoor entrance has an opaque dark interior and a complete metal frame.
+- All three robot destruction phases use painted fire and smoke.
+- Full Area 3 playback, phase-specific artwork selection and preserved boss-edge checks.
 
 ## New in v0.12.1
 
@@ -319,10 +326,10 @@ NumPy, SciPy and the included xBRZ scaling library). The current builder
 reconstructs the preserved v0.10.6 baseline, applies the approved Area 2
 patches, then adds the Area 3 rules and generated artwork.
 
-`validation/v0121-verification.json` records the exact-ZIP Area 3 replay,
+`validation/v0122-verification.json` records the exact-ZIP Area 3 replay,
 every-frame mapping audit, original-game RAM/PPU parity and screen-bound
-checks. `validation/v0121-reproducibility.json` records the clean rebuild
-comparison. See `validation/v0121-review.md` for visual review scope.
+checks. `validation/v0122-reproducibility.json` records the clean rebuild
+comparison. See `validation/v0122-review.md` for visual review scope.
 
 The install ZIP contains only the pack and its install notes. ROMs, emulator
 binaries, gameplay recordings and developer files are not included.

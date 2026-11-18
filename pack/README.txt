@@ -1,7 +1,11 @@
-BIONIC COMMANDO HD — v0.12.1
+BIONIC COMMANDO HD — v0.12.2
 Area 3 review build
 
 NEW IN THIS BUILD
+Dark recessed grilles distinguish decorative wall insets from solid rock.
+The outdoor entrance has a metal frame and opaque dark interior.
+All three robot destruction phases use painted explosion and smoke art.
+
 Cross pendant inventory icon, softer sinking snow, removal of the stray
 mountain tile beside the tree, and the previously approved robot boss
 with its fixed nozzle and native-timed exhaust.
