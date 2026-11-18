@@ -1,0 +1,11902 @@
+[
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000000000000000FFFFFFFFFFFFFFFF",
+    "index": 0,
+    "first": [
+      600,
+      0,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 8287
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "index": 1,
+    "first": [
+      600,
+      0,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 539
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "FFFFFFFEFDFF8800FFFFFFFEFDFF8800",
+    "index": 2,
+    "first": [
+      600,
+      0,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 122
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "FFFFFF4FB4BF3E0DFFFFFF4FB4BF3E0D",
+    "index": 3,
+    "first": [
+      600,
+      8,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 122
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "00000000000000000000000000000000",
+    "index": 4,
+    "first": [
+      600,
+      136,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 70
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "FFFFFFFFFAE08000FFFFFFFFFAE08000",
+    "index": 5,
+    "first": [
+      600,
+      16,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "FFFFFFFFFF7F2F01FFFFFFFFFF7F2F01",
+    "index": 6,
+    "first": [
+      600,
+      24,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "000000000000D800FFFFFFFFFFFF27FF",
+    "index": 7,
+    "first": [
+      600,
+      48,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0060000000030F1BFF9FFFFFFFFCF0E4",
+    "index": 8,
+    "first": [
+      600,
+      48,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "77EEDCFB67D9FFDF8891E3E4F8FFFFFF",
+    "index": 9,
+    "first": [
+      600,
+      48,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "index": 10,
+    "first": [
+      600,
+      48,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "030F3C6A9FFCDFB9FCF0C39560032046",
+    "index": 11,
+    "first": [
+      600,
+      56,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "765E70A3DEFCF9FB89A18F5C2183C7F7",
+    "index": 12,
+    "first": [
+      600,
+      56,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000000001A3FF47FFFFFFFFFF5F04B8",
+    "index": 13,
+    "first": [
+      600,
+      0,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "1F3F7FFFFFFFFFFFF0E9F3C7CC103CE1",
+    "index": 14,
+    "first": [
+      600,
+      0,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "FFFFFFFFFFFFFFFF82066FDFFFFFFFFF",
+    "index": 15,
+    "first": [
+      600,
+      0,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000000001010307FFFFFFFFFEFFFEF8",
+    "index": 16,
+    "first": [
+      600,
+      8,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0F172D53B6CDBBF1F0E8D2AC4932440E",
+    "index": 17,
+    "first": [
+      600,
+      8,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "8337EFEFDF8F2B777CD810902073D488",
+    "index": 18,
+    "first": [
+      600,
+      8,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "E72E7CF0F3E7FFFF1BF5EBFFFFFFFFFF",
+    "index": 19,
+    "first": [
+      600,
+      8,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "FDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "index": 20,
+    "first": [
+      600,
+      8,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "000060F0F8FCFEF7FFFF9F0F1F2F371B",
+    "index": 21,
+    "first": [
+      600,
+      16,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "CBE5B38AC20080403F1F4F773FFF7FBF",
+    "index": 22,
+    "first": [
+      600,
+      16,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0080E02090402080FF7F1FDF6FBFDF7F",
+    "index": 23,
+    "first": [
+      600,
+      16,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "EB3469D0B3E7DEBD17EFFEFFFFFFFFFF",
+    "index": 24,
+    "first": [
+      600,
+      16,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "E7CEBFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "index": 25,
+    "first": [
+      600,
+      16,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "000000002EF80200FFFFFFFFD107FDFF",
+    "index": 26,
+    "first": [
+      600,
+      24,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0C9CAE732747391CFFEFDFFFFFFFFFFF",
+    "index": 27,
+    "first": [
+      600,
+      24,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0602301088462381FFFFFFFFFFFFFFFF",
+    "index": 28,
+    "first": [
+      600,
+      24,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "E4F219ECF67FCFB73F1FFFFFFFFFFFFF",
+    "index": 29,
+    "first": [
+      600,
+      24,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "index": 30,
+    "first": [
+      600,
+      24,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "000000008080C0E0FFFFFFFFFFFFFFFF",
+    "index": 31,
+    "first": [
+      600,
+      32,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "E030DC0EC72132A9FFFFFFFFFFFFFFFF",
+    "index": 32,
+    "first": [
+      600,
+      32,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "C793E9F7DFEEF7FBFFFFFFFFFFFFFFFF",
+    "index": 33,
+    "first": [
+      600,
+      32,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000000000000F7DFFFFFFFFFFFFF082",
+    "index": 34,
+    "first": [
+      600,
+      40,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000C0C0E0F0F0F8FFFFFFFFFFFFFFFF",
+    "index": 35,
+    "first": [
+      600,
+      40,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "BE7FFBB53EE7B9FFFFFFFFFFFFFFFFFF",
+    "index": 36,
+    "first": [
+      600,
+      40,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000000017057FFFFFFFFFFFE8FA8000",
+    "index": 37,
+    "first": [
+      600,
+      48,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "6F1300000000000090ECFFFFFFFFFFFF",
+    "index": 38,
+    "first": [
+      600,
+      48,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000000040AAFEFDFFFFFFFFBF550102",
+    "index": 39,
+    "first": [
+      600,
+      56,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "F04C0000000000000FB3FFFFFFFFFFFF",
+    "index": 40,
+    "first": [
+      600,
+      56,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "000000BB5800011DFFFFFF44A7FFFEE2",
+    "index": 41,
+    "first": [
+      600,
+      40,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0200000000000000FDFFFFFFFFFFFFFF",
+    "index": 42,
+    "first": [
+      600,
+      40,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "000000000000A840FFFFFFFFFFFF57BF",
+    "index": 43,
+    "first": [
+      630,
+      176,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "00C000002F020000FF3FFFFFD0FDFFFF",
+    "index": 44,
+    "first": [
+      630,
+      176,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "00C060389C767B3CFF7FFFFFFFFFFFFF",
+    "index": 45,
+    "first": [
+      630,
+      176,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "9F7FA7F379BFDFF7FFFFFFFFFFFFFFFF",
+    "index": 46,
+    "first": [
+      630,
+      176,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "00000098FBB00000FFFFFF67044FFFFF",
+    "index": 47,
+    "first": [
+      630,
+      184,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "00000000020BBF03FFFFFFFFFDF440FC",
+    "index": 48,
+    "first": [
+      630,
+      184,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "0000E000000003E6FFFF1FFFFFFFFCF9",
+    "index": 49,
+    "first": [
+      630,
+      184,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F302111",
+    "key": "78E3C58E3F6EDDFFF7FFFEFDFFFFFFFF",
+    "index": 50,
+    "first": [
+      630,
+      184,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "00000000000000000000000000000000",
+    "index": 0,
+    "first": [
+      600,
+      136,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 366
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "7F7F60607F40594EC0FF7F7FFFC0D9D9",
+    "index": 1,
+    "first": [
+      600,
+      80,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 72
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "48484E4E7F6666C05959D9D9FFF7E6C0",
+    "index": 2,
+    "first": [
+      600,
+      80,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 72
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "FEFE0202FE029AEE03FFFFFEFF039B9B",
+    "index": 3,
+    "first": [
+      600,
+      88,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 71
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "8A8AEEEEFE6666039B9A9B9BFF776703",
+    "index": 4,
+    "first": [
+      600,
+      88,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 71
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "0309414155AEF5A80309414155AFFFFF",
+    "index": 5,
+    "first": [
+      600,
+      0,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 70
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "55A8500000C0C000FFFFF8F9C0C0C000",
+    "index": 6,
+    "first": [
+      600,
+      0,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 70
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "00A00609E1FF5F0A00A00609E1FFFFCF",
+    "index": 7,
+    "first": [
+      600,
+      8,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 70
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "048A050200000000CFCF074700000000",
+    "index": 8,
+    "first": [
+      600,
+      8,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 70
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "344AC8084A1C1DEA344AC8084A1CFDFF",
+    "index": 9,
+    "first": [
+      600,
+      16,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 69
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "55AA55EAFFFFC000FFFFFFFFFFFFC000",
+    "index": 10,
+    "first": [
+      600,
+      16,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 69
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "0000344808AE57AA0000344808AE5FBF",
+    "index": 11,
+    "first": [
+      600,
+      24,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 69
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "55AA55AA75FF6300FFFFFFFFFFFF6300",
+    "index": 12,
+    "first": [
+      600,
+      24,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 69
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "344AC8084ABCDDAA344AC8084ABCFDFF",
+    "index": 13,
+    "first": [
+      600,
+      32,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "55AA55EAF8C0C000FFFFFFFFF8C1C000",
+    "index": 14,
+    "first": [
+      600,
+      32,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "00A00609E1FF5F2A00A00609E1FFFFFF",
+    "index": 15,
+    "first": [
+      600,
+      40,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "55AA552A07070000FFFFFF3F07470000",
+    "index": 16,
+    "first": [
+      600,
+      40,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "F9F9F9F9E9C9D9E9070F0D09CFCFDFEF",
+    "index": 17,
+    "first": [
+      600,
+      64,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "C9D9E9C9D9E9C9C8CDD9EFCFDFEFCDC8",
+    "index": 18,
+    "first": [
+      600,
+      64,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "FE7E02027E0262BE037F7F7E7F036363",
+    "index": 19,
+    "first": [
+      600,
+      72,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "2222BEBEFA9A9A0363626363FBDB9B03",
+    "index": 20,
+    "first": [
+      600,
+      72,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "7F7E40407E40467DC0FEFE7EFEC0C6C6",
+    "index": 21,
+    "first": [
+      630,
+      144,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "44447D7D5F5959C0C646C6C6DFDBD9C0",
+    "index": 22,
+    "first": [
+      630,
+      144,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "9F9F9F9F97939B97E0F0B090F3F3FBF7",
+    "index": 23,
+    "first": [
+      630,
+      152,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F212A1A",
+    "key": "939B97939B979313B39BF7F3FBF7B313",
+    "index": 24,
+    "first": [
+      630,
+      152,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "C4B9EA7FFEF9F4FAFBC7178101060B05",
+    "index": 0,
+    "first": [
+      600,
+      0,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 282
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "F5F9D6F9FAE162010B072B07071F9FFF",
+    "index": 1,
+    "first": [
+      600,
+      0,
+      200,
+      0,
+      0
+    ],
+    "occurrences": 282
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "83C5EDECEBD3E6C783C6EEEFECDCF9F8",
+    "index": 2,
+    "first": [
+      600,
+      8,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 280
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "CFCFEED7D8B9D6AEF0F0F1D8DFBFD7AE",
+    "index": 3,
+    "first": [
+      600,
+      8,
+      200,
+      0,
+      0
+    ],
+    "occurrences": 280
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "82C52EA5A25C39718346ED6773FFFEF6",
+    "index": 4,
+    "first": [
+      600,
+      16,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 280
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "7D76B165DC5C9F1E7EF7F3E3D3D38305",
+    "index": 5,
+    "first": [
+      600,
+      16,
+      200,
+      0,
+      0
+    ],
+    "occurrences": 280
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "F88DC7F71EBB1D2B187D3FFFFF7AFCFA",
+    "index": 6,
+    "first": [
+      600,
+      24,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 280
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "1D291DADD4B8D46AFEFAFEFCF5B8D4EA",
+    "index": 7,
+    "first": [
+      600,
+      24,
+      200,
+      0,
+      0
+    ],
+    "occurrences": 280
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "CFCF6F337033533FF0D0E0F4F3F0F4F8",
+    "index": 8,
+    "first": [
+      600,
+      0,
+      208,
+      0,
+      0
+    ],
+    "occurrences": 141
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "7F5BCB8F75660703F8FCFCFC77670703",
+    "index": 9,
+    "first": [
+      600,
+      0,
+      216,
+      0,
+      0
+    ],
+    "occurrences": 141
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "3498F8B91BCFE7F5F4793B7AF83C1C0E",
+    "index": 10,
+    "first": [
+      600,
+      8,
+      208,
+      0,
+      0
+    ],
+    "occurrences": 140
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "F1E5C48E5BB3E7C90E1E3F7FFBF3E7CF",
+    "index": 11,
+    "first": [
+      600,
+      8,
+      216,
+      0,
+      0
+    ],
+    "occurrences": 140
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "FFFFFAF3E1E3C3A60F03050F1F1F3F5E",
+    "index": 12,
+    "first": [
+      600,
+      16,
+      208,
+      0,
+      0
+    ],
+    "occurrences": 140
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "E1E1C2C5CA750B2D1F1F3F3F3F9F7F3F",
+    "index": 13,
+    "first": [
+      600,
+      16,
+      216,
+      0,
+      0
+    ],
+    "occurrences": 140
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "C796AFAF9F8FBEBCC799B0B0A0F0C1C3",
+    "index": 14,
+    "first": [
+      600,
+      24,
+      208,
+      0,
+      0
+    ],
+    "occurrences": 140
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "EAD4E880B5ABDFCF95ABD7BFBFBFDFCF",
+    "index": 15,
+    "first": [
+      600,
+      24,
+      216,
+      0,
+      0
+    ],
+    "occurrences": 140
+  },
+  {
+    "layer": 0,
+    "palette": "0F372717",
+    "key": "00000000000000000000000000000000",
+    "index": 16,
+    "first": [
+      600,
+      136,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0000000000000000FFFFFFFFFFFFFFFF",
+    "index": 0,
+    "first": [
+      600,
+      80,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 180
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0000FFFF000000000000FFFFFFFFFFFF",
+    "index": 1,
+    "first": [
+      600,
+      80,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 143
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "00000000000000000000000000000000",
+    "index": 2,
+    "first": [
+      600,
+      104,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 116
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "FF000000F3FFFF0000FFFFFF0CFFFF00",
+    "index": 3,
+    "first": [
+      600,
+      80,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 72
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "FF000000DFFFFF0000FFFFFF20FFFF00",
+    "index": 4,
+    "first": [
+      600,
+      88,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 71
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "3D3A3D3A19427D7A3F3F3F3F1B477F7F",
+    "index": 5,
+    "first": [
+      600,
+      64,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 54
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "353B353B373B370B3F3F3F3F3F3F370F",
+    "index": 6,
+    "first": [
+      600,
+      64,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "68D0A0B0A0B0A0A0F7EFDFCFDFCFDFDF",
+    "index": 7,
+    "first": [
+      600,
+      72,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "784E4141C16021038FB3BFBFBEDFDFFF",
+    "index": 8,
+    "first": [
+      600,
+      72,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "00000000F88F7F25FFFFFFFF0FFC86FA",
+    "index": 9,
+    "first": [
+      600,
+      80,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "1F00010000000000E2FFFFFFFFFFFFFF",
+    "index": 10,
+    "first": [
+      600,
+      80,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0203010100000000FFFEFEFFFFFFFFFF",
+    "index": 11,
+    "first": [
+      600,
+      96,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0100010000000000FFFFEFDFDFDFBF7F",
+    "index": 12,
+    "first": [
+      600,
+      96,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0",
+    "index": 13,
+    "first": [
+      600,
+      96,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D",
+    "index": 14,
+    "first": [
+      600,
+      120,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "FF000000A5FFFF0000FFFFFF5AFFFF00",
+    "index": 15,
+    "first": [
+      600,
+      72,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "000000001FF3BE1EFFFFFFFFE02F41FF",
+    "index": 16,
+    "first": [
+      600,
+      88,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "7878C00000000000C7FFFFFFFFFFFFFF",
+    "index": 17,
+    "first": [
+      600,
+      88,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "040C0C0000888000FFFBFBFFFFFFFFFF",
+    "index": 18,
+    "first": [
+      600,
+      104,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0080004038003BFBFF7FFF7FBFC3DA7B",
+    "index": 19,
+    "first": [
+      600,
+      104,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 35
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "BC5CBC5C9842BE5EFCFCFCFCD8E2FEFE",
+    "index": 20,
+    "first": [
+      630,
+      152,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 34
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "AFD7A7D6A7FFFF00D0FBFAFBF8FFFF00",
+    "index": 21,
+    "first": [
+      600,
+      64,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0000070E1D3A3D3A0000070F1F3F3F3F",
+    "index": 22,
+    "first": [
+      600,
+      64,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "7D7B7D7B3D1B3D7A7F7F7F7F3F1F3F7F",
+    "index": 23,
+    "first": [
+      600,
+      64,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0000FFBF4120A1830000FFFFBEDFDFBF",
+    "index": 24,
+    "first": [
+      600,
+      72,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "A8D0A0B0A0B0A0A0B7EFDFCFDFCFDFDF",
+    "index": 25,
+    "first": [
+      600,
+      72,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "404040404020A0C1BFBFBFBFBFDFDFFE",
+    "index": 26,
+    "first": [
+      600,
+      72,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "FC06F00400000000FFFF0FFBFFFFFFFF",
+    "index": 27,
+    "first": [
+      600,
+      80,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "000F384690204000FFFFFFF9EFDFBFFF",
+    "index": 28,
+    "first": [
+      600,
+      80,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "FE81818181818181807F437F437F7F7F",
+    "index": 29,
+    "first": [
+      600,
+      96,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "00E0E0B0D0D0D0D000E0E0F0B0B0B0B0",
+    "index": 30,
+    "first": [
+      600,
+      96,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "00F7F7FF7F77B7C000E7C7838347A7C0",
+    "index": 31,
+    "first": [
+      600,
+      104,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "00EFEFFFFEEEED0300E7E3C1C1E2E503",
+    "index": 32,
+    "first": [
+      600,
+      112,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "7F8181818181818101FEC2FEC2FEFEFE",
+    "index": 33,
+    "first": [
+      600,
+      120,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0007070D0B0B0B0B0007070F0D0D0D0D",
+    "index": 34,
+    "first": [
+      600,
+      120,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0F0FD8D0800C3F7F71BF58D0820C3F7F",
+    "index": 35,
+    "first": [
+      600,
+      128,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "00FF00FFFF7C7CFFFFFF00FFFF7E7CFF",
+    "index": 36,
+    "first": [
+      600,
+      128,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "E3001CFEF9F9FFFFE3001CFEFDF9FFFF",
+    "index": 37,
+    "first": [
+      630,
+      136,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "00FF00FFFFF9F9FFFFFF00FFFFFDF9FF",
+    "index": 38,
+    "first": [
+      630,
+      136,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0000FFFD820485C10000FFFF7DFBFBFD",
+    "index": 39,
+    "first": [
+      630,
+      144,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "160B050D050D0505EFF7FBF3FBF3FBFB",
+    "index": 40,
+    "first": [
+      630,
+      144,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "1E728282830684C0F1CDFDFD7DFBFBFF",
+    "index": 41,
+    "first": [
+      630,
+      144,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "150B050D050D0505EDF7FBF3FBF3FBFB",
+    "index": 42,
+    "first": [
+      630,
+      144,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0202020202040583FDFDFDFDFDFBFB7F",
+    "index": 43,
+    "first": [
+      630,
+      144,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "81F9750D89899181FDF77B0B8F878F9F",
+    "index": 44,
+    "first": [
+      630,
+      144,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "8181C1C1C18001019F8FC7C7C19C1F3F",
+    "index": 45,
+    "first": [
+      630,
+      144,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "F5EBE56BE5FFFF000BDF5FDF1FFFFF00",
+    "index": 46,
+    "first": [
+      630,
+      152,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "0000E070B85CBC5C0000E0F0F8FCFCFC",
+    "index": 47,
+    "first": [
+      630,
+      152,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "ACDCACDCECDCECD0FCFCFCFCFCFCECF0",
+    "index": 48,
+    "first": [
+      630,
+      152,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "BEDEBEDEBCD8BC5EFEFEFEFEFCF8FCFE",
+    "index": 49,
+    "first": [
+      630,
+      152,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "AC5CBC50845EAE5EFCFCFCF0C4FEFEFE",
+    "index": 50,
+    "first": [
+      630,
+      152,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F201017",
+    "key": "AEDCA0D8ECDCFCD4FEDCB0F8FCFCFCFC",
+    "index": 51,
+    "first": [
+      630,
+      152,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "7EC381818181C37E003C7E7E7E7E3C00",
+    "index": 0,
+    "first": [
+      630,
+      32,
+      17,
+      0,
+      0
+    ],
+    "occurrences": 776
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "383C3C36363E3C1808141412121A2418",
+    "index": 1,
+    "first": [
+      630,
+      120,
+      37,
+      1,
+      0
+    ],
+    "occurrences": 167
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "E77F3F1F8F0F0CF82191C9E9F5F7F4F8",
+    "index": 2,
+    "first": [
+      630,
+      120,
+      30,
+      1,
+      0
+    ],
+    "occurrences": 147
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FFFF0FFF0F0701000606FFF109070100",
+    "index": 3,
+    "first": [
+      630,
+      136,
+      30,
+      1,
+      0
+    ],
+    "occurrences": 146
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FFFCFCF80801C3377E070FFFFFFFFF3F",
+    "index": 4,
+    "first": [
+      630,
+      128,
+      30,
+      1,
+      0
+    ],
+    "occurrences": 145
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "CC4C7A02827C0810FCFCFEFEFEFCF8F0",
+    "index": 5,
+    "first": [
+      630,
+      120,
+      38,
+      1,
+      0
+    ],
+    "occurrences": 113
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0300000C0703020403070F0F1F3F7E7C",
+    "index": 6,
+    "first": [
+      630,
+      128,
+      38,
+      1,
+      0
+    ],
+    "occurrences": 113
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "14044E3F0F0F1F3EFCFC7E3F0F0F173E",
+    "index": 7,
+    "first": [
+      630,
+      120,
+      46,
+      1,
+      0
+    ],
+    "occurrences": 110
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "08443C3E1E1E7EFE787C3C3E1E1E5EFE",
+    "index": 8,
+    "first": [
+      630,
+      128,
+      46,
+      1,
+      0
+    ],
+    "occurrences": 110
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "003F7F7F787704FF3F408080878FFFFC",
+    "index": 9,
+    "first": [
+      7410,
+      19,
+      20,
+      0,
+      0
+    ],
+    "occurrences": 48
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000707838080000000010483878",
+    "index": 10,
+    "first": [
+      1830,
+      149,
+      122,
+      1,
+      0
+    ],
+    "occurrences": 29
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "08081010080808087878707078787878",
+    "index": 11,
+    "first": [
+      1830,
+      149,
+      130,
+      1,
+      0
+    ],
+    "occurrences": 29
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FFFF0CFF000000000D0CFFFF00000000",
+    "index": 12,
+    "first": [
+      1830,
+      165,
+      138,
+      1,
+      0
+    ],
+    "occurrences": 29
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "6482FEFAFAFAFEFA5CFEFE868686FE86",
+    "index": 13,
+    "first": [
+      840,
+      154,
+      161,
+      1,
+      0
+    ],
+    "occurrences": 27
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000000001030000000000000103",
+    "index": 14,
+    "first": [
+      720,
+      95,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0E0203001C0300000F0F1F1F1F0F0F0F",
+    "index": 15,
+    "first": [
+      750,
+      69,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "01010B07010103070F0F0F0701010207",
+    "index": 16,
+    "first": [
+      750,
+      69,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "6060D01010E04080E0E0F0F0F0E0C080",
+    "index": 17,
+    "first": [
+      750,
+      77,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0000C0E0F0F0F0E00000C0E0F0F0F0E0",
+    "index": 18,
+    "first": [
+      750,
+      77,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0F3F7FFFFFFF4444082A52A2A424FFFF",
+    "index": 19,
+    "first": [
+      7410,
+      19,
+      4,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FFFFEE7E3F1F0F0744FFAA5A2D150A06",
+    "index": 20,
+    "first": [
+      7410,
+      19,
+      12,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0F0F0101381E0D0A0F0F1F3F3F7FFFFB",
+    "index": 21,
+    "first": [
+      720,
+      103,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "318870787878F8F8F1F87078787878F8",
+    "index": 22,
+    "first": [
+      720,
+      103,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "E02020F0101FFF3FE0E0E0F0F0FFFFFF",
+    "index": 23,
+    "first": [
+      720,
+      111,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "7FF3010000000000FFF2010000000000",
+    "index": 24,
+    "first": [
+      720,
+      111,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000000080800000000000008080",
+    "index": 25,
+    "first": [
+      720,
+      119,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "80808080000000008080808000000000",
+    "index": 26,
+    "first": [
+      720,
+      119,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "8707070F0F0B08F87DFDFDF9FDFBF8F8",
+    "index": 27,
+    "first": [
+      1830,
+      149,
+      138,
+      1,
+      0
+    ],
+    "occurrences": 22
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FFFD05FD3E1E0E037B06FEFE25150D03",
+    "index": 28,
+    "first": [
+      1830,
+      157,
+      138,
+      1,
+      0
+    ],
+    "occurrences": 22
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "DFFF3F1FDF1B18F8C131D1E9EDEBE8F8",
+    "index": 29,
+    "first": [
+      690,
+      120,
+      97,
+      1,
+      0
+    ],
+    "occurrences": 20
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "E1F31CF80081C63BE113FFFFFFFFFF7F",
+    "index": 30,
+    "first": [
+      690,
+      128,
+      97,
+      1,
+      0
+    ],
+    "occurrences": 20
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FFFF0CFF000000000C0CFFFF00000000",
+    "index": 31,
+    "first": [
+      690,
+      136,
+      97,
+      1,
+      0
+    ],
+    "occurrences": 20
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "1C3F7FFFFEF060C01C3F7FFDFEF0E0C0",
+    "index": 32,
+    "first": [
+      1740,
+      137,
+      127,
+      1,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "800078FEFF7F07038000F8FEFF7B0703",
+    "index": 33,
+    "first": [
+      1740,
+      137,
+      135,
+      1,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "80C05C6665FCC0E080C0DCFEFFFFFFFF",
+    "index": 34,
+    "first": [
+      1740,
+      145,
+      127,
+      1,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "7F21100C030000007F3F1F0F03000000",
+    "index": 35,
+    "first": [
+      1740,
+      145,
+      135,
+      1,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0000008040201F0100000080C0E0F9FE",
+    "index": 36,
+    "first": [
+      1740,
+      153,
+      119,
+      1,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "8040605020100F01FF7F7F7F3F1F0F01",
+    "index": 37,
+    "first": [
+      1740,
+      153,
+      127,
+      1,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "7C7E3F2C140C02010C5A31331F0F0301",
+    "index": 38,
+    "first": [
+      1740,
+      161,
+      119,
+      1,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "000000E0F0F8FC3C000000E0F0F8EC3C",
+    "index": 39,
+    "first": [
+      690,
+      112,
+      105,
+      1,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "E6253D817F834327FEFFFFFFFFFF7F3F",
+    "index": 40,
+    "first": [
+      690,
+      120,
+      105,
+      1,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "04120F793C3E7EFEFFFF7F793C3E5EFE",
+    "index": 41,
+    "first": [
+      690,
+      128,
+      105,
+      1,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "4C7C02C27E080808FCFCFEFEFEF8F8F8",
+    "index": 42,
+    "first": [
+      1830,
+      149,
+      146,
+      1,
+      0
+    ],
+    "occurrences": 12
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "848C5E3F0F070706FCFC7E3F0F050706",
+    "index": 43,
+    "first": [
+      1830,
+      149,
+      154,
+      1,
+      0
+    ],
+    "occurrences": 12
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000E030203030E03070F0F1F1F3F3E",
+    "index": 44,
+    "first": [
+      1830,
+      157,
+      146,
+      1,
+      0
+    ],
+    "occurrences": 12
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "02241C3C3C3C78F83E3C1C3C3C3C58F8",
+    "index": 45,
+    "first": [
+      1830,
+      157,
+      154,
+      1,
+      0
+    ],
+    "occurrences": 12
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00010000000003070101000000000207",
+    "index": 46,
+    "first": [
+      810,
+      51,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "1F1C04077008070E1F1F3F7F7F7FFFFF",
+    "index": 47,
+    "first": [
+      810,
+      59,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "3211E0F0F0F0F0F0F3F1E0F0F0F0F0F0",
+    "index": 48,
+    "first": [
+      810,
+      59,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "C0C0A0A0202EFF7FC0C0E0E0E0EEFFFF",
+    "index": 49,
+    "first": [
+      810,
+      67,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "3FC7030100000000FFC5030100000000",
+    "index": 50,
+    "first": [
+      810,
+      67,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "03050505060606030306060605050503",
+    "index": 51,
+    "first": [
+      2070,
+      67,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 7
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "84040408080808F87CFCFCF8F8F8F8F8",
+    "index": 52,
+    "first": [
+      2070,
+      75,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 7
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "000132409008110A00000D3F7FFFFFFF",
+    "index": 53,
+    "first": [
+      630,
+      112,
+      6,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "D5AA7C0E07030100FFFE740A05020100",
+    "index": 54,
+    "first": [
+      630,
+      112,
+      14,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "07E00020402855AE001FFFFFFFFFFFFE",
+    "index": 55,
+    "first": [
+      630,
+      120,
+      6,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "F0E0707038B8DCFCF0A0505028A854B4",
+    "index": 56,
+    "first": [
+      630,
+      120,
+      14,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0000020E16183800000121110907077F",
+    "index": 57,
+    "first": [
+      840,
+      199,
+      163,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0003070FDFFEFC780003070FDFBEFC78",
+    "index": 58,
+    "first": [
+      2190,
+      104,
+      122,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "300001071F3F3E38300001071F3F3638",
+    "index": 59,
+    "first": [
+      2190,
+      104,
+      130,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000020C3C38000000000307272F",
+    "index": 60,
+    "first": [
+      2190,
+      112,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "18080C8C86C323211F8FEFFFFFFF3F3F",
+    "index": 61,
+    "first": [
+      2190,
+      112,
+      122,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "61428498F0C000007F7EFCF8F0C00000",
+    "index": 62,
+    "first": [
+      2190,
+      112,
+      130,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000100028488700000010183878FFF",
+    "index": 63,
+    "first": [
+      2190,
+      120,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "E102020C106080001FFEFEFCF0E08000",
+    "index": 64,
+    "first": [
+      2190,
+      120,
+      122,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "7FFE742418204080518ACCFCF8E0C080",
+    "index": 65,
+    "first": [
+      2190,
+      128,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "1E1F0604020100000211070703010000",
+    "index": 66,
+    "first": [
+      3180,
+      92,
+      62,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00802010180482410080E0F0F8FCFE7F",
+    "index": 67,
+    "first": [
+      3180,
+      100,
+      62,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "E1F80CF8783C1A01FE1FFFFF4F271B01",
+    "index": 68,
+    "first": [
+      3180,
+      100,
+      70,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "CF7F3F1F1F0C0CFC41A1D1E9EFF4F4FC",
+    "index": 69,
+    "first": [
+      3180,
+      108,
+      70,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000000070F90000000000003049",
+    "index": 70,
+    "first": [
+      2130,
+      96,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "7CA8C861120C00009FFFFF7F1E0C0000",
+    "index": 71,
+    "first": [
+      2130,
+      96,
+      126,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0019A6C1CFF8C081001FBFFFF087BF7F",
+    "index": 72,
+    "first": [
+      2130,
+      104,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0103FB0602020301FFFFFF0703030301",
+    "index": 73,
+    "first": [
+      2130,
+      104,
+      126,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "000000804CC6868600000080DFFFFFFF",
+    "index": 74,
+    "first": [
+      2130,
+      112,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0404080810709038FCFCF8F8F0F0F0F8",
+    "index": 75,
+    "first": [
+      2130,
+      112,
+      126,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "048C5E3F0F070703FCFC7E3F0F070703",
+    "index": 76,
+    "first": [
+      2130,
+      112,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000ECFCFCFC00000000ECFCFCFC",
+    "index": 77,
+    "first": [
+      2130,
+      120,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "3E7EFC5A24382040325A8CE6FCF8E0C0",
+    "index": 78,
+    "first": [
+      2370,
+      125,
+      126,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000000000000000000000000000",
+    "index": 79,
+    "first": [
+      2370,
+      125,
+      134,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000001020408700000000103070F7F",
+    "index": 80,
+    "first": [
+      2370,
+      133,
+      126,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "90010183C74EFCB0FFFEFEFEFDF2CCB0",
+    "index": 81,
+    "first": [
+      2370,
+      133,
+      134,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "900983C5482D371AF0F9FFFF7F3F3F3F",
+    "index": 82,
+    "first": [
+      2370,
+      141,
+      134,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "1F0E0408B0FC3E1F7F7EFCF8F0FC3E1F",
+    "index": 83,
+    "first": [
+      2370,
+      141,
+      142,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0F0F0F06000000000F0B0F0600000000",
+    "index": 84,
+    "first": [
+      2370,
+      141,
+      150,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "01C3EFFFFF7C700001C3AFFFFF7C7000",
+    "index": 85,
+    "first": [
+      2370,
+      149,
+      134,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "7E7C7C7C7C7C7C787E44444444444478",
+    "index": 86,
+    "first": [
+      630,
+      120,
+      22,
+      1,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0000000703010102000103070F1F3F3E",
+    "index": 87,
+    "first": [
+      3060,
+      104,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0C44387878F8F8F07C7C387878F878F0",
+    "index": 88,
+    "first": [
+      3060,
+      104,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FEFC09FB7A3C1C07F907FEFC4D2B1B07",
+    "index": 89,
+    "first": [
+      3060,
+      107,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "F2121E01C13E84C4FEFEFEFFFFFEFCFC",
+    "index": 90,
+    "first": [
+      3060,
+      112,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "4442261F0F0F1F1F7C7E3E1F0F0F171F",
+    "index": 91,
+    "first": [
+      3060,
+      112,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FCE28001190C12E1EC1E7EFFFFFFF3E1",
+    "index": 92,
+    "first": [
+      3060,
+      114,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "1F2F4F86081020C0113179FEF8F0E0C0",
+    "index": 93,
+    "first": [
+      3060,
+      123,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "EF3F1F1F0F07867F21D1E9E5F5FBFAFF",
+    "index": 94,
+    "first": [
+      990,
+      79,
+      177,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "C00000FF0C030102FFFFFFFF0F03031F",
+    "index": 95,
+    "first": [
+      990,
+      87,
+      177,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "20E0F0CF800000003F3F3F4F80000000",
+    "index": 96,
+    "first": [
+      990,
+      95,
+      177,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "060F0F000000000001010F0000000000",
+    "index": 97,
+    "first": [
+      7140,
+      95,
+      108,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0123371F1F0E0C00012337171F0E0C00",
+    "index": 98,
+    "first": [
+      7140,
+      95,
+      116,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "180000C73A000108FFFFFFFF3B0077FF",
+    "index": 99,
+    "first": [
+      7140,
+      103,
+      108,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "08ACBFCB03010003FFFFFECE0E1F1F1F",
+    "index": 100,
+    "first": [
+      7140,
+      103,
+      116,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "110E0E0E3E7E06001F0E0E0E2E7E0600",
+    "index": 101,
+    "first": [
+      7140,
+      103,
+      124,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "1C0E0787038383FEE4FAFDFDFEFEFDFE",
+    "index": 102,
+    "first": [
+      7140,
+      111,
+      108,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "3CFEDA9AB2FCC000C436EEEEDE3CC000",
+    "index": 103,
+    "first": [
+      7140,
+      111,
+      116,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "00000000E0F0F8B800000000E0F0D8B8",
+    "index": 104,
+    "first": [
+      7320,
+      128,
+      155,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FF1F0F87427121C271F9FDFFFEFFFFFE",
+    "index": 105,
+    "first": [
+      7320,
+      136,
+      147,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "86CAF2FCE3434327FEFE3E1CBF7F7F3F",
+    "index": 106,
+    "first": [
+      7320,
+      136,
+      155,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "FFF61CFC381C1209FE19F3F32F1F7FFF",
+    "index": 107,
+    "first": [
+      7320,
+      144,
+      147,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "04368F793C3E7EFEFFFFFF793C3E5EFE",
+    "index": 108,
+    "first": [
+      7320,
+      144,
+      155,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0030F0F0F0F060000030D0F0F0F06000",
+    "index": 109,
+    "first": [
+      8760,
+      64,
+      175,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "080E1F7FC781808078FEFFFFC7818080",
+    "index": 110,
+    "first": [
+      8760,
+      72,
+      175,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "80E0F8FEFF3F070380E0F8FEFF3F0703",
+    "index": 111,
+    "first": [
+      8760,
+      72,
+      183,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "000000A01008E83C000000E0F0F818C4",
+    "index": 112,
+    "first": [
+      8760,
+      80,
+      167,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0E1C383361E02010FEFFFFFFFFFF3F1F",
+    "index": 113,
+    "first": [
+      8760,
+      80,
+      175,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "160C0402010000001F0F070301000000",
+    "index": 114,
+    "first": [
+      8760,
+      80,
+      183,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "0000804021120F80000080C0E1F3FCFF",
+    "index": 115,
+    "first": [
+      8760,
+      88,
+      167,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "40201804030000007F3F1F0703000000",
+    "index": 116,
+    "first": [
+      8760,
+      88,
+      175,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202A0F",
+    "key": "3C1F0E150A0601000405091B0F070100",
+    "index": 117,
+    "first": [
+      8760,
+      96,
+      167,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "000102F17A797A7E52FFFE8F7E67064E",
+    "index": 0,
+    "first": [
+      630,
+      126,
+      22,
+      1,
+      0
+    ],
+    "occurrences": 226
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "1C181C181C181C181C041C041C041C04",
+    "index": 1,
+    "first": [
+      1920,
+      98,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 45
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "080C0645E3773A0D00080407C3653F0F",
+    "index": 2,
+    "first": [
+      1740,
+      187,
+      92,
+      1,
+      0
+    ],
+    "occurrences": 31
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "636361551C340018212123733E2C1818",
+    "index": 3,
+    "first": [
+      1830,
+      150,
+      125,
+      0,
+      0
+    ],
+    "occurrences": 27
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0080E0F8BE2F0B0200004090E4390E03",
+    "index": 4,
+    "first": [
+      1890,
+      103,
+      93,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0000020E16183800000121110907077F",
+    "index": 5,
+    "first": [
+      2820,
+      222,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "C0E0F0383C0E0F030060C05830160C05",
+    "index": 6,
+    "first": [
+      1740,
+      163,
+      116,
+      1,
+      0
+    ],
+    "occurrences": 12
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "60F03078183C0C1EA0C0506028301418",
+    "index": 7,
+    "first": [
+      2070,
+      77,
+      122,
+      1,
+      0
+    ],
+    "occurrences": 12
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "000000FFFF5500000000005555FF0000",
+    "index": 8,
+    "first": [
+      990,
+      93,
+      176,
+      1,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0802307878787000383E6E7438180000",
+    "index": 9,
+    "first": [
+      2190,
+      120,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0C131020202009060C1F1F3F3F3F0F06",
+    "index": 10,
+    "first": [
+      2130,
+      96,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "00F0E41D091CC0F00010FC1B0F0C38F0",
+    "index": 11,
+    "first": [
+      990,
+      125,
+      176,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "00002010708888900000E0F0F0F8F8F0",
+    "index": 12,
+    "first": [
+      5220,
+      145,
+      121,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "30C806C676FAFAFAF0F8FFFF8F8B0B1B",
+    "index": 13,
+    "first": [
+      5220,
+      145,
+      129,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "F202FCF2FEAAAAAA0EFEFC0EFEFEFEFE",
+    "index": 14,
+    "first": [
+      5220,
+      145,
+      137,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "AA540004FF877C00FE54007C85FD7C00",
+    "index": 15,
+    "first": [
+      5220,
+      145,
+      145,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "00000000000F07070000070F0F0F0600",
+    "index": 16,
+    "first": [
+      5220,
+      153,
+      121,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "070300782C7F3F3F0503077F2F111818",
+    "index": 17,
+    "first": [
+      5220,
+      153,
+      129,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "FF00FFFF3BFAF53500FFFF00C7C70ECE",
+    "index": 18,
+    "first": [
+      5220,
+      153,
+      137,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "EBEFD113E38384FCDC1F37F5E483FCFC",
+    "index": 19,
+    "first": [
+      5220,
+      153,
+      145,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "3F7FFFFFF3FF7F3F027F635D5DE33F04",
+    "index": 20,
+    "first": [
+      5220,
+      153,
+      153,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "4748AFAFDE5F9FFEC0C76F6033B3F0F3",
+    "index": 21,
+    "first": [
+      5220,
+      161,
+      137,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "FFFFFF00FFE8E8FF030000FFFF1717FF",
+    "index": 22,
+    "first": [
+      5220,
+      161,
+      145,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "FFFFDFEFFFFFFFFF10FFE0F0FFDFFF21",
+    "index": 23,
+    "first": [
+      5220,
+      161,
+      153,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0000F8BCE2DD3FEB0000C8C41E3FE3DD",
+    "index": 24,
+    "first": [
+      5220,
+      169,
+      129,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "7F6B3F1F1F18171F5D5D221C00070F1F",
+    "index": 25,
+    "first": [
+      5220,
+      169,
+      137,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "DFDFDF00FF007FFF202020FFFF0001FF",
+    "index": 26,
+    "first": [
+      5220,
+      169,
+      145,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "FFFFBD7EFFFFFFFF84FF7EFFFFBDFF08",
+    "index": 27,
+    "first": [
+      5220,
+      169,
+      153,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0000FFFDFF1FF0FF00000606F0F01FFF",
+    "index": 28,
+    "first": [
+      5220,
+      177,
+      129,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "FFFFFBF7FFFFFFFF21FF070FFFFBFF42",
+    "index": 29,
+    "first": [
+      5220,
+      177,
+      153,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0030FFFFFFFE921F0010D8D0D3D3BF3F",
+    "index": 30,
+    "first": [
+      5220,
+      185,
+      129,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "FCFEFFFFCFFFFEFC08FCC6BABBC6FC10",
+    "index": 31,
+    "first": [
+      5220,
+      185,
+      153,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "3A3EFF808080807F063E007F7F7F7F7F",
+    "index": 32,
+    "first": [
+      5220,
+      193,
+      129,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "1C74F4DBC3E73A7C1C2C2C594121467C",
+    "index": 33,
+    "first": [
+      5220,
+      193,
+      137,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0000000F07070702070F0F0F06000503",
+    "index": 34,
+    "first": [
+      6660,
+      163,
+      133,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "0E1F1F1F0F8DDEFF070100100E8FDFFF",
+    "index": 35,
+    "first": [
+      6660,
+      163,
+      141,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "7C783830000000005C78383000000000",
+    "index": 36,
+    "first": [
+      6660,
+      163,
+      149,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "4020F09090B8E442C0E0F0F0F0F8FCFE",
+    "index": 37,
+    "first": [
+      6660,
+      171,
+      133,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "E2F3FDF9FECE0101DE8F0F1F3EFEFFFF",
+    "index": 38,
+    "first": [
+      6660,
+      171,
+      141,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "81623C1E1E7EFF3EFF7E3C1E1E6EFF3E",
+    "index": 39,
+    "first": [
+      6660,
+      171,
+      149,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36060F",
+    "key": "2844020102040000387C7E3F3C080000",
+    "index": 40,
+    "first": [
+      8760,
+      88,
+      167,
+      1,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "000201077C3C3C3F003E7F7F7F07372F",
+    "index": 0,
+    "first": [
+      630,
+      147,
+      161,
+      0,
+      0
+    ],
+    "occurrences": 7
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "13060606033F07131F3F3F3F3F3C1C1E",
+    "index": 1,
+    "first": [
+      630,
+      147,
+      169,
+      0,
+      0
+    ],
+    "occurrences": 7
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "00001EBFBFC1C1E300001EAFBFFFFFFF",
+    "index": 2,
+    "first": [
+      630,
+      155,
+      161,
+      0,
+      0
+    ],
+    "occurrences": 7
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "7F313179FDFDFFFCFFFFDF8F87E7070C",
+    "index": 3,
+    "first": [
+      630,
+      155,
+      169,
+      0,
+      0
+    ],
+    "occurrences": 7
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "7F44FFFFFDFC7E7E24FF44EEB5B45A5A",
+    "index": 4,
+    "first": [
+      690,
+      120,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "00000000000104080000110000421B07",
+    "index": 5,
+    "first": [
+      780,
+      118,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "091002041412090006CF3D3B0B0D4603",
+    "index": 6,
+    "first": [
+      780,
+      118,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "000E102025351CF1000008101002030E",
+    "index": 7,
+    "first": [
+      780,
+      118,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "0000001520021FD820000888DFFDE027",
+    "index": 8,
+    "first": [
+      780,
+      126,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "2144484044320DD5DEBBB7BFBBCDF22A",
+    "index": 9,
+    "first": [
+      780,
+      126,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "7B15048E7A3225DB040A0B4185CDDA24",
+    "index": 10,
+    "first": [
+      780,
+      126,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "00000000000001030000000000000103",
+    "index": 11,
+    "first": [
+      630,
+      139,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "0F0F0101381E0D0A0F0F1F3F3F7FFFFB",
+    "index": 12,
+    "first": [
+      630,
+      147,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "318870787878F8F8F1F87078787878F8",
+    "index": 13,
+    "first": [
+      630,
+      147,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "E02020F0101FFF3FE0E0E0F0F0FFFFFF",
+    "index": 14,
+    "first": [
+      630,
+      155,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "7FF3010000000000FFF2010000000000",
+    "index": 15,
+    "first": [
+      630,
+      155,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "00000000000080800000000000008080",
+    "index": 16,
+    "first": [
+      630,
+      163,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "80808080000000008080808000000000",
+    "index": 17,
+    "first": [
+      630,
+      163,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "00000000031F3F7F0000000002091224",
+    "index": 18,
+    "first": [
+      720,
+      120,
+      24,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "0000020E16183800000121110907077F",
+    "index": 19,
+    "first": [
+      810,
+      109,
+      163,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "FCFCF8F8F0E0E0E0D4B4A8A8F0202020",
+    "index": 20,
+    "first": [
+      690,
+      120,
+      10,
+      1,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "00010000000003070101000000000207",
+    "index": 21,
+    "first": [
+      660,
+      169,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "1F1C04077008070E1F1F3F7F7F7FFFFF",
+    "index": 22,
+    "first": [
+      660,
+      177,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "3211E0F0F0F0F0F0F3F1E0F0F0F0F0F0",
+    "index": 23,
+    "first": [
+      660,
+      177,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "C0C0A0A0202EFF7FC0C0E0E0E0EEFFFF",
+    "index": 24,
+    "first": [
+      660,
+      185,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "3FC7030100000000FFC5030100000000",
+    "index": 25,
+    "first": [
+      660,
+      185,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "0F010100380F040C0F0F1F3F3F7FFFFF",
+    "index": 26,
+    "first": [
+      810,
+      128,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "128A71787878F8F8F3FB7178787878F8",
+    "index": 27,
+    "first": [
+      810,
+      128,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "3030E80808F02020F0F0F8F8F8F0E0E0",
+    "index": 28,
+    "first": [
+      810,
+      136,
+      177,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF30160F",
+    "key": "601018FC7E1E1E3CE0F0F8FC7E1E0E3C",
+    "index": 29,
+    "first": [
+      810,
+      136,
+      185,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00000000000F07070000070F0F0F0600",
+    "index": 0,
+    "first": [
+      2250,
+      226,
+      45,
+      0,
+      0
+    ],
+    "occurrences": 37
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "070300782C7F3F3F0503077F2F111818",
+    "index": 1,
+    "first": [
+      2250,
+      226,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 37
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00002010708888900000E0F0F0F8F8F0",
+    "index": 2,
+    "first": [
+      2250,
+      234,
+      45,
+      0,
+      0
+    ],
+    "occurrences": 37
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "30C806C676FAFAFAF0F8FFFF8F8B0B1B",
+    "index": 3,
+    "first": [
+      2250,
+      234,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 36
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0000020E16183800000121110907077F",
+    "index": 4,
+    "first": [
+      2550,
+      151,
+      145,
+      0,
+      0
+    ],
+    "occurrences": 28
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "E06061DF010100007FFFFFDE01010000",
+    "index": 5,
+    "first": [
+      2880,
+      199,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0000001F0F0F0E070F1F1F1F0D010B07",
+    "index": 6,
+    "first": [
+      2880,
+      207,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0000C3FFEFEFEF04FFFFFF3C2E2EEF0F",
+    "index": 7,
+    "first": [
+      2880,
+      207,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "04040C0701010F1F0F0F0F0701010E1F",
+    "index": 8,
+    "first": [
+      2880,
+      207,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "4020E01010304884C0E0E0F0F0F0F8FC",
+    "index": 9,
+    "first": [
+      2880,
+      215,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "98FCFCFCFCFCF804E8C4C464040CF8FC",
+    "index": 10,
+    "first": [
+      2880,
+      215,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "040202F2EAE4F0F0FCFEFEFEEEE4F0F0",
+    "index": 11,
+    "first": [
+      2880,
+      215,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00000000000000000000000000000000",
+    "index": 12,
+    "first": [
+      690,
+      120,
+      10,
+      1,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "40202071F9FFFFF3C0E0E09F1F8F0F13",
+    "index": 13,
+    "first": [
+      690,
+      120,
+      18,
+      1,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00020101717F3E3F003E7F7F7F3F0A1F",
+    "index": 14,
+    "first": [
+      690,
+      128,
+      10,
+      1,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "3C18FE8387FFDFFF77FFFFFFFF7178F8",
+    "index": 15,
+    "first": [
+      690,
+      128,
+      18,
+      1,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0020FF0107FF070300E0FFFFFDFC0403",
+    "index": 16,
+    "first": [
+      690,
+      136,
+      18,
+      1,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "3C7EFFFFFFFF7E3C3C7EDFFFFFFF7E3C",
+    "index": 17,
+    "first": [
+      720,
+      177,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "20FF0107FF070300E0FFFFFDFC040300",
+    "index": 18,
+    "first": [
+      840,
+      73,
+      89,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "020101717F3E3F3C3E7F7F7F3F0A1F77",
+    "index": 19,
+    "first": [
+      840,
+      81,
+      81,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "18FE8387FFDFFF6FFFFFFFFF7178F86F",
+    "index": 20,
+    "first": [
+      840,
+      81,
+      89,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0E0203001C0300000F0F1F1F1F0F0F0F",
+    "index": 21,
+    "first": [
+      840,
+      81,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "01010B07010103070F0F0F0701010207",
+    "index": 22,
+    "first": [
+      840,
+      81,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "000000000000004000000000000000C0",
+    "index": 23,
+    "first": [
+      840,
+      89,
+      81,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "202071F9FFFFF3E0E0E09F1F8F0F13E0",
+    "index": 24,
+    "first": [
+      840,
+      89,
+      89,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "6060D01010E04080E0E0F0F0F0E0C080",
+    "index": 25,
+    "first": [
+      840,
+      89,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0000C0E0F0F0F0E00000C0E0F0F0F0E0",
+    "index": 26,
+    "first": [
+      840,
+      89,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "3030E80808F02020F0F0F8F8F8F0E0E0",
+    "index": 27,
+    "first": [
+      690,
+      120,
+      26,
+      1,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "601018FC7E1E1E3CE0F0F8FC7E1E0E3C",
+    "index": 28,
+    "first": [
+      690,
+      120,
+      34,
+      1,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0F010100380F040C0F0F1F3F3F7FFFFF",
+    "index": 29,
+    "first": [
+      690,
+      128,
+      26,
+      1,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "128A71787878F8F8F3FB7178787878F8",
+    "index": 30,
+    "first": [
+      690,
+      128,
+      34,
+      1,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00000000000001030000000000000103",
+    "index": 31,
+    "first": [
+      690,
+      136,
+      34,
+      1,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0000000F07070702070F0F0F06000503",
+    "index": 32,
+    "first": [
+      2850,
+      214,
+      63,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "0E1F1F1F0F8DDEFF070100100E8FDFFF",
+    "index": 33,
+    "first": [
+      2850,
+      214,
+      71,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "7C783830000000005C78383000000000",
+    "index": 34,
+    "first": [
+      2850,
+      214,
+      79,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "4020F09090B8E442C0E0F0F0F0F8FCFE",
+    "index": 35,
+    "first": [
+      2850,
+      222,
+      63,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "E2F3FDF9FECE0101DE8F0F1F3EFEFFFF",
+    "index": 36,
+    "first": [
+      2850,
+      222,
+      71,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "81623C1E1E7EFF3EFF7E3C1E1E6EFF3E",
+    "index": 37,
+    "first": [
+      2850,
+      222,
+      79,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00010000000003070101000000000207",
+    "index": 38,
+    "first": [
+      780,
+      111,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "1F1C04077008070E1F1F3F7F7F7FFFFF",
+    "index": 39,
+    "first": [
+      780,
+      119,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "3211E0F0F0F0F0F0F3F1E0F0F0F0F0F0",
+    "index": 40,
+    "first": [
+      780,
+      119,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "C0C0A0A0202EFF7FC0C0E0E0E0EEFFFF",
+    "index": 41,
+    "first": [
+      780,
+      127,
+      97,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "3FC7030100000000FFC5030100000000",
+    "index": 42,
+    "first": [
+      780,
+      127,
+      105,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00E06061DF010100007FFFFFDE010100",
+    "index": 43,
+    "first": [
+      5280,
+      165,
+      145,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "000000001F0F0F0E000F1F1F1F0D010B",
+    "index": 44,
+    "first": [
+      5280,
+      173,
+      137,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "070000C3FFEFEFE307FFFFFF3C2E2EEF",
+    "index": 45,
+    "first": [
+      5280,
+      173,
+      145,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "C01C9EFF7C3C3810DF1F9FFF7C2C3810",
+    "index": 46,
+    "first": [
+      5280,
+      173,
+      153,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "004020E01010304800C0E0E0F0F0F0F8",
+    "index": 47,
+    "first": [
+      5280,
+      181,
+      137,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "8498FCFCFCFCFCFFFCE8C4C464040CFF",
+    "index": 48,
+    "first": [
+      5280,
+      181,
+      145,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "07070F1FE3030100FFFFFFFDE3030100",
+    "index": 49,
+    "first": [
+      5280,
+      181,
+      153,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "010204040404020000114B03033B4180",
+    "index": 50,
+    "first": [
+      6150,
+      34,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "1E183060C78C888CE1E7CF9F38737773",
+    "index": 51,
+    "first": [
+      6150,
+      42,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "040440889090D87FFBFBBF776F6F2700",
+    "index": 52,
+    "first": [
+      6150,
+      42,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "00000000060C68488844663399031737",
+    "index": 53,
+    "first": [
+      6150,
+      42,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "000000000000000008482222A2123BBB",
+    "index": 54,
+    "first": [
+      6150,
+      50,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "1E6380001F304000E19C7FFFE0CFBFFF",
+    "index": 55,
+    "first": [
+      6150,
+      50,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF36150F",
+    "key": "000010383810000000106CC6C66C1000",
+    "index": 56,
+    "first": [
+      6450,
+      114,
+      81,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "5EBFFBD160131D1FF9F0E56FBFFFFFE7",
+    "index": 0,
+    "first": [
+      1170,
+      8,
+      8,
+      0,
+      0
+    ],
+    "occurrences": 13548
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "E457A3D7A74E9C7EDFAF5F2C58B9F3E1",
+    "index": 1,
+    "first": [
+      1170,
+      0,
+      8,
+      0,
+      0
+    ],
+    "occurrences": 13524
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "FD57A64FA6CF14B28AAC5DB85930FBFD",
+    "index": 2,
+    "first": [
+      1170,
+      0,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 13393
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "BDE7B0458705462F43194FBE7EFEFFFF",
+    "index": 3,
+    "first": [
+      1170,
+      8,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 13382
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "36AD56737B7B3000F7AF57737B7B3000",
+    "index": 4,
+    "first": [
+      1170,
+      8,
+      24,
+      0,
+      0
+    ],
+    "occurrences": 2755
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "4BA4CBF76B373E1C3BDCFFFF7F3F3E1C",
+    "index": 5,
+    "first": [
+      1170,
+      0,
+      24,
+      0,
+      0
+    ],
+    "occurrences": 2749
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "D23D1A9D2A98FD16ED4265E2D5FFFE6F",
+    "index": 6,
+    "first": [
+      1170,
+      0,
+      16,
+      0,
+      0
+    ],
+    "occurrences": 2508
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "051A562871D29C0BFFF5E9D7CF2E5CEB",
+    "index": 7,
+    "first": [
+      1170,
+      8,
+      16,
+      0,
+      0
+    ],
+    "occurrences": 2508
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "7CF28079FEEDF6677CFEFE8703170E9F",
+    "index": 8,
+    "first": [
+      1170,
+      8,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 2031
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "00789D4ECD1FA5D30078FDBF3EF8FAEC",
+    "index": 9,
+    "first": [
+      1170,
+      0,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 1998
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "4A1FFBF164121317BDF0E46EBBFDFFFF",
+    "index": 10,
+    "first": [
+      1170,
+      8,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 1880
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "A657E3C7A74A94F6DDAF1F3C58B5FBF9",
+    "index": 11,
+    "first": [
+      1170,
+      0,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 1856
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "65EED6C9C36F39037AF1E9F7FE7E3A00",
+    "index": 12,
+    "first": [
+      1200,
+      25,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 1671
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "5B2731EAB3D2AB55D5FBCE154C2D54AA",
+    "index": 13,
+    "first": [
+      1200,
+      33,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 1665
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "1F35625B4469373D1C3E7F777A7F3F33",
+    "index": 14,
+    "first": [
+      1200,
+      25,
+      6,
+      0,
+      0
+    ],
+    "occurrences": 1623
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "AB45A2552315ABFE57BF5FBFDF7FBFFF",
+    "index": 15,
+    "first": [
+      1200,
+      33,
+      6,
+      0,
+      0
+    ],
+    "occurrences": 1607
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "A6776B93C3F69CC05E8F97EF7F7E5C00",
+    "index": 16,
+    "first": [
+      1170,
+      120,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 1345
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "DAE48C57CD4BD5AAABDF73A832B42A55",
+    "index": 17,
+    "first": [
+      1170,
+      112,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 1309
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "F8AC46DA2296ECBC387CFEEE5EFEFCCC",
+    "index": 18,
+    "first": [
+      1170,
+      120,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 1296
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "D5A245AAC4A8D57FEAFDFAFDFBFEFDFF",
+    "index": 19,
+    "first": [
+      1170,
+      112,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 1271
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "00000000000000000000000000000000",
+    "index": 20,
+    "first": [
+      1590,
+      140,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 313
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "1800FFFBFFFEF36718FFFFFFFFFEF7E7",
+    "index": 21,
+    "first": [
+      1770,
+      255,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 302
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "F0403F2F7F1F3F75F07F7F7F7F7F7F77",
+    "index": 22,
+    "first": [
+      1920,
+      163,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 301
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "0082FFF3FF9FFFE600FEFFFBFFFFFFE6",
+    "index": 23,
+    "first": [
+      1590,
+      156,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 270
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "0040373F3B363F77007F7F7F7B777F77",
+    "index": 24,
+    "first": [
+      1590,
+      164,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 249
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "000000000000048A000000000000048A",
+    "index": 25,
+    "first": [
+      1590,
+      4,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 140
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "00000000000004AA00000000000004AA",
+    "index": 26,
+    "first": [
+      1590,
+      -4,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 136
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "0000101010303064001000002008481C",
+    "index": 27,
+    "first": [
+      3240,
+      -1,
+      221,
+      0,
+      0
+    ],
+    "occurrences": 100
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "FFFFE0009F901FC000003FC0DFDFDFC0",
+    "index": 28,
+    "first": [
+      3240,
+      -1,
+      229,
+      0,
+      0
+    ],
+    "occurrences": 100
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "0008080808181832080000001004240E",
+    "index": 29,
+    "first": [
+      3240,
+      7,
+      221,
+      0,
+      0
+    ],
+    "occurrences": 96
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "FFFF0300FD01FC030000FC03FEFFFF03",
+    "index": 30,
+    "first": [
+      3240,
+      7,
+      229,
+      0,
+      0
+    ],
+    "occurrences": 96
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "FFFFFFFF00E0E328000000FF00E0E3E8",
+    "index": 31,
+    "first": [
+      3120,
+      2,
+      77,
+      0,
+      0
+    ],
+    "occurrences": 91
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "282824222D202FE0ECEEE7E3EDE0EFE0",
+    "index": 32,
+    "first": [
+      3120,
+      2,
+      85,
+      0,
+      0
+    ],
+    "occurrences": 91
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "FDFDFDFE001CDC04030303FE001CDC1C",
+    "index": 33,
+    "first": [
+      3120,
+      10,
+      77,
+      0,
+      0
+    ],
+    "occurrences": 91
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "C404440444C4441CDC1C5C9CDCDC5C1C",
+    "index": 34,
+    "first": [
+      3120,
+      10,
+      85,
+      0,
+      0
+    ],
+    "occurrences": 91
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "3F9FCF8793F9FCFE3F9FCFC793F9FCFE",
+    "index": 35,
+    "first": [
+      7200,
+      169,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 62
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "F8FCF9F3270F9F3FF8FCF9F3A70F9F3F",
+    "index": 36,
+    "first": [
+      7200,
+      177,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 60
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "11FFFFFFFFEFEFFEFF00000000101011",
+    "index": 37,
+    "first": [
+      1950,
+      26,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 44
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "4C3FFFFFFFEFF7E57FC000000010081A",
+    "index": 38,
+    "first": [
+      1950,
+      34,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 44
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "000800080C183A1C0008080014042634",
+    "index": 39,
+    "first": [
+      7830,
+      151,
+      225,
+      0,
+      0
+    ],
+    "occurrences": 40
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "0000100010183074000010100028084C",
+    "index": 40,
+    "first": [
+      7830,
+      159,
+      225,
+      0,
+      0
+    ],
+    "occurrences": 40
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "3A403F0F0F0701003A7F3F1F0F070100",
+    "index": 41,
+    "first": [
+      6090,
+      51,
+      -1,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "1800FFFBFFFEF36F18FFFFFFFFFEF7EF",
+    "index": 42,
+    "first": [
+      6090,
+      59,
+      -1,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "110F3F7F7FFFEFEF1F30400080001010",
+    "index": 43,
+    "first": [
+      1950,
+      10,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "4C3FFFFFFFFFDFDD7FC800000010282E",
+    "index": 44,
+    "first": [
+      1950,
+      18,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "FFFFFFFFFFFFFF7FFFFFFFFFFFFFFF7F",
+    "index": 45,
+    "first": [
+      7350,
+      170,
+      -7,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "3393CFE7F3F9FCF83B93CFE7F3F9FCFC",
+    "index": 46,
+    "first": [
+      7350,
+      178,
+      -7,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "CBD351602FEFEFC0343CBEAFEFEFEFC0",
+    "index": 47,
+    "first": [
+      1590,
+      172,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "DACAE4E4743777032D3D3777F7B77703",
+    "index": 48,
+    "first": [
+      1590,
+      180,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "D6D4A0A22FEFEFC0393B6F6FEFEFEFC0",
+    "index": 49,
+    "first": [
+      1590,
+      188,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "4B090504F4F7F703BCFEF6F7F7F7F703",
+    "index": 50,
+    "first": [
+      1590,
+      196,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "C085C580A5B5A580C087C780BBBBBB80",
+    "index": 51,
+    "first": [
+      7200,
+      249,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "C785C585C585C585C787C787C787C787",
+    "index": 52,
+    "first": [
+      7350,
+      250,
+      -7,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "F5B595D5E5C595F0F7F7B7D7E7E7D7F0",
+    "index": 53,
+    "first": [
+      9420,
+      99,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "57555553575751577777757377777377",
+    "index": 54,
+    "first": [
+      9420,
+      107,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "FEFD007FC19CA2A2FEFD007FFFE3D5D5",
+    "index": 55,
+    "first": [
+      9420,
+      115,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "F8FCFC39B3A78F9FF8FCFC39B3A78F9F",
+    "index": 56,
+    "first": [
+      9420,
+      123,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "BDBD813C005A0C30C3C3FF3C00660C30",
+    "index": 57,
+    "first": [
+      7980,
+      39,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F201000",
+    "key": "3D3D013C005A0C3043437F3C00660C30",
+    "index": 58,
+    "first": [
+      7980,
+      47,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1800FFFBFFFEF36718FFFFFFFFFEF7E7",
+    "index": 0,
+    "first": [
+      1170,
+      24,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 21239
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F0403F2F7F1F3F75F07F7F7F7F7F7F77",
+    "index": 1,
+    "first": [
+      1170,
+      16,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 21176
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0040373F3B363F77007F7F7F7B777F77",
+    "index": 2,
+    "first": [
+      1170,
+      24,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 19876
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0082FFF3FF9FFFE600FEFFFBFFFFFFE6",
+    "index": 3,
+    "first": [
+      1170,
+      16,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 19774
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00000000000000000000000000000000",
+    "index": 4,
+    "first": [
+      1170,
+      0,
+      32,
+      0,
+      0
+    ],
+    "occurrences": 19609
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "000000000000048A000000000000048A",
+    "index": 5,
+    "first": [
+      1170,
+      24,
+      40,
+      0,
+      0
+    ],
+    "occurrences": 5719
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00000000000004AA00000000000004AA",
+    "index": 6,
+    "first": [
+      1170,
+      16,
+      40,
+      0,
+      0
+    ],
+    "occurrences": 5696
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F8FCF9F3270F9F3FF8FCF9F3A70F9F3F",
+    "index": 7,
+    "first": [
+      1200,
+      1,
+      46,
+      0,
+      0
+    ],
+    "occurrences": 1268
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F5FEEFA4C281CC98CB01105BBDFFBBFF",
+    "index": 8,
+    "first": [
+      1170,
+      72,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 1240
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "57BDEB7582E8C08BAF42148AFD97BFFD",
+    "index": 9,
+    "first": [
+      1170,
+      64,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 1235
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "3F9FCF8793F9FCFE3F9FCFC793F9FCFE",
+    "index": 10,
+    "first": [
+      1200,
+      -7,
+      46,
+      0,
+      0
+    ],
+    "occurrences": 1229
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "3393CFE7F3F9FCF83B93CFE7F3F9FCFC",
+    "index": 11,
+    "first": [
+      1200,
+      1,
+      54,
+      0,
+      0
+    ],
+    "occurrences": 1226
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FFFFFFFFFFFFFF7FFFFFFFFFFFFFFF7F",
+    "index": 12,
+    "first": [
+      1200,
+      -7,
+      54,
+      0,
+      0
+    ],
+    "occurrences": 1222
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1800FFFBFFFEF36F18FFFFFFFFFEF7EF",
+    "index": 13,
+    "first": [
+      1170,
+      136,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 664
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "3A403F0F0F0701003A7F3F1F0F070100",
+    "index": 14,
+    "first": [
+      1170,
+      128,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 653
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0840371F1B060301087F3F1F1B070301",
+    "index": 15,
+    "first": [
+      1170,
+      136,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 614
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "E457A3D7A74E9C7EDFAF5F2C58B9F3E1",
+    "index": 16,
+    "first": [
+      2280,
+      241,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 334
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "5EBFFBD160131D1FF9F0E56FBFFFFFE7",
+    "index": 17,
+    "first": [
+      1770,
+      255,
+      170,
+      0,
+      0
+    ],
+    "occurrences": 310
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FC0200F80868282A03F9F9FF0F6F6F69",
+    "index": 18,
+    "first": [
+      5760,
+      -2,
+      130,
+      0,
+      0
+    ],
+    "occurrences": 226
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FF0400FF008C000000F3F3FF008C8C8C",
+    "index": 19,
+    "first": [
+      5790,
+      15,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 222
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FF2000FF0031000000CFCFFF00313131",
+    "index": 20,
+    "first": [
+      5790,
+      7,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 221
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "282828F00200FF00696F6F0FF9F9FF00",
+    "index": 21,
+    "first": [
+      5760,
+      -2,
+      138,
+      0,
+      0
+    ],
+    "occurrences": 219
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "000000FF0400FF008C8C8C00F3F3FF00",
+    "index": 22,
+    "first": [
+      5790,
+      15,
+      122,
+      0,
+      0
+    ],
+    "occurrences": 216
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "000000FF2000FF0031313100CFCFFF00",
+    "index": 23,
+    "first": [
+      5790,
+      7,
+      122,
+      0,
+      0
+    ],
+    "occurrences": 215
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "3F40001F10161454C09F9FFFF0F6F696",
+    "index": 24,
+    "first": [
+      5790,
+      -1,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 201
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1414140F4000FF0096F6F6F09F9FFF00",
+    "index": 25,
+    "first": [
+      5790,
+      -1,
+      122,
+      0,
+      0
+    ],
+    "occurrences": 197
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1A291A546785326F51267C5F32BA1F7A",
+    "index": 26,
+    "first": [
+      1710,
+      225,
+      34,
+      0,
+      0
+    ],
+    "occurrences": 187
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "8BAAD47755F4D3655E557FAAAE5B2D8F",
+    "index": 27,
+    "first": [
+      1710,
+      233,
+      34,
+      0,
+      0
+    ],
+    "occurrences": 187
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "D1552BEEAA2FCBA67AAAFE5575DAB4F1",
+    "index": 28,
+    "first": [
+      1710,
+      241,
+      34,
+      0,
+      0
+    ],
+    "occurrences": 187
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "5894582AE6A14CF68A643EFA4C5DF85E",
+    "index": 29,
+    "first": [
+      1710,
+      249,
+      34,
+      0,
+      0
+    ],
+    "occurrences": 187
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "11463FAB5E02B58F2A5D29B6555D3E9A",
+    "index": 30,
+    "first": [
+      1710,
+      225,
+      42,
+      0,
+      0
+    ],
+    "occurrences": 179
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "7CABDD8C6F92ADC529566AD7DD7F76EB",
+    "index": 31,
+    "first": [
+      1710,
+      233,
+      42,
+      0,
+      0
+    ],
+    "occurrences": 179
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "3ED5BB31F649B5A3946A56EBBBFE6ED7",
+    "index": 32,
+    "first": [
+      1710,
+      241,
+      42,
+      0,
+      0
+    ],
+    "occurrences": 179
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "8862FCD57A40ADF154BA946DAABA7C59",
+    "index": 33,
+    "first": [
+      1710,
+      249,
+      42,
+      0,
+      0
+    ],
+    "occurrences": 179
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "D0D0D0D0D0D0D0D0B0B0B0B0B0B0B0B0",
+    "index": 34,
+    "first": [
+      1170,
+      32,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 170
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0B0B0B0B0B0B0B0B0D0D0D0D0D0D0D0D",
+    "index": 35,
+    "first": [
+      1170,
+      56,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 168
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F0433F7C3F2C78F0F07C706307D49098",
+    "index": 36,
+    "first": [
+      1170,
+      80,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 134
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "BDE7B0458705462F43194FBE7EFEFFFF",
+    "index": 37,
+    "first": [
+      1770,
+      111,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 134
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "70702C721A2F938718105C4B25B09C81",
+    "index": 38,
+    "first": [
+      1170,
+      80,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 132
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "18C0FBBD58362E1C18270BC5642A3A1A",
+    "index": 39,
+    "first": [
+      1170,
+      88,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 132
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0C16D6AC91E2A3870A1ADAF469136367",
+    "index": 40,
+    "first": [
+      1170,
+      88,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 130
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FD57A64FA6CF14B28AAC5DB85930FBFD",
+    "index": 41,
+    "first": [
+      1770,
+      103,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 127
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0D0EAB878A968D810E19AE958F958FA6",
+    "index": 42,
+    "first": [
+      1170,
+      80,
+      104,
+      0,
+      0
+    ],
+    "occurrences": 91
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0099C5D5C7CC83D30B9FC6DECDDB8CD5",
+    "index": 43,
+    "first": [
+      1170,
+      80,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 90
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "9852A944B809245558F269E579F9F5D5",
+    "index": 44,
+    "first": [
+      1170,
+      88,
+      104,
+      0,
+      0
+    ],
+    "occurrences": 90
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "B0A049D1A9552BD51063DB336BB7FB35",
+    "index": 45,
+    "first": [
+      1170,
+      88,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 89
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "C085C580A5B5A580C087C780BBBBBB80",
+    "index": 46,
+    "first": [
+      1290,
+      -6,
+      62,
+      0,
+      0
+    ],
+    "occurrences": 83
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "C785C585C585C585C787C787C787C787",
+    "index": 47,
+    "first": [
+      1290,
+      -6,
+      70,
+      0,
+      0
+    ],
+    "occurrences": 82
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "03A1A301A5ADA50103E1E301DDDDDD01",
+    "index": 48,
+    "first": [
+      6810,
+      16,
+      98,
+      0,
+      0
+    ],
+    "occurrences": 76
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "03515301A5ADA50103717301DDDDDD01",
+    "index": 49,
+    "first": [
+      1290,
+      2,
+      62,
+      0,
+      0
+    ],
+    "occurrences": 75
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "73515351535153517371737173717371",
+    "index": 50,
+    "first": [
+      1290,
+      2,
+      70,
+      0,
+      0
+    ],
+    "occurrences": 75
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "C08ACA80A5B5A580C08ECE80BBBBBB80",
+    "index": 51,
+    "first": [
+      6810,
+      8,
+      98,
+      0,
+      0
+    ],
+    "occurrences": 74
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "E3A1A3A1A3A1A3A1E3E1E3E1E3E1E3E1",
+    "index": 52,
+    "first": [
+      6810,
+      16,
+      106,
+      0,
+      0
+    ],
+    "occurrences": 74
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "CE8ACA8ACA8ACA8ACE8ECE8ECE8ECE8E",
+    "index": 53,
+    "first": [
+      6810,
+      8,
+      106,
+      0,
+      0
+    ],
+    "occurrences": 71
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "4BA4CBF76B373E1C3BDCFFFF7F3F3E1C",
+    "index": 54,
+    "first": [
+      5790,
+      -1,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 70
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "36AD56737B7B3000F7AF57737B7B3000",
+    "index": 55,
+    "first": [
+      5790,
+      7,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 66
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "007050507E503E00007070705E6E3E00",
+    "index": 56,
+    "first": [
+      6750,
+      6,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 58
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F8F8F8F8FCFFFF7FF8F8F8F8FCFFFF7F",
+    "index": 57,
+    "first": [
+      6750,
+      6,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 58
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0005054545454545000B0BABABABABAB",
+    "index": 58,
+    "first": [
+      6750,
+      14,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 58
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "454539837E000BBFABABC7FF7E000BBF",
+    "index": 59,
+    "first": [
+      6750,
+      14,
+      118,
+      0,
+      0
+    ],
+    "occurrences": 58
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FFBD99CBE700FF00FFFFBDDBEF00FFFF",
+    "index": 60,
+    "first": [
+      1290,
+      -6,
+      46,
+      0,
+      0
+    ],
+    "occurrences": 57
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FF00B5D5E5C595F5FF00B7D7E7E7D7F7",
+    "index": 61,
+    "first": [
+      1290,
+      -6,
+      54,
+      0,
+      0
+    ],
+    "occurrences": 57
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FEFD007FC19CA2A2FEFD007FFFE3D5D5",
+    "index": 62,
+    "first": [
+      6750,
+      6,
+      174,
+      0,
+      0
+    ],
+    "occurrences": 57
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F8FCFC39B3A78F9FF8FCFC39B3A78F9F",
+    "index": 63,
+    "first": [
+      6750,
+      14,
+      174,
+      0,
+      0
+    ],
+    "occurrences": 57
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "A2A2A2A2A2A0A000D5D5D5D5D5D0D000",
+    "index": 64,
+    "first": [
+      6750,
+      6,
+      182,
+      0,
+      0
+    ],
+    "occurrences": 56
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "80BEA3B9BD0D0F0080BEBFA7BB0B0F00",
+    "index": 65,
+    "first": [
+      6750,
+      14,
+      182,
+      0,
+      0
+    ],
+    "occurrences": 56
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "D755555357575157F777757377777377",
+    "index": 66,
+    "first": [
+      1290,
+      2,
+      54,
+      0,
+      0
+    ],
+    "occurrences": 51
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FFBD99CBE703E137FFFFBDDBEF07E3F7",
+    "index": 67,
+    "first": [
+      1290,
+      2,
+      46,
+      0,
+      0
+    ],
+    "occurrences": 50
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "AFADA9ABA7A3A90FEFEFEDEBE7E7EB0F",
+    "index": 68,
+    "first": [
+      6750,
+      30,
+      174,
+      0,
+      0
+    ],
+    "occurrences": 48
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "EAAAAACAEAEA8AEAEEEEAECEEEEECEEE",
+    "index": 69,
+    "first": [
+      6750,
+      22,
+      174,
+      0,
+      0
+    ],
+    "occurrences": 47
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00FF00DBE7C399FFFFFF00DBF7E7DBFF",
+    "index": 70,
+    "first": [
+      6750,
+      30,
+      182,
+      0,
+      0
+    ],
+    "occurrences": 47
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0198C511079CC3F70A9FC65E8D8B9CC1",
+    "index": 71,
+    "first": [
+      1170,
+      80,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 46
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "57BDEB7583E8C08BAC42148AFC97BFFD",
+    "index": 72,
+    "first": [
+      1170,
+      80,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 46
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "B0A089D1A345A9D910637B334AB35724",
+    "index": 73,
+    "first": [
+      1170,
+      88,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 46
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F5FEEFA4C281CC984B01105BBD7FBBFF",
+    "index": 74,
+    "first": [
+      1170,
+      88,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 46
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "ECB790DBE7C399FFEFF7B0DBF7E7DBFF",
+    "index": 75,
+    "first": [
+      6750,
+      22,
+      182,
+      0,
+      0
+    ],
+    "occurrences": 46
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0007050B0B0B0B0B0007070D0D0D0D0D",
+    "index": 76,
+    "first": [
+      3120,
+      -6,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 37
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00E0A0D0D0D0D0D000E0E0B0B0B0B0B0",
+    "index": 77,
+    "first": [
+      3150,
+      20,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 37
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "3F1F0F47030100003F1F0F4703010000",
+    "index": 78,
+    "first": [
+      1260,
+      9,
+      94,
+      0,
+      0
+    ],
+    "occurrences": 32
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "33130F07030100043B130F0703010004",
+    "index": 79,
+    "first": [
+      1260,
+      17,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 32
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "808080809C80807FFFC1DDDDDDC1FF7F",
+    "index": 80,
+    "first": [
+      3150,
+      20,
+      45,
+      0,
+      0
+    ],
+    "occurrences": 28
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "5B6D7F64604F7F7D7F491240446F7E7E",
+    "index": 81,
+    "first": [
+      3150,
+      28,
+      45,
+      0,
+      0
+    ],
+    "occurrences": 28
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FFDBFFC9D35FEFCF7F5305415BDF2F2F",
+    "index": 82,
+    "first": [
+      3150,
+      36,
+      45,
+      0,
+      0
+    ],
+    "occurrences": 28
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "01010101390101FEFF83BBBBBB83FFFE",
+    "index": 83,
+    "first": [
+      3120,
+      -6,
+      45,
+      0,
+      0
+    ],
+    "occurrences": 27
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "000E0A0A7E0A7C00000E0E0E7A767C00",
+    "index": 84,
+    "first": [
+      6780,
+      -1,
+      82,
+      0,
+      0
+    ],
+    "occurrences": 25
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1F1F1F1F3FFFFFFE1F1F1F1F3FFFFFFE",
+    "index": 85,
+    "first": [
+      6780,
+      -1,
+      90,
+      0,
+      0
+    ],
+    "occurrences": 25
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00A0A0A2A2A2A2A200D0D0D5D5D5D5D5",
+    "index": 86,
+    "first": [
+      6810,
+      24,
+      82,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "A2A29CC17E00D0FDD5D5E3FF7E00D0FD",
+    "index": 87,
+    "first": [
+      6810,
+      24,
+      90,
+      0,
+      0
+    ],
+    "occurrences": 23
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F5B595D5E5C595F0F7F7B7D7E7E7D7F0",
+    "index": 88,
+    "first": [
+      6810,
+      8,
+      146,
+      0,
+      0
+    ],
+    "occurrences": 22
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00FF00DBE7C399FFFFFF00DBEFE7DBFF",
+    "index": 89,
+    "first": [
+      6810,
+      8,
+      154,
+      0,
+      0
+    ],
+    "occurrences": 22
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "57555553575751577777757377777377",
+    "index": 90,
+    "first": [
+      6810,
+      16,
+      146,
+      0,
+      0
+    ],
+    "occurrences": 22
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "37ED09DBE7C399FFF7EF0DDBEFE7DBFF",
+    "index": 91,
+    "first": [
+      6810,
+      16,
+      154,
+      0,
+      0
+    ],
+    "occurrences": 22
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00C0F8BC58362E1C002008C4642A3A1A",
+    "index": 92,
+    "first": [
+      1650,
+      255,
+      66,
+      0,
+      0
+    ],
+    "occurrences": 21
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0C16D6AC90E0A0800A1ADAF468106060",
+    "index": 93,
+    "first": [
+      1650,
+      255,
+      74,
+      0,
+      0
+    ],
+    "occurrences": 21
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FFBD99D3E700FF00FFFFBDDBF700FFFF",
+    "index": 94,
+    "first": [
+      6810,
+      16,
+      82,
+      0,
+      0
+    ],
+    "occurrences": 21
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FF00ADABA7A3A9AFFF00EDEBE7E7EBEF",
+    "index": 95,
+    "first": [
+      6810,
+      16,
+      90,
+      0,
+      0
+    ],
+    "occurrences": 21
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00033F7C3F2C78F0000C306307D49098",
+    "index": 96,
+    "first": [
+      1650,
+      247,
+      66,
+      0,
+      0
+    ],
+    "occurrences": 20
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "70702C721A2F130718105C4B25301C01",
+    "index": 97,
+    "first": [
+      1650,
+      247,
+      74,
+      0,
+      0
+    ],
+    "occurrences": 20
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "18027DDB772EDDBA18FEFDFA74E9D3A6",
+    "index": 98,
+    "first": [
+      2040,
+      119,
+      14,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "B4A9292B233D5C9FCCD9595B5C426B8E",
+    "index": 99,
+    "first": [
+      2040,
+      119,
+      22,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "8080FF807F80000080FF007FFF800000",
+    "index": 100,
+    "first": [
+      2040,
+      127,
+      14,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0034CA72093D74BB0034FBDFF6C6ABD6",
+    "index": 101,
+    "first": [
+      2040,
+      127,
+      22,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0101FF01FE01000001FF00FEFF010000",
+    "index": 102,
+    "first": [
+      2040,
+      135,
+      14,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "002C534E90BC2EDD002CDFFB6F63D56B",
+    "index": 103,
+    "first": [
+      2040,
+      135,
+      22,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1840BEDBEE74BB5D187FBF5F2E97CB65",
+    "index": 104,
+    "first": [
+      2040,
+      143,
+      14,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "2D9594D4C4BC3AF9339B9ADA3A42D671",
+    "index": 105,
+    "first": [
+      2040,
+      143,
+      22,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FFBD99D3E7C087ECFFFFBDDBF7E0C7EF",
+    "index": 106,
+    "first": [
+      6810,
+      8,
+      82,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "EBAAAACAEAEA8AEAEFEEAECEEEEECEEE",
+    "index": 107,
+    "first": [
+      6810,
+      8,
+      90,
+      0,
+      0
+    ],
+    "occurrences": 19
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "4545454545050500ABABABABAB0B0B00",
+    "index": 108,
+    "first": [
+      6780,
+      -1,
+      154,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F800F0E60E862616F800F01EFE6E66FE",
+    "index": 109,
+    "first": [
+      7560,
+      14,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "2E162E009C3870A0FEFEFE007CF87060",
+    "index": 110,
+    "first": [
+      7560,
+      14,
+      142,
+      0,
+      0
+    ],
+    "occurrences": 17
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "11FFFFFFFFEFEFFEFF00000000101011",
+    "index": 111,
+    "first": [
+      2520,
+      55,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "4C3FFFFFFFEFF7E57FC000000010081A",
+    "index": 112,
+    "first": [
+      2520,
+      63,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "7FBF00FE833945457FBF00FEFFC7ABAB",
+    "index": 113,
+    "first": [
+      6780,
+      -1,
+      146,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "400080FF572B532BFF00FF00A85020D4",
+    "index": 114,
+    "first": [
+      7560,
+      -2,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "572B7FF05F0038DFA8D480FFA0FF3F3F",
+    "index": 115,
+    "first": [
+      7560,
+      -2,
+      142,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "020001FFEAD4CAD4FF00FF00150A042B",
+    "index": 116,
+    "first": [
+      7560,
+      6,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "EAD4FE0FFA001CFB152B01FF05FFFCFC",
+    "index": 117,
+    "first": [
+      7560,
+      6,
+      142,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "F2423A3A2A3A3E76F67E7E7E7E7E7A77",
+    "index": 118,
+    "first": [
+      7560,
+      6,
+      166,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0082F8F6E99FFBE60AFEFFFDFBFEFFE4",
+    "index": 119,
+    "first": [
+      7560,
+      6,
+      174,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "A8A0AFABAFAEE3A7E8EFEFEFEFEEE7A7",
+    "index": 120,
+    "first": [
+      7560,
+      14,
+      166,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "2080971FDB163F3720CFDFDFDB97FF77",
+    "index": 121,
+    "first": [
+      7560,
+      14,
+      174,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "65EED6C9C36F39037AF1E9F7FE7E3A00",
+    "index": 122,
+    "first": [
+      2160,
+      213,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 15
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1F000F67706164681F000F787F76667F",
+    "index": 123,
+    "first": [
+      7590,
+      43,
+      130,
+      0,
+      0
+    ],
+    "occurrences": 15
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "74687400391C0E057F7F7F003E1F0E06",
+    "index": 124,
+    "first": [
+      7590,
+      43,
+      138,
+      0,
+      0
+    ],
+    "occurrences": 15
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "5B2731EAB3D2AB55D5FBCE154C2D54AA",
+    "index": 125,
+    "first": [
+      2160,
+      221,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "051A562871D29C0BFFF5E9D7CF2E5CEB",
+    "index": 126,
+    "first": [
+      2520,
+      -1,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "017DC59DBDB0F000017DFDE5DDD0F000",
+    "index": 127,
+    "first": [
+      6810,
+      24,
+      154,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1F3F3F9CCDE5F1F91F3F3F9CCDE5F1F9",
+    "index": 128,
+    "first": [
+      6810,
+      24,
+      146,
+      0,
+      0
+    ],
+    "occurrences": 13
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FE81818181818181807F437F437F7F7F",
+    "index": 129,
+    "first": [
+      1170,
+      32,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00E0E0B0D0D0D0D000E0E0F0B0B0B0B0",
+    "index": 130,
+    "first": [
+      1170,
+      32,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00F7F7FF7F77B7C000E7C7838347A7C0",
+    "index": 131,
+    "first": [
+      1170,
+      40,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00EFEFFFFEEEED0300E7E3C1C1E2E503",
+    "index": 132,
+    "first": [
+      1170,
+      48,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "7F8181818181818101FEC2FEC2FEFEFE",
+    "index": 133,
+    "first": [
+      1170,
+      56,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "0007070D0B0B0B0B0007070F0D0D0D0D",
+    "index": 134,
+    "first": [
+      1170,
+      56,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "D23D1A9D2A98FD16ED4265E2D5FFFE6F",
+    "index": 135,
+    "first": [
+      2520,
+      7,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "FBF478FDFBC2F2F50AFD85FEE6C3F3CD",
+    "index": 136,
+    "first": [
+      9510,
+      -6,
+      126,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "01000000000000000100000000000000",
+    "index": 137,
+    "first": [
+      9510,
+      -6,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "DF2F5EBEDC414DBC10BFE17E64C1CDA0",
+    "index": 138,
+    "first": [
+      9510,
+      2,
+      126,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "80000000000000008000000000000000",
+    "index": 139,
+    "first": [
+      9510,
+      2,
+      134,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "88C81878F8F8F8F847C71777F7F7F7F7",
+    "index": 140,
+    "first": [
+      9510,
+      10,
+      126,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "81838383838383837273737373737373",
+    "index": 141,
+    "first": [
+      9540,
+      8,
+      126,
+      0,
+      0
+    ],
+    "occurrences": 9
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "7CF28079FEEDF6677CFEFE8703170E9F",
+    "index": 142,
+    "first": [
+      1770,
+      255,
+      146,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "1F35625B4469373D1C3E7F777A7F3F33",
+    "index": 143,
+    "first": [
+      7080,
+      169,
+      232,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "AB45A2552315ABFE57BF5FBFDF7FBFFF",
+    "index": 144,
+    "first": [
+      7080,
+      177,
+      232,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "BDBD813C005A0C30C3C3FF3C00660C30",
+    "index": 145,
+    "first": [
+      2520,
+      87,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "3D3D013C005A0C3043437F3C00660C30",
+    "index": 146,
+    "first": [
+      2520,
+      95,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "00789D4ECD1FA5D30078FDBF3EF8FAEC",
+    "index": 147,
+    "first": [
+      7980,
+      167,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "DAE48C57CD4BD5AAABDF73A832B42A55",
+    "index": 148,
+    "first": [
+      2250,
+      3,
+      4,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "A6776B93C3F69CC05E8F97EF7F7E5C00",
+    "index": 149,
+    "first": [
+      2250,
+      11,
+      4,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "110F3F7F7FFFEFEF1F30400080001010",
+    "index": 150,
+    "first": [
+      8970,
+      82,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "4C3FFFFFFFFFDFDD7FC800000010282E",
+    "index": 151,
+    "first": [
+      8970,
+      90,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "32FCFFFFFFFFFBBBFE13000000081474",
+    "index": 152,
+    "first": [
+      8970,
+      130,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "88F0FCFEFEFFF7F7F80C020001000808",
+    "index": 153,
+    "first": [
+      8970,
+      138,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "5B5327272EECEEC0B4BCECEEEFEDEEC0",
+    "index": 154,
+    "first": [
+      9330,
+      3,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "D3CB8A06F4F7F7032C3C7DF5F7F7F703",
+    "index": 155,
+    "first": [
+      9330,
+      11,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F2B1C0B",
+    "key": "4A1FFBF164121317BDF0E46EBBFDFFFF",
+    "index": 156,
+    "first": [
+      1770,
+      255,
+      154,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "4B090504F4F7F703BCFEF6F7F7F7F703",
+    "index": 0,
+    "first": [
+      1380,
+      241,
+      150,
+      0,
+      0
+    ],
+    "occurrences": 2082
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "D6D4A0A22FEFEFC0393B6F6FEFEFEFC0",
+    "index": 1,
+    "first": [
+      1380,
+      233,
+      150,
+      0,
+      0
+    ],
+    "occurrences": 2071
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "4C3FFFFFFFEFF7E57FC000000010081A",
+    "index": 2,
+    "first": [
+      1380,
+      241,
+      142,
+      0,
+      0
+    ],
+    "occurrences": 2068
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "11FFFFFFFFEFEFFEFF00000000101011",
+    "index": 3,
+    "first": [
+      1380,
+      233,
+      142,
+      0,
+      0
+    ],
+    "occurrences": 2059
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "88F0FCFEFEFFF7F7F80C020001000808",
+    "index": 4,
+    "first": [
+      1470,
+      225,
+      82,
+      0,
+      0
+    ],
+    "occurrences": 403
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "32FCFFFFFFFFFBBBFE13000000081474",
+    "index": 5,
+    "first": [
+      1440,
+      253,
+      82,
+      0,
+      0
+    ],
+    "occurrences": 402
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "5B5327272EECEEC0B4BCECEEEFEDEEC0",
+    "index": 6,
+    "first": [
+      1440,
+      253,
+      90,
+      0,
+      0
+    ],
+    "occurrences": 399
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "D3CB8A06F4F7F7032C3C7DF5F7F7F703",
+    "index": 7,
+    "first": [
+      1470,
+      225,
+      90,
+      0,
+      0
+    ],
+    "occurrences": 399
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "CBD351602FEFEFC0343CBEAFEFEFEFC0",
+    "index": 8,
+    "first": [
+      1350,
+      250,
+      150,
+      0,
+      0
+    ],
+    "occurrences": 360
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "DACAE4E4743777032D3D3777F7B77703",
+    "index": 9,
+    "first": [
+      1380,
+      225,
+      150,
+      0,
+      0
+    ],
+    "occurrences": 360
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "110F3F7F7FFFEFEF1F30400080001010",
+    "index": 10,
+    "first": [
+      1350,
+      250,
+      142,
+      0,
+      0
+    ],
+    "occurrences": 358
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "4C3FFFFFFFFFDFDD7FC800000010282E",
+    "index": 11,
+    "first": [
+      1380,
+      225,
+      142,
+      0,
+      0
+    ],
+    "occurrences": 358
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "BDBD813C005A0C30C3C3FF3C00660C30",
+    "index": 12,
+    "first": [
+      1860,
+      34,
+      30,
+      0,
+      0
+    ],
+    "occurrences": 146
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "3D3D013C005A0C3043437F3C00660C30",
+    "index": 13,
+    "first": [
+      1860,
+      42,
+      30,
+      0,
+      0
+    ],
+    "occurrences": 143
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "5A38CCE3312121216638CCFFE5E5FDE1",
+    "index": 14,
+    "first": [
+      1860,
+      34,
+      38,
+      0,
+      0
+    ],
+    "occurrences": 137
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "5A1870C3F0202020661870FFE5E5FDE1",
+    "index": 15,
+    "first": [
+      1860,
+      42,
+      38,
+      0,
+      0
+    ],
+    "occurrences": 135
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "00000000000000000000000000000000",
+    "index": 16,
+    "first": [
+      1170,
+      176,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 130
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "00000000000004AA00000000000004AA",
+    "index": 17,
+    "first": [
+      1710,
+      225,
+      106,
+      0,
+      0
+    ],
+    "occurrences": 62
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "000000000000048A000000000000048A",
+    "index": 18,
+    "first": [
+      1710,
+      233,
+      106,
+      0,
+      0
+    ],
+    "occurrences": 62
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "1800FFFBFFFEF36718FFFFFFFFFEF7E7",
+    "index": 19,
+    "first": [
+      1770,
+      255,
+      114,
+      0,
+      0
+    ],
+    "occurrences": 11
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "F0403F2F7F1F3F75F07F7F7F7F7F7F77",
+    "index": 20,
+    "first": [
+      1920,
+      131,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "1F35625B4469373D1C3E7F777A7F3F33",
+    "index": 21,
+    "first": [
+      7500,
+      183,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "AB45A2552315ABFE57BF5FBFDF7FBFFF",
+    "index": 22,
+    "first": [
+      7500,
+      191,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "1A291A546785326F51267C5F32BA1F7A",
+    "index": 23,
+    "first": [
+      1920,
+      99,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "8BAAD47755F4D3655E557FAAAE5B2D8F",
+    "index": 24,
+    "first": [
+      1920,
+      107,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "D1552BEEAA2FCBA67AAAFE5575DAB4F1",
+    "index": 25,
+    "first": [
+      1920,
+      115,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "5894582AE6A14CF68A643EFA4C5DF85E",
+    "index": 26,
+    "first": [
+      1920,
+      123,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "0040373F3B363F77007F7F7F7B777F77",
+    "index": 27,
+    "first": [
+      1770,
+      255,
+      122,
+      0,
+      0
+    ],
+    "occurrences": 5
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "BDE7B0458705462F43194FBE7EFEFFFF",
+    "index": 28,
+    "first": [
+      1770,
+      143,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "0082FFF3FF9FFFE600FEFFFBFFFFFFE6",
+    "index": 29,
+    "first": [
+      2070,
+      119,
+      -7,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "FD57A64FA6CF14B28AAC5DB85930FBFD",
+    "index": 30,
+    "first": [
+      1770,
+      135,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "5EBFFBD160131D1FF9F0E56FBFFFFFE7",
+    "index": 31,
+    "first": [
+      1770,
+      255,
+      186,
+      0,
+      0
+    ],
+    "occurrences": 3
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "E457A3D7A74E9C7EDFAF5F2C58B9F3E1",
+    "index": 32,
+    "first": [
+      8010,
+      -6,
+      -6,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "DAE48C57CD4BD5AAABDF73A832B42A55",
+    "index": 33,
+    "first": [
+      1770,
+      151,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "A6776B93C3F69CC05E8F97EF7F7E5C00",
+    "index": 34,
+    "first": [
+      1770,
+      159,
+      2,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "65EED6C9C36F39037AF1E9F7FE7E3A00",
+    "index": 35,
+    "first": [
+      2250,
+      211,
+      4,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "5B2731EAB3D2AB55D5FBCE154C2D54AA",
+    "index": 36,
+    "first": [
+      2250,
+      219,
+      4,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "3A403F0F0F0701003A7F3F1F0F070100",
+    "index": 37,
+    "first": [
+      9210,
+      157,
+      1,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F281808",
+    "key": "1800FFFBFFFEF36F18FFFFFFFFFEF7EF",
+    "index": 38,
+    "first": [
+      9210,
+      165,
+      1,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 0,
+    "palette": "0F271606",
+    "key": "4C3FFFFFFFEFF7E57FC000000010081A",
+    "index": 0,
+    "first": [
+      1260,
+      1,
+      94,
+      0,
+      0
+    ],
+    "occurrences": 342
+  },
+  {
+    "layer": 0,
+    "palette": "0F271606",
+    "key": "11FFFFFFFFEFEFFEFF00000000101011",
+    "index": 1,
+    "first": [
+      1260,
+      -7,
+      94,
+      0,
+      0
+    ],
+    "occurrences": 338
+  },
+  {
+    "layer": 0,
+    "palette": "0F271606",
+    "key": "4B090504F4F7F703BCFEF6F7F7F7F703",
+    "index": 2,
+    "first": [
+      1260,
+      1,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 333
+  },
+  {
+    "layer": 0,
+    "palette": "0F271606",
+    "key": "D6D4A0A22FEFEFC0393B6F6FEFEFEFC0",
+    "index": 3,
+    "first": [
+      1260,
+      -7,
+      102,
+      0,
+      0
+    ],
+    "occurrences": 330
+  },
+  {
+    "layer": 0,
+    "palette": "0F271606",
+    "key": "00000000000000000000000000000000",
+    "index": 4,
+    "first": [
+      1170,
+      176,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 12
+  },
+  {
+    "layer": 0,
+    "palette": "0F271606",
+    "key": "32FCFFFFFFFFFBBBFE13000000081474",
+    "index": 5,
+    "first": [
+      8970,
+      34,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F271606",
+    "key": "88F0FCFEFEFFF7F7F80C020001000808",
+    "index": 6,
+    "first": [
+      8970,
+      42,
+      -2,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0718234C90000000071F3C73EFFFFFFF",
+    "index": 0,
+    "first": [
+      1230,
+      105,
+      151,
+      0,
+      0
+    ],
+    "occurrences": 134
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0E01030000000000FEFFFCFFFFFFFFFF",
+    "index": 1,
+    "first": [
+      1230,
+      113,
+      151,
+      0,
+      0
+    ],
+    "occurrences": 128
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "18234C90800000001F3C73EFFFFFFFFF",
+    "index": 2,
+    "first": [
+      1260,
+      101,
+      151,
+      0,
+      0
+    ],
+    "occurrences": 68
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0000000000000000FFFFFFFFFFFFFFFF",
+    "index": 3,
+    "first": [
+      1230,
+      121,
+      151,
+      0,
+      0
+    ],
+    "occurrences": 62
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "1C74F4DBC3E73A7C1C2C2C594121467C",
+    "index": 4,
+    "first": [
+      2250,
+      186,
+      61,
+      0,
+      0
+    ],
+    "occurrences": 43
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "3F7FFFFFF3FF7F3F027F635D5DE33F04",
+    "index": 5,
+    "first": [
+      2250,
+      194,
+      77,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "FFFFDFEFFFFFFFFF10FFE0F0FFDFFF21",
+    "index": 6,
+    "first": [
+      2250,
+      202,
+      77,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "7F6B3F1F1F18171F5D5D221C00070F1F",
+    "index": 7,
+    "first": [
+      2250,
+      210,
+      61,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "DFDFDF00FF007FFF202020FFFF0001FF",
+    "index": 8,
+    "first": [
+      2250,
+      210,
+      69,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "FFFFBD7EFFFFFFFF84FF7EFFFFBDFF08",
+    "index": 9,
+    "first": [
+      2250,
+      210,
+      77,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "4748AFAFDE5F9FFEC0C76F6033B3F0F3",
+    "index": 10,
+    "first": [
+      2250,
+      218,
+      61,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "FFFFFF00FFE8E8FF030000FFFF1717FF",
+    "index": 11,
+    "first": [
+      2250,
+      218,
+      69,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "FFFFFBF7FFFFFFFF21FF070FFFFBFF42",
+    "index": 12,
+    "first": [
+      2250,
+      218,
+      77,
+      0,
+      0
+    ],
+    "occurrences": 39
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "3A3EFF808080807F063E007F7F7F7F7F",
+    "index": 13,
+    "first": [
+      2250,
+      186,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 38
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0030FFFFFFFE921F0010D8D0D3D3BF3F",
+    "index": 14,
+    "first": [
+      2250,
+      194,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 38
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0000FFFDFF1FF0FF00000606F0F01FFF",
+    "index": 15,
+    "first": [
+      2250,
+      202,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 38
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0000F8BCE2DD3FEB0000C8C41E3FE3DD",
+    "index": 16,
+    "first": [
+      2250,
+      210,
+      53,
+      0,
+      0
+    ],
+    "occurrences": 38
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "FF00FFFF3BFAF53500FFFF00C7C70ECE",
+    "index": 17,
+    "first": [
+      2250,
+      226,
+      61,
+      0,
+      0
+    ],
+    "occurrences": 38
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "EBEFD113E38384FCDC1F37F5E483FCFC",
+    "index": 18,
+    "first": [
+      2250,
+      226,
+      69,
+      0,
+      0
+    ],
+    "occurrences": 38
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "FCFEFFFFCFFFFEFC08FCC6BABBC6FC10",
+    "index": 19,
+    "first": [
+      2250,
+      226,
+      77,
+      0,
+      0
+    ],
+    "occurrences": 38
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "F202FCF2FEAAAAAA0EFEFC0EFEFEFEFE",
+    "index": 20,
+    "first": [
+      2250,
+      234,
+      61,
+      0,
+      0
+    ],
+    "occurrences": 37
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "AA540004FF877C00FE54007C85FD7C00",
+    "index": 21,
+    "first": [
+      2250,
+      234,
+      69,
+      0,
+      0
+    ],
+    "occurrences": 37
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "1436677D657D36140C0E3D3F27270E0C",
+    "index": 22,
+    "first": [
+      2430,
+      115,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 32
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0000C09074130804FFFFBFFF7B1C0F07",
+    "index": 23,
+    "first": [
+      1200,
+      137,
+      127,
+      0,
+      0
+    ],
+    "occurrences": 30
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0202122C2C68A0800303133F3F7FFFFF",
+    "index": 24,
+    "first": [
+      1230,
+      121,
+      143,
+      0,
+      0
+    ],
+    "occurrences": 26
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "1860A688000000001F7FF9F7FFFFFFFF",
+    "index": 25,
+    "first": [
+      1200,
+      137,
+      119,
+      0,
+      0
+    ],
+    "occurrences": 24
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "10204040482C1E031F3F7F7F77331D03",
+    "index": 26,
+    "first": [
+      1950,
+      58,
+      215,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0000020E16183800000121110907077F",
+    "index": 27,
+    "first": [
+      6240,
+      64,
+      104,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF302C0F",
+    "key": "0000000080E01E010000000080E0FEFF",
+    "index": 28,
+    "first": [
+      5760,
+      71,
+      171,
+      1,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "7EC381818181C37E003C7E7E7E7E3C00",
+    "index": 0,
+    "first": [
+      2460,
+      32,
+      17,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "060F0F000000000001010F0000000000",
+    "index": 1,
+    "first": [
+      2460,
+      132,
+      116,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "0123371F1F0E0C00012337171F0E0C00",
+    "index": 2,
+    "first": [
+      2460,
+      132,
+      124,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "180000C73A000108FFFFFFFF3B0077FF",
+    "index": 3,
+    "first": [
+      2460,
+      140,
+      116,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "08ACBFCB03010003FFFFFECE0E1F1F1F",
+    "index": 4,
+    "first": [
+      2460,
+      140,
+      124,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "110E0E0E3E7E06001F0E0E0E2E7E0600",
+    "index": 5,
+    "first": [
+      2460,
+      140,
+      132,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "1C0E0787038383FEE4FAFDFDFEFEFDFE",
+    "index": 6,
+    "first": [
+      2460,
+      148,
+      116,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "3CFEDA9AB2FCC000C436EEEEDE3CC000",
+    "index": 7,
+    "first": [
+      2460,
+      148,
+      124,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "E77F3F1F8F0F0CF82191C9E9F5F7F4F8",
+    "index": 8,
+    "first": [
+      2550,
+      136,
+      135,
+      1,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "383C3C36363E3C1808141412121A2418",
+    "index": 9,
+    "first": [
+      2550,
+      136,
+      142,
+      1,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "CC4C7A02827C0810FCFCFEFEFEFCF8F0",
+    "index": 10,
+    "first": [
+      2550,
+      136,
+      143,
+      1,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "0300000C0703020403070F0F1F3F7E7C",
+    "index": 11,
+    "first": [
+      2550,
+      144,
+      143,
+      1,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "FFFF0FFF0F0701000606FFF109070100",
+    "index": 12,
+    "first": [
+      2550,
+      152,
+      135,
+      1,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "FFFCFCF80801C3377E070FFFFFFFFF3F",
+    "index": 13,
+    "first": [
+      8340,
+      131,
+      189,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "08443C3E1E1E7EFE787C3C3E1E1E5EFE",
+    "index": 14,
+    "first": [
+      8340,
+      131,
+      205,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF202015",
+    "key": "14044E3F0F0F1F3EFCFC7E3F0F0F173E",
+    "index": 15,
+    "first": [
+      8340,
+      139,
+      205,
+      0,
+      0
+    ],
+    "occurrences": 1
+  },
+  {
+    "layer": 1,
+    "palette": "FF201515",
+    "key": "000102F17A797A7E52FFFE8F7E67064E",
+    "index": 0,
+    "first": [
+      2460,
+      142,
+      110,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00000000000000000000000000000000",
+    "index": 0,
+    "first": [
+      8550,
+      0,
+      0,
+      0,
+      0
+    ],
+    "occurrences": 688
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FFFF00EEEE00FF000000000000000000",
+    "index": 1,
+    "first": [
+      8550,
+      24,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 64
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "C2DADADAC2DADADA0000000000000000",
+    "index": 2,
+    "first": [
+      8550,
+      16,
+      184,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "7FC0808C9CBC8C8C003F7F7363437373",
+    "index": 3,
+    "first": [
+      8550,
+      32,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "8C8C8C8C8C80C07F73737373737F3F00",
+    "index": 4,
+    "first": [
+      8550,
+      32,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "0E8E8E0E1EFEFC00F17171F1E10103FE",
+    "index": 5,
+    "first": [
+      8550,
+      72,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FCFDFDFDFDFD017F0000000000000000",
+    "index": 6,
+    "first": [
+      8550,
+      16,
+      176,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "3C66666666663C000000000000000000",
+    "index": 7,
+    "first": [
+      8550,
+      184,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE1E0E8E8E1EFE0301E1F17171E1",
+    "index": 8,
+    "first": [
+      8550,
+      72,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F73634373737FC0808C9CBC8C8C",
+    "index": 9,
+    "first": [
+      8550,
+      160,
+      32,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "73737373737F3F008C8C8C8C8C80C07F",
+    "index": 10,
+    "first": [
+      8550,
+      160,
+      40,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FDCDCDFD790103FE0232320286FEFC00",
+    "index": 11,
+    "first": [
+      8550,
+      72,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F78707171707FC080878F8E8E8F",
+    "index": 12,
+    "first": [
+      8550,
+      96,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "70717170787F3F008F8E8E8F8780C07F",
+    "index": 13,
+    "first": [
+      8550,
+      96,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00003C003C0000000000000000000000",
+    "index": 14,
+    "first": [
+      8550,
+      176,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "1838181818187E000000000000000000",
+    "index": 15,
+    "first": [
+      8550,
+      184,
+      208,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F7E7C787E7E7FC0808183878181",
+    "index": 16,
+    "first": [
+      8550,
+      32,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "7E7E7E7E7E7F3F00818181818180C07F",
+    "index": 17,
+    "first": [
+      8550,
+      32,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F78707171717FC080878F8E8E8E",
+    "index": 18,
+    "first": [
+      8550,
+      32,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "71717170787F3F008E8E8E8F8780C07F",
+    "index": 19,
+    "first": [
+      8550,
+      32,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FE030179FDCD0D7D00FCFE860232F282",
+    "index": 20,
+    "first": [
+      8550,
+      40,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "790DCDFD790103FE86F2320286FEFC00",
+    "index": 21,
+    "first": [
+      8550,
+      40,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE3E3E3E3E3EFE0301C1C1C1C1C1",
+    "index": 22,
+    "first": [
+      8550,
+      40,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "3E3E3E3E3EFEFC00C1C1C1C1C10103FE",
+    "index": 23,
+    "first": [
+      8550,
+      40,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE1E0E8E8E8EFE0301E1F1717171",
+    "index": 24,
+    "first": [
+      8550,
+      40,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "8E8E8E0E1EFEFC00717171F1E10103FE",
+    "index": 25,
+    "first": [
+      8550,
+      40,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F7F7E7C78717FC080808183878E",
+    "index": 26,
+    "first": [
+      8550,
+      64,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "6360607F7F7F3F009C9F9F808080C07F",
+    "index": 27,
+    "first": [
+      8550,
+      64,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F7870717F7F7FC080878F8E8080",
+    "index": 28,
+    "first": [
+      8550,
+      64,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "7C787070707F3F0083878F8F8F80C07F",
+    "index": 29,
+    "first": [
+      8550,
+      64,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F7870717F7C7FC080878F8E8083",
+    "index": 30,
+    "first": [
+      8550,
+      64,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "7C7F7170787F3F0083808E8F8780C07F",
+    "index": 31,
+    "first": [
+      8550,
+      64,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE1E1E1E1E1EFE0301E1E1E1E1E1",
+    "index": 32,
+    "first": [
+      8550,
+      72,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "1E06061E1EFEFC00E1F9F9E1E10103FE",
+    "index": 33,
+    "first": [
+      8550,
+      72,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FE030179FDCDC1F900FCFE8602323E06",
+    "index": 34,
+    "first": [
+      8550,
+      72,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "3E7EFE0E0EFEFC00C18101F1F10103FE",
+    "index": 35,
+    "first": [
+      8550,
+      72,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F70707171707FC0808F8F8E8E8F",
+    "index": 36,
+    "first": [
+      8550,
+      96,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "707F7F70707F3F008F80808F8F80C07F",
+    "index": 37,
+    "first": [
+      8550,
+      96,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FE0301FDFDC1C1F900FCFE02023E3E06",
+    "index": 38,
+    "first": [
+      8550,
+      104,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FD0D0DFDF90103FE02F2F20206FEFC00",
+    "index": 39,
+    "first": [
+      8550,
+      104,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE1E1EFEFE1EFE0301E1E10101E1",
+    "index": 40,
+    "first": [
+      8550,
+      104,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE1E0E8EFE1EFE0301E1F17101E1",
+    "index": 41,
+    "first": [
+      8550,
+      104,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F70707F7F7E7FC0808F8F808081",
+    "index": 42,
+    "first": [
+      8550,
+      128,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "7C7C7C7C7C7F3F00838383838380C07F",
+    "index": 43,
+    "first": [
+      8550,
+      128,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE0E0E0E1E3EFE0301F1F1F1E1C1",
+    "index": 44,
+    "first": [
+      8550,
+      136,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "7E7E7E7E7EFEFC0081818181810103FE",
+    "index": 45,
+    "first": [
+      8550,
+      136,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FE030179FDCDCD7900FCFE8602323286",
+    "index": 46,
+    "first": [
+      8550,
+      136,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FE0301193979F9D900FCFEE6C6860626",
+    "index": 47,
+    "first": [
+      8550,
+      136,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "D9FDFD19190103FE260202E6E6FEFC00",
+    "index": 48,
+    "first": [
+      8550,
+      136,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "003F7F78707171787FC080878F8E8E87",
+    "index": 49,
+    "first": [
+      8550,
+      160,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "787F7170787F3F0087808E8F8780C07F",
+    "index": 50,
+    "first": [
+      8550,
+      160,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE8602323232FE030179FDCDCDCD",
+    "index": 51,
+    "first": [
+      8550,
+      168,
+      32,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "3232320286FEFC00CDCDCDFD790103FE",
+    "index": 52,
+    "first": [
+      8550,
+      168,
+      40,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE1E0E8E8E0EFE0301E1F17171F1",
+    "index": 53,
+    "first": [
+      8550,
+      168,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FE0301FDFD0D1D3900FCFE0202F2E2C6",
+    "index": 54,
+    "first": [
+      8550,
+      168,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "31313131310103FECECECECECEFEFC00",
+    "index": 55,
+    "first": [
+      8550,
+      168,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "6060606060607E000000000000000000",
+    "index": 56,
+    "first": [
+      8550,
+      168,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FCC6C6C6FCC0C0000000000000000000",
+    "index": 57,
+    "first": [
+      8550,
+      168,
+      208,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "1E30607E63633E000000000000000000",
+    "index": 58,
+    "first": [
+      8550,
+      192,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "FE030179FDCDCDFD00FCFE8602323202",
+    "index": 59,
+    "first": [
+      8550,
+      200,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "7D0DCDFD790103FE82F2320286FEFC00",
+    "index": 60,
+    "first": [
+      8550,
+      200,
+      120,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "01020408102040800000000000000000",
+    "index": 61,
+    "first": [
+      8550,
+      208,
+      192,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFE8E0666E6C6FE030171F9991939",
+    "index": 62,
+    "first": [
+      8550,
+      216,
+      32,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "8E1E3E0606FEFC0071E1C1F9F90103FE",
+    "index": 63,
+    "first": [
+      8550,
+      216,
+      40,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "00FCFECE8E0ECECEFE03013171F13131",
+    "index": 64,
+    "first": [
+      8550,
+      216,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201510",
+    "key": "CECECECECEFEFC0031313131310103FE",
+    "index": 65,
+    "first": [
+      8550,
+      216,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "0000000000000000007F7F7F7F7F7F7F",
+    "index": 0,
+    "first": [
+      8550,
+      24,
+      24,
+      0,
+      0
+    ],
+    "occurrences": 162
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "FFFF00EEEE00FF000000000000000000",
+    "index": 1,
+    "first": [
+      8550,
+      24,
+      16,
+      0,
+      0
+    ],
+    "occurrences": 70
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "C2DADADAC2DADADA0000000000000000",
+    "index": 2,
+    "first": [
+      8550,
+      16,
+      24,
+      0,
+      0
+    ],
+    "occurrences": 22
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "FCFDFDFDFDFD017F0000000000000000",
+    "index": 3,
+    "first": [
+      8550,
+      16,
+      16,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "000000000000007F007F7F7F7F7F0000",
+    "index": 4,
+    "first": [
+      8550,
+      80,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "7F0000000000000000007F7F7F7F7F7F",
+    "index": 5,
+    "first": [
+      8550,
+      80,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "00000000000000FE007F7F7F7F7F0000",
+    "index": 6,
+    "first": [
+      8550,
+      88,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "FE0000000000000000007F7F7F7F7F7F",
+    "index": 7,
+    "first": [
+      8550,
+      88,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "8080808080808000003F3F3F3F3F3F3F",
+    "index": 8,
+    "first": [
+      8550,
+      40,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "007F7F7F7F7F7F7F007F7F7F7F7F7F7F",
+    "index": 9,
+    "first": [
+      8550,
+      72,
+      160,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "007D7D7D7D7D7D7D007C7C7C7C7C7C7C",
+    "index": 10,
+    "first": [
+      8550,
+      32,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "017D7D7D7D7D7D7C007C7C7C7C7C7C7C",
+    "index": 11,
+    "first": [
+      8550,
+      32,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "00BFBFBFBFBFBFBF003F3F3F3F3F3F3F",
+    "index": 12,
+    "first": [
+      8550,
+      40,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "0001010101010101007C7C7C7C7C7C7C",
+    "index": 13,
+    "first": [
+      8550,
+      160,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "0101010101010100007C7C7C7C7C7C7C",
+    "index": 14,
+    "first": [
+      8550,
+      160,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F20161C",
+    "key": "0080808080808080003F3F3F3F3F3F3F",
+    "index": 15,
+    "first": [
+      8550,
+      168,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "0000000000000000007F7F7F7F7F7F7F",
+    "index": 0,
+    "first": [
+      8550,
+      24,
+      56,
+      0,
+      0
+    ],
+    "occurrences": 88
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "007F7F7F7F7F7F7F007F7F7F7F7F7F7F",
+    "index": 1,
+    "first": [
+      8550,
+      24,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 32
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "0080808080808080003F3F3F3F3F3F3F",
+    "index": 2,
+    "first": [
+      8550,
+      40,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "8080808080808000003F3F3F3F3F3F3F",
+    "index": 3,
+    "first": [
+      8550,
+      40,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 18
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "C2DADADAC2DADADA0000000000000000",
+    "index": 4,
+    "first": [
+      8550,
+      16,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 16
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "0001010101010101007C7C7C7C7C7C7C",
+    "index": 5,
+    "first": [
+      8550,
+      32,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "0101010101010100007C7C7C7C7C7C7C",
+    "index": 6,
+    "first": [
+      8550,
+      32,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 14
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "C0E070381C0E0702000F070341607078",
+    "index": 7,
+    "first": [
+      8550,
+      88,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "0100000000000000007E7F7F7F7F7F7F",
+    "index": 8,
+    "first": [
+      8550,
+      144,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "0000000000000080007F7F7F7F7F7F3F",
+    "index": 9,
+    "first": [
+      8550,
+      152,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "0000000000000001007F7F7F7F7F7E7C",
+    "index": 10,
+    "first": [
+      8550,
+      48,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "03070E1C3870E0400070604103070F1F",
+    "index": 11,
+    "first": [
+      8550,
+      48,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "02070E1C3870E0C00070604103070F1F",
+    "index": 12,
+    "first": [
+      8550,
+      56,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "8000000000000000007F7F7F7F7F7F7F",
+    "index": 13,
+    "first": [
+      8550,
+      56,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "017D7D7D7D7D7D7C007C7C7C7C7C7C7C",
+    "index": 14,
+    "first": [
+      8550,
+      64,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "40EF773B5D6E777B000F070341607078",
+    "index": 15,
+    "first": [
+      8550,
+      80,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "007D7D7D7D7D7D7D007C7C7C7C7C7C7C",
+    "index": 16,
+    "first": [
+      8550,
+      128,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 6
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "40E070381C0E0703000F070341607078",
+    "index": 17,
+    "first": [
+      8550,
+      176,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "017E7F7F7F7F7F7F007E7F7F7F7F7F7F",
+    "index": 18,
+    "first": [
+      8550,
+      80,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "000000000000007F007F7F7F7F7F0000",
+    "index": 19,
+    "first": [
+      8550,
+      80,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "7F0000000000000000007F7F7F7F7F7F",
+    "index": 20,
+    "first": [
+      8550,
+      80,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "007F7F7F7F7F7FBF007F7F7F7F7F7F3F",
+    "index": 21,
+    "first": [
+      8550,
+      88,
+      64,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "00000000000000FE007F7F7F7F7F0000",
+    "index": 22,
+    "first": [
+      8550,
+      88,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "FE0000000000000000007F7F7F7F7F7F",
+    "index": 23,
+    "first": [
+      8550,
+      88,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "80BFBFBFBFBFBF3F003F3F3F3F3F3F3F",
+    "index": 24,
+    "first": [
+      8550,
+      136,
+      72,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201A16",
+    "key": "00BFBFBFBFBFBFBF003F3F3F3F3F3F3F",
+    "index": 25,
+    "first": [
+      8550,
+      216,
+      48,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "0000000000000000007F7F7F7F7F7F7F",
+    "index": 0,
+    "first": [
+      8550,
+      24,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 168
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "007F7F7F7F7F7F7F007F7F7F7F7F7F7F",
+    "index": 1,
+    "first": [
+      8550,
+      24,
+      88,
+      0,
+      0
+    ],
+    "occurrences": 52
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "C2DADADAC2DADADA0000000000000000",
+    "index": 2,
+    "first": [
+      8550,
+      16,
+      80,
+      0,
+      0
+    ],
+    "occurrences": 34
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "FFFF00EEEE00FF000000000000000000",
+    "index": 3,
+    "first": [
+      8550,
+      96,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 34
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "0101010101010100007C7C7C7C7C7C7C",
+    "index": 4,
+    "first": [
+      8550,
+      32,
+      104,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "0080808080808080003F3F3F3F3F3F3F",
+    "index": 5,
+    "first": [
+      8550,
+      40,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "8080808080808000003F3F3F3F3F3F3F",
+    "index": 6,
+    "first": [
+      8550,
+      40,
+      104,
+      0,
+      0
+    ],
+    "occurrences": 10
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "0001010101010101007C7C7C7C7C7C7C",
+    "index": 7,
+    "first": [
+      8550,
+      32,
+      96,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "000000000000007F007F7F7F7F7F0000",
+    "index": 8,
+    "first": [
+      8550,
+      80,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "7F0000000000000000007F7F7F7F7F7F",
+    "index": 9,
+    "first": [
+      8550,
+      80,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "00000000000000FE007F7F7F7F7F0000",
+    "index": 10,
+    "first": [
+      8550,
+      88,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "FE0000000000000000007F7F7F7F7F7F",
+    "index": 11,
+    "first": [
+      8550,
+      88,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "0000000000000001007F7F7F7F7F7E7C",
+    "index": 12,
+    "first": [
+      8550,
+      112,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "03070E1C3870E0400070604103070F1F",
+    "index": 13,
+    "first": [
+      8550,
+      112,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "02070E1C3870E0C00070604103070F1F",
+    "index": 14,
+    "first": [
+      8550,
+      120,
+      128,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "8000000000000000007F7F7F7F7F7F7F",
+    "index": 15,
+    "first": [
+      8550,
+      120,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "007D7D7D7D7D7D7D007C7C7C7C7C7C7C",
+    "index": 16,
+    "first": [
+      8550,
+      96,
+      112,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "000022322A262200007F5D4D55595D7F",
+    "index": 17,
+    "first": [
+      8550,
+      208,
+      136,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "00040C0C14142424007B73736B6B5B5B",
+    "index": 18,
+    "first": [
+      8550,
+      208,
+      144,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "447F04040404040400007B7B7B7B7B7B",
+    "index": 19,
+    "first": [
+      8550,
+      208,
+      152,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 0,
+    "palette": "0F201C1A",
+    "key": "FCFDFDFDFDFD017F0000000000000000",
+    "index": 20,
+    "first": [
+      8550,
+      232,
+      168,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30260F",
+    "key": "00060D1A346FDFA7000203060C1B3EE4",
+    "index": 0,
+    "first": [
+      8550,
+      32,
+      193,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30260F",
+    "key": "47071D3E4C844A3446031B0E34FC7E37",
+    "index": 1,
+    "first": [
+      8550,
+      32,
+      201,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30260F",
+    "key": "60F0F87830100810E0908858381818F0",
+    "index": 2,
+    "first": [
+      8550,
+      40,
+      201,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30260F",
+    "key": "020200030706060E0101000003000204",
+    "index": 3,
+    "first": [
+      8550,
+      96,
+      193,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30260F",
+    "key": "000000C0E0606030C0C00000C0404020",
+    "index": 4,
+    "first": [
+      8550,
+      104,
+      193,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30150F",
+    "key": "023C1C2E03219EC01D1B2F173F7FFE40",
+    "index": 0,
+    "first": [
+      8550,
+      40,
+      193,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "000000FF80808080000000FFFFFFFFFF",
+    "index": 0,
+    "first": [
+      8550,
+      87,
+      145,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "000000E07E313232000000E09EDFDDDD",
+    "index": 1,
+    "first": [
+      8550,
+      95,
+      145,
+      0,
+      0
+    ],
+    "occurrences": 8
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "0C18102040800000F4E8F0E0C0800000",
+    "index": 2,
+    "first": [
+      8550,
+      48,
+      64,
+      1,
+      1
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "1028548AC562341810386CF67BBEDCE8",
+    "index": 3,
+    "first": [
+      8550,
+      48,
+      72,
+      1,
+      1
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "408000804020110A7FFFFFFF7F3F1F0E",
+    "index": 4,
+    "first": [
+      8550,
+      56,
+      64,
+      1,
+      1
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "000001030608102000000102050F1F3F",
+    "index": 5,
+    "first": [
+      8550,
+      56,
+      72,
+      1,
+      1
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "040B08080F1F1810070C0F0F0F10171F",
+    "index": 6,
+    "first": [
+      8550,
+      160,
+      57,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "101010101010101F1F1F1F1F1F1F1F1F",
+    "index": 7,
+    "first": [
+      8550,
+      160,
+      65,
+      0,
+      0
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "32448C8C8C44300F0D3B7373733B0F00",
+    "index": 8,
+    "first": [
+      8550,
+      96,
+      201,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "0C02010101020CF0F0FCFEFEFEFCF000",
+    "index": 9,
+    "first": [
+      8550,
+      104,
+      201,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "1EBFE7A1B6FF00EE146AE7616DFFFFFF",
+    "index": 10,
+    "first": [
+      8550,
+      128,
+      193,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "A0EE00FFAAAAFF007FFFFFFFFFFFFFFF",
+    "index": 11,
+    "first": [
+      8550,
+      128,
+      201,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "0181FBFBFFFFFF6600008686FEFEC2DB",
+    "index": 12,
+    "first": [
+      8550,
+      136,
+      193,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF302A0F",
+    "key": "E765E5FDFDF9FBFEDBDBDBC3FF8787FE",
+    "index": 13,
+    "first": [
+      8550,
+      136,
+      201,
+      0,
+      0
+    ],
+    "occurrences": 2
+  },
+  {
+    "layer": 1,
+    "palette": "FF30210F",
+    "key": "04020202020608060703030303070F07",
+    "index": 0,
+    "first": [
+      8550,
+      64,
+      113,
+      0,
+      1
+    ],
+    "occurrences": 4
+  },
+  {
+    "layer": 1,
+    "palette": "FF30210F",
+    "key": "0204090A787F7F0503070F0F7F427E07",
+    "index": 1,
+    "first": [
+      8550,
+      64,
+      121,
+      0,
+      1
+    ],
+    "occurrences": 4
+  }
+]

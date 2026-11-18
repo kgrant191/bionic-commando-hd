@@ -1,3 +1,28 @@
+# Current build — v0.11.0
+
+Run `python3 scripts/build.py` (optionally `--output /path/to/output`).
+Dependencies: Python 3, Pillow, NumPy, SciPy, DejaVu Sans Mono Bold and the
+MesenCE xBRZ wrapper in `tools/scale.so`. Set `BIONIC_XBRZ_LIBRARY` and
+`BIONIC_MONO_FONT` to override the scaler and font paths on another platform.
+
+The v0.10.6 approved ZIP is preserved, hash-verified, in `baselines/v0106/`.
+The intermediate v0.10.2–v0.10.6 generator changes were not available after
+workspace recovery. Never rerun the v0.10.1 generator over this baseline.
+The current builder adds only scoped Area 2 rules and two runtime images.
+
+`capture/area2/` contains extracted native pattern metadata, material phase
+assignments and actor pose records. `art/area2-*` holds generated source artwork.
+All gameplay state, hitboxes, camera behavior and animation timing remain native.
+The tracked carrier uses its stable chassis cell as the artwork anchor; the
+independently turning driver cannot mirror or shift its chassis. Body fragments
+use painted fallback crops when the anchor leaves the visible viewport.
+
+`python3 scripts/package_v0110.py` creates the installable ZIP and extracts
+that exact archive for replay. It does not create movies or Git bundles.
+`validation/AREA2_v0.11.0.md` records the final playback and prior-area checks.
+
+## Earlier development history
+
 # Current build — v0.9.8
 
 Run `python3 scripts/build.py` to reproduce all 37 approved runtime files.

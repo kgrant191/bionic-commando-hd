@@ -1,3 +1,15 @@
+# v0.11.0 — Area 2 review build
+
+Area 2 now uses textured aqueduct scenery, flowing water, visible metal spike
+tips, painted tracked carriers and complete red grenadier/rifleman states.
+The clear screen reads AREA 02 CLEAR in consistent lettering. The new numeral
+also covers the 2nd Platoon dialogue.
+
+The original game's low spike placement and camera behavior are preserved.
+The approved v0.10.6 artwork and mappings remain the baseline for earlier areas.
+This is a ZIP-only review build; later areas and unrecorded states remain outside
+its validation scope.
+
 # Bionic Commando HD v0.10.0 — Weapons, damage states and Area 16
 
 The rocket launcher and wide cannon now have their own menu icons and held

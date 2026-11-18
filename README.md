@@ -1,23 +1,37 @@
 # Bionic Commando HD
 
-**v0.10.1 — Stable overhead movement and Area 16 corrections**
+**v0.11.0 — Area 2 aqueduct and recorded animation states**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
 A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 13, Area 4, Area 5, Area 15 and Area 16 recordings.
+This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 2, Area 13, Area 4, Area 5, Area 15 and Area 16 recordings.
 
 ## Install
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.10.1.zip`.
+   `Bionic_Commando_HD_v0.11.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.11.0
+
+- Area 2 mountain outpost, aqueduct rock, masonry, mossy platforms, flowing water and visible steel spikes.
+- Painted tracked carrier, independently moving hanging hazard, red grenadier and crouching rifleman.
+- Carrier chassis stays aligned through its native movement and wheel phases; recorded clipping and destruction fragments remain painted.
+- Consistent Area 02 clear-screen numerals and the 2nd Platoon dialogue numeral.
+- Approved v0.10.6 runtime retained as the baseline for every earlier area.
+
+The spike tips are also at the lower viewport edge in the original game and can
+scroll out of view. This artwork update preserves the original level geometry,
+camera, movement, collision and damage timing. Only recorded states are covered;
+this is a review build, not a finished-game release. See
+`validation/AREA2_v0.11.0.md` for playback coverage and limits.
 
 ## New in v0.10.1
 

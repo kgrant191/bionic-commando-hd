@@ -1,0 +1,10 @@
+{
+  "version": "0.11.0",
+  "new_rules": 2441,
+  "atlas_cells": 598,
+  "actors": {
+    "native_carrier_keys": 21,
+    "new_enemy_poses": 8,
+    "new_palette_aliases": 9
+  }
+}

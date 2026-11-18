@@ -1,0 +1,10 @@
+{
+  "movie": "16.mmo",
+  "frames": 7792,
+  "rendered_frame_hash_mismatches": 0,
+  "baseline": "approved v0.10.6",
+  "candidate_zip_sha256": "6676231330294f3927cbf799d3ecad77e57ea6084f970e7b49f6e8475daf0f5b",
+  "coverage": "Town movement, all recorded NPC dialogue colors, wheeled cannon and scrolling building states.",
+  "final_zip_sha256": "c12ba30e3c57d42774640674f25d41c825e0a6488e172ee989075b02aa7e068a",
+  "repack_note": "Final archive differs only in README.txt; all runtime graphics and hires.txt are byte-identical to the archive used in this comparison."
+}

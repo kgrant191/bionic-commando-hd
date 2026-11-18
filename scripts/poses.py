@@ -31,7 +31,7 @@ def make_actor(root,keys,rule,blank,actor,rows,normal_palette):
         own_keys={t[2]for t in own}
         others=[{t[2]for t in r['parts']}|{r['head']}for r in records if r is not rec and r['head']==rec['head']]
         others=[s for s in others if not own_keys<=s]
-        ranked=sorted(own,key=lambda t:(t[1]<8,-sum(b.bit_count()for b in bytes.fromhex(t[2])),abs(t[0])))
+        ranked=sorted(own,key=lambda t:(t[1]<8,-sum(b.bit_count()for b in bytes.fromhex(t[2])),abs(t[0]),t))
         signature=None
         for size in [1,2,3,4]:
             for combo in itertools.combinations(ranked,size):

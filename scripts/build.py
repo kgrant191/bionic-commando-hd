@@ -1,5 +1,5 @@
-"""Build the current review pack, including weapon and Area 16 corrections."""
-from build_v0101 import main
+"""Build the current Area 2 review pack from the approved v0.10.6 baseline."""
+from build_v0110 import main
 
 if __name__ == "__main__":
     main()
