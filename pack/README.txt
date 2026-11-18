@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.11.4
+BIONIC COMMANDO HD — v0.11.5
 Area 2 review build
 
 NEW IN THIS BUILD
+Eagle emblems distinguish generator/final-boss entrances from radio rooms.
+All currently mapped native eagle-header palettes share the same marker.
+
 Complete late doorway header, round outlets and extended lower pipe.
 Tall blue slime flow uses connected vertical art instead of stacked pools.
 

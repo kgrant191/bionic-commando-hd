@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.11.4 — Area 2 machinery and slime layouts**
+**v0.11.5 — Eagle markers for boss entrances**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.11.4.zip`.
+   `Bionic_Commando_HD_v0.11.5.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -19,7 +19,13 @@ For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
 
-## New in v0.11.4
+## New in v0.11.5
+
+- Generator/final-boss entrances display a gold eagle, selected by their original eagle-header patterns.
+- The marker covers all five currently mapped palette variants; radio and ordinary doorway headers retain their own designs.
+- Use the eagle consistently when adding later boss-room entrances.
+
+## Included v0.11.4 fixes
 
 - Complete the alternate doorway header, standalone round outlets and extended pipe beneath the platform.
 - Replace stacked horizontal pool strips in the tall outlet with a connected vertical blue slime flow.

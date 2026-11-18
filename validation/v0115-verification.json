@@ -1,0 +1,31 @@
+{
+  "scope": {
+    "new_emblem_rules": 10,
+    "covered_native_palette_pairs": 10,
+    "existing_pngs_unchanged": 46,
+    "existing_tile_rules_unchanged": 185421,
+    "radio_and_ordinary_door_patterns_changed": false
+  },
+  "structure": {
+    "runtime_images": 14,
+    "tile_rules": 185431,
+    "sprite_additions": 3203,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "bounds": {
+    "bounded_neighbor_references": 4340,
+    "unsafe_references": 0
+  },
+  "playback": {
+    "movie_input_frames": 12044,
+    "ram_checkpoints": 202,
+    "ppu_checkpoints": 202,
+    "state_mismatches": 0,
+    "audited_graphics_states": 3280,
+    "uncovered_graphics_states": 0,
+    "screenshots": 348,
+    "loaded_pack_matches_extracted_zip": true
+  }
+}

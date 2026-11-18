@@ -1,0 +1,22 @@
+{
+  "version": "0.11.5",
+  "rules": 10,
+  "native_keys": [
+    "FBF478FDFBC2F2F50AFD85FEE6C3F3CD",
+    "DF2F5EBEDC414DBC10BFE17E64C1CDA0"
+  ],
+  "palettes": [
+    "0F21110B",
+    "0F261000",
+    "0F271505",
+    "0F271606",
+    "0F2B1C0B"
+  ],
+  "native_footprint": [
+    16,
+    8
+  ],
+  "selection": "Native eagle header only, across existing area/palette variants",
+  "new_neighbor_conditions": 0,
+  "ordinary_and_radio_headers_changed": false
+}

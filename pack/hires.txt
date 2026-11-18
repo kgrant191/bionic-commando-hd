@@ -1,4 +1,4 @@
-# Bionic Commando HD v0.11.4 - complete Area 2 machinery and slime layouts
+# Bionic Commando HD v0.11.5 - eagle markers on generator and boss entrances
 <ver>109
 <scale>4
 <supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D
@@ -18132,6 +18132,17 @@
 <condition>a212Bound104,positionCheckX,<,244
 <condition>a212Bound105,positionCheckX,>=,20
 <condition>a212Bound106,positionCheckX,<,236
+<img>boss-door-eagle-v0115.png
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,FBF478FDFBC2F2F50AFD85FEE6C3F3CD,0F21110B,0,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,FBF478FDFBC2F2F50AFD85FEE6C3F3CD,0F261000,0,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,FBF478FDFBC2F2F50AFD85FEE6C3F3CD,0F271505,0,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,FBF478FDFBC2F2F50AFD85FEE6C3F3CD,0F271606,0,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,FBF478FDFBC2F2F50AFD85FEE6C3F3CD,0F2B1C0B,0,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,DF2F5EBEDC414DBC10BFE17E64C1CDA0,0F21110B,32,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,DF2F5EBEDC414DBC10BFE17E64C1CDA0,0F261000,32,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,DF2F5EBEDC414DBC10BFE17E64C1CDA0,0F271505,32,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,DF2F5EBEDC414DBC10BFE17E64C1CDA0,0F271606,32,0,1,N
+[!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14]<tile>13,DF2F5EBEDC414DBC10BFE17E64C1CDA0,0F2B1C0B,32,0,1,N
 [area2&!interception&!interception14&!title&!worldmap&!equipment&!radio&!areaClear&a2Cave]<tile>12,00033F7C3F2C78F0000C306307D49098,0F2B1C0B,0,0,1,N
 [area2&!interception&!interception14&!title&!worldmap&!equipment&!radio&!areaClear&a2Cave]<tile>12,00C0F8BC58362E1C002008C4642A3A1A,0F2B1C0B,32,0,1,N
 [area2&!interception&!interception14&!title&!worldmap&!equipment&!radio&!areaClear&a2Cave]<tile>12,70702C721A2F130718105C4B25301C01,0F2B1C0B,64,0,1,N

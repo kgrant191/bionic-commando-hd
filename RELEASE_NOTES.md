@@ -1,3 +1,13 @@
+# v0.11.5 — Eagle markers for generator/boss entrances
+
+Adds a gold eagle plaque to the original goal-door header pattern across all
+five currently mapped palettes. Radio-room and ordinary doorway markers stay
+distinct. The emblem occupies the original 16×8-pixel footprint and adds no
+neighbor lookups or gameplay changes. Includes the Area 2 fixes from v0.11.4.
+
+ZIP-only review build. Playback validation uses the supplied Area 2 recording;
+other existing door variants are checked through their shared native patterns.
+
 # v0.11.4 — Area 2 machinery and slime layouts
 
 Completes the late doorway header, standalone round outlets and longer lower
