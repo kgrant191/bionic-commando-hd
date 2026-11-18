@@ -1,0 +1,26 @@
+{
+  "matching_inspected_outdoor_frames": [
+    1840,
+    1900,
+    2040,
+    2041,
+    2200,
+    2400,
+    2401,
+    2600,
+    2800,
+    3000,
+    3001,
+    3300,
+    3600,
+    3900,
+    4200,
+    4500,
+    4501,
+    4800,
+    4980,
+    5041,
+    5050
+  ],
+  "visual_review": "Full-size frame 2401; four-view outdoor sheet; 16-view outdoor progress sheet."
+}

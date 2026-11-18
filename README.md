@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.12.2 — Area 3 wall insets, entrance and boss explosion**
+**v0.12.3 — Area 3 winter vegetation**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,19 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.12.2.zip`.
+   `Bionic_Commando_HD_v0.12.3.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.12.3
+
+- Frost-tipped alpine moss and evergreen foliage replace the outdoor wall mesh.
+- The texture follows the native tile layout continuously while the camera scrolls.
+- Solid rock, snow, entrances and the corrected boss effects retain their approved artwork.
 
 ## New in v0.12.2
 
@@ -326,10 +332,10 @@ NumPy, SciPy and the included xBRZ scaling library). The current builder
 reconstructs the preserved v0.10.6 baseline, applies the approved Area 2
 patches, then adds the Area 3 rules and generated artwork.
 
-`validation/v0122-verification.json` records the exact-ZIP Area 3 replay,
+`validation/v0123-verification.json` records the exact-ZIP Area 3 replay,
 every-frame mapping audit, original-game RAM/PPU parity and screen-bound
-checks. `validation/v0122-reproducibility.json` records the clean rebuild
-comparison. See `validation/v0122-review.md` for visual review scope.
+checks. `validation/v0123-reproducibility.json` records the clean rebuild
+comparison. See `validation/v0123-review.md` for visual review scope.
 
 The install ZIP contains only the pack and its install notes. ROMs, emulator
 binaries, gameplay recordings and developer files are not included.

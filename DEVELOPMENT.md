@@ -536,3 +536,26 @@ the full exact-ZIP playback and original RAM/PPU parity. Count valid PNG
 captures separately from the empty frame-one callback before the first render.
 `package_v0122.py` creates the 53-file install ZIP only. Review details and
 measured results are in `validation/v0122-*`.
+
+## v0.12.3 Area 3 winter vegetation
+
+The user requested vegetation in place of the decorative outdoor mesh.
+`build_v0123.py` wraps the approved builder and adds 70 Area 3 outdoor rules
+for palette 1C201000. The source painting contains dark alpine moss, creeping
+juniper, tiny evergreen leaves and light frost. Existing solid cliff, snowy
+ledges, doors and boss effects keep their preceding rules and PNGs.
+
+The complete native outdoor recording (3,210 frames) supplies 331 distinct
+neighbor relationships between these 70 patterns. They form one connected
+graph with a consistent two-by-two texture phase. The captured layout in
+`capture/area3/vegetation-layout-v0123.json` selects quadrants of a 64-pixel
+texture without screen-position conditions, so the pattern remains fixed to
+the world while scrolling. Preserve native contour alpha; no collision,
+grapple or sprite destinations change. Deduplication produces five atlas cells.
+
+`verify_v0123.py` checks all 70 vegetation selections and retains the v0.12.2
+door, explosion and boss-edge checks. It also compares normalized audit states
+for every other graphics family with the approved v0.12.2 replay, plus common
+non-outdoor screenshots. The exact-ZIP replay must finish all 11,110 input
+frames and match all original RAM/PPU checkpoints. All 54 runtime files must
+match a clean default rebuild. Only the install ZIP is delivered.

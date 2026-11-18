@@ -1,8 +1,9 @@
-BIONIC COMMANDO HD — v0.12.2
+BIONIC COMMANDO HD — v0.12.3
 Area 3 review build
 
 NEW IN THIS BUILD
-Dark recessed grilles distinguish decorative wall insets from solid rock.
+Frost-tipped alpine moss and evergreen foliage replace the decorative wall mesh.
+Vegetation stays distinct from the solid brown rock and snowy ledges.
 The outdoor entrance has a metal frame and opaque dark interior.
 All three robot destruction phases use painted explosion and smoke art.
 

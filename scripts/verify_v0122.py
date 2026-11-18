@@ -8,17 +8,18 @@ from verify_v0110 import structure
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def selected_art(pack, baseline, result):
+def selected_art(pack, baseline, result, recess_image='area3-surfaces-v0122.png'):
     lines = (pack/'hires.txt').read_text().splitlines()
     images = [s[5:] for s in lines if s.startswith('<img>')]
     tiles = [s for s in lines if '<tile>' in s]
     atlas = images.index('area3-surfaces-v0122.png')
+    recess_atlas = images.index(recess_image)
     rows = list(csv.DictReader((result/'home/audit.tsv').open(), delimiter='\t'))
     report = json.loads((ROOT/'validation/v0122-build.json').read_text())
     def image_id(r): return int(tiles[int(r['rule'])].split('<tile>')[1].split(',')[0])
     recess = [r for r in rows if r['layer'] == '0' and int(r['palette'], 16) == 0x1C201000 and r['key'] in report['recess_keys']]
     assert {r['key'] for r in recess} == set(report['recess_keys'])
-    assert all(image_id(r) == atlas for r in recess)
+    assert all(image_id(r) == recess_atlas for r in recess)
     blasts = [r for r in rows if r['layer'] == '1' and r['key'] in report['explosion_keys']]
     assert {r['key'] for r in blasts} == set(report['explosion_keys'])
     assert all(image_id(r) == atlas for r in blasts), blasts
