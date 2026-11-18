@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.12.0 — Area 3 alpine approach and pipe works**
+**v0.12.1 — Area 3 pendant, snow and robot corrections**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.12.0.zip`.
+   `Bionic_Commando_HD_v0.12.1.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -19,13 +19,21 @@ For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
 
+## New in v0.12.1
+
+- Cross pendant replaces the incorrect red radio in the equipment/map inventory.
+- The stray distant-background tile by the tree limb is removed.
+- Deep sinking snow uses soft, low-contrast powder texture.
+- Area 3 reuses the approved Area 5 robot, damage palettes, fixed nozzle and native exhaust phases.
+- Full `3.mmo` replay and exact-ZIP verification; no earlier-area movie regression.
+
 ## New in v0.12.0
 
 - Painted alpine rock, snow, tree branches and distant mountains.
 - Painted factory pipes, service columns, wall grilles, bridges, moving lifts and visible spikes.
 - Crawlers, balloon insects, plant jaws and seed projectiles follow their original animation phases.
 - Complete radio-room knife guards with native walking poses and damage states.
-- Generator entrance eagle, red communicator icon and AREA 03 CLEAR text.
+- Generator entrance eagle and AREA 03 CLEAR text. The inventory item is a cross pendant (corrected in v0.12.1).
 - Validation is limited to the full supplied `3.mmo`; no wider level regression was requested.
 
 ## Included v0.11.5 fixes
@@ -311,10 +319,10 @@ NumPy, SciPy and the included xBRZ scaling library). The current builder
 reconstructs the preserved v0.10.6 baseline, applies the approved Area 2
 patches, then adds the Area 3 rules and generated artwork.
 
-`validation/v0120-verification.json` records the exact-ZIP Area 3 replay,
+`validation/v0121-verification.json` records the exact-ZIP Area 3 replay,
 every-frame mapping audit, original-game RAM/PPU parity and screen-bound
-checks. `validation/v0120-reproducibility.json` records the clean rebuild
-comparison. See `validation/v0120-review.md` for visual review scope.
+checks. `validation/v0121-reproducibility.json` records the clean rebuild
+comparison. See `validation/v0121-review.md` for visual review scope.
 
 The install ZIP contains only the pack and its install notes. ROMs, emulator
 binaries, gameplay recordings and developer files are not included.

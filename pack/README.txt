@@ -1,7 +1,11 @@
-BIONIC COMMANDO HD — v0.12.0
+BIONIC COMMANDO HD — v0.12.1
 Area 3 review build
 
 NEW IN THIS BUILD
+Cross pendant inventory icon, softer sinking snow, removal of the stray
+mountain tile beside the tree, and the previously approved robot boss
+with its fixed nozzle and native-timed exhaust.
+
 Area 3 painted snow, alpine cliffs, tree branches, industrial pipes,
 platforms and spikes. Native crawling, flying and plant-mouth phases
 use painted creatures. Goal door eagle and AREA 03 CLEAR lettering.

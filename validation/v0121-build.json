@@ -1,0 +1,18 @@
+{
+  "version": "0.12.1",
+  "pendant_rules": 8,
+  "snow_rules": 9,
+  "removed_distant_fragments": 1,
+  "reused_boss_source_rules": 3296,
+  "reused_boss_rules": 6128,
+  "reused_room_detail_rules": 4,
+  "additional_clipped_exhaust_rules": 32,
+  "additional_clipped_body_rules": 14,
+  "new_sprite_additions": 0,
+  "boss_art_modified": false,
+  "bounds": {
+    "guarded_rules": 5848,
+    "position_conditions": 38
+  },
+  "new_atlas_cells": 14
+}

@@ -467,3 +467,39 @@ Run structural/replay verification with `scripts/verify_v0120.py`; run
 capture catalogs live under `art/area3-*` and `capture/area3/`. Review details
 and measured results are in `validation/v0120-*`. No earlier-area movie
 regression was requested or performed for this revision.
+
+## v0.12.1 Area 3 corrections
+
+The four inventory patterns previously labeled as a communicator are the
+cross pendant. `build_v0121.py` replaces only those Area 3 equipment/map
+rules. The final distant mountain cell (catalog index 70, palette 1C201000)
+belongs to the panorama and is transparent; it was incorrectly treated as
+foreground granite beside the tree limb. Native deep-snow indices 51–59
+use a softer powder texture while preserving sinking, collision and draw
+priority.
+
+The boss is the existing Area 5 robot. Reuse all 3,296 applicable source
+rules, including every fixed-nozzle/exhaust rule and both flame phases,
+without changing image coordinates, palette variants or pose tests. Split
+the 944 exhaust neighbor rules into explicit horizontal/vertical mirror
+cases before bounding nearby reads. Combining both directions rejects valid
+leftward lookups near the right screen edge; combining positive and negative
+almost-screen-width offsets also disables wrapped-fragment suppression.
+The resulting 6,128 boss rules add no
+sprite destinations and preserve the earlier area's art. Four background
+machinery details in the boss room also reuse their approved Area 5 tiles.
+Thirty-two additional transparent rules cover the four last exhaust patterns
+when the native renderer clamps them to x=0 with the head at x=232 or x=233.
+They require a positive head/palette match across the screen and bounded,
+explicitly unmirrored lookups. The boss playback audit must reject any old
+generic fallback, including those three recorded clipping frames.
+Fourteen captured body-column signatures cover that same clamp case for the
+outer casing. The final screenshot check compares the left wall with the
+preceding unoccupied frame, preventing a painted robot fragment from being
+mistaken for a successful replacement merely because it has an HD mapping.
+
+The correction atlas contains only pendant, powder snow and a transparent
+distant cell. Keep the previous 49 PNGs and every prior tile rule unchanged.
+`verify_v0121.py` checks source-equivalent boss rules, bounded lookups,
+structure, original RAM/PPU parity and the exact-ZIP replay. The clean
+default builder and incremental review build must produce the same 52 files.

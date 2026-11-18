@@ -1,0 +1,53 @@
+{
+  "scope": {
+    "existing_tile_rules_unchanged": 188123,
+    "existing_pngs_unchanged": 49,
+    "new_area3_rules": 6196,
+    "new_rules_all_area3_scoped": true,
+    "condition_declaration_order_valid": true
+  },
+  "structure": {
+    "runtime_images": 16,
+    "tile_rules": 194319,
+    "sprite_additions": 3203,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "bounds": {
+    "area3_bounded_neighbor_references": 11029,
+    "unsafe_references": 0,
+    "preserved_area2_bounds": {
+      "bounded_neighbor_references": 4340,
+      "unsafe_references": 0
+    }
+  },
+  "boss_reuse": {
+    "reused_boss_rules": 6128,
+    "image_coordinates_unchanged": true,
+    "original_pose_and_palette_tests_preserved": true,
+    "both_exhaust_phases_preserved": true
+  },
+  "playback": {
+    "movie_input_frames": 11110,
+    "ram_checkpoints": 187,
+    "ppu_checkpoints": 187,
+    "state_mismatches": 0,
+    "audited_graphics_states": 3156,
+    "uncovered_graphics_states": 0,
+    "loaded_pack_matches_extracted_zip": true,
+    "guarded_single_attempt_completed": true,
+    "screenshots": 529
+  },
+  "boss_playback": {
+    "boss_graphics_states": 281,
+    "old_generic_boss_fallbacks": 0,
+    "body_palettes_verified": [
+      "FF202A0F",
+      "FF30150F",
+      "FF30210F",
+      "FF36060F"
+    ],
+    "wrapped_body_pixel_check_frames": 3
+  }
+}

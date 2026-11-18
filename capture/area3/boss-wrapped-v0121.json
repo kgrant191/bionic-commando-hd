@@ -1,0 +1,156 @@
+[
+  {
+    "key": "00000000000000006DB9061414040000",
+    "palette": 4281341199,
+    "dx": 232,
+    "dy": -32,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9794,
+    "last": 9794
+  },
+  {
+    "key": "00000040A050A8540000C0A050A854AA",
+    "palette": 4281341199,
+    "dx": 232,
+    "dy": -8,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9794,
+    "last": 9796
+  },
+  {
+    "key": "00000040A050A8540000C0A050A854AA",
+    "palette": 4281341199,
+    "dx": 233,
+    "dy": -8,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9795,
+    "last": 9795
+  },
+  {
+    "key": "08140AFEFE0A163CF8FCFEFEFEFEFEFC",
+    "palette": 4281344271,
+    "dx": 232,
+    "dy": 8,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9794,
+    "last": 9796
+  },
+  {
+    "key": "08140AFEFE0A163CF8FCFEFEFEFEFEFC",
+    "palette": 4281344271,
+    "dx": 233,
+    "dy": 8,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9795,
+    "last": 9795
+  },
+  {
+    "key": "3A311B2C0E130100454E6413310C1A09",
+    "palette": 4281341199,
+    "dx": 232,
+    "dy": -32,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9796,
+    "last": 9796
+  },
+  {
+    "key": "3A311B2C0E130100454E6413310C1A09",
+    "palette": 4281341199,
+    "dx": 233,
+    "dy": -32,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9795,
+    "last": 9795
+  },
+  {
+    "key": "3C3A163C3C3A16FCFCC6FEFCFCC6FEFC",
+    "palette": 4281344271,
+    "dx": 232,
+    "dy": 0,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9794,
+    "last": 9796
+  },
+  {
+    "key": "3C3A163C3C3A16FCFCC6FEFCFCC6FEFC",
+    "palette": 4281344271,
+    "dx": 233,
+    "dy": 0,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9795,
+    "last": 9795
+  },
+  {
+    "key": "A8D12F4F9D3D352F5DBEF0F0E2424A50",
+    "palette": 4281341199,
+    "dx": 232,
+    "dy": -24,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9796,
+    "last": 9796
+  },
+  {
+    "key": "A8D12F4F9D3D352F5DBEF0F0E2424A50",
+    "palette": 4281341199,
+    "dx": 233,
+    "dy": -24,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9795,
+    "last": 9795
+  },
+  {
+    "key": "A8D32E43981C32105DBCF1FCE7634D6F",
+    "palette": 4281341199,
+    "dx": 232,
+    "dy": -24,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9794,
+    "last": 9794
+  },
+  {
+    "key": "AA54A850A0D8FA7456ACD8F07824068C",
+    "palette": 4281341199,
+    "dx": 232,
+    "dy": -16,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9794,
+    "last": 9796
+  },
+  {
+    "key": "AA54A850A0D8FA7456ACD8F07824068C",
+    "palette": 4281341199,
+    "dx": 233,
+    "dy": -16,
+    "head_palette": 4281341199,
+    "hmirror": 0,
+    "vmirror": 0,
+    "first": 9795,
+    "last": 9795
+  }
+]
