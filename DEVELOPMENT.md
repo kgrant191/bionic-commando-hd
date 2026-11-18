@@ -616,3 +616,31 @@ selection, unchanged non-terrain graphics and preserved doorway/boss checks.
 Run the final full playback before `package_v0125.py`, then verify that every
 extracted ZIP file matches the pack loaded by that completed playback. Deliver
 only the install ZIP; no other-area recordings are part of this terrain pass.
+
+## v0.12.6 Solid barriers and pre-emergence warnings
+
+The earlier classification of all 70 outdoor 1C201000 patterns as decorative
+backing was incorrect. Native catalog indices 71–82 are passable snowy cliff
+markings; indices 83–140 are solid stone barriers. At native frame 2401,
+tile position (108,126) belongs to the first family, while (204,126) belongs
+to the solid wall. Only the 12 passable patterns receive the soft snow from
+the existing v0.12.5 material atlas; the 58 stone patterns retain their art.
+Use the existing world-locked phase to join the surrounding snow patches.
+
+The four FF30290F patterns previously described as foreground ledge lips are
+the giant plant pre-emergence warning. Assembly 6 is phase A, assembly 7 is
+phase B. Each repeats four native 8x16 columns into a 32x16 warning strip.
+The game alternates these phases on its existing eight-frame cadence. They
+are present in 853 recorded frames between 2003 and 5056, including clipped
+spawn points. The v0.12.6 painting shows displaced snow, torn turf, a dark
+fissure and scattered earth, with distinct left/right heaves. Use the native
+sprite key, position and mirroring directly. Never flatten these into the
+underlying platform or replace their timing with an independent timer.
+
+`build_v0126.py` adds 16 scoped rules and eight deduplicated art cells, with
+no new conditions or sprite additions. `verify_v0126.py` checks all 12 snow
+and 58 stone selections, both warning phases and unchanged native warning
+first/last frames and instance counts. Other graphics remain identical to
+v0.12.5, including the doors, robot and all destruction phases. Complete the
+full `3.mmo` playback before packaging and compare the extracted ZIP with
+the pack loaded by that run. Deliver only the ZIP.

@@ -1,9 +1,12 @@
-BIONIC COMMANDO HD — v0.12.5
+BIONIC COMMANDO HD — v0.12.6
 Area 3 review build
 
 NEW IN THIS BUILD
+Soft snow marks walk-through cliff patches; solid barriers retain gray stone.
+Churning snow, turf and soil visibly warn before giant plants emerge.
+
 Original-style warm rock, dark soil, snowy grass ledges and scattered snow patches.
-Muted gray rock distinguishes recessed backing from solid foreground terrain.
+Gray rock is reserved for solid barriers; passable patches use soft snow.
 The outdoor entrance has a metal frame and opaque dark interior.
 All three robot destruction phases use painted explosion and smoke art.
 

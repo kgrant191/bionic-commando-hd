@@ -1,0 +1,34 @@
+{
+  "replay": "v0126-pass1",
+  "full_size_frames_reviewed": [
+    2010,
+    2401
+  ],
+  "warning_detail_frames_reviewed": [
+    2004,
+    2010,
+    2012,
+    2018,
+    2020,
+    2044,
+    2052,
+    2066
+  ],
+  "later_contact_sheet_frames_reviewed": [
+    3001,
+    3601,
+    4410,
+    4420,
+    4800,
+    4810,
+    5030,
+    5041
+  ],
+  "findings": [
+    "Passable snowy cliff markings are clearly distinct from retained solid gray rock.",
+    "Two warning poses visibly displace snow and turf with loose soil underneath.",
+    "Later plant spawn locations and clipped warning strips retain the effect.",
+    "Entrance remains opaque."
+  ],
+  "review_method": "Complete emulator playback and every-frame audit, with sampled screenshots and warning sequence review."
+}

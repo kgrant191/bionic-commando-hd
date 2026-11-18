@@ -1,0 +1,68 @@
+{
+  "scope": {
+    "existing_tile_rules_unchanged": 195148,
+    "existing_pngs_unchanged": 54,
+    "new_area3_rules": 16,
+    "new_rules_all_area3_scoped": true,
+    "condition_declaration_order_valid": true
+  },
+  "structure": {
+    "runtime_images": 21,
+    "tile_rules": 195164,
+    "sprite_additions": 3203,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "bounds": {
+    "area3_bounded_neighbor_references": 11085,
+    "unsafe_references": 0,
+    "preserved_area2_bounds": {
+      "bounded_neighbor_references": 4340,
+      "unsafe_references": 0
+    }
+  },
+  "playback": {
+    "movie_input_frames": 11110,
+    "ram_checkpoints": 187,
+    "ppu_checkpoints": 187,
+    "state_mismatches": 0,
+    "audited_graphics_states": 3175,
+    "uncovered_graphics_states": 0,
+    "loaded_pack_matches_extracted_zip": true,
+    "guarded_single_attempt_completed": true,
+    "screenshots": 1006,
+    "empty_startup_captures": 1
+  },
+  "selected_art": {
+    "recess_patterns_verified": 70,
+    "door_cells_verified": 16,
+    "explosion_patterns_verified": 5,
+    "explosion_states_verified": 17,
+    "explosion_frames": 16,
+    "old_explosion_fallbacks": 0,
+    "retained_boss_states": 281,
+    "wrapped_body_pixel_check_frames": 3
+  },
+  "unchanged_art": {
+    "unchanged_other_graphics_states": 3159,
+    "unchanged_nonoutdoor_screenshots": 260,
+    "changed_material_pairs": 16
+  },
+  "terrain_selection": {
+    "changed_pairs_verified": 16,
+    "changed_graphics_states": 16,
+    "passable_snow_patterns": 12,
+    "preserved_solid_stone_patterns": 58,
+    "previous_warning_fallbacks": 0
+  },
+  "warning_timing": {
+    "distinct_painted_warning_phases": 2,
+    "native_warning_patterns": 4,
+    "native_first_last_and_instance_counts_unchanged": true,
+    "native_warning_frames": 853,
+    "sprite_instances": 35524,
+    "native_first_frame": 2003,
+    "native_last_frame": 5056
+  }
+}

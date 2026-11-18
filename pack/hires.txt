@@ -1,4 +1,4 @@
-# Bionic Commando HD v0.12.5 - original-style alpine terrain
+# Bionic Commando HD v0.12.6 - solid terrain and plant spawn warnings
 <ver>109
 <scale>4
 <supportedRom>D3A4BFD995D18C4A386971631759AECA3A7CFF8D
@@ -18877,6 +18877,23 @@
 <condition>a3124Ledge2,tileNearby,0,-1,4F9192BAB2F7F7FFFCFEFFFFFFFFFFFF,1C302907,N
 <condition>a3124Ledge3,tileNearby,0,-1,C5F79EFBF7DEE7C03E0C610408219A3F,1C302907,N
 <condition>a3124Ledge4,tileNearby,0,-1,1966EA8B9195B577E7DBDDFDFFFFFFFF,1C302907,N
+<img>area3-readability-v0126.png
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,FFF7CFFFFFF7BFFF0008300000084000,1C201000,0,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,EFEF9F3FB7FDFFF7101060C048020008,1C201000,32,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,FFFFFFDFFFEEFDFC0000002000110203,1C201000,0,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,F77F5DFFD77EF74F0880A200288108B0,1C201000,32,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,DEFEFDFEDDE3FFEF21010201221C0010,1C201000,64,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,9FFEFF7F3DE472FC60010080C21B8D07,1C201000,96,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,EFFFBFFEB9952BFF10004001466AD400,1C201000,64,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,EFBFEFD6ADDFB5CE1050102952204A31,1C201000,96,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,F76E3DF7FF5F3FB3F8F1F228C0E0E0CC,1C201000,0,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,777FFFFFFFCFFF3F8C800000003020C0,1C201000,32,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,2B74E2D72CF3FFFBFFCF3F3FDF4C0004,1C201000,64,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,E4CFD3FDFDFFEFCF1F3F3F0303011938,1C201000,96,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,83CF79DFEF7BA6035C108620108418FC,FF30290F,128,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,1824220200000000E69915746E6A4A88,FF30290F,160,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,83D7FAFCF2E150085C2801010D122DF3,FF30290F,192,0,1,N
+[area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>20,0301000000000000B06E6D454D080800,FF30290F,224,0,1,N
 [area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>16,DFD04F8FCFCFCFCF203FBF7F3F3F3F3F,1C201707,64,0,1,N
 [area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>16,CFDFEFCFCFCFCFCF3F3F3F3F3F3F3F3F,1C201707,96,0,1,N
 [area3&!title&!worldmap&!equipment&!radio&!areaClear&!interception&!interception14&a3Outside]<tile>16,CFCF4F8FCFCFCFCF3F3FBF7F3F3F3F3F,1C201707,128,0,1,N

@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.12.5 — Area 3 original-style alpine terrain**
+**v0.12.6 — Area 3 terrain distinction and plant warnings**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,19 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.12.5.zip`.
+   `Bionic_Commando_HD_v0.12.6.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.12.6
+
+- Solid barriers retain gray stone; walk-through cliff patches use soft snow.
+- Giant plants have a visible two-frame warning with disturbed snow, turf and soil.
+- Warning positions and timing follow the original game.
 
 ## New in v0.12.5
 
