@@ -1,15 +1,19 @@
-BIONIC COMMANDO HD — v0.11.2
+BIONIC COMMANDO HD — v0.11.3
 Area 2 review build
 
 NEW IN THIS BUILD
+Thick blue slime pools, pipe discharge and moving blob phases in Area 2.
+The short red rifleman uses distinct native-timed walking poses.
+Includes the opaque doorway and screen-boundary crash fix.
+
 Opaque dark outpost doorway. Bounded Area 2 neighbor lookups prevent
 the one-past-screen read exposed while entering the first doorway.
 
 Repainted outpost, doorway frames, pipes, outlets, crates and ledge mounts.
-New grenade explosion and water-splash phases. Painted red recoil poses
+New grenade explosion and slime-blob phases. Painted red recoil poses
 and complete Spencer damage-palette assembly. Area 2 playback only.
 
-Painted aqueduct rock and masonry, mossy platforms, animated water and
+Painted aqueduct rock and masonry, mossy platforms, blue slime and
 visible steel spike tips. Updated tracked carrier and hanging hazard;
 consistent red grenadier running/throwing and crouching rifleman artwork.
 Correct AREA 02 CLEAR lettering and paused-map weapon icon.

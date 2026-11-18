@@ -12,7 +12,7 @@ def indices(k):
  a=np.unpackbits(np.frombuffer(bytes.fromhex(k),dtype=np.uint8)).reshape(16,8);return a[:8]+2*a[8:]
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--output',type=Path,default=ROOT/'pack');args=ap.parse_args();build(args.output)
-def build(dest):
+def build(dest, enemy_records=None):
  base=ROOT/'baselines/v0106';copy_baseline(base,dest,'0106')
  lines=(base/'hires.txt').read_text().splitlines();images=[Image.open(base/l[5:]).convert('RGBA')for l in lines if l.startswith('<img>')]
  atlas=Image.new('RGBA',(2048,4096));cells={};rules=[];conditions=['<condition>area2,memoryCheckConstant,004D,==,02','<condition>a2Cave,ppuMemoryCheckConstant,3F01,==,2B','<condition>a2Outside,ppuMemoryCheckConstant,3F0D,==,30'];adds=[];backgrounds=[];blank=Image.new('RGBA',(32,32));idx=len(images)
@@ -107,7 +107,7 @@ def build(dest):
   if ch=='2':emit(key,0x0F201000,im,'area2&!worldmap&!equipment&!title')
  # Sprite and remaining rare state repairs are generated from recorded parts.
  from area2_actors_v0110 import patch_actors
- stats=patch_actors(ROOT,allpairs,missing,lines,images,emit,conditions,adds,material,blank,NORMAL)
+ stats=patch_actors(ROOT,allpairs,missing,lines,images,emit,conditions,adds,material,blank,NORMAL,enemy_records=enemy_records)
  unique=list(dict.fromkeys(rules));at=next(i for i,l in enumerate(lines)if '<tile>'in l)
  lines[at:at]=[f'<img>area2-v0110.png']+conditions+list(dict.fromkeys(adds))+backgrounds+unique
  lines[0]='# Bionic Commando HD v0.11.0 - Area 2 aqueduct and recorded state coverage'

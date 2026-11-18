@@ -73,8 +73,9 @@ def guard_area2_neighbors(lines):
     return result, {'guarded_rules': guarded, 'position_conditions': len(declarations)}
 
 
-def build(dest):
-    previous_build(dest, door_backing=ROOT/'art/area2-door-interior-v0112.png')
+def build(dest, enemy_records=None, slime_sheet=None):
+    previous_build(dest, door_backing=ROOT/'art/area2-door-interior-v0112.png',
+                   enemy_records=enemy_records, slime_sheet=slime_sheet)
     lines, report = guard_area2_neighbors((dest/'hires.txt').read_text().splitlines())
     lines[0] = '# Bionic Commando HD v0.11.2 - opaque doorway and bounded Area 2 lookups'
     lines = [line.replace('<img>area2-polish-v0111.png', '<img>area2-polish-v0112.png') for line in lines]

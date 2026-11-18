@@ -1,3 +1,12 @@
+# v0.11.3 — Area 2 blue slime and rifleman walking
+
+Replaces watery hazards, pipe discharge and pools with thick blue slime.
+The short rifleman's two native walk frames now select distinct stepping poses
+instead of the same kneeling image. Blue slime changes apply only to Area 2.
+The opaque doorway and bounded-neighbor crash fix remain included.
+
+ZIP-only review build, validated with the supplied Area 2 movie.
+
 # v0.11.2 — Area 2 doorway and crash fix
 
 Makes the outpost doorway opaque and dark. Adds screen bounds before Area 2

@@ -5,7 +5,7 @@ import hashlib,json,re,tempfile,shutil
 import numpy as np
 from PIL import Image,ImageOps,ImageDraw
 from poses import make_actor
-def patch_actors(root,allpairs,missing,lines,images,emit,conds,adds,material,blank,normal):
+def patch_actors(root,allpairs,missing,lines,images,emit,conds,adds,material,blank,normal,enemy_records=None):
  def idx(k):
   a=np.unpackbits(np.frombuffer(bytes.fromhex(k),dtype=np.uint8)).reshape(16,8);return a[:8]+2*a[8:]
  keyp=defaultdict(set);by=defaultdict(list)
@@ -23,7 +23,7 @@ def patch_actors(root,allpairs,missing,lines,images,emit,conds,adds,material,bla
   x,y=map(int,a[3:5]);return images[int(a[0])].crop((x,y,x+32,y+32))
  with tempfile.TemporaryDirectory()as td:
   tmp=Path(td);(tmp/'capture').mkdir();(tmp/'art').mkdir();(tmp/'validation').mkdir()
-  shutil.copy2(root/'capture/area2/enemy-poses.json',tmp/'capture/enemy-poses.json')
+  shutil.copy2(enemy_records or root/'capture/area2/enemy-poses.json',tmp/'capture/enemy-poses.json')
   shutil.copy2(root/'capture/spencer-poses.json',tmp/'capture/spencer-poses.json')
   for p in(root/'art').glob('*.png'):(tmp/'art'/p.name).symlink_to(p)
   pending=[]

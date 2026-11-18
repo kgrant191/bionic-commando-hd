@@ -1,4 +1,15 @@
-# Current build — v0.11.2
+# Current build — v0.11.3
+
+`scripts/build_v0113.py` passes an Area 2 slime atlas and corrected rifleman
+pose records through the existing builders. The optional inputs default to
+None, retaining earlier-version generation when those builders run directly.
+`capture/area2-v0113/enemy-poses.json` changes poses 18/19 from kneeling to
+standing/passing steps from the existing painted rifleman atlas, at one scale.
+`scripts/package_v0113.py` produces the current review ZIP.
+
+## v0.11.2 foundation
+
+# Doorway and crash correction — v0.11.2
 
 `scripts/build_v0112.py` uses the existing painted assets with an opaque doorway
 backing and bounds Area 2 neighbor conditions before their evaluation.

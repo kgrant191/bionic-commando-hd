@@ -34,8 +34,8 @@ def cell(sheet, n, cols=3, rows=2, main_component=False):
 def fit(im, size):
     return im.resize(size,Image.Resampling.LANCZOS)
 
-def build(dest, door_backing=None):
-    previous_build(dest)
+def build(dest, door_backing=None, enemy_records=None, slime_sheet=None):
+    previous_build(dest, enemy_records=enemy_records)
     lines=(dest/'hires.txt').read_text().splitlines()
     images=[Image.open(dest/l[5:]).convert('RGBA') for l in lines if l.startswith('<img>')]
     index=len(images);atlas=Image.new('RGBA',(2048,4096));cells={};rules=[];conds=[];adds=[]
@@ -115,11 +115,29 @@ def build(dest, door_backing=None):
     # by the complete pattern/palette pair, avoiding stone patches in streams.
     materials=Image.open(ROOT/'art/area2-materials-v0110.png').convert('RGBA')
     flow=fit(materials.crop((materials.width//2,materials.height//2,materials.width,materials.height)),(128,128))
+    if slime_sheet is not None:
+        slime=Image.open(slime_sheet).convert('RGBA')
+        pool=fit(cell(slime,3,main_component=True),(64,32))
+        deep_pool=fit(cell(slime,3,main_component=True),(128,64))
+        pipe_join=fit(cell(slime,5,main_component=True),(64,64))
     water_ids={8,9,16,17,26,27,28,29,30,31,32,33,37,41,71,72,73,74,99,103}
     for e in json.loads((ROOT/'capture/area2/material-catalog.json').read_text()):
         if e['layer']==0 and e['palette']=='0F2B1C0B' and e['index'] in water_ids:
             phase=e['index']%4
-            emit(e['key'],0x0F2B1C0B,flow.crop((phase*32,32,phase*32+32,64)),CAVE)
+            if slime_sheet is None:
+                im=flow.crop((phase*32,32,phase*32+32,64))
+            else:
+                i=e['index']
+                if i in [71,72,73,74]:
+                    x,y={71:(0,0),72:(0,32),73:(32,0),74:(32,32)}[i]
+                    im=pipe_join.crop((x,y,x+32,y+32))
+                elif 26<=i<=33:
+                    x,y=(i-26)%4*32,(i-26)//4*32
+                    im=deep_pool.crop((x,y,x+32,y+32))
+                else:
+                    x=0 if i in [9,16,37,99] else 32
+                    im=pool.crop((x,0,x+32,32))
+            emit(e['key'],0x0F2B1C0B,im,CAVE)
 
     catalog=json.loads((ROOT/'capture/area2/material-catalog.json').read_text())
     bgids={e['index']:e['key'] for e in catalog if e['layer']==0 and e['palette']=='0F2B1C0B'}
@@ -200,7 +218,7 @@ def build(dest, door_backing=None):
     for rec in sorted(water_records,key=lambda r:(-len(r['parts']),-r['count'])):
         selected=rec['parts'];w=max(e[0] for e in selected)+8;h=max(e[1] for e in selected)+8
         phase=3 if h<=8 else 4 if h>=24 else 5
-        effect=fit(cell(fx,phase),(max(16,w)*4,h*4))
+        effect=fit(cell(slime,phase-3,main_component=True) if slime_sheet is not None else cell(fx,phase),(max(16,w)*4,h*4))
         if w==8:
             right=bool(selected[0][3]);effect=effect.crop((32 if right else 0,0,64 if right else 32,h*4))
         for x,y,k,hm,vm in selected:
