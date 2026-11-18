@@ -1,0 +1,11 @@
+{
+  "before": {
+    "passed": false,
+    "first_unbounded_lookup": "('a211Near0', 0, 0, 0, -8)"
+  },
+  "after": {
+    "bounded_neighbor_references": 4234,
+    "unsafe_references": 0
+  },
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79"
+}

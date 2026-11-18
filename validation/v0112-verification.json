@@ -1,0 +1,30 @@
+{
+  "structure": {
+    "runtime_images": 12,
+    "tile_rules": 185299,
+    "sprite_additions": 3205,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "bounds": {
+    "bounded_neighbor_references": 4234,
+    "unsafe_references": 0
+  },
+  "playback": {
+    "movie_input_frames": 12044,
+    "ram_checkpoints": 202,
+    "ppu_checkpoints": 202,
+    "state_mismatches": 0,
+    "audited_graphics_states": 3230,
+    "uncovered_graphics_states": 0,
+    "screenshots": 885,
+    "loaded_pack_matches_extracted_zip": true
+  },
+  "crash_regression": {
+    "v0111_guarded_playback_failed": true,
+    "v0112_guarded_playback_completed": true,
+    "core_binary_modified": false
+  },
+  "scope": "The supplied Area 2 movie only."
+}

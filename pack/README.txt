@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.11.1
+BIONIC COMMANDO HD — v0.11.2
 Area 2 review build
 
 NEW IN THIS BUILD
+Opaque dark outpost doorway. Bounded Area 2 neighbor lookups prevent
+the one-past-screen read exposed while entering the first doorway.
+
 Repainted outpost, doorway frames, pipes, outlets, crates and ledge mounts.
 New grenade explosion and water-splash phases. Painted red recoil poses
 and complete Spencer damage-palette assembly. Area 2 playback only.

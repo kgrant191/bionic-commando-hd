@@ -1,3 +1,12 @@
+# v0.11.2 — Area 2 doorway and crash fix
+
+Makes the outpost doorway opaque and dark. Adds screen bounds before Area 2
+neighbor lookups to avoid a one-past-screen read in Mesen's HD renderer. The
+previous build failed a protected-memory entrance replay; the corrected build
+is checked using the same test and the complete supplied Area 2 movie.
+
+ZIP-only review build; no gameplay changes.
+
 # v0.11.1 — Area 2 screenshot corrections
 
 Replaces the remaining material-tinted native outpost, doors, outlets, pipes,

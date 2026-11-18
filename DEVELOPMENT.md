@@ -1,4 +1,18 @@
-# Current build — v0.11.1
+# Current build — v0.11.2
+
+`scripts/build_v0112.py` uses the existing painted assets with an opaque doorway
+backing and bounds Area 2 neighbor conditions before their evaluation.
+`scripts/package_v0112.py` creates the installable review ZIP.
+
+`tools/regression_audit_guarded.cpp` and `tools/guarded_screen.h` place an
+inaccessible page immediately after each native HD screen buffer. This exposes
+the Mesen nearby-condition off-by-one read without patching the emulator binary.
+Playback must run once and fail on a nonzero exit; do not hide failures by
+retrying the movie. See `validation/AREA2_v0.11.2.md` for the reproduction.
+
+## v0.11.1 foundation
+
+# Area 2 visual corrections — v0.11.1
 
 `scripts/build_v0111.py` layers the Area 2 screenshot corrections over the
 v0.11.0 generator. The new structure/effect/recoil source atlases are in

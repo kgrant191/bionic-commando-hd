@@ -34,7 +34,7 @@ def cell(sheet, n, cols=3, rows=2, main_component=False):
 def fit(im, size):
     return im.resize(size,Image.Resampling.LANCZOS)
 
-def build(dest):
+def build(dest, door_backing=None):
     previous_build(dest)
     lines=(dest/'hires.txt').read_text().splitlines()
     images=[Image.open(dest/l[5:]).convert('RGBA') for l in lines if l.startswith('<img>')]
@@ -72,6 +72,12 @@ def build(dest):
     # Repeated native plaster/roof cells can consequently carry different art.
     es=[e for e in entries(720) if e[0]==0 and 64<=e[1]<160 and 112<=e[2]<192]
     facade=fit(art[0],(384,320));counts=Counter((e[3],e[4]) for e in es)
+    if door_backing is not None:
+        # The opening is a dark interior, not a window into the sky layer.
+        backing=Image.new('RGBA',facade.size)
+        backing.paste(fit(Image.open(door_backing).convert('RGBA'),(86,156)),(150,164))
+        backing.alpha_composite(facade)
+        facade=backing
     anchors=[e for e in es if counts[e[3],e[4]]==1]
     for _,x,y,k,p,h,v in es:
         im=piece(facade,x-64,y-112)
