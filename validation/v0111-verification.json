@@ -1,0 +1,22 @@
+{
+  "structure": {
+    "runtime_images": 12,
+    "tile_rules": 185299,
+    "sprite_additions": 3205,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "playback": {
+    "movie_input_frames": 12044,
+    "ram_checkpoints": 202,
+    "ppu_checkpoints": 202,
+    "state_mismatches": 0,
+    "audited_graphics_states": 3207,
+    "uncovered_graphics_states": 0,
+    "screenshots": 905,
+    "loaded_pack_matches_extracted_zip": true
+  },
+  "scope": "Area 2 only; no previous-area recordings replayed in this revision.",
+  "visual_quality": "Assessed separately through screenshot and motion-sequence review; rule coverage alone is not a visual-quality test."
+}

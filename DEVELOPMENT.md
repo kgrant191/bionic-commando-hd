@@ -1,4 +1,17 @@
-# Current build — v0.11.0
+# Current build — v0.11.1
+
+`scripts/build_v0111.py` layers the Area 2 screenshot corrections over the
+v0.11.0 generator. The new structure/effect/recoil source atlases are in
+`art/area2-*-v0111.png`; the recorded native assemblies are in
+`capture/area2-polish/`.
+
+Current review workflow: work on the area supplied by the user and play its
+recording before delivery. Run a full regression only when explicitly requested.
+Deliver only the installable ZIP unless the user asks for other formats.
+
+Use `python3 scripts/package_v0111.py` to create the current ZIP.
+
+## v0.11.0 foundation
 
 Run `python3 scripts/build.py` (optionally `--output /path/to/output`).
 Dependencies: Python 3, Pillow, NumPy, SciPy, DejaVu Sans Mono Bold and the

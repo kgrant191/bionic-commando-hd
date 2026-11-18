@@ -1,0 +1,54 @@
+[
+  {
+    "id": 200,
+    "head": "0000000F07070702070F0F0F06000503",
+    "parts": [
+      [
+        0,
+        8,
+        "0E1F1F1F0F8DDEFF070100100E8FDFFF",
+        0,
+        0
+      ],
+      [
+        0,
+        16,
+        "7C783830000000005C78383000000000",
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        "4020F09090B8E442C0E0F0F0F0F8FCFE",
+        0,
+        0
+      ],
+      [
+        8,
+        8,
+        "E2F3FDF9FECE0101DE8F0F1F3EFEFFFF",
+        0,
+        0
+      ],
+      [
+        8,
+        16,
+        "81623C1E1E7EFF3EFF7E3C1E1E6EFF3E",
+        0,
+        0
+      ]
+    ],
+    "cell": 0,
+    "count": 1,
+    "frames": [
+      2832,
+      5257
+    ],
+    "body_scale": 124,
+    "asset": "area2-recoil-v0111.png",
+    "columns": 3,
+    "rows": 1,
+    "alpha_cutoff": 64
+  }
+]

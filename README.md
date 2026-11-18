@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.11.0 — Area 2 aqueduct and recorded animation states**
+**v0.11.1 — Area 2 visual corrections**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,21 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.11.0.zip`.
+   `Bionic_Commando_HD_v0.11.1.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.11.1
+
+- Repainted outpost facade and railing, open doorframes, crates, steel outlets, connected pipes, wall grilles and ledge mounts.
+- New grenade blast and water-splash artwork follows the native animation phases.
+- Complete red soldier recoil artwork replaces the pale native hurt pose.
+- Spencer's additional damage palettes use his complete painted weapon/pose assembly.
+- Checked with the supplied Area 2 recording only. No earlier-area regression was run for this revision.
 
 ## New in v0.11.0
 

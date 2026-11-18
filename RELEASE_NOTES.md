@@ -1,3 +1,14 @@
+# v0.11.1 — Area 2 screenshot corrections
+
+Replaces the remaining material-tinted native outpost, doors, outlets, pipes,
+grilles, crate and ledge bracket details with painted assemblies. Grenade
+explosions and water splashes now use new artwork through their native phases.
+Red soldier recoil and Spencer's additional damage palettes retain painted
+character art. Recorded game state, timing, collision and camera are unchanged.
+
+Validation is limited to the supplied Area 2 movie and screenshot issues.
+ZIP-only review build; no push, merge, release or full regression.
+
 # v0.11.0 — Area 2 review build
 
 Area 2 now uses textured aqueduct scenery, flowing water, visible metal spike
