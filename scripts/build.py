@@ -1,5 +1,5 @@
-"""Build the current Area 2 review pack from the approved v0.10.6 baseline."""
-from build_v0115 import main
+"""Build the current Area 3 review pack and all approved earlier artwork."""
+from build_v0120 import main
 
 if __name__ == "__main__":
     main()

@@ -432,3 +432,38 @@ palette, while the room and equipment screen share one flare-bomb icon.
 The original flare-bomb pickup is round; the replacement uses a compact unlit
 illumination canister rather than a medical badge or burning handheld stick.
 Energy Recovery is a separate item. No native projectile keys are replaced.
+
+## v0.12.0 Area 3
+
+`build_v0120.py` wraps the approved v0.11.5 builder. All new runtime tile rules
+require `area3` (`$004D == $03`); the 47 earlier PNGs and 185,431 earlier tile
+rules remain unchanged. World-map, equipment and debrief additions use separate
+Area 3 guards. Declare conditions before backgrounds as well as tile rules:
+the loader resolves background guards while reading the file.
+
+The recorded outdoor palette has backdrop `$1C`; the pipe-works foreground
+palette begins `$39`. Native zero patterns remain transparent to the scoped
+alpine panorama or opaque dark factory background. The eight occluded pipe
+cells in the control room are taken from the original generated
+`control-reference.png`, aligned to their native positions.
+
+Creature CHR assemblies select distinct crawling legs, inflated/flattened
+flying insects, plant-mouth phases and seeds. Seven observed knife-guard
+assemblies map to three walking poses. Coalesce their virtual cells with the
+existing addition destinations, including hit palettes, before emitting rules.
+Never prepend a transparent unconditional fallback for a virtual key already
+used by another area; retain its existing fallback below the older rules.
+
+New neighboring-cell conditions are bounded before evaluation. The unchanged
+MesenCE core is replayed using the guarded-screen harness. The complete supplied
+`3.mmo` contains 11,110 input frames. Final checks require one uninterrupted
+playback, a zero-unmapped-state every-frame audit, identical original-game RAM
+and PPU snapshots at 187 checkpoints, and byte equality between the extracted
+ZIP and the pack loaded during that playback. A separate clean rebuild must
+produce the same 51 runtime files byte for byte.
+
+Run structural/replay verification with `scripts/verify_v0120.py`; run
+`scripts/package_v0120.py` to produce the installable ZIP only. Art sources and
+capture catalogs live under `art/area3-*` and `capture/area3/`. Review details
+and measured results are in `validation/v0120-*`. No earlier-area movie
+regression was requested or performed for this revision.

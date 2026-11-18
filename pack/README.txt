@@ -1,7 +1,11 @@
-BIONIC COMMANDO HD — v0.11.5
-Area 2 review build
+BIONIC COMMANDO HD — v0.12.0
+Area 3 review build
 
 NEW IN THIS BUILD
+Area 3 painted snow, alpine cliffs, tree branches, industrial pipes,
+platforms and spikes. Native crawling, flying and plant-mouth phases
+use painted creatures. Goal door eagle and AREA 03 CLEAR lettering.
+
 Eagle emblems distinguish generator/final-boss entrances from radio rooms.
 All currently mapped native eagle-header palettes share the same marker.
 

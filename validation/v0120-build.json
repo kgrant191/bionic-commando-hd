@@ -1,0 +1,12 @@
+{
+  "version": "0.12.0",
+  "new_rules": 2692,
+  "atlas_cells": 557,
+  "creature_poses": 13,
+  "aliases": 14,
+  "bounds": {
+    "guarded_rules": 1324,
+    "position_conditions": 30
+  },
+  "remaining_initial_pairs": []
+}

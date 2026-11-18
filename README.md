@@ -1,17 +1,17 @@
 # Bionic Commando HD
 
-**v0.11.5 — Eagle markers for boss entrances**
+**v0.12.0 — Area 3 alpine approach and pipe works**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
 A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 2, Area 13, Area 4, Area 5, Area 15 and Area 16 recordings.
+This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 2, Area 3, Area 13, Area 4, Area 5, Area 15 and Area 16 recordings.
 
 ## Install
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.11.5.zip`.
+   `Bionic_Commando_HD_v0.12.0.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -19,7 +19,16 @@ For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
 
-## New in v0.11.5
+## New in v0.12.0
+
+- Painted alpine rock, snow, tree branches and distant mountains.
+- Painted factory pipes, service columns, wall grilles, bridges, moving lifts and visible spikes.
+- Crawlers, balloon insects, plant jaws and seed projectiles follow their original animation phases.
+- Complete radio-room knife guards with native walking poses and damage states.
+- Generator entrance eagle, red communicator icon and AREA 03 CLEAR text.
+- Validation is limited to the full supplied `3.mmo`; no wider level regression was requested.
+
+## Included v0.11.5 fixes
 
 - Generator/final-boss entrances display a gold eagle, selected by their original eagle-header patterns.
 - The marker covers all five currently mapped palette variants; radio and ordinary doorway headers retain their own designs.
@@ -297,15 +306,15 @@ and validation. Shared tile patterns may affect later areas.
 
 ## Validation and source
 
-Rebuild the approved runtime with `python3 scripts/build.py` (Python 3,
-Pillow and NumPy). The build verifies every output against the approved file
-hashes. The restored v0.8.2 generator is retained as `scripts/build_v082.py`;
-current builds use the preserved v0.9.6 runtime baseline and the versioned
-v0.9.7/v0.9.8 art and mapping patches. See `DEVELOPMENT.md` for provenance.
+Rebuild the runtime with `python3 scripts/build.py` (Python 3, Pillow,
+NumPy, SciPy and the included xBRZ scaling library). The current builder
+reconstructs the preserved v0.10.6 baseline, applies the approved Area 2
+patches, then adds the Area 3 rules and generated artwork.
 
-
-See `validation/replay.json`, `validation/replay-feedback-v042.json` and `validation/replay-feedback-v050.json` for replay coverage and RAM parity results, and
-`DEVELOPMENT.md` for the reproducible build and capture workflow.
+`validation/v0120-verification.json` records the exact-ZIP Area 3 replay,
+every-frame mapping audit, original-game RAM/PPU parity and screen-bound
+checks. `validation/v0120-reproducibility.json` records the clean rebuild
+comparison. See `validation/v0120-review.md` for visual review scope.
 
 The install ZIP contains only the pack and its install notes. ROMs, emulator
 binaries, gameplay recordings and developer files are not included.

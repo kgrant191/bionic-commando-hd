@@ -1,0 +1,8 @@
+{
+  "movie": "3.mmo",
+  "movie_sha256": "4df4ee4772060c7cc5ca8ecb59f98ff0ea7f69bde87f8895190e709da3083568",
+  "input_frames": 11110,
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "core_modified": false,
+  "recording_scope": "Area 3 including map/equipment, outdoor approach, pipe works, radio, generator and clear screen"
+}

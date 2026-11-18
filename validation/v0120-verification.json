@@ -1,0 +1,36 @@
+{
+  "scope": {
+    "existing_tile_rules_unchanged": 185431,
+    "existing_pngs_unchanged": 47,
+    "new_area3_rules": 2692,
+    "new_rules_all_area3_scoped": true,
+    "condition_declaration_order_valid": true
+  },
+  "structure": {
+    "runtime_images": 15,
+    "tile_rules": 188123,
+    "sprite_additions": 3203,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "bounds": {
+    "area3_bounded_neighbor_references": 2479,
+    "unsafe_references": 0,
+    "preserved_area2_bounds": {
+      "bounded_neighbor_references": 4340,
+      "unsafe_references": 0
+    }
+  },
+  "playback": {
+    "movie_input_frames": 11110,
+    "ram_checkpoints": 187,
+    "ppu_checkpoints": 187,
+    "state_mismatches": 0,
+    "audited_graphics_states": 3047,
+    "uncovered_graphics_states": 0,
+    "loaded_pack_matches_extracted_zip": true,
+    "guarded_single_attempt_completed": true,
+    "screenshots": 646
+  }
+}
