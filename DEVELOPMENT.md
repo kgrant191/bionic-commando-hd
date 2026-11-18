@@ -559,3 +559,34 @@ for every other graphics family with the approved v0.12.2 replay, plus common
 non-outdoor screenshots. The exact-ZIP replay must finish all 11,110 input
 frames and match all original RAM/PPU checkpoints. All 54 runtime files must
 match a clean default rebuild. Only the install ZIP is delivered.
+
+## v0.12.4 Area 3 unified snowy face
+
+Replace outdoor cliff material across palettes 1C271707, 1C201707 and
+1C302907 with a consistent packed-snow finish. The four main platform cells
+reuse their exact preceding alpha contour with new snow-and-ice painting.
+The 70 decorative backing patterns in 1C201000 use the shaded snow panel
+with the existing two-by-two layout. Four foreground lip patterns also
+receive snow so movement cannot expose brown fragments.
+
+The first visual review exposed a classification error: indices 33–36 in
+1C271707 were treated as bark but are horizontal cliff bands throughout the
+ascent. Only indices 9–32 and 37–40 remain tree art. Deep sinking snow and
+the mountain panorama retain their approved replacements.
+
+Preserve the 16 approved exterior-door rules ahead of the new wall rules.
+One door fill pattern is also common cliff fill; its positive jamb conditions
+keep the interior opaque and stop the snowy face from covering the opening.
+The added atlas contains 43 cells for 312 material rules covering 296 native
+pattern/palette pairs. Sixteen duplicated door rules preserve priority.
+Foreground snow strips use four underlying-ledge checks and one Y bound to
+sample the matching ice column at the native one-pixel vertical offset. This
+prevents bright snow-shaped cutouts on the darker ice face as Spencer moves.
+There are no new sprite additions.
+
+`verify_v0124.py` requires every recorded material pattern to select snow or
+an explicitly retained door rule, with no old rock/vegetation fallbacks.
+All other graphics states are compared with the preceding approved replay.
+The exact-ZIP full recording, original RAM/PPU parity, boss-edge checks and
+clean rebuild comparison remain required. Review scope is the supplied
+Area 3 recording, and the only delivered artifact is the install ZIP.

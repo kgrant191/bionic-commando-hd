@@ -1,0 +1,16 @@
+{
+  "playback": "v0124-resumed",
+  "outdoor_sheet_frames": [
+    1441,
+    1900,
+    2041,
+    3001,
+    4501,
+    5041
+  ],
+  "full_size_foreground_frames": [
+    2041,
+    3001
+  ],
+  "background_aligned_foreground_states": 8
+}

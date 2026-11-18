@@ -1,9 +1,9 @@
-BIONIC COMMANDO HD — v0.12.3
+BIONIC COMMANDO HD — v0.12.4
 Area 3 review build
 
 NEW IN THIS BUILD
-Frost-tipped alpine moss and evergreen foliage replace the decorative wall mesh.
-Vegetation stays distinct from the solid brown rock and snowy ledges.
+The outdoor cliff now has a consistent packed-snow finish and ice ledges.
+Soft blue snow recesses distinguish non-grappleable backing from solid terrain.
 The outdoor entrance has a metal frame and opaque dark interior.
 All three robot destruction phases use painted explosion and smoke art.
 
