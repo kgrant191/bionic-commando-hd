@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.11.3 — Area 2 blue slime and walking fix**
+**v0.11.4 — Area 2 machinery and slime layouts**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,7 +11,7 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.11.3.zip`.
+   `Bionic_Commando_HD_v0.11.4.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
@@ -19,7 +19,14 @@ For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
 
-## New in v0.11.3
+## New in v0.11.4
+
+- Complete the alternate doorway header, standalone round outlets and extended pipe beneath the platform.
+- Replace stacked horizontal pool strips in the tall outlet with a connected vertical blue slime flow.
+- Keep the visible pipe painted when its elbow scrolls off-screen.
+- Retain the doorway crash fix, blue slime blobs and native-timed rifleman walking frames.
+
+## Included v0.11.3 fixes
 
 - Thick blue slime blobs, ground pools and pipe discharge replace the watery material in Area 2.
 - The short red rifleman alternates two walking poses at the original animation cadence instead of sliding in a kneeling pose.

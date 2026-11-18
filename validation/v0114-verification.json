@@ -1,0 +1,37 @@
+{
+  "structure": {
+    "runtime_images": 13,
+    "tile_rules": 185421,
+    "sprite_additions": 3203,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "bounds": {
+    "bounded_neighbor_references": 4340,
+    "unsafe_references": 0
+  },
+  "playback": {
+    "movie_input_frames": 12044,
+    "ram_checkpoints": 202,
+    "ppu_checkpoints": 202,
+    "state_mismatches": 0,
+    "audited_graphics_states": 3280,
+    "uncovered_graphics_states": 0,
+    "screenshots": 1089,
+    "loaded_pack_matches_extracted_zip": true
+  },
+  "walking": {
+    "native_pose_ids": [
+      18,
+      19
+    ],
+    "distinct_art_cells": [
+      0,
+      2
+    ],
+    "native_animation_timing_preserved": true
+  },
+  "layout_rules": 130,
+  "scope": "Supplied Area 2 movie only; all new layouts use its cave palette."
+}

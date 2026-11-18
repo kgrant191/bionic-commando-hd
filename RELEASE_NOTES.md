@@ -1,3 +1,13 @@
+# v0.11.4 — Area 2 machinery and slime layouts
+
+Completes the late doorway header, standalone round outlets and longer lower
+pipe shown in the three review screenshots. The tall slime outlet uses a
+connected metal mouth and vertical blue gel instead of stacked pool strips.
+Painted shaft fallbacks prevent native graphics returning when the elbow is
+outside the viewport. All new rules are limited to the Area 2 cave palette.
+
+ZIP-only review build. The supplied Area 2 recording is the validation scope.
+
 # v0.11.3 — Area 2 blue slime and rifleman walking
 
 Replaces watery hazards, pipe discharge and pools with thick blue slime.

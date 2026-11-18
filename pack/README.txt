@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.11.3
+BIONIC COMMANDO HD — v0.11.4
 Area 2 review build
 
 NEW IN THIS BUILD
+Complete late doorway header, round outlets and extended lower pipe.
+Tall blue slime flow uses connected vertical art instead of stacked pools.
+
 Thick blue slime pools, pipe discharge and moving blob phases in Area 2.
 The short red rifleman uses distinct native-timed walking poses.
 Includes the opaque doorway and screen-boundary crash fix.
