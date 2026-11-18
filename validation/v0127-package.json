@@ -1,0 +1,8 @@
+{
+  "zip": "/workspace/scratch/d83e01b96d51/output/Bionic_Commando_HD_v0.12.7.zip",
+  "sha256": "d799bb0a151c2fbd669009677383ffaa8525fdae9947c5ad39da20050df6092a",
+  "files": 58,
+  "bytes": 47487636,
+  "full_playback_completed_before_packaging": true,
+  "extracted_zip_matches_playback_loaded_pack": true
+}

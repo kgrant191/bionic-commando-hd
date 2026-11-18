@@ -1,0 +1,348 @@
+{
+  "version": "0.12.7",
+  "new_rules": 28,
+  "art_cells": 28,
+  "new_conditions": 0,
+  "new_sprite_additions": 0,
+  "tree_mapping": {
+    "9": {
+      "key": "00000203030313130002000121213131",
+      "module": "crown",
+      "atlas_xy": [
+        0,
+        0
+      ]
+    },
+    "15": {
+      "key": "00000000000000820000000000008416",
+      "module": "crown",
+      "atlas_xy": [
+        32,
+        0
+      ]
+    },
+    "10": {
+      "key": "73F63B1BDB7B4F7555D1DCFCEC6C707A",
+      "module": "crown",
+      "atlas_xy": [
+        64,
+        0
+      ]
+    },
+    "16": {
+      "key": "82D2D2F2B5F15BE7164646464B0FAF1F",
+      "module": "crown",
+      "atlas_xy": [
+        96,
+        0
+      ]
+    },
+    "11": {
+      "key": "5161726532252B677E7E7D7A3D3A3478",
+      "module": "right_junction",
+      "atlas_xy": [
+        128,
+        0
+      ]
+    },
+    "17": {
+      "key": "C3AAF0F7EF4EEFEF3F570F0810B11010",
+      "module": "right_junction",
+      "atlas_xy": [
+        160,
+        0
+      ]
+    },
+    "12": {
+      "key": "4BD7AB95C1694C7574E8F4EAFE7E737A",
+      "module": "right_junction",
+      "atlas_xy": [
+        192,
+        0
+      ]
+    },
+    "18": {
+      "key": "BF6FDFADFAF15BE740902052070FAF1F",
+      "module": "right_junction",
+      "atlas_xy": [
+        224,
+        0
+      ]
+    },
+    "13": {
+      "key": "E3F56F4F6F7A6777FCFA707070757878",
+      "module": "trunk",
+      "atlas_xy": [
+        256,
+        0
+      ]
+    },
+    "19": {
+      "key": "868E42825C8CF0C67E7EBE7EBC7C0C3E",
+      "module": "trunk",
+      "atlas_xy": [
+        288,
+        0
+      ]
+    },
+    "14": {
+      "key": "65665B4DBF8FDAE77A797472C0F0F5F8",
+      "module": "trunk",
+      "atlas_xy": [
+        320,
+        0
+      ]
+    },
+    "20": {
+      "key": "CEE35408879632AE3E1FBFFF7F7ECE5E",
+      "module": "trunk",
+      "atlas_xy": [
+        352,
+        0
+      ]
+    },
+    "21": {
+      "key": "00FE10F77DBBF6BD00FEEF0882440942",
+      "module": "branch",
+      "atlas_xy": [
+        384,
+        0
+      ]
+    },
+    "23": {
+      "key": "005F90FFFFDEFDDF00DF7F0000210220",
+      "module": "branch",
+      "atlas_xy": [
+        416,
+        0
+      ]
+    },
+    "22": {
+      "key": "B200C26408F5FF1E4DFF3DBFFFFFFF1E",
+      "module": "branch",
+      "atlas_xy": [
+        448,
+        0
+      ]
+    },
+    "24": {
+      "key": "EB9040023AFF8F00146FBFFFFFFF8F00",
+      "module": "branch",
+      "atlas_xy": [
+        480,
+        0
+      ]
+    },
+    "25": {
+      "key": "0FF317AEF7FFFE7F0FFCE85108000180",
+      "module": "right_tip",
+      "atlas_xy": [
+        512,
+        0
+      ]
+    },
+    "27": {
+      "key": "00F01CE0E040D0F80008FCE018C03004",
+      "module": "right_tip",
+      "atlas_xy": [
+        544,
+        0
+      ]
+    },
+    "26": {
+      "key": "EFD73CC70B78FF011028C339FCFFFF01",
+      "module": "right_tip",
+      "atlas_xy": [
+        576,
+        0
+      ]
+    },
+    "28": {
+      "key": "DFFF0CC0BC7038803F00FCFE7C8FF8F8",
+      "module": "right_tip",
+      "atlas_xy": [
+        608,
+        0
+      ]
+    },
+    "29": {
+      "key": "000F380707020B1F00103F0718030C20",
+      "module": "left_tip",
+      "atlas_xy": [
+        640,
+        0
+      ]
+    },
+    "31": {
+      "key": "F0CFE875EFFF7FFEF03F178A10008001",
+      "module": "left_tip",
+      "atlas_xy": [
+        672,
+        0
+      ]
+    },
+    "30": {
+      "key": "FBFF30033D0E1C01FC003F7F3EF11F1F",
+      "module": "left_tip",
+      "atlas_xy": [
+        704,
+        0
+      ]
+    },
+    "32": {
+      "key": "F7EB3CE3D01EFF800814C39C3FFFFF80",
+      "module": "left_tip",
+      "atlas_xy": [
+        736,
+        0
+      ]
+    },
+    "37": {
+      "key": "C3550FEFF772F7F7FCEAF010088D0808",
+      "module": "left_junction",
+      "atlas_xy": [
+        768,
+        0
+      ]
+    },
+    "39": {
+      "key": "8A864EA64CA4D4E67E7EBE5EBC5C2C1E",
+      "module": "left_junction",
+      "atlas_xy": [
+        800,
+        0
+      ]
+    },
+    "38": {
+      "key": "FDF6FBB55F8FDAE70209044AE0F0F5F8",
+      "module": "left_junction",
+      "atlas_xy": [
+        832,
+        0
+      ]
+    },
+    "40": {
+      "key": "D2EBD5A9839632AE2E172F577F7ECE5E",
+      "module": "left_junction",
+      "atlas_xy": [
+        864,
+        0
+      ]
+    }
+  },
+  "changed_pairs": [
+    [
+      "00000203030313130002000121213131",
+      "1C271707"
+    ],
+    [
+      "73F63B1BDB7B4F7555D1DCFCEC6C707A",
+      "1C271707"
+    ],
+    [
+      "5161726532252B677E7E7D7A3D3A3478",
+      "1C271707"
+    ],
+    [
+      "4BD7AB95C1694C7574E8F4EAFE7E737A",
+      "1C271707"
+    ],
+    [
+      "E3F56F4F6F7A6777FCFA707070757878",
+      "1C271707"
+    ],
+    [
+      "65665B4DBF8FDAE77A797472C0F0F5F8",
+      "1C271707"
+    ],
+    [
+      "00000000000000820000000000008416",
+      "1C271707"
+    ],
+    [
+      "82D2D2F2B5F15BE7164646464B0FAF1F",
+      "1C271707"
+    ],
+    [
+      "C3AAF0F7EF4EEFEF3F570F0810B11010",
+      "1C271707"
+    ],
+    [
+      "BF6FDFADFAF15BE740902052070FAF1F",
+      "1C271707"
+    ],
+    [
+      "868E42825C8CF0C67E7EBE7EBC7C0C3E",
+      "1C271707"
+    ],
+    [
+      "CEE35408879632AE3E1FBFFF7F7ECE5E",
+      "1C271707"
+    ],
+    [
+      "00FE10F77DBBF6BD00FEEF0882440942",
+      "1C271707"
+    ],
+    [
+      "B200C26408F5FF1E4DFF3DBFFFFFFF1E",
+      "1C271707"
+    ],
+    [
+      "005F90FFFFDEFDDF00DF7F0000210220",
+      "1C271707"
+    ],
+    [
+      "EB9040023AFF8F00146FBFFFFFFF8F00",
+      "1C271707"
+    ],
+    [
+      "0FF317AEF7FFFE7F0FFCE85108000180",
+      "1C271707"
+    ],
+    [
+      "EFD73CC70B78FF011028C339FCFFFF01",
+      "1C271707"
+    ],
+    [
+      "00F01CE0E040D0F80008FCE018C03004",
+      "1C271707"
+    ],
+    [
+      "DFFF0CC0BC7038803F00FCFE7C8FF8F8",
+      "1C271707"
+    ],
+    [
+      "000F380707020B1F00103F0718030C20",
+      "1C271707"
+    ],
+    [
+      "FBFF30033D0E1C01FC003F7F3EF11F1F",
+      "1C271707"
+    ],
+    [
+      "F0CFE875EFFF7FFEF03F178A10008001",
+      "1C271707"
+    ],
+    [
+      "F7EB3CE3D01EFF800814C39C3FFFFF80",
+      "1C271707"
+    ],
+    [
+      "C3550FEFF772F7F7FCEAF010088D0808",
+      "1C271707"
+    ],
+    [
+      "FDF6FBB55F8FDAE70209044AE0F0F5F8",
+      "1C271707"
+    ],
+    [
+      "8A864EA64CA4D4E67E7EBE5EBC5C2C1E",
+      "1C271707"
+    ],
+    [
+      "D2EBD5A9839632AE2E172F577F7ECE5E",
+      "1C271707"
+    ]
+  ],
+  "native_contours_preserved": true
+}

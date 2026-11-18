@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.12.6
+BIONIC COMMANDO HD — v0.12.7
 Area 3 review build
 
 NEW IN THIS BUILD
+Continuous weathered bark and curved grain join the tree trunks and branches.
+Original tree silhouettes, branch dimensions and grapple points are preserved.
+
 Soft snow marks walk-through cliff patches; solid barriers retain gray stone.
 Churning snow, turf and soil visibly warn before giant plants emerge.
 

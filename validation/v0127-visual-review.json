@@ -1,0 +1,38 @@
+{
+  "replay": "v0127-pass1",
+  "full_size_frames_reviewed": [
+    1201,
+    1441
+  ],
+  "tree_sequence_contact_sheet_frames_reviewed": [
+    1081,
+    1120,
+    1201,
+    1300,
+    1400,
+    1441,
+    1560,
+    1660,
+    1780,
+    1900,
+    1950,
+    1960
+  ],
+  "later_contact_sheet_frames_reviewed": [
+    2010,
+    2401,
+    5041,
+    6301,
+    8371,
+    9793,
+    9855,
+    10801
+  ],
+  "findings": [
+    "Continuous weathered grain joins the right-facing tree trunk and branch.",
+    "Left-facing trees retain the same painted treatment and original broken outlines.",
+    "Tree artwork remains consistent during scrolling and grappling.",
+    "Approved passable snow, solid stone, plant warnings, opaque entrance and boss effects remain intact."
+  ],
+  "review_method": "Complete emulator playback and every-frame audit, with sampled screenshots and tree-sequence review."
+}

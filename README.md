@@ -1,6 +1,6 @@
 # Bionic Commando HD
 
-**v0.12.6 — Area 3 terrain distinction and plant warnings**
+**v0.12.7 — Area 3 tree cleanup**
 
 Repository: https://github.com/kgrant191/bionic-commando-hd
 
@@ -11,13 +11,20 @@ This is a work-in-progress graphics remake covering the supplied opening story, 
 
 1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
 2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.12.6.zip`.
+   `Bionic_Commando_HD_v0.12.7.zip`.
 3. Confirm installation, enable HD packs in the NES video settings, and reload
    or reset the game when prompted.
 
 For manual installation, place the contents of `pack/` together in
 `HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
 directory must match its base name exactly.
+
+## New in v0.12.7
+
+- Continuous weathered bark replaces the tree's square texture patches.
+- Curved wood grain joins the trunk and branch in both directions.
+- Original silhouettes and grapple points are preserved.
+- Approved terrain distinction and plant warnings remain unchanged.
 
 ## New in v0.12.6
 

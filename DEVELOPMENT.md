@@ -644,3 +644,23 @@ first/last frames and instance counts. Other graphics remain identical to
 v0.12.5, including the doors, robot and all destruction phases. Complete the
 full `3.mmo` playback before packaging and compare the extracted ZIP with
 the pack loaded by that run. Deliver only the ZIP.
+
+## v0.12.7 Continuous Area 3 trees
+
+The old tree rotated separate bark samples at native tile boundaries, making
+the trunk and branch appear patched together. `build_v0127.py` takes coherent
+16x16 native modules from one continuous tree painting, then slices them into
+the 28 native tree patterns. Mirrored junction/tip modules cover left-facing
+trees. The original alpha contours, branch dimensions and grapple points are
+preserved. Catalog indices 33–36 remain cliff bands and are not changed.
+
+Twenty-eight outdoor-scoped rules select one small new atlas. There are no
+new conditions, sprite additions or animation timers. All earlier rules and
+PNGs are retained. `verify_v0127.py` checks the tree selections and alpha
+contours, the approved solid/passable materials and native plant warnings,
+and unchanged graphics states outside the tree family. Common screenshots
+outside the tree sequence must remain byte-identical to v0.12.6.
+
+Replay all 11,110 frames of `3.mmo` before packaging. Verify original RAM/PPU
+parity, doorway/boss effects and the exact delivered ZIP against the pack
+loaded in that completed run. Compare all runtime files to a clean rebuild.
