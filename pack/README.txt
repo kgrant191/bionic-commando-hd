@@ -1,4 +1,4 @@
-BIONIC COMMANDO HD — v0.10.1
+BIONIC COMMANDO HD — v0.10.6
 Distinct equipped weapons, circular rocket shot, damage fixes and Area 16
 
 Joined doorway plaster; native boss cells avoid extra overlap layers;
@@ -124,3 +124,13 @@ V0.9.8: Fixed Area 5 rear thruster housing, restored the full exhaust plume and 
 V0.10.0: Distinct equipped rocket launcher and three-barrel wide cannon; new weapon menu icons; circular rocket projectile; overhead damage and grenade repairs; Area 16 scenery, portraits, turret, barrier, pickup and palette coverage.
 
 V0.10.1: Complete overhead Spencer poses across movement and hit flashes; large shoulder-fired rocket launcher; stable Area 16 building signs during scrolling; red-clothed contact retains his identity while talking.
+
+V0.10.2: Native-driven three-phase overhead walking for Spencer and enemies. Enemy damage palettes preserve enemy identity; shielded and recoil poses remain distinct.
+
+V0.10.3: Complete white-uniformed Area 16 runner through all captured strides and overlaps; aligned medical cross plaque.
+
+V0.10.4: Compact red wheeled cannon; its incorrect exterior portrait assignment was corrected in V0.10.5.
+
+V0.10.5: White entry guard stays white, green rifleman stays green, and red contacts stay red during dialogue. Cannon wheel spokes animate with a fixed turret and chassis.
+
+V0.10.6: Full regression of 21 uploads (19 unique movies). Repairs crowded overhead sprite layers, map helicopter variants, scrolling town signs, Area 4 dark scenery, Area 5 damage/fade palettes, and title re-entry after Game Over. Original input timing and gameplay are unchanged.
