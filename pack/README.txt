@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.15.2
+BIONIC COMMANDO HD — v0.15.3
 Area 8 review build
 
 NEW IN THIS BUILD
+Completed the steel and copper doorways on the towers and lifts, including the exterior radio-room entrances.
+
+PREVIOUS BUILDS
 Area 8 runner and parachute transitions, shield guards, damage poses, blast and projectile frames, doorways and steel flooring.
 
 PREVIOUS BUILDS

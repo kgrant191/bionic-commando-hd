@@ -1,0 +1,58 @@
+{
+  "recording_frames": 24505,
+  "matching_game_state_frames": 24505,
+  "screenshot_capture_segments": 2,
+  "previous_frames_with_old_headers": 5574,
+  "new_frames_with_old_headers": 0,
+  "compared_tile_capture_frames": 1023,
+  "visually_changed_frames_among_samples": 325,
+  "sampled_changes_outside_doors": 0,
+  "edge_strips_verified_against_art": 1,
+  "doorway_art_matches": [
+    {
+      "frame": 21216,
+      "kind": "passage",
+      "prior": 0.1258,
+      "current": 1.0
+    },
+    {
+      "frame": 9408,
+      "kind": "passage",
+      "prior": 0.0004,
+      "current": 1.0
+    },
+    {
+      "frame": 13392,
+      "kind": "radio",
+      "prior": 0.0001,
+      "current": 1.0
+    },
+    {
+      "frame": 13728,
+      "kind": "passage",
+      "prior": 0.0004,
+      "current": 1.0
+    },
+    {
+      "frame": 22368,
+      "kind": "goal",
+      "prior": 1.0,
+      "current": 1.0
+    },
+    {
+      "frame": 17496,
+      "kind": "radio",
+      "prior": 0.0,
+      "current": 1.0
+    }
+  ],
+  "structure": {
+    "runtime_images": 31,
+    "tile_rules": 228734,
+    "sprite_additions": 4771,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "archive_sha256": "53c55034bdbc44e5ee4efe430c99e4705be79dccfc92e70a2715d87b382070d8"
+}
