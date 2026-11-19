@@ -1,7 +1,18 @@
-BIONIC COMMANDO HD — v0.12.7
-Area 3 review build
+BIONIC COMMANDO HD — v0.13.2
+Area 6 review build
 
 NEW IN THIS BUILD
+Spiked iron pit ball and blue flying mine with a two-phase silver rotor.
+
+PREVIOUS BUILDS
+Rebuilt Area 6 enemy animations, airborne paratrooper and defeat poses.
+Corrected Spencer's grapple flash, fortress wall panels and goal entrance.
+
+PREVIOUS BUILDS
+Night harbor, armored fortress walls, steel catwalks, electrical hazards,
+dock guards, mine throwers and the reactor-room commander.
+
+PREVIOUS BUILDS
 Continuous weathered bark and curved grain join the tree trunks and branches.
 Original tree silhouettes, branch dimensions and grapple points are preserved.
 
