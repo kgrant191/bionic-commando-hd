@@ -1,0 +1,27 @@
+{
+  "recording_frames": 24505,
+  "synchronized_replay_segments": 3,
+  "frames_with_airborne_soldiers": 4170,
+  "simultaneous_drop_frames": 1325,
+  "airborne_soldier_frames": 5514,
+  "red_soldier_frames": 2210,
+  "blue_soldier_frames": 3304,
+  "frames_without_visible_soldier_art": 0,
+  "unchanged_passage_and_radio_door_controls": [
+    21216,
+    9408,
+    13392,
+    17496
+  ],
+  "eagle_approach": 22368,
+  "eagle_entry": 22512,
+  "archive_sha256": "2148b9ccc791ca852cfeeeee90b352e6949a6532c742a3cee01a91c916b12c84",
+  "structure": {
+    "runtime_images": 31,
+    "tile_rules": 307251,
+    "sprite_additions": 4771,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  }
+}

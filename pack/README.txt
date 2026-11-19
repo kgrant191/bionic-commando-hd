@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.15.3
+BIONIC COMMANDO HD — v0.15.4
 Area 8 review build
 
 NEW IN THIS BUILD
+Area 8 paratroopers use the established canopy and full soldier artwork throughout descent. The final reactor entrance carries the brass eagle.
+
+PREVIOUS BUILDS
 Completed the steel and copper doorways on the towers and lifts, including the exterior radio-room entrances.
 
 PREVIOUS BUILDS
