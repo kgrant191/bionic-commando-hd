@@ -1,0 +1,46 @@
+{
+  "movie_frames": 4385,
+  "identical_ram_oam_and_palette_frames": 4385,
+  "identical_world_map_samples": 38,
+  "equipment_samples": 16,
+  "equipment_views": {
+    "pendant": [
+      "equipped",
+      "selection"
+    ],
+    "medicine": [
+      "equipped",
+      "selection"
+    ],
+    "rapid_fire": [
+      "selection"
+    ],
+    "permit": [
+      "equipped",
+      "selection"
+    ]
+  },
+  "portrait_frames": {
+    "white_guard": {
+      "closed": 229,
+      "speaking": 136
+    },
+    "green_contact": {
+      "closed": 40,
+      "speaking": 72
+    }
+  },
+  "runtime": {
+    "runtime_images": 27,
+    "tile_rules": 203020,
+    "sprite_additions": 3925,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "zip_sha256": "c32683369174248917123e4f0f733c6c0ce403b60f4a47e4641585e984d21fc3",
+  "communicator_verified": {
+    "blue_pickup_frame": 2592,
+    "blue_inventory_frame_in_extended_replay": 4908
+  }
+}

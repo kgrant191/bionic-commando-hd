@@ -1,7 +1,11 @@
-BIONIC COMMANDO HD — v0.13.3
-Area 6 review build
+BIONIC COMMANDO HD — v0.14.0
+Area 14 review build
 
 NEW IN THIS BUILD
+Area 14 neutral town, speaker-matched portraits and the gamma communicator text.
+New equipment artwork for medicine, pendant, permit and rapid-fire device.
+
+PREVIOUS BUILDS
 Area 6 uses the blue-armored version of the Area 16 wheeled cannon.
 
 PREVIOUS BUILDS
