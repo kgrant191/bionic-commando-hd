@@ -1,0 +1,24 @@
+{
+  "recording": "14.mmo",
+  "movie_frames": 4385,
+  "identical_ram_oam_and_palette_frames": 4385,
+  "matching_portrait_frames": 477,
+  "verified_visible_field_character_frames": {
+    "white_runner": 398,
+    "red": 408,
+    "green": 419
+  },
+  "isolated_character_art_mismatches": 0,
+  "unrecognized_pixels_in_npc_overlap_comparison": 0,
+  "full_screen_samples": 190,
+  "samples_differing_outside_tracked_characters": 0,
+  "runtime": {
+    "runtime_images": 27,
+    "tile_rules": 203804,
+    "sprite_additions": 3925,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "zip_sha256": "d01224a7e26f358cd9dea00706e76e4ba7c6fdb6e6b3c69b22d97881207ec59f"
+}

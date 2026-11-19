@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.14.0
+BIONIC COMMANDO HD — v0.14.1
 Area 14 review build
 
 NEW IN THIS BUILD
+Complete white and red runner strides and all-green field contact.
+
+PREVIOUS BUILDS
 Area 14 neutral town, speaker-matched portraits and the gamma communicator text.
 New equipment artwork for medicine, pendant, permit and rapid-fire device.
 
