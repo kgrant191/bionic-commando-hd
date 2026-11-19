@@ -1,0 +1,38 @@
+{
+  "area8_movie_frames": 24505,
+  "identical_game_state_frames": 24505,
+  "matched_native_tile_pixels": 0,
+  "before_after_screenshot_pairs": 1578,
+  "changed_screenshot_pairs": 1336,
+  "changed_target_regions": 19,
+  "identical_menu_map_and_clear_samples": 47,
+  "area14_movie_frames": 4385,
+  "identical_area14_samples": 184,
+  "runtime_structure": {
+    "runtime_images": 30,
+    "tile_rules": 227918,
+    "sprite_additions": 4771,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "equipped_spencer_recovery": {
+    "23273": {
+      "previous_pixel_match": 0.286,
+      "corrected_pixel_match": 1.0
+    },
+    "23277": {
+      "previous_pixel_match": 0.143,
+      "corrected_pixel_match": 1.0
+    },
+    "23278": {
+      "previous_pixel_match": 0.143,
+      "corrected_pixel_match": 1.0
+    },
+    "23279": {
+      "previous_pixel_match": 0.286,
+      "corrected_pixel_match": 1.0
+    }
+  },
+  "archive_sha256": "5028ec6d061ea2f59d503e45c9d0d410bdd5656cb63131e6ce60504743e7070f"
+}

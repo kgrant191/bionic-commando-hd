@@ -5,7 +5,9 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def structure(pack):
+def structure(pack, background_sizes=None):
+    background_sizes = background_sizes or {}
+    verified_backgrounds = set()
     images, tiles, additions = [], [], []
     anchors = set()
     for line in (pack / 'hires.txt').read_text().splitlines():
@@ -13,7 +15,11 @@ def structure(pack):
         if body.startswith('<img>'):
             images.append(Image.open(pack / body[5:]))
         elif body.startswith('<background>'):
-            assert Image.open(pack / body[12:].split(',')[0]).size == (1024, 960)
+            filename = body[12:].split(',')[0]
+            if filename not in verified_backgrounds:
+                with Image.open(pack / filename) as background:
+                    assert background.size == background_sizes.get(filename, (1024, 960)), filename
+                verified_backgrounds.add(filename)
         elif body.startswith('<tile>'):
             fields = body[6:].split(',')
             index, x, y = int(fields[0]), int(fields[3]), int(fields[4])

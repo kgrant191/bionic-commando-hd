@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.15.1
+BIONIC COMMANDO HD — v0.15.2
 Area 8 review build
 
 NEW IN THIS BUILD
+Area 8 runner and parachute transitions, shield guards, damage poses, blast and projectile frames, doorways and steel flooring.
+
+PREVIOUS BUILDS
 Consistent spike blades and shafts, painted enemy damage and clipped poses,
 rail-gun effects, radio text and the Area 8 clear numeral.
 
