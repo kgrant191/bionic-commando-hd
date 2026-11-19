@@ -1,0 +1,21 @@
+{
+  "area8_recorded_frames": 24505,
+  "identical_game_state_frames": 24505,
+  "native_pattern_palette_pairs_in_trace_catalogue": 22262,
+  "positive_control_native_pairs_in_earlier_test_build": 159,
+  "visible_original_matches_in_final_trace": 0,
+  "v0150_and_v0151_screenshot_pairs": 1701,
+  "changed_screenshot_pairs": 410,
+  "byte_identical_map_and_equipment_samples": 33,
+  "unchanged_area14_samples": 184,
+  "area14_recorded_frames": 4385,
+  "archive_sha256": "1e58e7c8869683928cf0fd599ae9109d43e0cb0b4f45a73a8406112310ddb065",
+  "runtime_structure": {
+    "runtime_images": 29,
+    "tile_rules": 212287,
+    "sprite_additions": 4603,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  }
+}

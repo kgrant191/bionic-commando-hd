@@ -1,7 +1,11 @@
-BIONIC COMMANDO HD — v0.15.0
+BIONIC COMMANDO HD — v0.15.1
 Area 8 review build
 
 NEW IN THIS BUILD
+Consistent spike blades and shafts, painted enemy damage and clipped poses,
+rail-gun effects, radio text and the Area 8 clear numeral.
+
+PREVIOUS BUILDS
 Area 8 tower, elevators, cable enemies and reactor guards.
 
 PREVIOUS BUILDS
