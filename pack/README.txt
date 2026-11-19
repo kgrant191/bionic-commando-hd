@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.14.1
-Area 14 review build
+BIONIC COMMANDO HD — v0.15.0
+Area 8 review build
 
 NEW IN THIS BUILD
+Area 8 tower, elevators, cable enemies and reactor guards.
+
+PREVIOUS BUILDS
 Complete white and red runner strides and all-green field contact.
 
 PREVIOUS BUILDS

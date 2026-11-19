@@ -1,0 +1,23 @@
+{
+  "movie_frames": 24505,
+  "identical_ram_oam_and_palette_frames": 24505,
+  "protected_screen_comparisons": {
+    "map_and_loadout": 24,
+    "radio_rooms_and_speakers": 84,
+    "physical_radio_room_with_updated_impact": 1,
+    "debrief_and_return_map": 23
+  },
+  "changed_gameplay_samples": 1174,
+  "runtime": {
+    "runtime_images": 28,
+    "tile_rules": 207769,
+    "sprite_additions": 4194,
+    "duplicate_additions": 0,
+    "invalid_tiles": 0,
+    "virtual_fallbacks_complete": true
+  },
+  "archive_sha256": "5f3541151d5d44b4a0f3ceb815023188b199231e450c797dd320ea053484628b",
+  "area14_unchanged_samples": 184,
+  "recording": "8.mmo",
+  "replay_screenshots": 1416
+}
