@@ -1,7 +1,10 @@
-BIONIC COMMANDO HD — v0.13.2
+BIONIC COMMANDO HD — v0.13.3
 Area 6 review build
 
 NEW IN THIS BUILD
+Area 6 uses the blue-armored version of the Area 16 wheeled cannon.
+
+PREVIOUS BUILDS
 Spiked iron pit ball and blue flying mine with a two-phase silver rotor.
 
 PREVIOUS BUILDS
