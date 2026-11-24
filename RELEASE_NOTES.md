@@ -1,3 +1,15 @@
+# Bionic Commando HD v1.0.0
+
+The first full release of the 4× MesenCE graphics pack for Bionic Commando (USA), including the opening, missions, towns, overhead encounters and ending.
+
+- Fixed the escape guardian disappearing during the Area 12 countdown. Each timer digit now uses one native sprite, leaving enough room to draw the guardian through the fight.
+- Unified the rocket launcher's in-flight artwork across side-view rooms, overhead encounters and palette changes. Both views use the same orange orb, scaled to the original projectile size.
+- Fixed a replay timing regression that prevented the Area 7 recording from reaching Area 18. The rooftop guards now use an Area 18 NPC-specific display update.
+
+Install the release ZIP in MesenCE 2.2.1 through **Tools > HD Packs (NES) > Install HD Pack**, enable HD packs and reload the USA ROM.
+
+<!-- Earlier development releases -->
+
 # v0.11.5 — Eagle markers for generator/boss entrances
 
 Adds a gold eagle plaque to the original goal-door header pattern across all

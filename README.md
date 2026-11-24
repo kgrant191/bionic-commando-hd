@@ -1,23 +1,29 @@
 # Bionic Commando HD
 
-**v0.12.7 — Area 3 tree cleanup**
+A 4× NES graphics pack for the USA version of Bionic Commando, tested in MesenCE 2.2.1. The pack covers the opening, field missions, towns, overhead encounters, the escape and the ending.
 
-Repository: https://github.com/kgrant191/bionic-commando-hd
+## Install v1.0.0
 
-A 4× Mesen/MesenCE graphics pack for the USA NES version of Bionic Commando.
-This is a work-in-progress graphics remake covering the supplied opening story, Area 1, Area 2, Area 3, Area 13, Area 4, Area 5, Area 15 and Area 16 recordings.
+1. Load your own Bionic Commando (USA) ROM in MesenCE.
+2. Open **Tools > HD Packs (NES) > Install HD Pack** and select `Bionic_Commando_HD_v1.0.0.zip`.
+3. Enable HD packs in the NES video settings and reload the game.
 
-## Install
+For manual installation, copy the contents of `pack/` into `HdPacks/Bionic Commando (USA)/`. The folder name must match your ROM's base filename. The supported whole-file SHA-1 is `D3A4BFD995D18C4A386971631759AECA3A7CFF8D`.
 
-1. Load your `Bionic Commando (USA).nes` ROM in Mesen or MesenCE.
-2. Choose **Tools > HD Packs (NES) > Install HD Pack** and select
-   `Bionic_Commando_HD_v0.12.7.zip`.
-3. Confirm installation, enable HD packs in the NES video settings, and reload
-   or reset the game when prompted.
+## Release changes
 
-For manual installation, place the contents of `pack/` together in
-`HdPacks/Bionic Commando (USA)/`. If your ROM has another filename, the pack
-directory must match its base name exactly.
+The Area 12 escape guardian keeps his approved armor and movement during the countdown fight. The timer uses fewer native sprites, leaving room for the guardian, Spencer and their shots. The rocket launcher uses the same orange projectile in side-view rooms and overhead encounters, scaled to its original size in each view.
+
+The Area 18 rooftop guards use a local display update so earlier missions keep their original sprite-processing timing.
+
+To rebuild the installer, run `python3 scripts/package_release.py dist/Bionic_Commando_HD_v1.0.0.zip`.
+
+The emulator applies the included display patch when the pack loads. The original ROM file stays on disk as supplied.
+
+See [the v1.0.0 replay regression](validation/v1.0.0.md) for the movies and results.
+
+<details>
+<summary>Earlier development notes</summary>
 
 ## New in v0.12.7
 
@@ -373,3 +379,5 @@ Whole-file ROM SHA1: `D3A4BFD995D18C4A386971631759AECA3A7CFF8D`.
 ## Area 13 review pass
 
 Adds Area 13 scenery, stone interiors, white guards and parachutes, neutral-area contacts, animated dialogue portraits and two item pickups. Based on the v0.5.0 cave/generator branch. Review build; no release is implied.
+
+</details>
