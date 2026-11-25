@@ -1,3 +1,11 @@
+# Bionic Commando HD v1.1.0
+
+- Area 12's escape commander keeps his full scale through hits, the fall and the final pose. The countdown digits, shaft panels, dialogue portraits, lift guards and helicopter effects have also been corrected.
+- Area 7 restores the canyon fortifications, the pilot's running cycle and the commander's hit frames. Areas 6, 8 and 11 include revised harbor supports, passage doors, furnace grilles and pipework.
+- Soldiers in Areas 9, 14, 17, 18 and 19 retain their HD uniforms through movement and damage. Spencer's equipped weapon and the cross pendant appear correctly in the loadout screens.
+
+Install the release ZIP in MesenCE 2.2.1 using **Tools > HD Packs (NES) > Install HD Pack**, enable HD packs, and reload Bionic Commando (USA).
+
 # Bionic Commando HD v1.0.0
 
 The first full release of the 4× MesenCE graphics pack for Bionic Commando (USA), including the opening, missions, towns, overhead encounters and ending.

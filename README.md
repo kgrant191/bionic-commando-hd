@@ -2,21 +2,25 @@
 
 A 4× NES graphics pack for the USA version of Bionic Commando, tested in MesenCE 2.2.1. The pack covers the opening, field missions, towns, overhead encounters, the escape and the ending.
 
-## Install v1.0.0
+<a id="install-v100"></a>
+
+## Install v1.1.0
 
 1. Load your own Bionic Commando (USA) ROM in MesenCE.
-2. Open **Tools > HD Packs (NES) > Install HD Pack** and select `Bionic_Commando_HD_v1.0.0.zip`.
+2. Open **Tools > HD Packs (NES) > Install HD Pack** and select `Bionic_Commando_HD_v1.1.0.zip`.
 3. Enable HD packs in the NES video settings and reload the game.
 
-For manual installation, copy the contents of `pack/` into `HdPacks/Bionic Commando (USA)/`. The folder name must match your ROM's base filename. The supported whole-file SHA-1 is `D3A4BFD995D18C4A386971631759AECA3A7CFF8D`.
+For manual installation, extract the release ZIP into `HdPacks/Bionic Commando (USA)/`. The folder name must match your ROM's base filename. The supported whole-file SHA-1 is `D3A4BFD995D18C4A386971631759AECA3A7CFF8D`.
 
 ## Release changes
 
-The Area 12 escape guardian keeps his approved armor and movement during the countdown fight. The timer uses fewer native sprites, leaving room for the guardian, Spencer and their shots. The rocket launcher uses the same orange projectile in side-view rooms and overhead encounters, scaled to its original size in each view.
+- Area 12's escape commander keeps his full scale through hits, the fall and the final pose. The countdown digits, shaft panels, dialogue portraits, lift guards and helicopter effects have also been corrected.
+- Area 7 restores the canyon fortifications, the pilot's running cycle and the commander's hit frames. Areas 6, 8 and 11 include revised harbor supports, passage doors, furnace grilles and pipework.
+- Soldiers in Areas 9, 14, 17, 18 and 19 retain their HD uniforms through movement and damage. Spencer's equipped weapon and the cross pendant appear correctly in the loadout screens.
 
-The Area 18 rooftop guards use a local display update so earlier missions keep their original sprite-processing timing.
+To rebuild the installer, run `python3 scripts/package_release.py dist/Bionic_Commando_HD_v1.1.0.zip`.
 
-To rebuild the installer, run `python3 scripts/package_release.py dist/Bionic_Commando_HD_v1.0.0.zip`.
+The pack builder joins the ordered rules files in `pack-source/` into the installer’s `hires.txt`. Each source file fits within GitHub’s file-size limit.
 
 The emulator applies the included display patch when the pack loads. The original ROM file stays on disk as supplied.
 
